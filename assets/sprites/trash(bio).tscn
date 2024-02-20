@@ -1,0 +1,49 @@
+[gd_scene load_steps=9 format=3 uid="uid://bmrpgcbjgq5b7"]
+
+[ext_resource type="Script" path="res://trash(bio).gd" id="1_sscg5"]
+[ext_resource type="Texture2D" uid="uid://dlchgtch8in2e" path="res://assets/sprites/trash/biodegradable/Apple scrap.png" id="2_xg362"]
+[ext_resource type="Texture2D" uid="uid://yy2dnt1sy2iu" path="res://assets/sprites/trash/biodegradable/Banana peel.png" id="3_6jf8a"]
+[ext_resource type="Texture2D" uid="uid://dvg1igcbm4egf" path="res://assets/sprites/trash/biodegradable/fish bone.png" id="4_dxpyt"]
+[ext_resource type="Texture2D" uid="uid://civfsab1w8llc" path="res://assets/sprites/trash/biodegradable/food-box.png" id="5_noxce"]
+[ext_resource type="Texture2D" uid="uid://dm0tqd4ja8vof" path="res://assets/sprites/trash/biodegradable/paperbag.png" id="6_7adqr"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_f34do"]
+radius = 19.0263
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bdgr5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_xg362")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_6jf8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dxpyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_noxce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7adqr")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="trash(bio)" type="Area2D"]
+script = ExtResource("1_sscg5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_f34do")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1.19209e-07, -1.19209e-07)
+scale = Vector2(0.102158, 0.102158)
+sprite_frames = SubResource("SpriteFrames_bdgr5")
+autoplay = "default"
+frame_progress = 0.347821
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

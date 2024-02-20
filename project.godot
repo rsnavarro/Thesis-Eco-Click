@@ -50,6 +50,10 @@ move_right={
 2d_physics/layer_1="static"
 2d_physics/layer_2="dynamic"
 2d_physics/layer_3="danger"
+2d_physics/layer_4="player"
+2d_physics/layer_5="item"
+2d_physics/layer_6="enemy"
+2d_physics/layer_7="projectile"
 
 [rendering]
 

@@ -1,0 +1,58 @@
+[gd_scene load_steps=11 format=3 uid="uid://iu6fb6krl31x"]
+
+[ext_resource type="Script" path="res://trash(non-bio).gd" id="1_5gpd3"]
+[ext_resource type="Texture2D" uid="uid://dhe6rtpqdklwn" path="res://assets/sprites/trash/non-biodegradable/Broken-mug.png" id="2_h826u"]
+[ext_resource type="Texture2D" uid="uid://bcpsjp3ppt6xa" path="res://assets/sprites/trash/non-biodegradable/Food-can.png" id="3_kj5l5"]
+[ext_resource type="Texture2D" uid="uid://gljg4xf0y22x" path="res://assets/sprites/trash/non-biodegradable/Paste-container.png" id="4_uw7nd"]
+[ext_resource type="Texture2D" uid="uid://cypdmynfw1p7s" path="res://assets/sprites/trash/non-biodegradable/Plastic-bag.png" id="5_clr8n"]
+[ext_resource type="Texture2D" uid="uid://cv32f00vvoqn5" path="res://assets/sprites/trash/non-biodegradable/soda-can.png" id="6_7vwgf"]
+[ext_resource type="Texture2D" uid="uid://bb3x248jhhi1y" path="res://assets/sprites/trash/non-biodegradable/Straw.png" id="7_k7boo"]
+[ext_resource type="Texture2D" uid="uid://jc0202k88vc1" path="res://assets/sprites/trash/non-biodegradable/water-bottle.png" id="8_8nbd2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e3t86"]
+radius = 19.2354
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8o7ms"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_kj5l5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_uw7nd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_clr8n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7vwgf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_k7boo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8nbd2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_h826u")
+}],
+"loop": true,
+"name": &"changeTrash",
+"speed": 1.0
+}]
+
+[node name="trash(non-bio)" type="Area2D"]
+script = ExtResource("1_5gpd3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_e3t86")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-4.54747e-13, 0)
+scale = Vector2(0.102539, 0.102539)
+sprite_frames = SubResource("SpriteFrames_8o7ms")
+animation = &"changeTrash"
+autoplay = "changeTrash"
+frame_progress = 0.112621
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

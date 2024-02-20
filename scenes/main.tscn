@@ -1,13 +1,15 @@
 [gd_scene load_steps=3 format=3 uid="uid://dake80dftehig"]
 
-[ext_resource type="PackedScene" uid="uid://dp3j25pwyjvac" path="res://scenes/levels/level_03.tscn" id="1_yuh0f"]
+[ext_resource type="PackedScene" uid="uid://dp3j25pwyjvac" path="res://scenes/levels/level_03.tscn" id="3_abxvi"]
 [ext_resource type="PackedScene" uid="uid://bliw68xqge4du" path="res://scenes/entities/ZedCharacterBody2D.tscn" id="4_1on8b"]
 
 [node name="Main" type="Node"]
 
-[node name="Level" parent="." instance=ExtResource("1_yuh0f")]
+[node name="Level" parent="." instance=ExtResource("3_abxvi")]
 
 [node name="2DScene" type="Node2D" parent="."]
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_1on8b")]
-position = Vector2(-1, -20)
+position = Vector2(-76, 252)
+
+[node name="Camera2D2" type="Camera2D" parent="ZedCharacterBody2D"]

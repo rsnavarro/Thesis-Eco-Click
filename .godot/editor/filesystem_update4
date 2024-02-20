@@ -1,5 +1,7 @@
-res://scenes/levels/level_02.tscn
-res://scenes/levels/level_03.tscn
 res://scenes/main.tscn
+res://scenes/levels/level_03.tscn
 res://scenes/levels/level_01.tscn
+res://scenes/levels/level_02.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
+res://assets/sprites/trash(non_bio).tscn
+res://trash(bio).tscn
