@@ -10,6 +10,4 @@
 [node name="2DScene" type="Node2D" parent="."]
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_1on8b")]
-position = Vector2(-76, 252)
-
-[node name="Camera2D2" type="Camera2D" parent="ZedCharacterBody2D"]
+position = Vector2(-76, 151)
