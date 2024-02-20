@@ -4,14 +4,15 @@
 [ext_resource type="Script" path="res://scenes/entities/ZedCharacterBody2D.gd" id="1_fpeou"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pqsdj"]
-radius = 30.0
-height = 100.0
+radius = 23.0
+height = 48.0
 
 [node name="ZedCharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_fpeou")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.3, 0.3)
+position = Vector2(0, -1)
+scale = Vector2(0.202778, 0.191667)
 texture = ExtResource("1_6ojmn")
 hframes = 5
 
@@ -19,4 +20,5 @@ hframes = 5
 zoom = Vector2(0.8, 0.8)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-3, 1)
 shape = SubResource("CapsuleShape2D_pqsdj")
