@@ -2,8 +2,8 @@
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_sw147"]
 [ext_resource type="Texture2D" uid="uid://c8v43prbi86yv" path="res://assets/sprites/tilemap-backgrounds.png" id="2_0kl6n"]
-[ext_resource type="PackedScene" path="res://assets/sprites/trash(non_bio).tscn" id="3_j65xx"]
-[ext_resource type="PackedScene" path="res://trash(bio).tscn" id="4_kliuu"]
+[ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="3_j65xx"]
+[ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="4_kliuu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lokq3"]
 texture = ExtResource("1_sw147")

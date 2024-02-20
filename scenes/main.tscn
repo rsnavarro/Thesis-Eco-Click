@@ -1,13 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://dake80dftehig"]
+[gd_scene load_steps=5 format=3 uid="uid://dake80dftehig"]
 
-[ext_resource type="PackedScene" uid="uid://dp3j25pwyjvac" path="res://scenes/levels/level_03.tscn" id="3_abxvi"]
-[ext_resource type="PackedScene" uid="uid://bliw68xqge4du" path="res://scenes/entities/ZedCharacterBody2D.tscn" id="4_1on8b"]
+[ext_resource type="PackedScene" uid="uid://b124ey87qbsde" path="res://scenes/UI/main_menu.tscn" id="1_7au15"]
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_lba47"]
+[ext_resource type="Script" path="res://assets/Scripts/classes/level_data.gd" id="2_0auku"]
+
+[sub_resource type="Resource" id="Resource_se8lb"]
+script = ExtResource("2_0auku")
+level_id = 1
+level_name = "Level1"
+level_completed = false
+level_unlocked = false
+level_path = "levels/level_01"
 
 [node name="Main" type="Node"]
+script = ExtResource("1_lba47")
+available_levels = Array[ExtResource("2_0auku")]([SubResource("Resource_se8lb")])
 
-[node name="Level" parent="." instance=ExtResource("3_abxvi")]
+[node name="UIMain" type="CanvasLayer" parent="."]
+
+[node name="MainMenu" parent="UIMain" instance=ExtResource("1_7au15")]
 
 [node name="2DScene" type="Node2D" parent="."]
-
-[node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_1on8b")]
-position = Vector2(-76, 151)
