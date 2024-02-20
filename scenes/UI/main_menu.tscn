@@ -6,6 +6,7 @@
 [sub_resource type="SystemFont" id="SystemFont_584wh"]
 font_names = PackedStringArray("Fira Sans")
 font_weight = 900
+subpixel_positioning = 0
 oversampling = 3.0
 
 [sub_resource type="LabelSettings" id="LabelSettings_iqg8f"]
@@ -17,6 +18,7 @@ outline_color = Color(0, 0, 0, 1)
 [sub_resource type="SystemFont" id="SystemFont_jthac"]
 font_names = PackedStringArray("Fira Sans")
 font_weight = 700
+subpixel_positioning = 0
 oversampling = 3.0
 
 [node name="MainMenu" type="Control"]
