@@ -1,20 +1,32 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708534114
+::res://::1708547617
 icon.svg::CompressedTexture2D::4684152969458510619::1706538336::1708520007::1::::<><>::
 Node2D.gd::GDScript::-1::1708532664::0::1::::<>MarginContainer<>::
+npc1.tscn::PackedScene::3404310170059203986::1708543132::0::1::::<><>::uid://b42rm736vn1i4::::res://assets/sprites/npc/428172642_231197520081299_4361085965134378316_n.png
 trash(bio).gd::GDScript::-1::1708533456::0::1::::<>Area2D<>::
 trash(bio).tscn::PackedScene::3264702805832537338::1708445399::0::1::::<><>::uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>res://trash(bio).gd<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png
 trash(non-bio).gd::GDScript::-1::1708442637::0::1::::<>Area2D<>::
-::res://assets/::1708524295
+::res://assets/::1708546678
+::res://assets/jsonfile/::1708547247
+dialogue1.json::JSON::-1::1708546969::0::1::::<><>::
+dialogue2.json::JSON::-1::1708547001::0::1::::<><>::
+dialogue3.json::JSON::-1::1708547071::0::1::::<><>::
+dialogue4.json::JSON::-1::1708547135::0::1::::<><>::
+dialogue5.json::JSON::-1::1708547185::0::1::::<><>::
+dialogue6.json::JSON::-1::1708547247::0::1::::<><>::
 ::res://assets/Scripts/::1708519828
 ::res://assets/Scripts/classes/::1708519828
 level.gd::GDScript::-1::1708519828::0::1::::Level<>Node<>::
 level_data.gd::GDScript::-1::1708519828::0::1::::LevelData<>Resource<>::
 ::res://assets/Scripts/Managers/::1708519828
 LevelManager.gd::GDScript::-1::1708519828::0::1::::<>Node<>::
-::res://assets/sprites/::1708530630
+::res://assets/sprites/::1708547579
 428226555_1451687205703566_8200260877154722398_n-removebg-preview.png::CompressedTexture2D::8605845669414436411::1708521286::1708521387::1::::<><>::
 icon.svg::CompressedTexture2D::4684152969458510619::1708278566::1708520007::1::::<><>::
+info_board.gd::GDScript::-1::1708527841::0::1::::<>Area2D<>::
+info_board.tscn::PackedScene::1839523552952539126::1708527898::0::1::::<><>::res://assets/sprites/info_board.gd<>uid://duu0aydksw8sd::::res://assets/sprites/428226555_1451687205703566_8200260877154722398_n-removebg-preview.png
+textbox.gd::GDScript::-1::1708525250::0::1::::<>MarginContainer<>::
+textbox.tscn::PackedScene::5847396267115651493::1708523368::0::1::::<><>::
 text_box.tscn::PackedScene::7135366826130088474::1708530630::0::1::::<><>::
 tilemap-backgrounds.png::CompressedTexture2D::7134236749465477673::1708278566::1708278566::1::::<><>::
 tilemap-backgrounds_packed.png::CompressedTexture2D::2566485075627793809::1708519828::1708519828::1::::<><>::
@@ -174,6 +186,9 @@ up botton map.png::CompressedTexture2D::751692755338285142::1470392117::17085243
 up down botton map.png::CompressedTexture2D::8847826256608101127::1470392223::1708524372::1::::<><>::
 vertical skrolling map.png::CompressedTexture2D::3340604982052039852::1470392034::1708524372::1::::<><>::
 ::res://assets/sprites/Island-game-gui/psd/::1470655693
+::res://assets/sprites/npc/::1708543501
+428172642_231197520081299_4361085965134378316_n.png::CompressedTexture2D::4478690692398373549::1708540536::1708540572::1::::<><>::
+NPC 1 New.png::CompressedTexture2D::2415986255075021187::1708540008::1708540226::1::::<><>::
 ::res://assets/sprites/trash/::1708446118
 ::res://assets/sprites/trash/biodegradable/::1708446118
 ::res://assets/sprites/trash/non-biodegradable/::1708446118
@@ -191,16 +206,16 @@ Idle.png::CompressedTexture2D::4443761828030364407::1708278566::1708278566::1:::
 IdleJump.png::CompressedTexture2D::3959717012352766247::1708278566::1708278566::1::::<><>::
 Jumping.png::CompressedTexture2D::9208619613121235401::1708278566::1708278566::1::::<><>::
 Running.png::CompressedTexture2D::2315922082207840050::1708278566::1708278566::1::::<><>::
-::res://scenes/::1708533631
+::res://scenes/::1708543131
 main.gd::GDScript::-1::1708519828::0::1::::<>Node<>::
-main.tscn::PackedScene::7180208945760728290::1708533631::0::1::::<><>::uid://b124ey87qbsde::::res://scenes/UI/main_menu.tscn<>res://scenes/main.gd<>res://assets/Scripts/classes/level_data.gd
-::res://scenes/entities/::1708533631
+main.tscn::PackedScene::7180208945760728290::1708543131::0::1::::<><>::uid://b124ey87qbsde::::res://scenes/UI/main_menu.tscn<>res://scenes/main.gd<>res://assets/Scripts/classes/level_data.gd
+::res://scenes/entities/::1708543132
 ZedCharacterBody2D.gd::GDScript::-1::1708420549::0::1::::<>CharacterBody2D<>::
-ZedCharacterBody2D.tscn::PackedScene::3176405888732081454::1708533631::0::1::::<><>::uid://bwod7wsh8nqtj::::res://assets/sprites/Zed/IdleJump.png<>res://scenes/entities/ZedCharacterBody2D.gd
-::res://scenes/levels/::1708533960
-level_01.tscn::PackedScene::5442780259071151399::1708533631::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn
-level_02.tscn::PackedScene::7327902421046328835::1708533960::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn
-level_03.tscn::PackedScene::8270493552038392990::1708527898::0::1::::<><>::res://assets/Scripts/classes/level.gd<>uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://1hcxi5g2h1v3::::res://assets/sprites/info_board.tscn
-::res://scenes/UI/::1708533631
+ZedCharacterBody2D.tscn::PackedScene::3176405888732081454::1708543132::0::1::::<><>::uid://bwod7wsh8nqtj::::res://assets/sprites/Zed/IdleJump.png<>res://scenes/entities/ZedCharacterBody2D.gd
+::res://scenes/levels/::1708543132
+level_01.tscn::PackedScene::5442780259071151399::1708543131::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://borcqx0f6v0qw::::res://npc1.tscn
+level_02.tscn::PackedScene::7327902421046328835::1708543132::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn
+level_03.tscn::PackedScene::8270493552038392990::1708543132::0::1::::<><>::res://assets/Scripts/classes/level.gd<>uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn
+::res://scenes/UI/::1708543132
 main_menu.gd::GDScript::-1::1708519828::0::1::::MainMenu<>Control<>::
-main_menu.tscn::PackedScene::4268838066621728378::1708533631::0::1::::<><>::uid://bcthvtfw7cy2l::::res://assets/sprites/tilemap-backgrounds_packed.png<>res://scenes/UI/main_menu.gd
+main_menu.tscn::PackedScene::4268838066621728378::1708543132::0::1::::<><>::uid://bcthvtfw7cy2l::::res://assets/sprites/tilemap-backgrounds_packed.png<>res://scenes/UI/main_menu.gd

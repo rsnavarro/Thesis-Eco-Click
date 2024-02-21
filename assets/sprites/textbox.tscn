@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cpkr06dw13sob"]
+
+[node name="TextBox" type="Panel"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 41.0

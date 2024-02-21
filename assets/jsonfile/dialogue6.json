@@ -1,0 +1,56 @@
+{
+    "dialogue": [
+        {
+            "speaker": "Sylvia Stormrider",
+            "line": "How did you two get here?"
+        },
+        {
+            "speaker": "Deemo",
+            "line": "We are collecting garbage in the ocean and somehow we discovered this island."
+        },
+        {
+            "speaker": "Zed",
+            "line": "Now that you ask us, it's our turn to ask you why are you here?"
+        },
+        {
+            "speaker": "Captain Sylvia Stormrider",
+            "line": "I am Sylvia Stormrider. I collect treasures all around the world. Any treasure has a value, but there is only one that is worth immeasurable to me. This island."
+        },
+        {
+            "speaker": "Zed",
+            "line": "You mean you own this island? That means we are trespassing here!!"
+        },
+        {
+            "speaker": "Sylvia Stormrider",
+            "line": "That doesn’t matter. The island is full of garbage now and I cannot solve this problem."
+        },
+        {
+            "speaker": "Deemo",
+            "line": "We can help you with that problem."
+        },
+        {
+            "speaker": "Sylvia Stormrider",
+            "line": "Really? Can you collect 50 garbage? I can give you something or should I say find it."
+        },
+        {
+            "speaker": "Zed",
+            "line": "Find it?"
+        },
+        {
+            "speaker": "Sylvia Stormrider",
+            "line": "Recently a meteor fell in this area. Meteors fetch a high price. It landed on top of the mountain."
+        },
+        {
+            "speaker": "Deemo",
+            "line": "THAT maybe it!!!"
+        },
+        {
+            "speaker": "Zed",
+            "line": "That might definitely be the part of the ship. Luck may be with us today. Thank you for your information."
+        },
+        {
+            "speaker": "Sylvia Stormrider",
+            "line": "No problem. You two are also helping me with this garbage problem."
+        }
+    ]
+}

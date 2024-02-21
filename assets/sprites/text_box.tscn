@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://c8wopjg35x5h3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vuvgr"]
+size = Vector2(64, 115)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h5l0m"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+
+[node name="Text box" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(32, 57.5)
+shape = SubResource("RectangleShape2D_vuvgr")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_left = 1.0
+offset_right = 61.0
+offset_bottom = 50.0
+
+[node name="Panel" type="Panel" parent="MarginContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_h5l0m")

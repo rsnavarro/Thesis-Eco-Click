@@ -1,0 +1,40 @@
+{
+    "dialogue": [
+        {
+            "speaker": "Aria Bluefin",
+            "line": "Wait!"
+        },
+        {
+            "speaker": "Deemo & Zed",
+            "line": "Mermaid?!!!!!"
+        },
+        {
+            "speaker": "Aria Bluefin",
+            "line": "Hi, I am Aria Bluefin. I saw you two collecting garbage effectively. Can you collect 40 garbage in order to save our habitat?"
+        },
+        {
+            "speaker": "Zed",
+            "line": "We are trying to save the sea by collecting garbage. So you don’t have to beg for our help."
+        },
+        {
+            "speaker": "Aria Bluefin",
+            "line": "Really? We merfolks are very thankful for your kindness. Is there any way that I can help you two?"
+        },
+        {
+            "speaker": "Deemo",
+            "line": "How about information? Did you recently see any strange objects in the ocean?"
+        },
+        {
+            "speaker": "Aria Bluefin",
+            "line": "Now that you mention it, I encountered a very hot object in some parts of this area."
+        },
+        {
+            "speaker": "Deemo",
+            "line": "Hot? Maybe it is a part of my spaceship and landed recently. Thank you for your guidance."
+        },
+        {
+            "speaker": "Aria Bluefin",
+            "line": "May Neptune bless the journey of you two."
+        }
+    ]
+}

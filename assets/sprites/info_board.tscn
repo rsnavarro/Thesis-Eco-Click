@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://1hcxi5g2h1v3"]
+
+[ext_resource type="Script" path="res://assets/sprites/info_board.gd" id="1_6rxw8"]
+[ext_resource type="Texture2D" uid="uid://duu0aydksw8sd" path="res://assets/sprites/428226555_1451687205703566_8200260877154722398_n-removebg-preview.png" id="1_x4cug"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p7ls6"]
+size = Vector2(36, 34)
+
+[node name="InfoBoard" type="Area2D"]
+script = ExtResource("1_6rxw8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_p7ls6")
+
+[node name="42822655514516872057035668200260877154722398N-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(0, -4.76837e-07)
+scale = Vector2(0.278626, 0.278626)
+texture = ExtResource("1_x4cug")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
