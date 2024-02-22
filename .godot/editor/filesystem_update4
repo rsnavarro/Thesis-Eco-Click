@@ -1,1 +1,11 @@
+res://scenes/main.tscn
+res://scenes/levels/level_02.tscn
+res://scenes/levels/level_03.tscn
+res://scenes/entities/ZedCharacterBody2D.tscn
+res://scenes/UI/main_menu.tscn
+res://assets/sprites/trash(bio).tscn
 res://scenes/levels/level_01.tscn
+res://scenes/entities/ZedCharacterBody2D.gd
+res://assets/Scripts/classes/level.gd
+res://scenes/entities/Obstacles/danger_zone.tscn
+res://scenes/entities/Obstacles/danger_zone.gd
