@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://iu6fb6krl31x"]
+[gd_scene load_steps=12 format=3 uid="uid://iu6fb6krl31x"]
 
 [ext_resource type="Script" path="res://trash(non-bio).gd" id="1_5gpd3"]
 [ext_resource type="Texture2D" uid="uid://dhe6rtpqdklwn" path="res://assets/sprites/trash/non-biodegradable/Broken-mug.png" id="2_h826u"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://cv32f00vvoqn5" path="res://assets/sprites/trash/non-biodegradable/soda-can.png" id="6_7vwgf"]
 [ext_resource type="Texture2D" uid="uid://bb3x248jhhi1y" path="res://assets/sprites/trash/non-biodegradable/Straw.png" id="7_k7boo"]
 [ext_resource type="Texture2D" uid="uid://jc0202k88vc1" path="res://assets/sprites/trash/non-biodegradable/water-bottle.png" id="8_8nbd2"]
+[ext_resource type="AudioStream" uid="uid://i7hoebmtjr1s" path="res://assets/sprites/sounds/non bio.wav" id="9_rpmrs"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_e3t86"]
 radius = 19.2354
@@ -54,5 +55,10 @@ sprite_frames = SubResource("SpriteFrames_8o7ms")
 animation = &"changeTrash"
 autoplay = "changeTrash"
 frame_progress = 0.112621
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("9_rpmrs")
+volume_db = -0.981
+pitch_scale = 1.54
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
