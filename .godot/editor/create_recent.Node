@@ -1,3 +1,7 @@
+Label
+Panel
+CanvasLayer
+Node
 CollisionShape2D
 Area2D
 Node2D
@@ -5,10 +9,6 @@ AnimationPlayer
 AnimatedSprite2D
 Sprite2D
 StaticBody2D
-Panel
-Label
 MarginContainer
 CollisionPolygon2D
 Control
-VisibleOnScreenNotifier2D
-Timer

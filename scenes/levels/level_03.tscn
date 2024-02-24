@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dp3j25pwyjvac"]
+[gd_scene load_steps=13 format=3 uid="uid://dp3j25pwyjvac"]
 
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_0sdk5"]
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_sw147"]
@@ -666,6 +666,18 @@ texture_region_size = Vector2i(24, 24)
 tile_size = Vector2i(24, 24)
 sources/0 = SubResource("TileSetAtlasSource_wcp4p")
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vswx4"]
+bg_color = Color(0.741176, 0.929412, 0.694118, 0.756863)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0, 0, 0, 1)
+corner_radius_top_left = 1
+corner_radius_top_right = 1
+corner_radius_bottom_right = 1
+corner_radius_bottom_left = 1
+
 [node name="Level" type="Node2D"]
 position = Vector2(15, -106)
 script = ExtResource("1_0sdk5")
@@ -844,3 +856,18 @@ position = Vector2(15965, 400)
 
 [node name="trash(non-bio)5" parent="." instance=ExtResource("3_j65xx")]
 position = Vector2(1266, 254)
+
+[node name="Trivia" type="Label" parent="."]
+show_behind_parent = true
+offset_left = 199.0
+offset_top = 237.0
+offset_right = 531.0
+offset_bottom = 302.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
+text = "The ocean's health is linked to the planet's well-being. 
+Conserving it helps mitigate climate change,
+protect marine life, and ensure Earth's overall health."
+horizontal_alignment = 1
+vertical_alignment = 1
