@@ -1,5 +1,8 @@
 Label
 Panel
+Button
+VScrollBar
+ScrollContainer
 CanvasLayer
 Node
 CollisionShape2D
@@ -9,6 +12,3 @@ AnimationPlayer
 AnimatedSprite2D
 Sprite2D
 StaticBody2D
-MarginContainer
-CollisionPolygon2D
-Control

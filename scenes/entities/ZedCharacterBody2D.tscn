@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://bliw68xqge4du"]
+[gd_scene load_steps=12 format=3 uid="uid://bliw68xqge4du"]
 
 [ext_resource type="Script" path="res://scenes/entities/ZedCharacterBody2D.gd" id="1_fpeou"]
 [ext_resource type="Texture2D" uid="uid://b2jhpwlunhedq" path="res://assets/sprites/Zed/ZedSpriteSheet.png" id="2_sela7"]
+[ext_resource type="Script" path="res://scenes/entities/almanac.gd" id="3_tcu3u"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pqsdj"]
 radius = 12.0
@@ -81,6 +82,17 @@ _data = {
 "Running": SubResource("Animation_eu41t")
 }
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_netof"]
+bg_color = Color(0.937255, 0.713726, 0.721569, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.32549, 0.4, 0.0666667, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_734yl"]
+bg_color = Color(0.6, 0.6, 0.6, 0.466667)
+
 [node name="ZedCharacterBody2D" type="CharacterBody2D"]
 collision_layer = 11
 collision_mask = 7
@@ -105,3 +117,44 @@ libraries = {
 "": SubResource("AnimationLibrary_4ja0g")
 }
 autoplay = "Idle"
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -34.0
+offset_top = -201.0
+offset_right = 33.0
+offset_bottom = -179.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 10
+theme_override_styles/normal = SubResource("StyleBoxFlat_netof")
+text = "ALMANAC"
+
+[node name="alamanac" type="Panel" parent="."]
+visible = false
+offset_left = -266.0
+offset_top = -169.0
+offset_right = 281.0
+offset_bottom = 164.0
+script = ExtResource("3_tcu3u")
+
+[node name="Label" type="Label" parent="alamanac"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 12.0
+offset_right = -18.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_734yl")
+text = "wassup"
+
+[connection signal="pressed" from="Button" to="alamanac" method="_on_button_pressed"]
