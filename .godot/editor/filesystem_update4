@@ -8,3 +8,5 @@ res://assets/sprites/trash(bio).tscn
 res://assets/sprites/trash(non_bio).tscn
 res://scenes/UI/main_menu.tscn
 res://scenes/entities/CharacterIcon.gd
+res://scenes/UI/timer.tscn
+res://scenes/UI/Timer.gd

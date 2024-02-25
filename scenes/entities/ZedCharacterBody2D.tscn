@@ -1,7 +1,8 @@
-[gd_scene load_steps=25 format=3 uid="uid://bliw68xqge4du"]
+[gd_scene load_steps=26 format=3 uid="uid://bliw68xqge4du"]
 
 [ext_resource type="Script" path="res://scenes/entities/ZedCharacterBody2D.gd" id="1_fpeou"]
 [ext_resource type="Texture2D" uid="uid://b2jhpwlunhedq" path="res://assets/sprites/Zed/ZedSpriteSheet.png" id="2_sela7"]
+[ext_resource type="PackedScene" uid="uid://c00oa4wqhr7ea" path="res://scenes/UI/timer.tscn" id="3_sqkg1"]
 [ext_resource type="Texture2D" uid="uid://dg7rvj5hs6jxe" path="res://assets/sprites/Zed/Zed.png" id="3_ssqmu"]
 [ext_resource type="Script" path="res://scenes/entities/almanac.gd" id="3_tcu3u"]
 [ext_resource type="Texture2D" uid="uid://dlchgtch8in2e" path="res://assets/sprites/trash/biodegradable/Apple scrap.png" id="4_oj7p6"]
@@ -131,9 +132,9 @@ autoplay = "Idle"
 
 [node name="CharacterIcon" type="Panel" parent="."]
 offset_left = -382.0
-offset_top = -206.0
+offset_top = -187.0
 offset_right = -330.0
-offset_bottom = -154.0
+offset_bottom = -135.0
 
 [node name="TextureRect" type="TextureRect" parent="CharacterIcon"]
 layout_mode = 0
@@ -141,6 +142,19 @@ offset_right = 52.0
 offset_bottom = 52.0
 texture = ExtResource("3_ssqmu")
 expand_mode = 1
+
+[node name="Timer" parent="CharacterIcon" instance=ExtResource("3_sqkg1")]
+layout_mode = 1
+offset_left = 17.0
+offset_top = 57.0
+offset_right = -17.0
+offset_bottom = 22.0
+
+[node name="Label" parent="CharacterIcon/Timer" index="1"]
+offset_left = -24.0
+offset_top = -14.0
+offset_right = 42.0
+offset_bottom = 32.0
 
 [node name="Button" type="Button" parent="."]
 anchors_preset = 8
@@ -160,6 +174,7 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_netof")
 text = "ALMANAC"
 
 [node name="alamanac" type="Panel" parent="."]
+visible = false
 offset_left = -266.0
 offset_top = -169.0
 offset_right = 281.0
@@ -454,3 +469,5 @@ texture = ExtResource("5_q8b8i")
 expand_mode = 1
 
 [connection signal="pressed" from="Button" to="alamanac" method="_on_button_pressed"]
+
+[editable path="CharacterIcon/Timer"]

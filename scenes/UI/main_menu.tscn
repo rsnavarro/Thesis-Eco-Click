@@ -5,7 +5,8 @@
 
 [sub_resource type="SystemFont" id="SystemFont_584wh"]
 font_names = PackedStringArray("Fira Sans")
-font_weight = 900
+font_weight = 800
+font_stretch = 75
 subpixel_positioning = 0
 oversampling = 3.0
 
