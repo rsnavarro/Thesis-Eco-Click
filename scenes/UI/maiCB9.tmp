@@ -194,10 +194,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -62.5
-offset_top = -41.5
-offset_right = 62.5
-offset_bottom = 41.5
+offset_left = -55.5
+offset_top = -40.0
+offset_right = 55.5
+offset_bottom = 40.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -209,10 +209,26 @@ layout_mode = 2
 text = "Fullscreen"
 label_settings = SubResource("LabelSettings_x7mfi")
 
+[node name="Borderless" type="Label" parent="Video/HBoxContainer/Labels"]
+layout_mode = 2
+text = "Borderless"
+label_settings = SubResource("LabelSettings_x7mfi")
+
+[node name="VSync" type="Label" parent="Video/HBoxContainer/Labels"]
+layout_mode = 2
+text = "VSync"
+label_settings = SubResource("LabelSettings_x7mfi")
+
 [node name="Checks" type="VBoxContainer" parent="Video/HBoxContainer"]
 layout_mode = 2
 
 [node name="Fullscreen" type="CheckBox" parent="Video/HBoxContainer/Checks"]
+layout_mode = 2
+
+[node name="Borderless" type="CheckBox" parent="Video/HBoxContainer/Checks"]
+layout_mode = 2
+
+[node name="VSync" type="CheckBox" parent="Video/HBoxContainer/Checks"]
 layout_mode = 2
 
 [node name="BackVideo" type="Button" parent="Video"]
@@ -309,8 +325,5 @@ text = "Back"
 [connection signal="pressed" from="Settings/VBoxContainer/Audio" to="." method="_on_audio_pressed"]
 [connection signal="pressed" from="Settings/BackSettings" to="." method="_on_back_settings_pressed"]
 [connection signal="toggled" from="Video/HBoxContainer/Checks/Fullscreen" to="." method="_on_fullscreen_toggled"]
-[connection signal="pressed" from="Video/BackVideo" to="." method="_on_back_video_pressed"]
-[connection signal="value_changed" from="Audio/HBoxContainer/Slider/Master" to="." method="_on_master_value_changed"]
-[connection signal="value_changed" from="Audio/HBoxContainer/Slider/Music" to="." method="_on_music_value_changed"]
-[connection signal="value_changed" from="Audio/HBoxContainer/Slider/SoundFX" to="." method="_on_sound_fx_value_changed"]
-[connection signal="pressed" from="Audio/BackAudio" to="." method="_on_back_audio_pressed"]
+[connection signal="toggled" from="Video/HBoxContainer/Checks/Borderless" to="." method="_on_borderless_toggled"]
+[connection signal="toggled" from="Video/HBoxContainer/Checks/VSync" to="." method="_on_v_sync_toggled"]

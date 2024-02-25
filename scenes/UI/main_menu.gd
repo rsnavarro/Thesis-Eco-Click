@@ -60,17 +60,34 @@ func _on_audio_pressed():
 
 
 func _on_back_settings_pressed():
-	show_and_hide(settings, menu)
+	show_and_hide(menu, settings)
 
 
 func _on_fullscreen_toggled(toggled_on):
-	OS.WINDOW_FULLSCREEN
+	if toggled_on == true:
+		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
+
+	else:
+		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
 
 
+func _on_back_video_pressed():
+	show_and_hide(settings, video)
 
-func _on_borderless_toggled(toggled_on):
-	OS.window_borderless = button_pressed
+
+func _on_master_value_changed(value):
+	volume(0, value)
+	
+func volume(bus_index, value):
+	AudioServer.set_bus_volume_db(bus_index, value)
+
+func _on_music_value_changed(value):
+	volume(1, value)
 
 
-func _on_v_sync_toggled(toggled_on):
-	pass # Replace with function body.
+func _on_sound_fx_value_changed(value):
+	volume(2, value)
+
+
+func _on_back_audio_pressed():
+	show_and_hide(settings, audio)
