@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://dcnxqnqsklsd4"]
+[gd_scene load_steps=15 format=3 uid="uid://dcnxqnqsklsd4"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_ffniy"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_tlyin"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bliw68xqge4du" path="res://scenes/entities/ZedCharacterBody2D.tscn" id="4_ktdu4"]
 [ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="4_mgpvl"]
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="5_b4x1l"]
+[ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_p84ee"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bd5jb"]
 texture = ExtResource("1_ffniy")
@@ -1060,3 +1061,5 @@ text = "Phytoplankton in the ocean produce more
  photosynthesis, making them vital for life on Earth."
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Trash_gui" parent="." instance=ExtResource("7_p84ee")]

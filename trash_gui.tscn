@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5m73lpr8if0c"]
+
+[ext_resource type="Script" path="res://Trash_gui.gd" id="1_bjhqr"]
+
+[node name="Trash_gui" type="CanvasLayer"]
+script = ExtResource("1_bjhqr")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0

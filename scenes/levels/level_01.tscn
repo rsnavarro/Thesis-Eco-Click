@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://cjsr2b15elmp8"]
+[gd_scene load_steps=15 format=3 uid="uid://cjsr2b15elmp8"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_5oq2w"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_yrc35"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="3_skcql"]
 [ext_resource type="PackedScene" uid="uid://bliw68xqge4du" path="res://scenes/entities/ZedCharacterBody2D.tscn" id="4_b8pgw"]
 [ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="6_emcy0"]
+[ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="8_0wcaw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x80as"]
 texture = ExtResource("1_5oq2w")
@@ -888,3 +889,5 @@ text = "Fish bombing is a destructive fishing method using explosives to catch f
  causing severe and lasting harm to marine ecosystems."
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Trash_gui" parent="." instance=ExtResource("8_0wcaw")]

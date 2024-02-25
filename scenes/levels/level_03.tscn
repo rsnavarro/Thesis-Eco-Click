@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dp3j25pwyjvac"]
+[gd_scene load_steps=14 format=3 uid="uid://dp3j25pwyjvac"]
 
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_0sdk5"]
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_sw147"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="3_j65xx"]
 [ext_resource type="PackedScene" uid="uid://bliw68xqge4du" path="res://scenes/entities/ZedCharacterBody2D.tscn" id="4_et5bs"]
 [ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="4_kliuu"]
+[ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_cpaop"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lokq3"]
 texture = ExtResource("1_sw147")
@@ -871,3 +872,5 @@ Conserving it helps mitigate climate change,
 protect marine life, and ensure Earth's overall health."
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Trash_gui" parent="." instance=ExtResource("7_cpaop")]
