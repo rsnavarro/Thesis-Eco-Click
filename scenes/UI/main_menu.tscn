@@ -1,68 +1,16 @@
-[gd_scene load_steps=13 format=3 uid="uid://b124ey87qbsde"]
+[gd_scene load_steps=5 format=3 uid="uid://b124ey87qbsde"]
 
 [ext_resource type="Script" path="res://scenes/UI/main_menu.gd" id="1_yk3uh"]
 [ext_resource type="Texture2D" uid="uid://cyxcgmjsjy2q7" path="res://scenes/UI/MainMenuBackground.png" id="2_uu6kv"]
-
-[sub_resource type="SystemFont" id="SystemFont_584wh"]
-font_names = PackedStringArray("Fira Sans")
-font_weight = 800
-font_stretch = 75
-subpixel_positioning = 0
-oversampling = 3.0
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_hp8qn"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_irkox"]
-font = SubResource("SystemFont_584wh")
-font_size = 42
-outline_size = 8
+line_spacing = 2.0
+font = ExtResource("3_hp8qn")
+font_size = 70
+font_color = Color(0.0866334, 0.392124, 0.291047, 1)
+outline_size = 10
 outline_color = Color(0, 0, 0, 1)
-
-[sub_resource type="SystemFont" id="SystemFont_57dly"]
-font_names = PackedStringArray("Fira Sans")
-font_weight = 700
-subpixel_positioning = 0
-oversampling = 3.0
-
-[sub_resource type="SystemFont" id="SystemFont_jthac"]
-font_names = PackedStringArray("Fira Sans")
-font_weight = 700
-subpixel_positioning = 0
-oversampling = 3.0
-
-[sub_resource type="SystemFont" id="SystemFont_semta"]
-font_names = PackedStringArray("Fira Sans")
-font_weight = 700
-subpixel_positioning = 0
-oversampling = 3.0
-
-[sub_resource type="SystemFont" id="SystemFont_1e7bq"]
-font_names = PackedStringArray("Fira Sans")
-font_weight = 700
-subpixel_positioning = 0
-oversampling = 3.0
-
-[sub_resource type="LabelSettings" id="LabelSettings_x7mfi"]
-font = SubResource("SystemFont_584wh")
-font_size = 20
-outline_size = 8
-outline_color = Color(0, 0, 0, 1)
-
-[sub_resource type="SystemFont" id="SystemFont_dea3r"]
-font_names = PackedStringArray("Fira Sans")
-font_weight = 700
-subpixel_positioning = 0
-oversampling = 3.0
-
-[sub_resource type="LabelSettings" id="LabelSettings_iqg8f"]
-font = SubResource("SystemFont_584wh")
-font_size = 20
-outline_size = 8
-outline_color = Color(0, 0, 0, 1)
-
-[sub_resource type="SystemFont" id="SystemFont_ik3ah"]
-font_names = PackedStringArray("Fira Sans")
-font_weight = 700
-subpixel_positioning = 0
-oversampling = 3.0
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -88,6 +36,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = 22.0
+offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 32
@@ -100,17 +50,18 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 0
 theme_override_constants/separation = 32
+alignment = 1
 
 [node name="Label" type="Label" parent="Background/MarginContainer/Menu"]
 layout_mode = 2
-text = "ECO-CLICK GAME"
+text = "ECO-CLICK"
 label_settings = SubResource("LabelSettings_irkox")
 
 [node name="PlayButton" type="Button" parent="Background/MarginContainer/Menu"]
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_57dly")
+theme_override_fonts/font = ExtResource("3_hp8qn")
 theme_override_font_sizes/font_size = 24
 text = "PLAY"
 
@@ -118,7 +69,7 @@ text = "PLAY"
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_jthac")
+theme_override_fonts/font = ExtResource("3_hp8qn")
 theme_override_font_sizes/font_size = 24
 text = "SETTINGS"
 
@@ -126,7 +77,7 @@ text = "SETTINGS"
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_jthac")
+theme_override_fonts/font = ExtResource("3_hp8qn")
 theme_override_font_sizes/font_size = 24
 text = "QUIT"
 
@@ -155,12 +106,16 @@ grow_vertical = 2
 
 [node name="Video" type="Button" parent="Settings/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_semta")
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Video"
 
 [node name="Audio" type="Button" parent="Settings/VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_semta")
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Audio"
 
 [node name="BackSettings" type="Button" parent="Settings"]
@@ -170,12 +125,13 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -22.5
-offset_top = -31.0
-offset_right = 22.5
+offset_left = -23.0
+offset_top = -48.0
+offset_right = 26.0
+offset_bottom = -24.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_fonts/font = SubResource("SystemFont_1e7bq")
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Back"
 
 [node name="Video" type="Control" parent="."]
@@ -194,26 +150,35 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -62.5
-offset_top = -41.5
-offset_right = 62.5
-offset_bottom = 41.5
+offset_left = -65.0
+offset_top = -41.0
+offset_right = 66.0
+offset_bottom = -17.0
 grow_horizontal = 2
 grow_vertical = 2
+alignment = 1
 
 [node name="Labels" type="VBoxContainer" parent="Video/HBoxContainer"]
 layout_mode = 2
 
 [node name="Fullscreen" type="Label" parent="Video/HBoxContainer/Labels"]
 layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 10
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Fullscreen"
-label_settings = SubResource("LabelSettings_x7mfi")
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Checks" type="VBoxContainer" parent="Video/HBoxContainer"]
 layout_mode = 2
+alignment = 1
 
 [node name="Fullscreen" type="CheckBox" parent="Video/HBoxContainer/Checks"]
 layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+icon_alignment = 1
 
 [node name="BackVideo" type="Button" parent="Video"]
 layout_mode = 1
@@ -222,12 +187,13 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -22.5
-offset_top = -31.0
-offset_right = 22.5
+offset_left = -23.0
+offset_top = -51.0
+offset_right = 26.0
+offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_fonts/font = SubResource("SystemFont_dea3r")
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Back"
 
 [node name="Audio" type="Control" parent="."]
@@ -255,21 +221,28 @@ grow_vertical = 2
 
 [node name="Labels" type="VBoxContainer" parent="Audio/HBoxContainer"]
 layout_mode = 2
+alignment = 1
 
 [node name="Master" type="Label" parent="Audio/HBoxContainer/Labels"]
 layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Master"
-label_settings = SubResource("LabelSettings_iqg8f")
 
 [node name="Music" type="Label" parent="Audio/HBoxContainer/Labels"]
 layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 2
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Music"
-label_settings = SubResource("LabelSettings_iqg8f")
 
 [node name="SoundFX" type="Label" parent="Audio/HBoxContainer/Labels"]
 layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 2
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Sound FX"
-label_settings = SubResource("LabelSettings_iqg8f")
 
 [node name="Slider" type="VBoxContainer" parent="Audio/HBoxContainer"]
 layout_mode = 2
@@ -294,12 +267,13 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -22.5
-offset_top = -31.0
-offset_right = 22.5
+offset_left = -23.0
+offset_top = -51.0
+offset_right = 26.0
+offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 0
-theme_override_fonts/font = SubResource("SystemFont_ik3ah")
+theme_override_fonts/font = ExtResource("3_hp8qn")
 text = "Back"
 
 [connection signal="pressed" from="Background/MarginContainer/Menu/PlayButton" to="." method="_on_play_button_pressed"]

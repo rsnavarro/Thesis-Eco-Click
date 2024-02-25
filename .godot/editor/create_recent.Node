@@ -1,3 +1,4 @@
+CheckBox
 TextureRect
 Panel
 HSlider
@@ -5,7 +6,6 @@ Label
 VBoxContainer
 HBoxContainer
 Control
-CheckBox
 VideoStreamPlayer
 Button
 AudioStreamPlayer2D
