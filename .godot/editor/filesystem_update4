@@ -7,3 +7,4 @@ res://scenes/entities/Obstacles/danger_zone.tscn
 res://assets/sprites/trash(bio).tscn
 res://assets/sprites/trash(non_bio).tscn
 res://scenes/UI/main_menu.tscn
+res://scenes/entities/CharacterIcon.gd
