@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://b124ey87qbsde"]
 
-[ext_resource type="Texture2D" uid="uid://bcthvtfw7cy2l" path="res://assets/sprites/tilemap-backgrounds_packed.png" id="1_u1ru3"]
 [ext_resource type="Script" path="res://scenes/UI/main_menu.gd" id="1_yk3uh"]
+[ext_resource type="Texture2D" uid="uid://cyxcgmjsjy2q7" path="res://scenes/UI/MainMenuBackground.png" id="2_uu6kv"]
 
 [sub_resource type="SystemFont" id="SystemFont_584wh"]
 font_names = PackedStringArray("Fira Sans")
@@ -79,7 +79,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_u1ru3")
+texture = ExtResource("2_uu6kv")
 stretch_mode = 6
 
 [node name="MarginContainer" type="MarginContainer" parent="Background"]
