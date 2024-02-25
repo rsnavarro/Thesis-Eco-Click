@@ -1,11 +1,11 @@
 [gd_scene load_steps=10 format=3 uid="uid://bmrpgcbjgq5b7"]
 
 [ext_resource type="Script" path="res://trash(bio).gd" id="1_sscg5"]
-[ext_resource type="Texture2D" path="res://assets/sprites/trash/biodegradable/Apple scrap.png" id="2_xg362"]
-[ext_resource type="Texture2D" path="res://assets/sprites/trash/biodegradable/Banana peel.png" id="3_6jf8a"]
-[ext_resource type="Texture2D" path="res://assets/sprites/trash/biodegradable/fish bone.png" id="4_dxpyt"]
-[ext_resource type="Texture2D" path="res://assets/sprites/trash/biodegradable/food-box.png" id="5_noxce"]
-[ext_resource type="Texture2D" path="res://assets/sprites/trash/biodegradable/paperbag.png" id="6_7adqr"]
+[ext_resource type="Texture2D" uid="uid://dlchgtch8in2e" path="res://assets/sprites/trash/biodegradable/Apple scrap.png" id="2_xg362"]
+[ext_resource type="Texture2D" uid="uid://yy2dnt1sy2iu" path="res://assets/sprites/trash/biodegradable/Banana peel.png" id="3_6jf8a"]
+[ext_resource type="Texture2D" uid="uid://dvg1igcbm4egf" path="res://assets/sprites/trash/biodegradable/fish bone.png" id="4_dxpyt"]
+[ext_resource type="Texture2D" uid="uid://civfsab1w8llc" path="res://assets/sprites/trash/biodegradable/food-box.png" id="5_noxce"]
+[ext_resource type="Texture2D" uid="uid://dm0tqd4ja8vof" path="res://assets/sprites/trash/biodegradable/paperbag.png" id="6_7adqr"]
 [ext_resource type="AudioStream" uid="uid://dddwfsgvec737" path="res://assets/sprites/sounds/Bio.wav" id="7_uj4q2"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f34do"]

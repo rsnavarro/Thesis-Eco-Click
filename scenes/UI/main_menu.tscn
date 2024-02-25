@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://b124ey87qbsde"]
+[gd_scene load_steps=13 format=3 uid="uid://b124ey87qbsde"]
 
 [ext_resource type="Texture2D" uid="uid://bcthvtfw7cy2l" path="res://assets/sprites/tilemap-backgrounds_packed.png" id="1_u1ru3"]
 [ext_resource type="Script" path="res://scenes/UI/main_menu.gd" id="1_yk3uh"]
@@ -9,11 +9,17 @@ font_weight = 900
 subpixel_positioning = 0
 oversampling = 3.0
 
-[sub_resource type="LabelSettings" id="LabelSettings_iqg8f"]
+[sub_resource type="LabelSettings" id="LabelSettings_irkox"]
 font = SubResource("SystemFont_584wh")
 font_size = 42
 outline_size = 8
 outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_57dly"]
+font_names = PackedStringArray("Fira Sans")
+font_weight = 700
+subpixel_positioning = 0
+oversampling = 3.0
 
 [sub_resource type="SystemFont" id="SystemFont_jthac"]
 font_names = PackedStringArray("Fira Sans")
@@ -21,7 +27,44 @@ font_weight = 700
 subpixel_positioning = 0
 oversampling = 3.0
 
+[sub_resource type="SystemFont" id="SystemFont_semta"]
+font_names = PackedStringArray("Fira Sans")
+font_weight = 700
+subpixel_positioning = 0
+oversampling = 3.0
+
+[sub_resource type="SystemFont" id="SystemFont_1e7bq"]
+font_names = PackedStringArray("Fira Sans")
+font_weight = 700
+subpixel_positioning = 0
+oversampling = 3.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_x7mfi"]
+font = SubResource("SystemFont_584wh")
+font_size = 20
+outline_size = 8
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_dea3r"]
+font_names = PackedStringArray("Fira Sans")
+font_weight = 700
+subpixel_positioning = 0
+oversampling = 3.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_iqg8f"]
+font = SubResource("SystemFont_584wh")
+font_size = 20
+outline_size = 8
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_ik3ah"]
+font_names = PackedStringArray("Fira Sans")
+font_weight = 700
+subpixel_positioning = 0
+oversampling = 3.0
+
 [node name="MainMenu" type="Control"]
+process_mode = 3
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -52,26 +95,26 @@ theme_override_constants/margin_top = 32
 theme_override_constants/margin_right = 32
 theme_override_constants/margin_bottom = 32
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Background/MarginContainer"]
+[node name="Menu" type="VBoxContainer" parent="Background/MarginContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 0
 theme_override_constants/separation = 32
 
-[node name="Label" type="Label" parent="Background/MarginContainer/VBoxContainer"]
+[node name="Label" type="Label" parent="Background/MarginContainer/Menu"]
 layout_mode = 2
 text = "ECO-CLICK GAME"
-label_settings = SubResource("LabelSettings_iqg8f")
+label_settings = SubResource("LabelSettings_irkox")
 
-[node name="PlayButton" type="Button" parent="Background/MarginContainer/VBoxContainer"]
+[node name="PlayButton" type="Button" parent="Background/MarginContainer/Menu"]
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = SubResource("SystemFont_jthac")
+theme_override_fonts/font = SubResource("SystemFont_57dly")
 theme_override_font_sizes/font_size = 24
 text = "PLAY"
 
-[node name="SettingsButton" type="Button" parent="Background/MarginContainer/VBoxContainer"]
+[node name="SettingsButton" type="Button" parent="Background/MarginContainer/Menu"]
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -79,7 +122,7 @@ theme_override_fonts/font = SubResource("SystemFont_jthac")
 theme_override_font_sizes/font_size = 24
 text = "SETTINGS"
 
-[node name="QuitButton" type="Button" parent="Background/MarginContainer/VBoxContainer"]
+[node name="QuitButton" type="Button" parent="Background/MarginContainer/Menu"]
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -87,6 +130,200 @@ theme_override_fonts/font = SubResource("SystemFont_jthac")
 theme_override_font_sizes/font_size = 24
 text = "QUIT"
 
-[connection signal="pressed" from="Background/MarginContainer/VBoxContainer/PlayButton" to="." method="_on_play_button_pressed"]
-[connection signal="pressed" from="Background/MarginContainer/VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]
-[connection signal="pressed" from="Background/MarginContainer/VBoxContainer/QuitButton" to="." method="_on_quit_button_pressed"]
+[node name="Settings" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Settings"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -26.5
+offset_top = -33.0
+offset_right = 26.5
+offset_bottom = 33.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Video" type="Button" parent="Settings/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_semta")
+text = "Video"
+
+[node name="Audio" type="Button" parent="Settings/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("SystemFont_semta")
+text = "Audio"
+
+[node name="BackSettings" type="Button" parent="Settings"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -22.5
+offset_top = -31.0
+offset_right = 22.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = SubResource("SystemFont_1e7bq")
+text = "Back"
+
+[node name="Video" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Video"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -55.5
+offset_top = -40.0
+offset_right = 55.5
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Labels" type="VBoxContainer" parent="Video/HBoxContainer"]
+layout_mode = 2
+
+[node name="Fullscreen" type="Label" parent="Video/HBoxContainer/Labels"]
+layout_mode = 2
+text = "Fullscreen"
+label_settings = SubResource("LabelSettings_x7mfi")
+
+[node name="Borderless" type="Label" parent="Video/HBoxContainer/Labels"]
+layout_mode = 2
+text = "Borderless"
+label_settings = SubResource("LabelSettings_x7mfi")
+
+[node name="VSync" type="Label" parent="Video/HBoxContainer/Labels"]
+layout_mode = 2
+text = "VSync"
+label_settings = SubResource("LabelSettings_x7mfi")
+
+[node name="Checks" type="VBoxContainer" parent="Video/HBoxContainer"]
+layout_mode = 2
+
+[node name="Fullscreen" type="CheckBox" parent="Video/HBoxContainer/Checks"]
+layout_mode = 2
+
+[node name="Borderless" type="CheckBox" parent="Video/HBoxContainer/Checks"]
+layout_mode = 2
+
+[node name="VSync" type="CheckBox" parent="Video/HBoxContainer/Checks"]
+layout_mode = 2
+
+[node name="BackVideo" type="Button" parent="Video"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -22.5
+offset_top = -31.0
+offset_right = 22.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = SubResource("SystemFont_dea3r")
+text = "Back"
+
+[node name="Audio" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Audio"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -126.0
+offset_top = -41.5
+offset_right = 126.0
+offset_bottom = 41.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Labels" type="VBoxContainer" parent="Audio/HBoxContainer"]
+layout_mode = 2
+
+[node name="Master" type="Label" parent="Audio/HBoxContainer/Labels"]
+layout_mode = 2
+text = "Master"
+label_settings = SubResource("LabelSettings_iqg8f")
+
+[node name="Music" type="Label" parent="Audio/HBoxContainer/Labels"]
+layout_mode = 2
+text = "Music"
+label_settings = SubResource("LabelSettings_iqg8f")
+
+[node name="SoundFX" type="Label" parent="Audio/HBoxContainer/Labels"]
+layout_mode = 2
+text = "Sound FX"
+label_settings = SubResource("LabelSettings_iqg8f")
+
+[node name="Slider" type="VBoxContainer" parent="Audio/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Master" type="HSlider" parent="Audio/HBoxContainer/Slider"]
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="Music" type="HSlider" parent="Audio/HBoxContainer/Slider"]
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="SoundFX" type="HSlider" parent="Audio/HBoxContainer/Slider"]
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="BackAudio" type="Button" parent="Audio"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -22.5
+offset_top = -31.0
+offset_right = 22.5
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = SubResource("SystemFont_ik3ah")
+text = "Back"
+
+[connection signal="pressed" from="Background/MarginContainer/Menu/PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="Background/MarginContainer/Menu/SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="Background/MarginContainer/Menu/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="Settings/VBoxContainer/Video" to="." method="_on_video_pressed"]
+[connection signal="pressed" from="Settings/VBoxContainer/Audio" to="." method="_on_audio_pressed"]
+[connection signal="pressed" from="Settings/BackSettings" to="." method="_on_back_settings_pressed"]
+[connection signal="toggled" from="Video/HBoxContainer/Checks/Fullscreen" to="." method="_on_fullscreen_toggled"]
+[connection signal="toggled" from="Video/HBoxContainer/Checks/Borderless" to="." method="_on_borderless_toggled"]
+[connection signal="toggled" from="Video/HBoxContainer/Checks/VSync" to="." method="_on_v_sync_toggled"]

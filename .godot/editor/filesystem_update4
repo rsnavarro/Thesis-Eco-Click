@@ -5,6 +5,6 @@ res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/entities/Obstacles/danger_zone.tscn
 res://assets/sprites/trash(bio).tscn
-res://trash(bio).gd
-res://trash(non-bio).gd
 res://assets/sprites/trash(non_bio).tscn
+res://scenes/UI/main_menu.tscn
+res://scenes/UI/main_menu.gd
