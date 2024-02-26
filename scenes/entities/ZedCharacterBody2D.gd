@@ -65,6 +65,8 @@ func _process(delta):
 		double_jump_timer += delta
 		if double_jump_timer > coyote_time:
 			can_double_jump = true
+			
+
 
 func handle_danger() -> void:
 	visible = false
