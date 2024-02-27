@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1709024353
+::res://::1709067508
 default_bus_layout.tres::AudioBusLayout::3631998551165659079::1709020796::0::1::::<><>::
 global.gd::GDScript::-1::1709020796::0::1::::<>Node<>::
 icon.svg::CompressedTexture2D::4684152969458510619::1709020796::1709020796::1::::<><>::
 Node2D.gd::GDScript::-1::1709020795::0::1::::<>MarginContainer<>::
 npc1.tscn::PackedScene::3404310170059203986::1709020796::0::1::::<><>::uid://b42rm736vn1i4::::res://assets/sprites/npc/428172642_231197520081299_4361085965134378316_n.png
-trash(bio).gd::GDScript::-1::1709024248::0::1::::<>Area2D<>::
-trash(bio).tscn::PackedScene::3264702805832537338::1709024353::0::1::::<><>::uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>res://trash(bio).gd<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png
+trash(bio).gd::GDScript::-1::1709028302::0::1::::<>Area2D<>::
+trash(bio).tscn::PackedScene::3264702805832537338::1709030389::0::1::::<><>::uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>res://trash(bio).gd<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png
 trash(non-bio).gd::GDScript::-1::1709020796::0::1::::<>Area2D<>::
 Trash_gui.gd::GDScript::-1::1709020795::0::1::::<>CanvasLayer<>::
 trash_gui.tscn::PackedScene::6905272757319495064::1709020796::0::1::::<><>::res://Trash_gui.gd
@@ -21,12 +21,12 @@ dialogue4.json::JSON::-1::1709020795::0::1::::<><>::
 dialogue5.json::JSON::-1::1709020795::0::1::::<><>::
 dialogue6.json::JSON::-1::1709020795::0::1::::<><>::
 ::res://assets/Scripts/::1709020795
-::res://assets/Scripts/classes/::1709020795
-level.gd::GDScript::-1::1709020795::0::1::::Level<>Node<>::
+::res://assets/Scripts/classes/::1709053894
+level.gd::GDScript::-1::1709053894::0::1::::Level<>Node<>::
 level_data.gd::GDScript::-1::1709020795::0::1::::LevelData<>Resource<>::
-::res://assets/Scripts/Managers/::1709020795
-LevelManager.gd::GDScript::-1::1709020795::0::1::::<>Node<>::
-::res://assets/sprites/::1709024945
+::res://assets/Scripts/Managers/::1709053919
+LevelManager.gd::GDScript::-1::1709053919::0::1::::<>Node<>::
+::res://assets/sprites/::1709030389
 428226555_1451687205703566_8200260877154722398_n-removebg-preview.png::CompressedTexture2D::8605845669414436411::1709020795::1709020795::1::::<><>::
 diamond.png::CompressedTexture2D::5706879053948224542::1709024945::1709024949::1::::<><>::
 icon.svg::CompressedTexture2D::4684152969458510619::1709020796::1709020796::1::::<><>::
@@ -39,8 +39,8 @@ tilemap-backgrounds.png::CompressedTexture2D::7134236749465477673::1709020796::1
 tilemap-backgrounds_packed.png::CompressedTexture2D::2566485075627793809::1709020796::1709020796::1::::<><>::
 tilemap-characters.png::CompressedTexture2D::5538642276114936424::1709020796::1709020796::1::::<><>::
 tilemap.png::CompressedTexture2D::5611726966882318386::1709020796::1709020796::1::::<><>::
-trash(bio).tscn::PackedScene::3264702805832537338::1709020796::0::1::::<><>::res://trash(bio).gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png<>uid://dddwfsgvec737::::res://assets/sprites/sounds/Bio.wav
-trash(non_bio).tscn::PackedScene::604689560820564067::1709020796::0::1::::<><>::res://trash(non-bio).gd<>uid://dhe6rtpqdklwn::::res://assets/sprites/trash/non-biodegradable/Broken-mug.png<>uid://bcpsjp3ppt6xa::::res://assets/sprites/trash/non-biodegradable/Food-can.png<>uid://gljg4xf0y22x::::res://assets/sprites/trash/non-biodegradable/Paste-container.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://cv32f00vvoqn5::::res://assets/sprites/trash/non-biodegradable/soda-can.png<>uid://bb3x248jhhi1y::::res://assets/sprites/trash/non-biodegradable/Straw.png<>uid://jc0202k88vc1::::res://assets/sprites/trash/non-biodegradable/water-bottle.png<>uid://i7hoebmtjr1s::::res://assets/sprites/sounds/non bio.wav
+trash(bio).tscn::PackedScene::3264702805832537338::1709030389::0::1::::<><>::res://trash(bio).gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png<>uid://dddwfsgvec737::::res://assets/sprites/sounds/Bio.wav
+trash(non_bio).tscn::PackedScene::604689560820564067::1709030389::0::1::::<><>::res://trash(non-bio).gd<>uid://dhe6rtpqdklwn::::res://assets/sprites/trash/non-biodegradable/Broken-mug.png<>uid://bcpsjp3ppt6xa::::res://assets/sprites/trash/non-biodegradable/Food-can.png<>uid://gljg4xf0y22x::::res://assets/sprites/trash/non-biodegradable/Paste-container.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://cv32f00vvoqn5::::res://assets/sprites/trash/non-biodegradable/soda-can.png<>uid://bb3x248jhhi1y::::res://assets/sprites/trash/non-biodegradable/Straw.png<>uid://jc0202k88vc1::::res://assets/sprites/trash/non-biodegradable/water-bottle.png<>uid://i7hoebmtjr1s::::res://assets/sprites/sounds/non bio.wav
 ::res://assets/sprites/Island-game-gui/::1709020795
 ::res://assets/sprites/Island-game-gui/png/::1709020796
 background1.png::CompressedTexture2D::8386647698198411103::1709020795::1709020795::1::::<><>::
@@ -232,23 +232,24 @@ Jumping.png::CompressedTexture2D::9208619613121235401::1709020796::1709020796::1
 Running.png::CompressedTexture2D::2315922082207840050::1709020796::1709020796::1::::<><>::
 Zed.png::CompressedTexture2D::7647525410984058414::1709020796::1709020796::1::::<><>::
 ZedSpriteSheet.png::CompressedTexture2D::4300551840997364558::1709020796::1709020796::1::::<><>::
-::res://scenes/::1709024351
+::res://scenes/::1709065961
 main.gd::GDScript::-1::1709020796::0::1::::<>Node<>::
-main.tscn::PackedScene::7180208945760728290::1709024351::0::1::::<><>::uid://b124ey87qbsde::::res://scenes/UI/main_menu.tscn<>res://scenes/main.gd<>res://assets/Scripts/classes/level_data.gd
-::res://scenes/entities/::1709024352
+main.tscn::PackedScene::7180208945760728290::1709065961::0::1::::<><>::uid://b124ey87qbsde::::res://scenes/UI/main_menu.tscn<>res://scenes/main.gd<>res://assets/Scripts/classes/level_data.gd
+::res://scenes/entities/::1709065962
 almanac.gd::GDScript::-1::1709020796::0::1::::<>Panel<>::
 CharacterIcon.gd::GDScript::-1::1709020796::0::1::::<>Panel<>::
-ZedCharacterBody2D.gd::GDScript::-1::1709020796::0::1::::Player<>CharacterBody2D<>::
-ZedCharacterBody2D.tscn::PackedScene::3176405888732081454::1709024352::0::1::::<><>::res://scenes/entities/ZedCharacterBody2D.gd<>uid://b2jhpwlunhedq::::res://assets/sprites/Zed/ZedSpriteSheet.png<>uid://c00oa4wqhr7ea::::res://scenes/UI/timer.tscn<>uid://dg7rvj5hs6jxe::::res://assets/sprites/Zed/Zed.png<>res://scenes/entities/almanac.gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://dwo2ha8m3jocd::::res://assets/sprites/obstacles/Albatross1.png<>uid://bxl18ibmn4mwc::::res://assets/sprites/obstacles/angler fish.png<>uid://cnv2bsd3dtv7f::::res://assets/sprites/obstacles/clam.png<>uid://800lu3w47fw4::::res://assets/sprites/obstacles/Dynamite.png<>uid://blq3bmb8t50m0::::res://assets/sprites/obstacles/hermit.png<>uid://dv7ba57rsmfw4::::res://assets/sprites/obstacles/iguana.png<>uid://rof027lyo383::::res://assets/sprites/obstacles/jelly fish.png<>uid://berp6yx1ygwaf::::res://assets/sprites/obstacles/monke.png<>uid://cpk8rjqnwgbsd::::res://assets/sprites/obstacles/quick-sand.png<>uid://b5pfcp1rssw38::::res://assets/sprites/obstacles/sidewinder.png<>uid://b0lrmc3xwboor::::res://assets/sprites/obstacles/turtle.png
-::res://scenes/entities/Obstacles/::1709020796
-danger_zone.gd::GDScript::-1::1709020796::0::1::::<>Area2D<>::
-danger_zone.tscn::PackedScene::3274950460835101613::1709020796::0::1::::<><>::res://scenes/entities/Obstacles/danger_zone.gd
-::res://scenes/levels/::1709024653
-level_01.tscn::PackedScene::5442780259071151399::1709024352::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bmwn7qxo82n5v::::res://scenes/entities/Obstacles/danger_zone.tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://d0q0t12ul7c4m::::res://scenes/levels/jump_to_next_level.tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
-level_02.tscn::PackedScene::7327902421046328835::1709024352::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
-level_03.tscn::PackedScene::8270493552038392990::1709024352::0::1::::<><>::res://assets/Scripts/classes/level.gd<>uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
-jump_to_next_level.tscn::PackedScene::8948566449239915998::1709024653::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://scenes/levels/jump_to_next_level.gd
-jump_to_next_level.gd::GDScript::-1::1709022749::0::1::::<>Area2D<>::
+ZedCharacterBody2D.gd::GDScript::-1::1709053979::0::1::::Player<>CharacterBody2D<>::
+ZedCharacterBody2D.tscn::PackedScene::3176405888732081454::1709065962::0::1::::<><>::res://scenes/entities/ZedCharacterBody2D.gd<>uid://b2jhpwlunhedq::::res://assets/sprites/Zed/ZedSpriteSheet.png<>uid://c00oa4wqhr7ea::::res://scenes/UI/timer.tscn<>uid://dg7rvj5hs6jxe::::res://assets/sprites/Zed/Zed.png<>res://scenes/entities/almanac.gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://dwo2ha8m3jocd::::res://assets/sprites/obstacles/Albatross1.png<>uid://bxl18ibmn4mwc::::res://assets/sprites/obstacles/angler fish.png<>uid://cnv2bsd3dtv7f::::res://assets/sprites/obstacles/clam.png<>uid://800lu3w47fw4::::res://assets/sprites/obstacles/Dynamite.png<>uid://blq3bmb8t50m0::::res://assets/sprites/obstacles/hermit.png<>uid://dv7ba57rsmfw4::::res://assets/sprites/obstacles/iguana.png<>uid://rof027lyo383::::res://assets/sprites/obstacles/jelly fish.png<>uid://berp6yx1ygwaf::::res://assets/sprites/obstacles/monke.png<>uid://cpk8rjqnwgbsd::::res://assets/sprites/obstacles/quick-sand.png<>uid://b5pfcp1rssw38::::res://assets/sprites/obstacles/sidewinder.png<>uid://b0lrmc3xwboor::::res://assets/sprites/obstacles/turtle.png
+::res://scenes/entities/Obstacles/::1709065962
+danger_zone.gd::GDScript::-1::1709048386::0::1::::<>Area2D<>::
+danger_zone.tscn::PackedScene::3274950460835101613::1709065962::0::1::::<><>::res://scenes/entities/Obstacles/danger_zone.gd
+danger_zone_2.tscn::PackedScene::1059438313756295287::1709065962::0::1::::<><>::
+::res://scenes/levels/::1709066059
+jump_to_next_level.gd::GDScript::-1::1709032627::0::1::::<>Area2D<>::
+jump_to_next_level.tscn::PackedScene::8948566449239915998::1709032627::0::1::::<><>::res://scenes/levels/jump_to_next_level.gd<>uid://cnkpp1whmbh4a::::res://assets/sprites/diamond.png
+level_01.tscn::PackedScene::5442780259071151399::1709065961::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bmwn7qxo82n5v::::res://scenes/entities/Obstacles/danger_zone.tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://d0q0t12ul7c4m::::res://scenes/levels/jump_to_next_level.tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
+level_02.tscn::PackedScene::7327902421046328835::1709066059::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://d0q0t12ul7c4m::::res://scenes/levels/jump_to_next_level.tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
+level_03.tscn::PackedScene::8270493552038392990::1709065962::0::1::::<><>::res://assets/Scripts/classes/level.gd<>uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://d0q0t12ul7c4m::::res://scenes/levels/jump_to_next_level.tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
 ::res://scenes/UI/::1709020796
 MainMenuBackground.png::CompressedTexture2D::6504987096805597692::1709020796::1709020796::1::::<><>::
 main_menu.gd::GDScript::-1::1709020796::0::1::::MainMenu<>Control<>::

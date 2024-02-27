@@ -1,8 +1,8 @@
+Panel
 CollisionShape2D
 Area2D
 Node2D
 TileMap
-Panel
 AudioStreamPlayer2D
 Sprite2D
 CollisionPolygon2D
