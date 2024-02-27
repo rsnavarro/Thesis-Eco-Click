@@ -1,14 +1,14 @@
 extends Node
 
 var levels : Array[LevelData]
-
 var main_scene : Node2D = null
 var loaded_level : Level = null
+
 
 func unload_level() -> void:
 	if is_instance_valid(loaded_level):
 		loaded_level.queue_free()
-	
+
 	loaded_level = null
 	
 func load_level(level_id : int) -> void:
@@ -25,7 +25,7 @@ func load_level(level_id : int) -> void:
 	
 	if level_res:
 		loaded_level = level_res.instantiate()
-		
+ 
 		main_scene.add_child(loaded_level)
 	else:
 		print("Level does not exist")

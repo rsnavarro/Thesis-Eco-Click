@@ -1,3 +1,5 @@
+res://scenes/entities/Obstacles
+res://scenes/levels
 res://assets/Fonts
 res://
 D:/godot/Thesis-Eco-Click
@@ -7,7 +9,6 @@ res://assets/sprites/sounds
 res://assets/sprites/trash/non-biodegradable
 res://assets/sprites/trash/biodegradable
 res://assets/sprites
-res://scenes/entities/Obstacles
 res://scenes
 res://assets/sprites/npc
 res://assets/Scripts/Managers

@@ -59,16 +59,16 @@ func handle_animations(direction : float) -> void:
 		animation_player.play("Jumping")
 	else:
 		animation_player.play("Idle")
-		
+ 
 func _process(delta):
 	if not is_on_floor():
 		double_jump_timer += delta
 		if double_jump_timer > coyote_time:
 			can_double_jump = true
-			
-
+ 
 
 func handle_danger() -> void:
+	print("Player Died!")
 	visible = false
 	can_control = false
 	
@@ -76,6 +76,8 @@ func handle_danger() -> void:
 	reset_player()
 	
 func reset_player() -> void:
+	print(LevelManager.loaded_level)
 	global_position = LevelManager.loaded_level.level_start_pos.global_position
+
 	visible = true
 	can_control = true

@@ -1,254 +1,257 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708957263
-default_bus_layout.tres::AudioBusLayout::3631998551165659079::1708881260::0::1::::<><>::
-global.gd::GDScript::-1::1708881260::0::1::::<>Node<>::
-icon.svg::CompressedTexture2D::4684152969458510619::1708881260::1708881260::1::::<><>::
-Node2D.gd::GDScript::-1::1708881258::0::1::::<>MarginContainer<>::
-npc1.tscn::PackedScene::3404310170059203986::1708881260::0::1::::<><>::uid://b42rm736vn1i4::::res://assets/sprites/npc/428172642_231197520081299_4361085965134378316_n.png
-trash(bio).gd::GDScript::-1::1708881260::0::1::::<>Area2D<>::
-trash(bio).tscn::PackedScene::3264702805832537338::1708881260::0::1::::<><>::uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>res://trash(bio).gd<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png
-trash(non-bio).gd::GDScript::-1::1708881260::0::1::::<>Area2D<>::
-Trash_gui.gd::GDScript::-1::1708881258::0::1::::<>CanvasLayer<>::
-trash_gui.tscn::PackedScene::6905272757319495064::1708881260::0::1::::<><>::res://Trash_gui.gd
-::res://assets/::1708882859
-::res://assets/Fonts/::1708882876
-SuperMario256.ttf::FontFile::1862433058796546868::1589752774::1708882876::1::::<><>::
-::res://assets/jsonfile/::1708881258
-dialogue1.json::JSON::-1::1708881258::0::1::::<><>::
-dialogue2.json::JSON::-1::1708881258::0::1::::<><>::
-dialogue3.json::JSON::-1::1708881258::0::1::::<><>::
-dialogue4.json::JSON::-1::1708881258::0::1::::<><>::
-dialogue5.json::JSON::-1::1708881258::0::1::::<><>::
-dialogue6.json::JSON::-1::1708881258::0::1::::<><>::
-::res://assets/Scripts/::1708881258
-::res://assets/Scripts/classes/::1708881258
-level.gd::GDScript::-1::1708881258::0::1::::Level<>Node<>::
-level_data.gd::GDScript::-1::1708881258::0::1::::LevelData<>Resource<>::
-::res://assets/Scripts/Managers/::1708881258
-LevelManager.gd::GDScript::-1::1708881258::0::1::::<>Node<>::
-::res://assets/sprites/::1708886512
-428226555_1451687205703566_8200260877154722398_n-removebg-preview.png::CompressedTexture2D::8605845669414436411::1708881258::1708881258::1::::<><>::
-icon.svg::CompressedTexture2D::4684152969458510619::1708881260::1708881260::1::::<><>::
-info_board.gd::GDScript::-1::1708881260::0::1::::<>Area2D<>::
-info_board.tscn::PackedScene::1839523552952539126::1708881260::0::1::::<><>::res://assets/sprites/info_board.gd<>uid://duu0aydksw8sd::::res://assets/sprites/428226555_1451687205703566_8200260877154722398_n-removebg-preview.png
-textbox.gd::GDScript::-1::1708881260::0::1::::<>MarginContainer<>::
-textbox.tscn::PackedScene::5847396267115651493::1708881260::0::1::::<><>::
-text_box.tscn::PackedScene::7135366826130088474::1708881260::0::1::::<><>::
-tilemap-backgrounds.png::CompressedTexture2D::7134236749465477673::1708881260::1708881260::1::::<><>::
-tilemap-backgrounds_packed.png::CompressedTexture2D::2566485075627793809::1708881260::1708881260::1::::<><>::
-tilemap-characters.png::CompressedTexture2D::5538642276114936424::1708881260::1708881260::1::::<><>::
-tilemap.png::CompressedTexture2D::5611726966882318386::1708881260::1708881260::1::::<><>::
-trash(bio).tscn::PackedScene::3264702805832537338::1708886512::0::1::::<><>::res://trash(bio).gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png<>uid://dddwfsgvec737::::res://assets/sprites/sounds/Bio.wav
-trash(non_bio).tscn::PackedScene::604689560820564067::1708886512::0::1::::<><>::res://trash(non-bio).gd<>uid://dhe6rtpqdklwn::::res://assets/sprites/trash/non-biodegradable/Broken-mug.png<>uid://bcpsjp3ppt6xa::::res://assets/sprites/trash/non-biodegradable/Food-can.png<>uid://gljg4xf0y22x::::res://assets/sprites/trash/non-biodegradable/Paste-container.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://cv32f00vvoqn5::::res://assets/sprites/trash/non-biodegradable/soda-can.png<>uid://bb3x248jhhi1y::::res://assets/sprites/trash/non-biodegradable/Straw.png<>uid://jc0202k88vc1::::res://assets/sprites/trash/non-biodegradable/water-bottle.png<>uid://i7hoebmtjr1s::::res://assets/sprites/sounds/non bio.wav
-::res://assets/sprites/Island-game-gui/::1708881258
-::res://assets/sprites/Island-game-gui/png/::1708881259
-background1.png::CompressedTexture2D::8386647698198411103::1708881258::1708881258::1::::<><>::
-background2.png::CompressedTexture2D::1328025332051335416::1708881258::1708881258::1::::<><>::
-background3.png::CompressedTexture2D::5328593150071312326::1708881258::1708881258::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/buttons/::1708881259
-::res://assets/sprites/Island-game-gui/png/buttons/click/::1708881259
-accept.png::CompressedTexture2D::8084094015230698738::1708881258::1708881258::1::::<><>::
-cancel.png::CompressedTexture2D::432914769839149054::1708881258::1708881258::1::::<><>::
-download.png::CompressedTexture2D::614360393780747548::1708881258::1708881258::1::::<><>::
-help.png::CompressedTexture2D::8343813352826939580::1708881258::1708881258::1::::<><>::
-home.png::CompressedTexture2D::7603016909360872901::1708881258::1708881258::1::::<><>::
-left.png::CompressedTexture2D::3086859022550701415::1708881258::1708881258::1::::<><>::
-long.png::CompressedTexture2D::3264704210226113408::1708881258::1708881258::1::::<><>::
-medium.png::CompressedTexture2D::2167485874389643705::1708881258::1708881258::1::::<><>::
-music.png::CompressedTexture2D::45156726600465051::1708881258::1708881258::1::::<><>::
-play.png::CompressedTexture2D::3407294552397230797::1708881258::1708881258::1::::<><>::
-plus.png::CompressedTexture2D::1267172371798093198::1708881258::1708881258::1::::<><>::
-profile.png::CompressedTexture2D::1770296803453068144::1708881258::1708881258::1::::<><>::
-records.png::CompressedTexture2D::4055614755861092560::1708881258::1708881258::1::::<><>::
-right.png::CompressedTexture2D::6448212264610955013::1708881258::1708881258::1::::<><>::
-round.png::CompressedTexture2D::7506716066142141131::1708881258::1708881258::1::::<><>::
-settings.png::CompressedTexture2D::1017561603251710807::1708881258::1708881258::1::::<><>::
-shop.png::CompressedTexture2D::3411296706455566056::1708881258::1708881258::1::::<><>::
-small.png::CompressedTexture2D::6997004265865009735::1708881258::1708881258::1::::<><>::
-volume.png::CompressedTexture2D::3311229478213137364::1708881259::1708881259::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/buttons/hover/::1708881259
-accept.png::CompressedTexture2D::3830133014104518283::1708881259::1708881259::1::::<><>::
-cancel.png::CompressedTexture2D::749294928277120928::1708881259::1708881259::1::::<><>::
-download.png::CompressedTexture2D::2168363692374878156::1708881259::1708881259::1::::<><>::
-help.png::CompressedTexture2D::4651934284283924791::1708881259::1708881259::1::::<><>::
-home.png::CompressedTexture2D::8178927598878718261::1708881259::1708881259::1::::<><>::
-left.png::CompressedTexture2D::7035098965463592799::1708881259::1708881259::1::::<><>::
-long.png::CompressedTexture2D::7032490472381530825::1708881259::1708881259::1::::<><>::
-medium.png::CompressedTexture2D::1059774297780220741::1708881259::1708881259::1::::<><>::
-music.png::CompressedTexture2D::3011207826237134813::1708881259::1708881259::1::::<><>::
-play.png::CompressedTexture2D::8881651906412581999::1708881259::1708881259::1::::<><>::
-plus.png::CompressedTexture2D::8281250405758865485::1708881259::1708881259::1::::<><>::
-profile.png::CompressedTexture2D::3761569989476519388::1708881259::1708881259::1::::<><>::
-records.png::CompressedTexture2D::1279582857163624020::1708881259::1708881259::1::::<><>::
-right.png::CompressedTexture2D::2890735606455553833::1708881259::1708881259::1::::<><>::
-round.png::CompressedTexture2D::8845828970392832856::1708881259::1708881259::1::::<><>::
-settings.png::CompressedTexture2D::7719364655331943618::1708881259::1708881259::1::::<><>::
-shop.png::CompressedTexture2D::2800725198898997559::1708881259::1708881259::1::::<><>::
-small.png::CompressedTexture2D::797580387730494616::1708881259::1708881259::1::::<><>::
-volume.png::CompressedTexture2D::3503987835957500624::1708881259::1708881259::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/buttons/lock/::1708881259
-accept.png::CompressedTexture2D::3516058332294480533::1708881259::1708881259::1::::<><>::
-cancel.png::CompressedTexture2D::926940212259974360::1708881259::1708881259::1::::<><>::
-download.png::CompressedTexture2D::1514902196884562324::1708881259::1708881259::1::::<><>::
-help.png::CompressedTexture2D::4543252445871673562::1708881259::1708881259::1::::<><>::
-home.png::CompressedTexture2D::8075530741249313405::1708881259::1708881259::1::::<><>::
-left.png::CompressedTexture2D::5423568994017460383::1708881259::1708881259::1::::<><>::
-lock.png::CompressedTexture2D::5867078161528823635::1708881259::1708881259::1::::<><>::
-long.png::CompressedTexture2D::6320013475797593631::1708881259::1708881259::1::::<><>::
-medium.png::CompressedTexture2D::3529224421517544195::1708881259::1708881259::1::::<><>::
-music.png::CompressedTexture2D::2132964430751749033::1708881259::1708881259::1::::<><>::
-play.png::CompressedTexture2D::8219429851727992267::1708881259::1708881259::1::::<><>::
-plus.png::CompressedTexture2D::675272670754564602::1708881259::1708881259::1::::<><>::
-profile.png::CompressedTexture2D::6654923101252739494::1708881259::1708881259::1::::<><>::
-records.png::CompressedTexture2D::4586775084324433018::1708881259::1708881259::1::::<><>::
-right.png::CompressedTexture2D::5083434139309951485::1708881259::1708881259::1::::<><>::
-round.png::CompressedTexture2D::3699090126178255967::1708881259::1708881259::1::::<><>::
-settings.png::CompressedTexture2D::4436694524969295368::1708881259::1708881259::1::::<><>::
-shop.png::CompressedTexture2D::3065177551281902811::1708881259::1708881259::1::::<><>::
-small.png::CompressedTexture2D::8945167068902408541::1708881259::1708881259::1::::<><>::
-volume.png::CompressedTexture2D::3732439674014821060::1708881259::1708881259::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/buttons/normal/::1708881259
-accept.png::CompressedTexture2D::6901897158135326826::1708881259::1708881259::1::::<><>::
-cancel.png::CompressedTexture2D::5885596165400576744::1708881259::1708881259::1::::<><>::
-download.png::CompressedTexture2D::5124868190059930847::1708881259::1708881259::1::::<><>::
-help.png::CompressedTexture2D::7972376677720275898::1708881259::1708881259::1::::<><>::
-home.png::CompressedTexture2D::3386206676998299139::1708881259::1708881259::1::::<><>::
-left.png::CompressedTexture2D::4141866466160687395::1708881259::1708881259::1::::<><>::
-long.png::CompressedTexture2D::4221370800220023551::1708881259::1708881259::1::::<><>::
-medium.png::CompressedTexture2D::7468464930011215082::1708881259::1708881259::1::::<><>::
-music.png::CompressedTexture2D::8867379016209576771::1708881259::1708881259::1::::<><>::
-play.png::CompressedTexture2D::4443997014782541768::1708881259::1708881259::1::::<><>::
-plus.png::CompressedTexture2D::759279227552473629::1708881259::1708881259::1::::<><>::
-profile.png::CompressedTexture2D::6777908174118652170::1708881259::1708881259::1::::<><>::
-records.png::CompressedTexture2D::2170635353148440031::1708881259::1708881259::1::::<><>::
-right.png::CompressedTexture2D::7539451947220566226::1708881259::1708881259::1::::<><>::
-round.png::CompressedTexture2D::3902858725344340193::1708881259::1708881259::1::::<><>::
-settings.png::CompressedTexture2D::4237242413477624184::1708881259::1708881259::1::::<><>::
-shop.png::CompressedTexture2D::6407145434534241761::1708881259::1708881259::1::::<><>::
-small.png::CompressedTexture2D::2855285477279178409::1708881259::1708881259::1::::<><>::
-volume.png::CompressedTexture2D::1815965778189802270::1708881259::1708881259::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/frames/::1708881259
-achievement.png::CompressedTexture2D::4184025434750992519::1708881259::1708881259::1::::<><>::
-health.png::CompressedTexture2D::5460981576774394538::1708881259::1708881259::1::::<><>::
-hi-score.png::CompressedTexture2D::2148851010572914634::1708881259::1708881259::1::::<><>::
-level select.png::CompressedTexture2D::3512549733778057142::1708881259::1708881259::1::::<><>::
-mana.png::CompressedTexture2D::4491834048919883041::1708881259::1708881259::1::::<><>::
-map.png::CompressedTexture2D::3167881452201154405::1708881259::1708881259::1::::<><>::
-money.png::CompressedTexture2D::7168041806047553497::1708881259::1708881259::1::::<><>::
-paused.png::CompressedTexture2D::4086480029754200411::1708881259::1708881259::1::::<><>::
-shield.png::CompressedTexture2D::449305481777133149::1708881259::1708881259::1::::<><>::
-shop.png::CompressedTexture2D::8561377667347746994::1708881259::1708881259::1::::<><>::
-skills.png::CompressedTexture2D::4902179960221005833::1708881259::1708881259::1::::<><>::
-time.png::CompressedTexture2D::3206513082977344073::1708881259::1708881259::1::::<><>::
-tools.png::CompressedTexture2D::4919657348832498039::1708881259::1708881259::1::::<><>::
-upgrades.png::CompressedTexture2D::210812585395552269::1708881259::1708881259::1::::<><>::
-warning.png::CompressedTexture2D::3973876508707645323::1708881259::1708881259::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/headlines/::1708881259
-hi-score.png::CompressedTexture2D::3094681289600768760::1708881259::1708881259::1::::<><>::
-level complete.png::CompressedTexture2D::2191640166996173758::1708881259::1708881259::1::::<><>::
-level select.png::CompressedTexture2D::3098184008103740621::1708881259::1708881259::1::::<><>::
-map.png::CompressedTexture2D::4145356877580453477::1708881259::1708881259::1::::<><>::
-paused.png::CompressedTexture2D::5298829651977958464::1708881259::1708881259::1::::<><>::
-shop.png::CompressedTexture2D::1839850560429447704::1708881259::1708881259::1::::<><>::
-skills.png::CompressedTexture2D::3920244536567844578::1708881259::1708881259::1::::<><>::
-upgrades.png::CompressedTexture2D::4823262008181854240::1708881259::1708881259::1::::<><>::
-warning.png::CompressedTexture2D::8543329433823224739::1708881259::1708881259::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/images/::1708881259
-0 stars.png::CompressedTexture2D::341170153241815253::1708881259::1708881259::1::::<><>::
-1 stars.png::CompressedTexture2D::546008034770160450::1708881259::1708881259::1::::<><>::
-2 stars.png::CompressedTexture2D::2242721972153338088::1708881259::1708881259::1::::<><>::
-3 stars.png::CompressedTexture2D::8959121900854577058::1708881259::1708881259::1::::<><>::
-active page.png::CompressedTexture2D::8144898429062085977::1708881259::1708881259::1::::<><>::
-bronze medal.png::CompressedTexture2D::2377144411783702657::1708881259::1708881259::1::::<><>::
-clock.png::CompressedTexture2D::7866997624185476613::1708881259::1708881259::1::::<><>::
-coin.png::CompressedTexture2D::6709740907546651204::1708881259::1708881259::1::::<><>::
-crystal.png::CompressedTexture2D::4107310274757427288::1708881259::1708881259::1::::<><>::
-down botton map.png::CompressedTexture2D::2582942145089039554::1708881259::1708881259::1::::<><>::
-energy.png::CompressedTexture2D::3006411322928617804::1708881259::1708881259::1::::<><>::
-gold medal.png::CompressedTexture2D::6440399204352826215::1708881259::1708881259::1::::<><>::
-health potion.png::CompressedTexture2D::2382424006185006012::1708881259::1708881259::1::::<><>::
-health.png::CompressedTexture2D::4415196290553928331::1708881259::1708881259::1::::<><>::
-horisontal skrolling map.png::CompressedTexture2D::5032622566230239329::1708881259::1708881259::1::::<><>::
-left botton map.png::CompressedTexture2D::1075071076184325946::1708881259::1708881259::1::::<><>::
-left right botton map.png::CompressedTexture2D::3968996806151217334::1708881259::1708881259::1::::<><>::
-mana potion.png::CompressedTexture2D::5587018585530166404::1708881259::1708881259::1::::<><>::
-mana.png::CompressedTexture2D::5921150780607497091::1708881259::1708881259::1::::<><>::
-map.png::CompressedTexture2D::2676502861821390986::1708881259::1708881259::1::::<><>::
-next page.png::CompressedTexture2D::6252375074286236608::1708881259::1708881259::1::::<><>::
-pointer location2.png::CompressedTexture2D::503966204798267169::1708881259::1708881259::1::::<><>::
-pointer location3.png::CompressedTexture2D::2142983069169113855::1708881259::1708881259::1::::<><>::
-pointer location.png::CompressedTexture2D::6964873712975314777::1708881259::1708881259::1::::<><>::
-profile image.png::CompressedTexture2D::2092821140123083945::1708881259::1708881259::1::::<><>::
-protection potion.png::CompressedTexture2D::4227691871604777151::1708881259::1708881259::1::::<><>::
-right botton map.png::CompressedTexture2D::6364463117448776760::1708881259::1708881259::1::::<><>::
-shield.png::CompressedTexture2D::6561659546204055474::1708881259::1708881259::1::::<><>::
-silver medal.png::CompressedTexture2D::7216347414747992560::1708881259::1708881259::1::::<><>::
-star lock.png::CompressedTexture2D::7759790767445692078::1708881259::1708881259::1::::<><>::
-star.png::CompressedTexture2D::6813610113514726741::1708881259::1708881259::1::::<><>::
-up botton map.png::CompressedTexture2D::751692755338285142::1708881259::1708881259::1::::<><>::
-up down botton map.png::CompressedTexture2D::8847826256608101127::1708881259::1708881259::1::::<><>::
-vertical skrolling map.png::CompressedTexture2D::3340604982052039852::1708881259::1708881259::1::::<><>::
-::res://assets/sprites/npc/::1708881260
-428172642_231197520081299_4361085965134378316_n.png::CompressedTexture2D::4478690692398373549::1708881260::1708881260::1::::<><>::
-NPC 1 New.png::CompressedTexture2D::2415986255075021187::1708881260::1708881260::1::::<><>::
-::res://assets/sprites/obstacles/::1708881260
-Albatross1.png::CompressedTexture2D::8733969810596439495::1708881260::1708881260::1::::<><>::
-angler fish.png::CompressedTexture2D::4025110237968650518::1708881260::1708881260::1::::<><>::
-clam.png::CompressedTexture2D::5730290363446166689::1708881260::1708881260::1::::<><>::
-Dynamite.png::CompressedTexture2D::2369379947219802413::1708881260::1708881260::1::::<><>::
-hermit.png::CompressedTexture2D::3193230502718753557::1708881260::1708881260::1::::<><>::
-iguana.png::CompressedTexture2D::8699350198531842621::1708881260::1708881260::1::::<><>::
-jelly fish.png::CompressedTexture2D::1222461328311482814::1708881260::1708881260::1::::<><>::
-monke.png::CompressedTexture2D::2703237891871354893::1708881260::1708881260::1::::<><>::
-quick-sand.png::CompressedTexture2D::5848352316802281627::1708881260::1708881260::1::::<><>::
-Seagull1-.png::CompressedTexture2D::6053697951278925679::1708881260::1708881260::1::::<><>::
-sidewinder.png::CompressedTexture2D::4523359644508968449::1708881260::1708881260::1::::<><>::
-turtle.png::CompressedTexture2D::4164903697718150893::1708881260::1708881260::1::::<><>::
-::res://assets/sprites/sounds/::1708881260
-Bio.wav::AudioStreamWAV::7377367373714701256::1708881260::1708881260::1::::<><>::
-non bio.wav::AudioStreamWAV::628021069507400450::1708881260::1708881260::1::::<><>::
-::res://assets/sprites/trash/::1708881260
-::res://assets/sprites/trash/biodegradable/::1708881260
-Apple scrap.png::CompressedTexture2D::7935904821714312574::1708881260::1708881260::1::::<><>::
-Banana peel.png::CompressedTexture2D::1735722742957806704::1708881260::1708881260::1::::<><>::
-fish bone.png::CompressedTexture2D::8647207280457834921::1708881260::1708881260::1::::<><>::
-food-box.png::CompressedTexture2D::5378039781336671884::1708881260::1708881260::1::::<><>::
-paperbag.png::CompressedTexture2D::8054320016931846429::1708881260::1708881260::1::::<><>::
-::res://assets/sprites/trash/non-biodegradable/::1708881260
-Broken-mug.png::CompressedTexture2D::7660755074681013861::1708881260::1708881260::1::::<><>::
-Food-can.png::CompressedTexture2D::2558873847102138482::1708881260::1708881260::1::::<><>::
-Paste-container.png::CompressedTexture2D::444399943790396105::1708881260::1708881260::1::::<><>::
-Plastic-bag.png::CompressedTexture2D::6488544142415511838::1708881260::1708881260::1::::<><>::
-soda-can.png::CompressedTexture2D::6306259301359415096::1708881260::1708881260::1::::<><>::
-Straw.png::CompressedTexture2D::2515858386288126388::1708881260::1708881260::1::::<><>::
-water-bottle.png::CompressedTexture2D::637395844798252362::1708881260::1708881260::1::::<><>::
-::res://assets/sprites/Zed/::1708881260
-Aiming.png::CompressedTexture2D::9045192273217196418::1708881259::1708881259::1::::<><>::
-Hurt&Died.png::CompressedTexture2D::3512818068237549557::1708881259::1708881259::1::::<><>::
-Idle.png::CompressedTexture2D::4443761828030364407::1708881259::1708881259::1::::<><>::
-IdleJump.png::CompressedTexture2D::3959717012352766247::1708881259::1708881259::1::::<><>::
-Jumping.png::CompressedTexture2D::9208619613121235401::1708881259::1708881259::1::::<><>::
-Running.png::CompressedTexture2D::2315922082207840050::1708881260::1708881260::1::::<><>::
-Zed.png::CompressedTexture2D::7647525410984058414::1708881260::1708881260::1::::<><>::
-ZedSpriteSheet.png::CompressedTexture2D::4300551840997364558::1708881260::1708881260::1::::<><>::
-::res://scenes/::1708886510
-main.gd::GDScript::-1::1708881260::0::1::::<>Node<>::
-main.tscn::PackedScene::7180208945760728290::1708886510::0::1::::<><>::uid://b124ey87qbsde::::res://scenes/UI/main_menu.tscn<>res://scenes/main.gd<>res://assets/Scripts/classes/level_data.gd
-::res://scenes/entities/::1708886511
-almanac.gd::GDScript::-1::1708881260::0::1::::<>Panel<>::
-CharacterIcon.gd::GDScript::-1::1708881260::0::1::::<>Panel<>::
-ZedCharacterBody2D.gd::GDScript::-1::1708881260::0::1::::Player<>CharacterBody2D<>::
-ZedCharacterBody2D.tscn::PackedScene::3176405888732081454::1708886511::0::1::::<><>::res://scenes/entities/ZedCharacterBody2D.gd<>uid://b2jhpwlunhedq::::res://assets/sprites/Zed/ZedSpriteSheet.png<>uid://c00oa4wqhr7ea::::res://scenes/UI/timer.tscn<>uid://dg7rvj5hs6jxe::::res://assets/sprites/Zed/Zed.png<>res://scenes/entities/almanac.gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://dwo2ha8m3jocd::::res://assets/sprites/obstacles/Albatross1.png<>uid://bxl18ibmn4mwc::::res://assets/sprites/obstacles/angler fish.png<>uid://cnv2bsd3dtv7f::::res://assets/sprites/obstacles/clam.png<>uid://800lu3w47fw4::::res://assets/sprites/obstacles/Dynamite.png<>uid://blq3bmb8t50m0::::res://assets/sprites/obstacles/hermit.png<>uid://dv7ba57rsmfw4::::res://assets/sprites/obstacles/iguana.png<>uid://rof027lyo383::::res://assets/sprites/obstacles/jelly fish.png<>uid://berp6yx1ygwaf::::res://assets/sprites/obstacles/monke.png<>uid://cpk8rjqnwgbsd::::res://assets/sprites/obstacles/quick-sand.png<>uid://b5pfcp1rssw38::::res://assets/sprites/obstacles/sidewinder.png<>uid://b0lrmc3xwboor::::res://assets/sprites/obstacles/turtle.png
-::res://scenes/entities/Obstacles/::1708886512
-danger_zone.gd::GDScript::-1::1708881260::0::1::::<>Area2D<>::
-danger_zone.tscn::PackedScene::3274950460835101613::1708886512::0::1::::<><>::res://scenes/entities/Obstacles/danger_zone.gd
-::res://scenes/levels/::1708944196
-level_01.tscn::PackedScene::5442780259071151399::1708944196::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bmwn7qxo82n5v::::res://scenes/entities/Obstacles/danger_zone.tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
-level_02.tscn::PackedScene::7327902421046328835::1708944196::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
-level_03.tscn::PackedScene::8270493552038392990::1708944196::0::1::::<><>::res://assets/Scripts/classes/level.gd<>uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
-::res://scenes/UI/::1708886569
-MainMenuBackground.png::CompressedTexture2D::6504987096805597692::1708881260::1708881260::1::::<><>::
-main_menu.gd::GDScript::-1::1708881260::0::1::::MainMenu<>Control<>::
-main_menu.tscn::PackedScene::4268838066621728378::1708886569::0::1::::<><>::res://scenes/UI/main_menu.gd<>uid://cyxcgmjsjy2q7::::res://scenes/UI/MainMenuBackground.png<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
-Timer.gd::GDScript::-1::1708881260::0::1::::<>Control<>::
-timer.tscn::PackedScene::6580023497987114368::1708886512::0::1::::<><>::res://scenes/UI/Timer.gd
+::res://::1709024353
+default_bus_layout.tres::AudioBusLayout::3631998551165659079::1709020796::0::1::::<><>::
+global.gd::GDScript::-1::1709020796::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::4684152969458510619::1709020796::1709020796::1::::<><>::
+Node2D.gd::GDScript::-1::1709020795::0::1::::<>MarginContainer<>::
+npc1.tscn::PackedScene::3404310170059203986::1709020796::0::1::::<><>::uid://b42rm736vn1i4::::res://assets/sprites/npc/428172642_231197520081299_4361085965134378316_n.png
+trash(bio).gd::GDScript::-1::1709024248::0::1::::<>Area2D<>::
+trash(bio).tscn::PackedScene::3264702805832537338::1709024353::0::1::::<><>::uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>res://trash(bio).gd<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png
+trash(non-bio).gd::GDScript::-1::1709020796::0::1::::<>Area2D<>::
+Trash_gui.gd::GDScript::-1::1709020795::0::1::::<>CanvasLayer<>::
+trash_gui.tscn::PackedScene::6905272757319495064::1709020796::0::1::::<><>::res://Trash_gui.gd
+::res://assets/::1709020795
+::res://assets/Fonts/::1709020795
+SuperMario256.ttf::FontFile::1862433058796546868::1709020795::1709020795::1::::<><>::
+::res://assets/jsonfile/::1709020795
+dialogue1.json::JSON::-1::1709020795::0::1::::<><>::
+dialogue2.json::JSON::-1::1709020795::0::1::::<><>::
+dialogue3.json::JSON::-1::1709020795::0::1::::<><>::
+dialogue4.json::JSON::-1::1709020795::0::1::::<><>::
+dialogue5.json::JSON::-1::1709020795::0::1::::<><>::
+dialogue6.json::JSON::-1::1709020795::0::1::::<><>::
+::res://assets/Scripts/::1709020795
+::res://assets/Scripts/classes/::1709020795
+level.gd::GDScript::-1::1709020795::0::1::::Level<>Node<>::
+level_data.gd::GDScript::-1::1709020795::0::1::::LevelData<>Resource<>::
+::res://assets/Scripts/Managers/::1709020795
+LevelManager.gd::GDScript::-1::1709020795::0::1::::<>Node<>::
+::res://assets/sprites/::1709024945
+428226555_1451687205703566_8200260877154722398_n-removebg-preview.png::CompressedTexture2D::8605845669414436411::1709020795::1709020795::1::::<><>::
+diamond.png::CompressedTexture2D::5706879053948224542::1709024945::1709024949::1::::<><>::
+icon.svg::CompressedTexture2D::4684152969458510619::1709020796::1709020796::1::::<><>::
+info_board.gd::GDScript::-1::1709020796::0::1::::<>Area2D<>::
+info_board.tscn::PackedScene::1839523552952539126::1709020796::0::1::::<><>::res://assets/sprites/info_board.gd<>uid://duu0aydksw8sd::::res://assets/sprites/428226555_1451687205703566_8200260877154722398_n-removebg-preview.png
+textbox.gd::GDScript::-1::1709020796::0::1::::<>MarginContainer<>::
+textbox.tscn::PackedScene::5847396267115651493::1709020796::0::1::::<><>::
+text_box.tscn::PackedScene::7135366826130088474::1709020796::0::1::::<><>::
+tilemap-backgrounds.png::CompressedTexture2D::7134236749465477673::1709020796::1709020796::1::::<><>::
+tilemap-backgrounds_packed.png::CompressedTexture2D::2566485075627793809::1709020796::1709020796::1::::<><>::
+tilemap-characters.png::CompressedTexture2D::5538642276114936424::1709020796::1709020796::1::::<><>::
+tilemap.png::CompressedTexture2D::5611726966882318386::1709020796::1709020796::1::::<><>::
+trash(bio).tscn::PackedScene::3264702805832537338::1709020796::0::1::::<><>::res://trash(bio).gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png<>uid://dddwfsgvec737::::res://assets/sprites/sounds/Bio.wav
+trash(non_bio).tscn::PackedScene::604689560820564067::1709020796::0::1::::<><>::res://trash(non-bio).gd<>uid://dhe6rtpqdklwn::::res://assets/sprites/trash/non-biodegradable/Broken-mug.png<>uid://bcpsjp3ppt6xa::::res://assets/sprites/trash/non-biodegradable/Food-can.png<>uid://gljg4xf0y22x::::res://assets/sprites/trash/non-biodegradable/Paste-container.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://cv32f00vvoqn5::::res://assets/sprites/trash/non-biodegradable/soda-can.png<>uid://bb3x248jhhi1y::::res://assets/sprites/trash/non-biodegradable/Straw.png<>uid://jc0202k88vc1::::res://assets/sprites/trash/non-biodegradable/water-bottle.png<>uid://i7hoebmtjr1s::::res://assets/sprites/sounds/non bio.wav
+::res://assets/sprites/Island-game-gui/::1709020795
+::res://assets/sprites/Island-game-gui/png/::1709020796
+background1.png::CompressedTexture2D::8386647698198411103::1709020795::1709020795::1::::<><>::
+background2.png::CompressedTexture2D::1328025332051335416::1709020795::1709020795::1::::<><>::
+background3.png::CompressedTexture2D::5328593150071312326::1709020795::1709020795::1::::<><>::
+::res://assets/sprites/Island-game-gui/png/buttons/::1709020795
+::res://assets/sprites/Island-game-gui/png/buttons/click/::1709020795
+accept.png::CompressedTexture2D::8084094015230698738::1709020795::1709020795::1::::<><>::
+cancel.png::CompressedTexture2D::432914769839149054::1709020795::1709020795::1::::<><>::
+download.png::CompressedTexture2D::614360393780747548::1709020795::1709020795::1::::<><>::
+help.png::CompressedTexture2D::8343813352826939580::1709020795::1709020795::1::::<><>::
+home.png::CompressedTexture2D::7603016909360872901::1709020795::1709020795::1::::<><>::
+left.png::CompressedTexture2D::3086859022550701415::1709020795::1709020795::1::::<><>::
+long.png::CompressedTexture2D::3264704210226113408::1709020795::1709020795::1::::<><>::
+medium.png::CompressedTexture2D::2167485874389643705::1709020795::1709020795::1::::<><>::
+music.png::CompressedTexture2D::45156726600465051::1709020795::1709020795::1::::<><>::
+play.png::CompressedTexture2D::3407294552397230797::1709020795::1709020795::1::::<><>::
+plus.png::CompressedTexture2D::1267172371798093198::1709020795::1709020795::1::::<><>::
+profile.png::CompressedTexture2D::1770296803453068144::1709020795::1709020795::1::::<><>::
+records.png::CompressedTexture2D::4055614755861092560::1709020795::1709020795::1::::<><>::
+right.png::CompressedTexture2D::6448212264610955013::1709020795::1709020795::1::::<><>::
+round.png::CompressedTexture2D::7506716066142141131::1709020795::1709020795::1::::<><>::
+settings.png::CompressedTexture2D::1017561603251710807::1709020795::1709020795::1::::<><>::
+shop.png::CompressedTexture2D::3411296706455566056::1709020795::1709020795::1::::<><>::
+small.png::CompressedTexture2D::6997004265865009735::1709020795::1709020795::1::::<><>::
+volume.png::CompressedTexture2D::3311229478213137364::1709020795::1709020795::1::::<><>::
+::res://assets/sprites/Island-game-gui/png/buttons/hover/::1709020795
+accept.png::CompressedTexture2D::3830133014104518283::1709020795::1709020795::1::::<><>::
+cancel.png::CompressedTexture2D::749294928277120928::1709020795::1709020795::1::::<><>::
+download.png::CompressedTexture2D::2168363692374878156::1709020795::1709020795::1::::<><>::
+help.png::CompressedTexture2D::4651934284283924791::1709020795::1709020795::1::::<><>::
+home.png::CompressedTexture2D::8178927598878718261::1709020795::1709020795::1::::<><>::
+left.png::CompressedTexture2D::7035098965463592799::1709020795::1709020795::1::::<><>::
+long.png::CompressedTexture2D::7032490472381530825::1709020795::1709020795::1::::<><>::
+medium.png::CompressedTexture2D::1059774297780220741::1709020795::1709020795::1::::<><>::
+music.png::CompressedTexture2D::3011207826237134813::1709020795::1709020795::1::::<><>::
+play.png::CompressedTexture2D::8881651906412581999::1709020795::1709020795::1::::<><>::
+plus.png::CompressedTexture2D::8281250405758865485::1709020795::1709020795::1::::<><>::
+profile.png::CompressedTexture2D::3761569989476519388::1709020795::1709020795::1::::<><>::
+records.png::CompressedTexture2D::1279582857163624020::1709020795::1709020795::1::::<><>::
+right.png::CompressedTexture2D::2890735606455553833::1709020795::1709020795::1::::<><>::
+round.png::CompressedTexture2D::8845828970392832856::1709020795::1709020795::1::::<><>::
+settings.png::CompressedTexture2D::7719364655331943618::1709020795::1709020795::1::::<><>::
+shop.png::CompressedTexture2D::2800725198898997559::1709020795::1709020795::1::::<><>::
+small.png::CompressedTexture2D::797580387730494616::1709020795::1709020795::1::::<><>::
+volume.png::CompressedTexture2D::3503987835957500624::1709020795::1709020795::1::::<><>::
+::res://assets/sprites/Island-game-gui/png/buttons/lock/::1709020795
+accept.png::CompressedTexture2D::3516058332294480533::1709020795::1709020795::1::::<><>::
+cancel.png::CompressedTexture2D::926940212259974360::1709020795::1709020795::1::::<><>::
+download.png::CompressedTexture2D::1514902196884562324::1709020795::1709020795::1::::<><>::
+help.png::CompressedTexture2D::4543252445871673562::1709020795::1709020795::1::::<><>::
+home.png::CompressedTexture2D::8075530741249313405::1709020795::1709020795::1::::<><>::
+left.png::CompressedTexture2D::5423568994017460383::1709020795::1709020795::1::::<><>::
+lock.png::CompressedTexture2D::5867078161528823635::1709020795::1709020795::1::::<><>::
+long.png::CompressedTexture2D::6320013475797593631::1709020795::1709020795::1::::<><>::
+medium.png::CompressedTexture2D::3529224421517544195::1709020795::1709020795::1::::<><>::
+music.png::CompressedTexture2D::2132964430751749033::1709020795::1709020795::1::::<><>::
+play.png::CompressedTexture2D::8219429851727992267::1709020795::1709020795::1::::<><>::
+plus.png::CompressedTexture2D::675272670754564602::1709020795::1709020795::1::::<><>::
+profile.png::CompressedTexture2D::6654923101252739494::1709020795::1709020795::1::::<><>::
+records.png::CompressedTexture2D::4586775084324433018::1709020795::1709020795::1::::<><>::
+right.png::CompressedTexture2D::5083434139309951485::1709020795::1709020795::1::::<><>::
+round.png::CompressedTexture2D::3699090126178255967::1709020795::1709020795::1::::<><>::
+settings.png::CompressedTexture2D::4436694524969295368::1709020795::1709020795::1::::<><>::
+shop.png::CompressedTexture2D::3065177551281902811::1709020795::1709020795::1::::<><>::
+small.png::CompressedTexture2D::8945167068902408541::1709020795::1709020795::1::::<><>::
+volume.png::CompressedTexture2D::3732439674014821060::1709020795::1709020795::1::::<><>::
+::res://assets/sprites/Island-game-gui/png/buttons/normal/::1709020795
+accept.png::CompressedTexture2D::6901897158135326826::1709020795::1709020795::1::::<><>::
+cancel.png::CompressedTexture2D::5885596165400576744::1709020795::1709020795::1::::<><>::
+download.png::CompressedTexture2D::5124868190059930847::1709020795::1709020795::1::::<><>::
+help.png::CompressedTexture2D::7972376677720275898::1709020795::1709020795::1::::<><>::
+home.png::CompressedTexture2D::3386206676998299139::1709020795::1709020795::1::::<><>::
+left.png::CompressedTexture2D::4141866466160687395::1709020795::1709020795::1::::<><>::
+long.png::CompressedTexture2D::4221370800220023551::1709020795::1709020795::1::::<><>::
+medium.png::CompressedTexture2D::7468464930011215082::1709020795::1709020795::1::::<><>::
+music.png::CompressedTexture2D::8867379016209576771::1709020795::1709020795::1::::<><>::
+play.png::CompressedTexture2D::4443997014782541768::1709020795::1709020795::1::::<><>::
+plus.png::CompressedTexture2D::759279227552473629::1709020795::1709020795::1::::<><>::
+profile.png::CompressedTexture2D::6777908174118652170::1709020795::1709020795::1::::<><>::
+records.png::CompressedTexture2D::2170635353148440031::1709020795::1709020795::1::::<><>::
+right.png::CompressedTexture2D::7539451947220566226::1709020795::1709020795::1::::<><>::
+round.png::CompressedTexture2D::3902858725344340193::1709020795::1709020795::1::::<><>::
+settings.png::CompressedTexture2D::4237242413477624184::1709020795::1709020795::1::::<><>::
+shop.png::CompressedTexture2D::6407145434534241761::1709020795::1709020795::1::::<><>::
+small.png::CompressedTexture2D::2855285477279178409::1709020795::1709020795::1::::<><>::
+volume.png::CompressedTexture2D::1815965778189802270::1709020795::1709020795::1::::<><>::
+::res://assets/sprites/Island-game-gui/png/frames/::1709020796
+achievement.png::CompressedTexture2D::4184025434750992519::1709020795::1709020795::1::::<><>::
+health.png::CompressedTexture2D::5460981576774394538::1709020795::1709020795::1::::<><>::
+hi-score.png::CompressedTexture2D::2148851010572914634::1709020796::1709020796::1::::<><>::
+level select.png::CompressedTexture2D::3512549733778057142::1709020796::1709020796::1::::<><>::
+mana.png::CompressedTexture2D::4491834048919883041::1709020796::1709020796::1::::<><>::
+map.png::CompressedTexture2D::3167881452201154405::1709020796::1709020796::1::::<><>::
+money.png::CompressedTexture2D::7168041806047553497::1709020796::1709020796::1::::<><>::
+paused.png::CompressedTexture2D::4086480029754200411::1709020796::1709020796::1::::<><>::
+shield.png::CompressedTexture2D::449305481777133149::1709020796::1709020796::1::::<><>::
+shop.png::CompressedTexture2D::8561377667347746994::1709020796::1709020796::1::::<><>::
+skills.png::CompressedTexture2D::4902179960221005833::1709020796::1709020796::1::::<><>::
+time.png::CompressedTexture2D::3206513082977344073::1709020796::1709020796::1::::<><>::
+tools.png::CompressedTexture2D::4919657348832498039::1709020796::1709020796::1::::<><>::
+upgrades.png::CompressedTexture2D::210812585395552269::1709020796::1709020796::1::::<><>::
+warning.png::CompressedTexture2D::3973876508707645323::1709020796::1709020796::1::::<><>::
+::res://assets/sprites/Island-game-gui/png/headlines/::1709020796
+hi-score.png::CompressedTexture2D::3094681289600768760::1709020796::1709020796::1::::<><>::
+level complete.png::CompressedTexture2D::2191640166996173758::1709020796::1709020796::1::::<><>::
+level select.png::CompressedTexture2D::3098184008103740621::1709020796::1709020796::1::::<><>::
+map.png::CompressedTexture2D::4145356877580453477::1709020796::1709020796::1::::<><>::
+paused.png::CompressedTexture2D::5298829651977958464::1709020796::1709020796::1::::<><>::
+shop.png::CompressedTexture2D::1839850560429447704::1709020796::1709020796::1::::<><>::
+skills.png::CompressedTexture2D::3920244536567844578::1709020796::1709020796::1::::<><>::
+upgrades.png::CompressedTexture2D::4823262008181854240::1709020796::1709020796::1::::<><>::
+warning.png::CompressedTexture2D::8543329433823224739::1709020796::1709020796::1::::<><>::
+::res://assets/sprites/Island-game-gui/png/images/::1709020796
+0 stars.png::CompressedTexture2D::341170153241815253::1709020796::1709020796::1::::<><>::
+1 stars.png::CompressedTexture2D::546008034770160450::1709020796::1709020796::1::::<><>::
+2 stars.png::CompressedTexture2D::2242721972153338088::1709020796::1709020796::1::::<><>::
+3 stars.png::CompressedTexture2D::8959121900854577058::1709020796::1709020796::1::::<><>::
+active page.png::CompressedTexture2D::8144898429062085977::1709020796::1709020796::1::::<><>::
+bronze medal.png::CompressedTexture2D::2377144411783702657::1709020796::1709020796::1::::<><>::
+clock.png::CompressedTexture2D::7866997624185476613::1709020796::1709020796::1::::<><>::
+coin.png::CompressedTexture2D::6709740907546651204::1709020796::1709020796::1::::<><>::
+crystal.png::CompressedTexture2D::4107310274757427288::1709020796::1709020796::1::::<><>::
+down botton map.png::CompressedTexture2D::2582942145089039554::1709020796::1709020796::1::::<><>::
+energy.png::CompressedTexture2D::3006411322928617804::1709020796::1709020796::1::::<><>::
+gold medal.png::CompressedTexture2D::6440399204352826215::1709020796::1709020796::1::::<><>::
+health potion.png::CompressedTexture2D::2382424006185006012::1709020796::1709020796::1::::<><>::
+health.png::CompressedTexture2D::4415196290553928331::1709020796::1709020796::1::::<><>::
+horisontal skrolling map.png::CompressedTexture2D::5032622566230239329::1709020796::1709020796::1::::<><>::
+left botton map.png::CompressedTexture2D::1075071076184325946::1709020796::1709020796::1::::<><>::
+left right botton map.png::CompressedTexture2D::3968996806151217334::1709020796::1709020796::1::::<><>::
+mana potion.png::CompressedTexture2D::5587018585530166404::1709020796::1709020796::1::::<><>::
+mana.png::CompressedTexture2D::5921150780607497091::1709020796::1709020796::1::::<><>::
+map.png::CompressedTexture2D::2676502861821390986::1709020796::1709020796::1::::<><>::
+next page.png::CompressedTexture2D::6252375074286236608::1709020796::1709020796::1::::<><>::
+pointer location2.png::CompressedTexture2D::503966204798267169::1709020796::1709020796::1::::<><>::
+pointer location3.png::CompressedTexture2D::2142983069169113855::1709020796::1709020796::1::::<><>::
+pointer location.png::CompressedTexture2D::6964873712975314777::1709020796::1709020796::1::::<><>::
+profile image.png::CompressedTexture2D::2092821140123083945::1709020796::1709020796::1::::<><>::
+protection potion.png::CompressedTexture2D::4227691871604777151::1709020796::1709020796::1::::<><>::
+right botton map.png::CompressedTexture2D::6364463117448776760::1709020796::1709020796::1::::<><>::
+shield.png::CompressedTexture2D::6561659546204055474::1709020796::1709020796::1::::<><>::
+silver medal.png::CompressedTexture2D::7216347414747992560::1709020796::1709020796::1::::<><>::
+star lock.png::CompressedTexture2D::7759790767445692078::1709020796::1709020796::1::::<><>::
+star.png::CompressedTexture2D::6813610113514726741::1709020796::1709020796::1::::<><>::
+up botton map.png::CompressedTexture2D::751692755338285142::1709020796::1709020796::1::::<><>::
+up down botton map.png::CompressedTexture2D::8847826256608101127::1709020796::1709020796::1::::<><>::
+vertical skrolling map.png::CompressedTexture2D::3340604982052039852::1709020796::1709020796::1::::<><>::
+::res://assets/sprites/npc/::1709020796
+428172642_231197520081299_4361085965134378316_n.png::CompressedTexture2D::4478690692398373549::1709020796::1709020796::1::::<><>::
+NPC 1 New.png::CompressedTexture2D::2415986255075021187::1709020796::1709020796::1::::<><>::
+::res://assets/sprites/obstacles/::1709020796
+Albatross1.png::CompressedTexture2D::8733969810596439495::1709020796::1709020796::1::::<><>::
+angler fish.png::CompressedTexture2D::4025110237968650518::1709020796::1709020796::1::::<><>::
+clam.png::CompressedTexture2D::5730290363446166689::1709020796::1709020796::1::::<><>::
+Dynamite.png::CompressedTexture2D::2369379947219802413::1709020796::1709020796::1::::<><>::
+hermit.png::CompressedTexture2D::3193230502718753557::1709020796::1709020796::1::::<><>::
+iguana.png::CompressedTexture2D::8699350198531842621::1709020796::1709020796::1::::<><>::
+jelly fish.png::CompressedTexture2D::1222461328311482814::1709020796::1709020796::1::::<><>::
+monke.png::CompressedTexture2D::2703237891871354893::1709020796::1709020796::1::::<><>::
+quick-sand.png::CompressedTexture2D::5848352316802281627::1709020796::1709020796::1::::<><>::
+Seagull1-.png::CompressedTexture2D::6053697951278925679::1709020796::1709020796::1::::<><>::
+sidewinder.png::CompressedTexture2D::4523359644508968449::1709020796::1709020796::1::::<><>::
+turtle.png::CompressedTexture2D::4164903697718150893::1709020796::1709020796::1::::<><>::
+::res://assets/sprites/sounds/::1709020796
+Bio.wav::AudioStreamWAV::7377367373714701256::1709020796::1709020796::1::::<><>::
+non bio.wav::AudioStreamWAV::628021069507400450::1709020796::1709020796::1::::<><>::
+::res://assets/sprites/trash/::1709020796
+::res://assets/sprites/trash/biodegradable/::1709020796
+Apple scrap.png::CompressedTexture2D::7935904821714312574::1709020796::1709020796::1::::<><>::
+Banana peel.png::CompressedTexture2D::1735722742957806704::1709020796::1709020796::1::::<><>::
+fish bone.png::CompressedTexture2D::8647207280457834921::1709020796::1709020796::1::::<><>::
+food-box.png::CompressedTexture2D::5378039781336671884::1709020796::1709020796::1::::<><>::
+paperbag.png::CompressedTexture2D::8054320016931846429::1709020796::1709020796::1::::<><>::
+::res://assets/sprites/trash/non-biodegradable/::1709020796
+Broken-mug.png::CompressedTexture2D::7660755074681013861::1709020796::1709020796::1::::<><>::
+Food-can.png::CompressedTexture2D::2558873847102138482::1709020796::1709020796::1::::<><>::
+Paste-container.png::CompressedTexture2D::444399943790396105::1709020796::1709020796::1::::<><>::
+Plastic-bag.png::CompressedTexture2D::6488544142415511838::1709020796::1709020796::1::::<><>::
+soda-can.png::CompressedTexture2D::6306259301359415096::1709020796::1709020796::1::::<><>::
+Straw.png::CompressedTexture2D::2515858386288126388::1709020796::1709020796::1::::<><>::
+water-bottle.png::CompressedTexture2D::637395844798252362::1709020796::1709020796::1::::<><>::
+::res://assets/sprites/Zed/::1709020796
+Aiming.png::CompressedTexture2D::9045192273217196418::1709020796::1709020796::1::::<><>::
+Hurt&Died.png::CompressedTexture2D::3512818068237549557::1709020796::1709020796::1::::<><>::
+Idle.png::CompressedTexture2D::4443761828030364407::1709020796::1709020796::1::::<><>::
+IdleJump.png::CompressedTexture2D::3959717012352766247::1709020796::1709020796::1::::<><>::
+Jumping.png::CompressedTexture2D::9208619613121235401::1709020796::1709020796::1::::<><>::
+Running.png::CompressedTexture2D::2315922082207840050::1709020796::1709020796::1::::<><>::
+Zed.png::CompressedTexture2D::7647525410984058414::1709020796::1709020796::1::::<><>::
+ZedSpriteSheet.png::CompressedTexture2D::4300551840997364558::1709020796::1709020796::1::::<><>::
+::res://scenes/::1709024351
+main.gd::GDScript::-1::1709020796::0::1::::<>Node<>::
+main.tscn::PackedScene::7180208945760728290::1709024351::0::1::::<><>::uid://b124ey87qbsde::::res://scenes/UI/main_menu.tscn<>res://scenes/main.gd<>res://assets/Scripts/classes/level_data.gd
+::res://scenes/entities/::1709024352
+almanac.gd::GDScript::-1::1709020796::0::1::::<>Panel<>::
+CharacterIcon.gd::GDScript::-1::1709020796::0::1::::<>Panel<>::
+ZedCharacterBody2D.gd::GDScript::-1::1709020796::0::1::::Player<>CharacterBody2D<>::
+ZedCharacterBody2D.tscn::PackedScene::3176405888732081454::1709024352::0::1::::<><>::res://scenes/entities/ZedCharacterBody2D.gd<>uid://b2jhpwlunhedq::::res://assets/sprites/Zed/ZedSpriteSheet.png<>uid://c00oa4wqhr7ea::::res://scenes/UI/timer.tscn<>uid://dg7rvj5hs6jxe::::res://assets/sprites/Zed/Zed.png<>res://scenes/entities/almanac.gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://dwo2ha8m3jocd::::res://assets/sprites/obstacles/Albatross1.png<>uid://bxl18ibmn4mwc::::res://assets/sprites/obstacles/angler fish.png<>uid://cnv2bsd3dtv7f::::res://assets/sprites/obstacles/clam.png<>uid://800lu3w47fw4::::res://assets/sprites/obstacles/Dynamite.png<>uid://blq3bmb8t50m0::::res://assets/sprites/obstacles/hermit.png<>uid://dv7ba57rsmfw4::::res://assets/sprites/obstacles/iguana.png<>uid://rof027lyo383::::res://assets/sprites/obstacles/jelly fish.png<>uid://berp6yx1ygwaf::::res://assets/sprites/obstacles/monke.png<>uid://cpk8rjqnwgbsd::::res://assets/sprites/obstacles/quick-sand.png<>uid://b5pfcp1rssw38::::res://assets/sprites/obstacles/sidewinder.png<>uid://b0lrmc3xwboor::::res://assets/sprites/obstacles/turtle.png
+::res://scenes/entities/Obstacles/::1709020796
+danger_zone.gd::GDScript::-1::1709020796::0::1::::<>Area2D<>::
+danger_zone.tscn::PackedScene::3274950460835101613::1709020796::0::1::::<><>::res://scenes/entities/Obstacles/danger_zone.gd
+::res://scenes/levels/::1709024653
+level_01.tscn::PackedScene::5442780259071151399::1709024352::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bmwn7qxo82n5v::::res://scenes/entities/Obstacles/danger_zone.tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://d0q0t12ul7c4m::::res://scenes/levels/jump_to_next_level.tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
+level_02.tscn::PackedScene::7327902421046328835::1709024352::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://assets/Scripts/classes/level.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
+level_03.tscn::PackedScene::8270493552038392990::1709024352::0::1::::<><>::res://assets/Scripts/classes/level.gd<>uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
+jump_to_next_level.tscn::PackedScene::8948566449239915998::1709024653::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://scenes/levels/jump_to_next_level.gd
+jump_to_next_level.gd::GDScript::-1::1709022749::0::1::::<>Area2D<>::
+::res://scenes/UI/::1709020796
+MainMenuBackground.png::CompressedTexture2D::6504987096805597692::1709020796::1709020796::1::::<><>::
+main_menu.gd::GDScript::-1::1709020796::0::1::::MainMenu<>Control<>::
+main_menu.tscn::PackedScene::4268838066621728378::1709020796::0::1::::<><>::res://scenes/UI/main_menu.gd<>uid://cyxcgmjsjy2q7::::res://scenes/UI/MainMenuBackground.png<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
+Timer.gd::GDScript::-1::1709020796::0::1::::<>Control<>::
+timer.tscn::PackedScene::6580023497987114368::1709020796::0::1::::<><>::res://scenes/UI/Timer.gd
