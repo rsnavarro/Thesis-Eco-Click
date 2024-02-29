@@ -1,0 +1,67 @@
+[gd_scene load_steps=4 format=3 uid="uid://cn1ypy52pv6xs"]
+
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="1_wprhf"]
+
+[sub_resource type="GDScript" id="GDScript_d3brx"]
+script/source = "extends Node2D
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	# Connect to the signal emitted by the Control scene
+	$Control.connect(\"timer_expired\", self, \"_on_timer_expired\")
+	pass # Replace with function body.
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	pass
+
+func _on_timer_expired():
+	# Call the show_notification function when the timer expires in the Control scene
+	$Control.show_notification()
+
+func _on_ok_button_pressed():
+	pass # Replace with function body.
+"
+
+[sub_resource type="LabelSettings" id="LabelSettings_f3ag4"]
+line_spacing = 2.0
+font = ExtResource("1_wprhf")
+font_size = 70
+font_color = Color(0.0866334, 0.392124, 0.291047, 1)
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+
+[node name="PopupDialog" type="Node2D"]
+position = Vector2(328, 176)
+script = SubResource("GDScript_d3brx")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -214.5
+offset_top = -163.5
+offset_right = 214.5
+offset_bottom = 163.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 32
+
+[node name="Menu" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_constants/separation = 32
+alignment = 1
+
+[node name="Label" type="Label" parent="MarginContainer/Menu"]
+layout_mode = 2
+text = "Time's up!"
+label_settings = SubResource("LabelSettings_f3ag4")

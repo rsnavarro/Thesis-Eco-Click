@@ -1,3 +1,6 @@
+Button
+Popup
+Label
 Panel
 CollisionShape2D
 Area2D
@@ -7,8 +10,6 @@ AudioStreamPlayer2D
 Sprite2D
 CollisionPolygon2D
 StaticBody2D
-Label
 CheckBox
 TextureRect
 HSlider
-VBoxContainer
