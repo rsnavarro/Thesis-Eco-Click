@@ -1,3 +1,4 @@
+Label
 RichTextLabel
 NinePatchRect
 Control
@@ -8,7 +9,6 @@ Sprite2D
 AnimatedSprite2D
 Button
 Popup
-Label
 Panel
 AnimationPlayer
 Panel

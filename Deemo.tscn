@@ -22,6 +22,15 @@ shape = SubResource("RectangleShape2D_1r8hd")
 
 [node name="Dialogue" parent="." instance=ExtResource("3_ocq4x")]
 
+[node name="Label" type="Label" parent="."]
+offset_left = -341.046
+offset_top = -1052.8
+offset_right = -273.046
+offset_bottom = -1029.8
+scale = Vector2(10, 10)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "PRESS 'E'"
+
 [connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
 [connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
