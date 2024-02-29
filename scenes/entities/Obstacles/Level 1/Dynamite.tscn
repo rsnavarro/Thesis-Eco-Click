@@ -54,17 +54,17 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wkggs"]
-size = Vector2(24, 48)
+size = Vector2(24, 32)
 
 [node name="Dynamite" type="Area2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -8)
-scale = Vector2(0.177424, 0.183255)
+position = Vector2(-6.6733, -6.89262)
+scale = Vector2(0.115511, 0.119308)
 sprite_frames = SubResource("SpriteFrames_bw3q0")
 animation = &"Dynamite"
 autoplay = "Dynamite"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(4, -8)
+position = Vector2(-4, -8)
 shape = SubResource("RectangleShape2D_wkggs")

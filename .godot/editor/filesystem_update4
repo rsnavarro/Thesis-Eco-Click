@@ -1,20 +1,8 @@
-res://scenes/entities/Obstacles/Level 1/Dynamite.tscn
-res://scenes/levels/level_01.tscn
 res://scenes/main.tscn
+res://scenes/levels/level_01.tscn
 res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/entities/Obstacles/danger_zone.tscn
 res://scenes/entities/Obstacles/danger_zone_2.tscn
-res://scenes/entities/Obstacles/Level 1/Hermit_crab.tscn
-res://scenes/entities/Obstacles/Level 1/Seagull.tscn
-res://scenes/entities/Obstacles/Level 1/Snake.tscn
-res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn
-res://scenes/entities/Obstacles/Level 1/Clam.tscn
-res://scenes/entities/Obstacles/Level 1/Jellyfish.tscn
-res://scenes/entities/Obstacles/Level 2/Jellyfish.tscn
-res://scenes/entities/Obstacles/Level 2/Turtle.tscn
-res://scenes/entities/Obstacles/Level 3/Albatross.tscn
-res://scenes/entities/Obstacles/Level 3/Iguana.tscn
-res://scenes/entities/Obstacles/Level 3/Monkey.tscn
-res://scenes/entities/Obstacles/Level 3/Quicksand.tscn
+res://scenes/entities/Obstacles/Level 1/Dynamite.tscn

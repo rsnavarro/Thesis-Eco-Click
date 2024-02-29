@@ -738,7 +738,7 @@ position = Vector2(29.8994, -0.09375)
 position = Vector2(-30, 0)
 
 [node name="Dynamite" parent="." instance=ExtResource("7_k3lft")]
-position = Vector2(1208, 517)
+position = Vector2(1216, 523)
 
 [node name="trash" type="Node" parent="."]
 
