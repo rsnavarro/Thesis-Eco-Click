@@ -1,0 +1,51 @@
+[gd_scene load_steps=10 format=3 uid="uid://wqmdwbea20fl"]
+
+[ext_resource type="Texture2D" uid="uid://db7gfmvi6shrp" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle1.png" id="1_2xsda"]
+[ext_resource type="Texture2D" uid="uid://ckmfp3bkauu1i" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle2.png" id="2_sswox"]
+[ext_resource type="Texture2D" uid="uid://lwwe6y2jnihc" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle3.png" id="3_2cmk5"]
+[ext_resource type="Texture2D" uid="uid://bk0cq5lfkxjf7" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle4.png" id="4_0cx73"]
+[ext_resource type="Texture2D" uid="uid://dofnoou7x4ehh" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle5.png" id="5_rek5f"]
+[ext_resource type="Texture2D" uid="uid://tbj8s6en08e" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle6.png" id="6_rqfk4"]
+[ext_resource type="Texture2D" uid="uid://bdp8c3e5llhxs" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle7.png" id="7_u0m0q"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wyvhk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_2xsda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_sswox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2cmk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0cx73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_rek5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rqfk4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_u0m0q")
+}],
+"loop": true,
+"name": &"Turtle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oi3is"]
+size = Vector2(32, 20)
+
+[node name="Turtle" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_wyvhk")
+animation = &"Turtle"
+autoplay = "Turtle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_oi3is")

@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://b101f21qvxoh4"]
+
+[ext_resource type="Texture2D" uid="uid://cyv6yapm3nc6i" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Clam1.png" id="1_83tne"]
+[ext_resource type="Texture2D" uid="uid://cetjptuxjm7tx" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Clam2.png" id="2_vtopy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b5ykv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_83tne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_vtopy")
+}],
+"loop": true,
+"name": &"Clam",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tfj6j"]
+radius = 32.0
+
+[node name="Clam" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.16, 0.16)
+sprite_frames = SubResource("SpriteFrames_b5ykv")
+animation = &"Clam"
+autoplay = "Clam"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_tfj6j")

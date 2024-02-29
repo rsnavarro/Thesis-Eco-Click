@@ -1,0 +1,51 @@
+[gd_scene load_steps=9 format=3 uid="uid://cxiqqwogebkcn"]
+
+[ext_resource type="Texture2D" uid="uid://dh1iqe7e5xjfh" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 1.png" id="1_jl848"]
+[ext_resource type="Texture2D" uid="uid://ds64e1cywvgoh" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 2.png" id="2_amroj"]
+[ext_resource type="Texture2D" uid="uid://847j3vx4g0yg" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 3.png" id="3_cv314"]
+[ext_resource type="Texture2D" uid="uid://dj25pal0fgly4" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 4.png" id="4_k737s"]
+[ext_resource type="Texture2D" uid="uid://dcou3i6r1c2v3" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 5.png" id="5_aqfbi"]
+[ext_resource type="Texture2D" uid="uid://dj7gk4t2ifiv" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 6.png" id="6_j3fpc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_iltea"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jl848")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_amroj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cv314")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_k737s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_aqfbi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_j3fpc")
+}],
+"loop": true,
+"name": &"Seagull",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3iuly"]
+size = Vector2(286.567, 214.925)
+
+[node name="Seagull" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1.5, -1.5)
+scale = Vector2(0.223333, 0.223333)
+sprite_frames = SubResource("SpriteFrames_iltea")
+animation = &"Seagull"
+autoplay = "Seagull"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.90735e-06, 9.53674e-07)
+scale = Vector2(0.223333, 0.223333)
+shape = SubResource("RectangleShape2D_3iuly")

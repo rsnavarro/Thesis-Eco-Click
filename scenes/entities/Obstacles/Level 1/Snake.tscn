@@ -1,0 +1,53 @@
+[gd_scene load_steps=10 format=3 uid="uid://b1nukrwl4tuwy"]
+
+[ext_resource type="Texture2D" uid="uid://v5xli01ssptj" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 1.png" id="1_d08d8"]
+[ext_resource type="Texture2D" uid="uid://datlqyesknhnl" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 2.png" id="2_y01hc"]
+[ext_resource type="Texture2D" uid="uid://binhy4kqf4c6w" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 3.png" id="3_w0x8n"]
+[ext_resource type="Texture2D" uid="uid://dvgrikwsdw15e" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 4.png" id="4_p4qv8"]
+[ext_resource type="Texture2D" uid="uid://duiodb01t6emy" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 5.png" id="5_xrd57"]
+[ext_resource type="Texture2D" uid="uid://ca4fgrnfiftrl" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 6.png" id="6_u65cg"]
+[ext_resource type="Texture2D" uid="uid://bjk3oair1i8ib" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 7.png" id="7_bcnpd"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yua38"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_d08d8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_y01hc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_w0x8n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_p4qv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xrd57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_u65cg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bcnpd")
+}],
+"loop": true,
+"name": &"Snake",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gkh7y"]
+size = Vector2(48, 56)
+
+[node name="Snake" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.21, 0.21)
+sprite_frames = SubResource("SpriteFrames_yua38")
+animation = &"Snake"
+autoplay = "Snake"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_gkh7y")

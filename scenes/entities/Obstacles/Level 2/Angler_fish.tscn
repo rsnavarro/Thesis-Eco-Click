@@ -1,0 +1,56 @@
+[gd_scene load_steps=11 format=3 uid="uid://bitfy73pvovh4"]
+
+[ext_resource type="Texture2D" uid="uid://diavun2t833al" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler1.png" id="1_6xriw"]
+[ext_resource type="Texture2D" uid="uid://bhy5sqpc6gflr" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler2.png" id="2_8pu5n"]
+[ext_resource type="Texture2D" uid="uid://db7breynt6jhx" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler3.png" id="3_yicm7"]
+[ext_resource type="Texture2D" uid="uid://bdrukmxy4y1ae" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler4.png" id="4_5lvat"]
+[ext_resource type="Texture2D" uid="uid://dpfnb2fu53d4h" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler5.png" id="5_2edt5"]
+[ext_resource type="Texture2D" uid="uid://13bocduq0xqw" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler6.png" id="6_704rn"]
+[ext_resource type="Texture2D" uid="uid://dh5nsucv3hbdn" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler7.png" id="7_l53uy"]
+[ext_resource type="Texture2D" uid="uid://cb270veefd67u" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler8.png" id="8_3aco0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ygidp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_6xriw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8pu5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_yicm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5lvat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_2edt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_704rn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_l53uy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_3aco0")
+}],
+"loop": true,
+"name": &"Angler",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v0wd2"]
+size = Vector2(32, 18)
+
+[node name="Angler Fish" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ygidp")
+animation = &"Angler"
+autoplay = "Angler"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_v0wd2")

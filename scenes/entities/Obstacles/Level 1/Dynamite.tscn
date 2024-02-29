@@ -1,0 +1,70 @@
+[gd_scene load_steps=14 format=3 uid="uid://cykdd6bancfg1"]
+
+[ext_resource type="Texture2D" uid="uid://dc00gqcfu3ia4" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Dynamite 1.png" id="1_7vrys"]
+[ext_resource type="Texture2D" uid="uid://1tbmog7t1oc3" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Dynamite 2.png" id="2_pmeog"]
+[ext_resource type="Texture2D" uid="uid://cemq1vlxpyq10" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Dynamite 3.png" id="3_ixlwu"]
+[ext_resource type="Texture2D" uid="uid://6x0tiapy8y3f" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 1.png" id="4_6w03y"]
+[ext_resource type="Texture2D" uid="uid://juoikac2ldmc" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 2.png" id="5_hhsbg"]
+[ext_resource type="Texture2D" uid="uid://bvfqn008cgmdl" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 3.png" id="6_jck37"]
+[ext_resource type="Texture2D" uid="uid://dnnsty8a2c3x8" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 4.png" id="7_hrg2a"]
+[ext_resource type="Texture2D" uid="uid://tsclopgj4pts" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 5.png" id="8_7mm5i"]
+[ext_resource type="Texture2D" uid="uid://ov2vmxo7qdvs" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 6.png" id="9_ld2iu"]
+[ext_resource type="Texture2D" uid="uid://1w81qc5rb33v" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 7.png" id="10_f00e2"]
+[ext_resource type="Texture2D" uid="uid://bwlskep0vutsx" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 8.png" id="11_a3ole"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bw3q0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_7vrys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pmeog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ixlwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6w03y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_hhsbg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jck37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_hrg2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7mm5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ld2iu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_f00e2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_a3ole")
+}],
+"loop": true,
+"name": &"Dynamite",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wkggs"]
+size = Vector2(24, 48)
+
+[node name="Dynamite" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -8)
+scale = Vector2(0.177424, 0.183255)
+sprite_frames = SubResource("SpriteFrames_bw3q0")
+animation = &"Dynamite"
+autoplay = "Dynamite"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(4, -8)
+shape = SubResource("RectangleShape2D_wkggs")

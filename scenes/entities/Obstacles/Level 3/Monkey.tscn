@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://nm2i6no1v43k"]
+
+[ext_resource type="Texture2D" uid="uid://cpuynv8eeup03" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Monkey1.png" id="1_sqlnd"]
+[ext_resource type="Texture2D" uid="uid://blmwgfv6v7weu" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Monkey2.png" id="2_xhtq8"]
+[ext_resource type="Texture2D" uid="uid://bxo64toxrut0x" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Monkey3.png" id="3_onikr"]
+[ext_resource type="Texture2D" uid="uid://t2woi5lrq1kc" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Monkey4.png" id="4_hv62s"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dte0y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_sqlnd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_xhtq8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_onikr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hv62s")
+}],
+"loop": true,
+"name": &"Monkey",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_laeao"]
+radius = 16.0
+height = 48.0
+
+[node name="Monkey" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.141, 0.141)
+sprite_frames = SubResource("SpriteFrames_dte0y")
+animation = &"Monkey"
+autoplay = "Monkey"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 8)
+shape = SubResource("CapsuleShape2D_laeao")

@@ -1,0 +1,84 @@
+[gd_scene load_steps=18 format=3 uid="uid://bis2l2u1lonsr"]
+
+[ext_resource type="Texture2D" uid="uid://c0e4ewidrx6x4" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly1.png" id="1_16uab"]
+[ext_resource type="Texture2D" uid="uid://dlf2vglmlk0fe" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly2.png" id="2_sumn4"]
+[ext_resource type="Texture2D" uid="uid://csvjqtde5fl6h" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly3.png" id="3_g6dlx"]
+[ext_resource type="Texture2D" uid="uid://dukfl3750kehi" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly4.png" id="4_5g207"]
+[ext_resource type="Texture2D" uid="uid://b0evqyhtthrp3" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly5.png" id="5_3supf"]
+[ext_resource type="Texture2D" uid="uid://cquij7ksmdgg5" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly6.png" id="6_8nnpv"]
+[ext_resource type="Texture2D" uid="uid://cca6x6bxpdw6v" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly7.png" id="7_5msfr"]
+[ext_resource type="Texture2D" uid="uid://chtl0yw4ovq7y" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly8.png" id="8_hno55"]
+[ext_resource type="Texture2D" uid="uid://buvkessnestit" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly9.png" id="9_vrvdx"]
+[ext_resource type="Texture2D" uid="uid://h3gih8un645p" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly10.png" id="10_wknxv"]
+[ext_resource type="Texture2D" uid="uid://datp81x0ts0tm" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly11.png" id="11_qei5a"]
+[ext_resource type="Texture2D" uid="uid://qlh2t7adj7ly" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly12.png" id="12_oddnh"]
+[ext_resource type="Texture2D" uid="uid://6qxhyucfhik8" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly13.png" id="13_nwbc6"]
+[ext_resource type="Texture2D" uid="uid://c0tvtet54yoj6" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly14.png" id="14_v82r2"]
+[ext_resource type="Texture2D" uid="uid://cbf3xxg7g2tbe" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly15.png" id="15_ti7fy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xg505"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_16uab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_sumn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_g6dlx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5g207")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3supf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8nnpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_5msfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_hno55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vrvdx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wknxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qei5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_oddnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nwbc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_v82r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ti7fy")
+}],
+"loop": true,
+"name": &"Jellyfish",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q1wif"]
+size = Vector2(16, 26)
+
+[node name="Jellyfish" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_xg505")
+animation = &"Jellyfish"
+autoplay = "Jellyfish"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 3)
+shape = SubResource("RectangleShape2D_q1wif")
