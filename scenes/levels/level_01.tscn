@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://cjsr2b15elmp8"]
+[gd_scene load_steps=18 format=3 uid="uid://cjsr2b15elmp8"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_5oq2w"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_yrc35"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level.tscn" id="6_hhjwk"]
 [ext_resource type="PackedScene" uid="uid://cykdd6bancfg1" path="res://scenes/entities/Obstacles/Level 1/Dynamite.tscn" id="7_k3lft"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="8_0wcaw"]
+[ext_resource type="PackedScene" uid="uid://bhvs2h28yphql" path="res://Deemo.tscn" id="10_7ofnb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x80as"]
 texture = ExtResource("1_5oq2w")
@@ -747,6 +748,10 @@ position = Vector2(1370, 381)
 
 [node name="trash(bio)" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(1054, 509)
+
+[node name="Sprite2D" parent="trash/trash(bio)" instance=ExtResource("10_7ofnb")]
+position = Vector2(-310, -189)
+scale = Vector2(0.0346668, 0.0355927)
 
 [node name="trash(bio)2" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(4902, 248)

@@ -1,10 +1,12 @@
+res://
+res://assets/sprites/Island-game-gui/png/frames
+res://assets/sprites/npc
 res://scenes/entities/Obstacles/Level 3
 res://scenes/entities/Obstacles/Level 2
 res://scenes/entities/Obstacles/Level 1
 res://scenes/entities/Obstacles
 res://scenes/levels
 res://assets/Fonts
-res://
 D:/godot/Thesis-Eco-Click
 res://scenes/UI
 res://assets/sprites/obstacles
@@ -13,6 +15,5 @@ res://assets/sprites/trash/non-biodegradable
 res://assets/sprites/trash/biodegradable
 res://assets/sprites
 res://scenes
-res://assets/sprites/npc
 res://assets/Scripts/Managers
 res://scenes/entities

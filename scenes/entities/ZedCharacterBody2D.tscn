@@ -106,6 +106,7 @@ border_width_bottom = 4
 border_color = Color(0.32549, 0.4, 0.0666667, 1)
 
 [node name="ZedCharacterBody2D" type="CharacterBody2D" groups=["Player"]]
+z_index = 1
 collision_layer = 11
 collision_mask = 7
 script = ExtResource("1_fpeou")
