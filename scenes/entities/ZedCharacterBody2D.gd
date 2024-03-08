@@ -14,13 +14,17 @@ var double_jump_timer : float = 0.0
 var num_jumps : int = 0
 var can_control : bool = true
 
+
 @onready var sprite_2d = $Sprite2D
 @onready var animation_player = $AnimationPlayer
+
+func _ready():
+	pass
 
 func _physics_process(delta):
 	if not can_control: return
 	
-	# Add the gravity.
+	# Gravity.
 	if not is_on_floor():
 		velocity.y += gravity * delta
 
@@ -37,7 +41,6 @@ func _physics_process(delta):
 			double_jump_timer = 0.0
 
 	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction = Input.get_axis("move_left", "move_right")
 	if direction:
 		velocity.x = direction * speed
@@ -49,7 +52,6 @@ func _physics_process(delta):
 		sprite_2d.flip_h = direction < 0
 	
 	handle_animations(direction)
-	
 	move_and_slide()
 
 func handle_animations(direction : float) -> void:
@@ -65,7 +67,7 @@ func _process(delta):
 		double_jump_timer += delta
 		if double_jump_timer > coyote_time:
 			can_double_jump = true
- 
+	
 
 func handle_danger() -> void:
 	print("Player Died!")
@@ -81,3 +83,6 @@ func reset_player() -> void:
 
 	visible = true
 	can_control = true
+
+#func _on_game_over():
+	#handle_danger()

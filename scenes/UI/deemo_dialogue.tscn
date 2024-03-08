@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3w514y6rsmb2"]
+
+[ext_resource type="Script" path="res://scenes/UI/deemo_dialogue.gd" id="1_6nj5w"]
+[ext_resource type="Texture2D" uid="uid://bqbrgffddvex7" path="res://assets/sprites/Island-game-gui/png/frames/level select.png" id="1_bghph"]
+
+[node name="Dialogue" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6nj5w")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = -2336.0
+offset_top = -3552.0
+offset_right = -2102.0
+offset_bottom = -3439.0
+scale = Vector2(20, 20)
+texture = ExtResource("1_bghph")
+patch_margin_left = 3
+patch_margin_top = 3
+patch_margin_right = 3
+patch_margin_bottom = 3
+metadata/_edit_group_ = true
+
+[node name="Name" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 6.0
+offset_right = 97.0
+offset_bottom = 29.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "Name:"
+
+[node name="Text" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 28.0
+offset_right = 322.0
+offset_bottom = 139.0
+scale = Vector2(0.65, 0.65)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "Chatting..."

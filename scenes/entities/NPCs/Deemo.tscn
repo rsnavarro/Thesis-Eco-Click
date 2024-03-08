@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3 uid="uid://b3euf7aqy7dev"]
+
+[ext_resource type="Texture2D" uid="uid://djlobd5sckhbs" path="res://assets/sprites/npc/Deemo 1.png" id="1_ejbuy"]
+[ext_resource type="Script" path="res://scenes/entities/NPCs/Deemo.gd" id="2_3o0e3"]
+[ext_resource type="PackedScene" uid="uid://b3w514y6rsmb2" path="res://scenes/UI/deemo_dialogue.tscn" id="3_87cqn"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_b11jj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_80frx"]
+size = Vector2(2370.37, 1777.78)
+
+[sub_resource type="LabelSettings" id="LabelSettings_be5v4"]
+font = ExtResource("3_b11jj")
+font_size = 280
+font_color = Color(0, 0, 0, 1)
+outline_size = 45
+
+[node name="Deemo" type="Sprite2D"]
+scale = Vector2(0.135, 0.135)
+texture = ExtResource("1_ejbuy")
+flip_h = true
+script = ExtResource("2_3o0e3")
+
+[node name="chat_detection_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection_area"]
+position = Vector2(-711.111, 2.11928e-05)
+shape = SubResource("RectangleShape2D_80frx")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Dialogue" parent="." instance=ExtResource("3_87cqn")]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -592.593
+offset_top = -1162.96
+offset_right = 643.407
+offset_bottom = -882.962
+text = "Press E"
+label_settings = SubResource("LabelSettings_be5v4")
+
+[connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
+[connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="dialogue_finished" from="Dialogue" to="." method="_on_dialogue_dialogue_finished"]

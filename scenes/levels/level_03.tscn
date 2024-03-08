@@ -721,6 +721,12 @@ layer_0/tile_data = PackedInt32Array(262143, 0, 1, 196608, 0, 1, 196609, 131072,
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_et5bs")]
 position = Vector2(-9, 211)
 
+[node name="Timer1" parent="ZedCharacterBody2D/CharacterIcon" index="2"]
+visible = false
+
+[node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="3"]
+visible = false
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
@@ -905,4 +911,6 @@ vertical_alignment = 1
 
 [node name="Trash_gui" parent="." instance=ExtResource("7_cpaop")]
 
+[editable path="ZedCharacterBody2D"]
+[editable path="ZedCharacterBody2D/CharacterIcon/Timer"]
 [editable path="JumpToNextLevel"]

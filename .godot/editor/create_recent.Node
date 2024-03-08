@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 Label
 RichTextLabel
 NinePatchRect
@@ -12,3 +13,19 @@ Popup
 Panel
 AnimationPlayer
 Panel
+=======
+RichTextLabel
+NinePatchRect
+Label
+Control
+Timer
+CollisionShape2D
+Area2D
+Sprite2D
+TextureRect
+ColorRect
+Window
+MarginContainer
+Button
+AnimatedSprite2D
+>>>>>>> Stashed changes

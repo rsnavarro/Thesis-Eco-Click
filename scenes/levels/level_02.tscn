@@ -998,6 +998,12 @@ offset_bottom = 630.0
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_ktdu4")]
 position = Vector2(-62, 291)
 
+[node name="Timer1" parent="ZedCharacterBody2D/CharacterIcon" index="2"]
+visible = false
+
+[node name="Timer3" parent="ZedCharacterBody2D/CharacterIcon" index="4"]
+visible = false
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
@@ -1173,4 +1179,6 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
+[editable path="ZedCharacterBody2D"]
+[editable path="ZedCharacterBody2D/CharacterIcon/Timer"]
 [editable path="JumpToNextLevel"]

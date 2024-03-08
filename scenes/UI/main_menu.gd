@@ -7,7 +7,6 @@ extends Control
 
 
 
-
 func _on_play_button_pressed():
 	LevelManager.load_level(1)
 	deactivate()
