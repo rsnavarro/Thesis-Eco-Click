@@ -1,24 +1,24 @@
 {
-    "dialogue": [
-        {
-            "speaker": "Zed",
-            "line": "I didn’t expect that we will discover an island far in the mainland."
-        },
-        {
-            "speaker": "Deemo",
-            "line": "But even though it is very far, human garbage finds its way in."
-        },
-        {
-            "speaker": "Zed",
-            "line": "Yes, you are right. Garbage is a problem in any part of the world."
-        },
-        {
-            "speaker": "Deemo",
-            "line": "Hey Zed! There seems to be a person there. It seems we are not alone on this island."
-        },
-        {
-            "speaker": "Zed",
-            "line": "Come, let's go to her."
-        }
-    ]
+	"dialogue": [
+		{
+			"name": "Zed",
+			"text": "I didn’t expect that we will discover an island far in the mainland."
+		},
+		{
+			"name": "Deemo",
+			"text": "But even though it is very far, human garbage finds its way in."
+		},
+		{
+			"name": "Zed",
+			"text": "Yes, you are right. Garbage is a problem in any part of the world."
+		},
+		{
+			"name": "Deemo",
+			"text": "Hey Zed! There seems to be a person there. It seems we are not alone on this island."
+		},
+		{
+			"name": "Zed",
+			"text": "Come, let's go to her."
+		}
+	]
 }

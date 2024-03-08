@@ -1,31 +1,14 @@
-<<<<<<< Updated upstream
-Label
 RichTextLabel
 NinePatchRect
-Control
+Timer
 CollisionShape2D
 Area2D
-Timer
 Sprite2D
+Label
+Control
 AnimatedSprite2D
 Button
 Popup
 Panel
 AnimationPlayer
 Panel
-=======
-RichTextLabel
-NinePatchRect
-Label
-Control
-Timer
-CollisionShape2D
-Area2D
-Sprite2D
-TextureRect
-ColorRect
-Window
-MarginContainer
-Button
-AnimatedSprite2D
->>>>>>> Stashed changes

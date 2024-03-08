@@ -5,3 +5,15 @@ res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/UI/game_over.tscn
+res://dialogue.tscn
+res://assets/jsonfile/dialogue2.json
+res://assets/jsonfile/dialogue3.json
+res://assets/jsonfile/dialogue4.json
+res://assets/jsonfile/dialogue5.json
+res://assets/jsonfile/dialogue6.json
+res://Deemo.tscn
+res://npc1.tscn
+res://npc1.gd
+res://dialogue1.tscn
+res://dialogueplayer.gd
+res://dialogueplayer1.gd

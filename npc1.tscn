@@ -1,53 +1,26 @@
 [gd_scene load_steps=5 format=3 uid="uid://borcqx0f6v0qw"]
 
-[ext_resource type="Texture2D" uid="uid://b42rm736vn1i4" path="res://assets/sprites/npc/428172642_231197520081299_4361085965134378316_n.png" id="1_yecxj"]
+[ext_resource type="Texture2D" uid="uid://baok68m7seml4" path="res://assets/sprites/npc/NPC 1 New.png" id="1_e1qcg"]
+[ext_resource type="Script" path="res://npc1.gd" id="2_dddk7"]
+[ext_resource type="PackedScene" uid="uid://bagobkhvrh8kh" path="res://dialogue1.tscn" id="3_rj1lq"]
 
-[sub_resource type="Animation" id="Animation_qtmuv"]
-resource_name = "idle animation"
-length = 0.6
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("npc1:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.3, 0.4),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 1,
-"values": [0, 0, 2, 3]
-}
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qlj2p"]
+size = Vector2(813.987, 944.49)
 
-[sub_resource type="Animation" id="Animation_m8wyx"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("npc1:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [0]
-}
+[node name="npc1" type="Sprite2D"]
+position = Vector2(-7, -4)
+scale = Vector2(0.452096, 0.452096)
+texture = ExtResource("1_e1qcg")
+hframes = 3
+script = ExtResource("2_dddk7")
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_i4bbn"]
-_data = {
-"RESET": SubResource("Animation_m8wyx"),
-"idle animation": SubResource("Animation_qtmuv")
-}
+[node name="chat_detection_area" type="Area2D" parent="."]
 
-[node name="Node2D" type="Node2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection_area"]
+position = Vector2(-33.1788, -48.6623)
+shape = SubResource("RectangleShape2D_qlj2p")
 
-[node name="npc1" type="Sprite2D" parent="."]
-position = Vector2(295, 175)
-texture = ExtResource("1_yecxj")
-hframes = 4
+[node name="Timer" type="Timer" parent="."]
+autostart = true
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_i4bbn")
-}
-autoplay = "idle animation"
+[node name="Dialogue1" parent="." instance=ExtResource("3_rj1lq")]

@@ -1,24 +1,24 @@
 {
-    "dialogue": [
-        {
-            "speaker": "Zed",
-            "line": "We finally got 1 out 3 missing parts of the ship. Maybe we can find the 2nd one in underwater."
-        },
-        {
-            "speaker": "Deemo",
-            "line": "It is a very high chance that some parts landed deep in the sea."
-        },
-        {
-            "speaker": "Zed",
-            "line": "Thanks to your gadgets, going underwater is not a problem. Thank you for this."
-        },
-        {
-            "speaker": "Deemo",
-            "line": "You're welcome. Now we should continue our search."
-        },
-        {
-            "speaker": "Zed",
-            "line": "Ok let’s go!"
-        }
-    ]
+	"dialogue": [
+		{
+			"name": "Zed",
+			"text": "We finally got 1 out 3 missing parts of the ship. Maybe we can find the 2nd one in underwater."
+		},
+		{
+			"name": "Deemo",
+			"text": "It is a very high chance that some parts landed deep in the sea."
+		},
+		{
+			"name": "Zed",
+			"text": "Thanks to your gadgets, going underwater is not a problem. Thank you for this."
+		},
+		{
+			"name": "Deemo",
+			"text": "You're welcome. Now we should continue our search."
+		},
+		{
+			"name": "Zed",
+			"text": "Ok let’s go!"
+		}
+	]
 }

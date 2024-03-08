@@ -1,64 +1,63 @@
-{
-    "dialogue": [
-        {
-            "speaker": "Professor Finn",
-            "line": "What a convenient device you have!"
-        },
-        {
-            "speaker": "Zed",
-            "line": "Yes, this device can collect garbage like a magnet."
-        },
-        {
-            "speaker": "Professor Finn",
-            "line": "Finally, someone saves the sea from the devastating effect of the garbage in the sea."
-        },
-        {
-            "speaker": "Zed",
-            "line": "I also think that. But sorry, we are in a little hurry as we have to find parts of the ship of my partner."
-        },
-        {
-            "speaker": "Deemo",
-            "line": "Wait Zed! He might have a clue of where we might find some parts."
-        },
-        {
-            "speaker": "Zed",
-            "line": "Ahhhhh! You are right."
-        },
-        {
-            "speaker": "Deemo",
-            "line": "Mister, did you see any object that is like part of a spaceship?"
-        },
-        {
-            "speaker": "Professor Finn",
-            "line": "I don’t have a problem giving you information, but can you do some favor for me? Can you two collect '25' Garbage for me."
-        },
-        {
-            "speaker": "Zed",
-            "line": "No problem. So did you see any object that is like part of a spaceship?"
-        },
-        {
-            "speaker": "Professor Finn",
-            "line": "Nothing in particular, but I did see a beautiful meteor shower falling in the sky."
-        },
-        {
-            "speaker": "Deemo",
-            "line": "Can you tell me the trajectory of the meteors?"
-        },
-        {
-            "speaker": "Professor Finn",
-            "line": "If you keep traversing this path, you might eventually find the crash point of one meteor. But for the others, I am not sure."
-        },
-        {
-            "speaker": "Zed",
-            "line": "We finally have a lead."
-        },
-        {
-            "speaker": "Deemo",
-            "line": "Thank you for the information."
-        },
-        {
-            "speaker": "Professor Finn",
-            "line": "Godspeed."
-        }
-    ]
-}
+[
+		{
+			"name": "Professor Finn",
+			"text": "What a convenient device you have!"
+		},
+		{
+			"name": "Zed",
+			"text": "Yes, this device can collect garbage like a magnet."
+		},
+		{
+			"name": "Professor Finn",
+			"text": "Finally, someone saves the sea from the devastating effect of the garbage in the sea."
+		},
+		{
+			"name": "Zed",
+			"text": "I also think that. But sorry, we are in a little hurry as we have to find parts of the ship of my partner."
+		},
+		{
+			"name": "Deemo",
+			"text": "Wait Zed! He might have a clue of where we might find some parts."
+		},
+		{
+			"name": "Zed",
+			"text": "Ahhhhh! You are right."
+		},
+		{
+			"name": "Deemo",
+			"text": "Mister, did you see any object that is like part of a spaceship?"
+		},
+		{
+			"name": "Professor Finn",
+			"text": "I don’t have a problem giving you information, but can you do some favor for me? Can you two collect '25' Garbage for me."
+		},
+		{
+			"name": "Zed",
+			"text": "No problem. So did you see any object that is like part of a spaceship?"
+		},
+		{
+			"name": "Professor Finn",
+			"text": "Nothing in particular, but I did see a beautiful meteor shower falling in the sky."
+		},
+		{
+			"name": "Deemo:",
+			"text": "Can you tell me the trajectory of the meteors?"
+		},
+		{
+			"name": "Professor Finn",
+			"text": "If you keep traversing this path, you might eventually find the crash point of one meteor. But for the others, I am not sure."
+		},
+		{
+			"name": "Zed",
+			"text": "We finally have a lead."
+		},
+		{
+			"name": "Deemo",
+			"text": "Thank you for the information."
+		},
+		{
+			"name": "Professor Finn",
+			"text": "Godspeed."
+		}
+	]
+

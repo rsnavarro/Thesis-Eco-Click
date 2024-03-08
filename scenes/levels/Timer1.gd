@@ -1,6 +1,6 @@
 extends Control
 
-var max_time : float = 3.0
+var max_time : float = 300.0
 var time : float = max_time
 var minutes : int = 0
 var seconds : int = 0

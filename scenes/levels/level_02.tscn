@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://dcnxqnqsklsd4"]
+[gd_scene load_steps=17 format=3 uid="uid://dcnxqnqsklsd4"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_ffniy"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_tlyin"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="5_b4x1l"]
 [ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level.tscn" id="5_lcyxt"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_p84ee"]
+[ext_resource type="PackedScene" uid="uid://borcqx0f6v0qw" path="res://npc1.tscn" id="9_rkbcl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bd5jb"]
 texture = ExtResource("1_ffniy")
@@ -1178,6 +1179,10 @@ text = "Phytoplankton in the ocean produce more
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
+
+[node name="npc1" parent="." instance=ExtResource("9_rkbcl")]
+position = Vector2(2026, 368)
+scale = Vector2(0.0653236, 0.0627738)
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]

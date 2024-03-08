@@ -1,12 +1,11 @@
-<<<<<<< Updated upstream
-res://
 res://assets/sprites/Island-game-gui/png/frames
+res://
 res://assets/sprites/npc
+<<<<<<< Updated upstream
 =======
 res://scenes/UI
 res://assets/Fonts
 res://scenes/entities/NPCs
-res://assets/sprites/npc
 res://scenes/levels
 >>>>>>> Stashed changes
 res://scenes/entities/Obstacles/Level 3
@@ -17,14 +16,6 @@ res://scenes/entities/Obstacles
 res://scenes/levels
 res://assets/Fonts
 =======
-res://
 >>>>>>> Stashed changes
 D:/godot/Thesis-Eco-Click
 res://assets/sprites/obstacles
-res://assets/sprites/sounds
-res://assets/sprites/trash/non-biodegradable
-res://assets/sprites/trash/biodegradable
-res://assets/sprites
-res://scenes
-res://assets/Scripts/Managers
-res://scenes/entities
