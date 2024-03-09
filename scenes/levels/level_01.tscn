@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://cjsr2b15elmp8"]
+[gd_scene load_steps=19 format=3 uid="uid://cjsr2b15elmp8"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_5oq2w"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_yrc35"]
@@ -6,10 +6,9 @@
 [ext_resource type="PackedScene" uid="uid://bmwn7qxo82n5v" path="res://scenes/entities/Obstacles/danger_zone.tscn" id="3_hn8v6"]
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="3_skcql"]
 [ext_resource type="PackedScene" uid="uid://bliw68xqge4du" path="res://scenes/entities/ZedCharacterBody2D.tscn" id="4_b8pgw"]
-[ext_resource type="PackedScene" uid="uid://e463uwcugdlt" path="res://scenes/UI/game_over.tscn" id="5_txmln"]
 [ext_resource type="PackedScene" uid="uid://b3euf7aqy7dev" path="res://scenes/entities/NPCs/Deemo.tscn" id="6_8mmph"]
 [ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="6_emcy0"]
-[ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level.tscn" id="6_hhjwk"]
+[ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level_2.tscn" id="6_hhjwk"]
 [ext_resource type="PackedScene" uid="uid://cykdd6bancfg1" path="res://scenes/entities/Obstacles/Level 1/Dynamite.tscn" id="7_k3lft"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="8_0wcaw"]
 [ext_resource type="PackedScene" uid="uid://borcqx0f6v0qw" path="res://npc/npc1.tscn" id="13_d4ghd"]
@@ -728,7 +727,7 @@ layer_0/tile_data = PackedInt32Array(-1900558, 0, 0, -1835022, 0, 0, -1769486, 0
 polygon = PackedVector2Array(-616, -1352, -616, 248, -616, 856, 20864, 856, 20864, 64, 20864, -832, 20736, -832, 20736, 72, 20736, 792, -328, 808, -328, 248, -328, -1352)
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_b8pgw")]
-position = Vector2(5320, 424)
+position = Vector2(20440, 32)
 metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="3"]
@@ -739,21 +738,12 @@ visible = false
 
 [node name="PlayerStart" type="Node2D" parent="."]
 
+[node name="JumpToNextLevel2" parent="." instance=ExtResource("6_hhjwk")]
+position = Vector2(20600, 40)
+
 [node name="Deemo" parent="." instance=ExtResource("6_8mmph")]
 position = Vector2(984, 356)
 scale = Vector2(0.0366633, 0.0366633)
-
-[node name="JumpToNextLevel" parent="." instance=ExtResource("6_hhjwk")]
-position = Vector2(20600, 40)
-
-[node name="Sprite2D2" parent="JumpToNextLevel" index="1"]
-position = Vector2(29.8994, -0.09375)
-
-[node name="Sprite2D3" parent="JumpToNextLevel" index="2"]
-position = Vector2(-30, 0)
-
-[node name="GameOver" parent="." instance=ExtResource("5_txmln")]
-visible = false
 
 [node name="Dynamite" parent="." instance=ExtResource("7_k3lft")]
 position = Vector2(1216, 523)
@@ -936,4 +926,3 @@ scale = Vector2(0.0720762, 0.0698664)
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]
-[editable path="JumpToNextLevel"]

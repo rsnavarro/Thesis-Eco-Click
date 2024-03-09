@@ -4,9 +4,6 @@ var max_time : float = 240.0
 var time : float = max_time
 var minutes : int = 0
 var seconds : int = 0
-#var game_over: bool = false
-#signal game_over_signal
-#var current_level_path = "res://scenes/levels/level_02.tscn"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -21,7 +18,6 @@ func _process(delta) -> void:
 	$Seconds.text = "%02d" % seconds
 
 	if time <= 0:
-		#current_level_path = "res://scenes/levels/level_02.tscn"
 		_on_game_over()
 
 func stop() -> void:
@@ -37,9 +33,4 @@ func update_display():
 	$Seconds.text = "%02d" % seconds
 
 func _on_game_over():
-	get_tree().change_scene_to_file("res://scenes/UI/game_over.tscn")
-	#game_over = true
-	#emit_signal("game_over_signal")
-	#var game_over_scene = preload("res://scenes/UI/game_over.tscn")
-	#var game_over_instance = game_over_scene.instantiate()
-	#get_tree().get_root().add_child(game_over_instance)
+	get_tree().change_scene_to_file("res://scenes/UI/game_over_2.tscn")

@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="3_j65xx"]
 [ext_resource type="PackedScene" uid="uid://bliw68xqge4du" path="res://scenes/entities/ZedCharacterBody2D.tscn" id="4_et5bs"]
 [ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="4_kliuu"]
-[ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level.tscn" id="5_386tq"]
+[ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level_2.tscn" id="5_386tq"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_cpaop"]
 [ext_resource type="PackedScene" uid="uid://s3qdkb8d58pk" path="res://npc/npc_3.tscn" id="9_myrus"]
 

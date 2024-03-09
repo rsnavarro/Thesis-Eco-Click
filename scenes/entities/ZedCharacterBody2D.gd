@@ -14,7 +14,6 @@ var double_jump_timer : float = 0.0
 var num_jumps : int = 0
 var can_control : bool = true
 
-
 @onready var sprite_2d = $Sprite2D
 @onready var animation_player = $AnimationPlayer
 
@@ -84,5 +83,3 @@ func reset_player() -> void:
 	visible = true
 	can_control = true
 
-#func _on_game_over():
-	#handle_danger()

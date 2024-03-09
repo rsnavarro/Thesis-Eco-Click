@@ -1,15 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://bkwhhyj5jgxqv"]
+[gd_scene load_steps=4 format=3 uid="uid://crotl843s82vn"]
 
-[ext_resource type="Script" path="res://scenes/UI/game_clear.gd" id="1_tk1c6"]
-[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="2_02y1o"]
+[ext_resource type="Script" path="res://scenes/UI/Game Over/game_over_2.gd" id="1_baiif"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="1_m03oa"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ih2pt"]
-font = ExtResource("2_02y1o")
+font = ExtResource("1_m03oa")
 font_size = 69
 font_color = Color(0, 0, 0, 1)
 outline_size = 15
 
-[node name="GameOver" type="Control"]
+[node name="GameOver2" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -17,7 +17,7 @@ anchor_bottom = 1.0
 offset_right = 3.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_tk1c6")
+script = ExtResource("1_baiif")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -36,14 +36,14 @@ offset_bottom = 360.0
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 72.0
-offset_top = 64.0
-offset_right = 571.0
-offset_bottom = 134.0
-text = "Stage Clear"
+offset_left = 97.0
+offset_top = 65.0
+offset_right = 545.0
+offset_bottom = 135.0
+text = "Game Over"
 label_settings = SubResource("LabelSettings_ih2pt")
 
-[node name="Proceed" type="Button" parent="."]
+[node name="Restart" type="Button" parent="."]
 layout_mode = 0
 offset_left = 137.0
 offset_top = 226.0
@@ -52,9 +52,9 @@ offset_bottom = 271.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 9
-theme_override_fonts/font = ExtResource("2_02y1o")
+theme_override_fonts/font = ExtResource("1_m03oa")
 theme_override_font_sizes/font_size = 30
-text = "Proceed"
+text = "RESTART"
 
 [node name="Quit" type="Button" parent="."]
 layout_mode = 0
@@ -65,9 +65,9 @@ offset_bottom = 271.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 9
-theme_override_fonts/font = ExtResource("2_02y1o")
+theme_override_fonts/font = ExtResource("1_m03oa")
 theme_override_font_sizes/font_size = 30
 text = "QUIT"
 
-[connection signal="pressed" from="Proceed" to="." method="_on_proceed_pressed"]
+[connection signal="pressed" from="Restart" to="." method="_on_restart_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

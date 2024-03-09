@@ -1,29 +1,29 @@
-[gd_scene load_steps=4 format=3 uid="uid://d0q0t12ul7c4m"]
+[gd_scene load_steps=4 format=3 uid="uid://ctev5i552vn2l"]
 
-[ext_resource type="Script" path="res://scenes/levels/jump_to_next_level.gd" id="1_thvx2"]
-[ext_resource type="Texture2D" uid="uid://cnkpp1whmbh4a" path="res://assets/sprites/diamond.png" id="2_uux7o"]
+[ext_resource type="Script" path="res://scenes/levels/jump_to_next_level_3.gd" id="1_v4s4k"]
+[ext_resource type="Texture2D" uid="uid://cnkpp1whmbh4a" path="res://assets/sprites/diamond.png" id="1_wmqh3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_00mmm"]
 size = Vector2(62, 19)
 
-[node name="JumpToNextLevel" type="Area2D"]
-script = ExtResource("1_thvx2")
+[node name="JumpToNextLevel3" type="Area2D"]
+script = ExtResource("1_v4s4k")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(1.42109e-14, 1.42109e-14)
 scale = Vector2(2.02137, 2.02137)
-texture = ExtResource("2_uux7o")
+texture = ExtResource("1_wmqh3")
 region_rect = Rect2(128, 64, 16, 16)
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 position = Vector2(27.899, -0.0937494)
 scale = Vector2(2, 2)
-texture = ExtResource("2_uux7o")
+texture = ExtResource("1_wmqh3")
 
 [node name="Sprite2D3" type="Sprite2D" parent="."]
 position = Vector2(-28, 0)
 scale = Vector2(2, 2)
-texture = ExtResource("2_uux7o")
+texture = ExtResource("1_wmqh3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_00mmm")

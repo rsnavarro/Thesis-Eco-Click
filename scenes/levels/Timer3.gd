@@ -37,9 +37,4 @@ func update_display():
 	$Seconds.text = "%02d" % seconds
 
 func _on_game_over():
-	get_tree().change_scene_to_file("res://scenes/UI/game_over.tscn")
-	#game_over = true
-	#emit_signal("game_over_signal")
-	#var game_over_scene = preload("res://scenes/UI/game_over.tscn")
-	#var game_over_instance = game_over_scene.instantiate()
-	#get_tree().get_root().add_child(game_over_instance)
+	get_tree().change_scene_to_file("res://scenes/UI/game_over_3.tscn")

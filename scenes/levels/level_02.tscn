@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bliw68xqge4du" path="res://scenes/entities/ZedCharacterBody2D.tscn" id="4_ktdu4"]
 [ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="4_mgpvl"]
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="5_b4x1l"]
-[ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level.tscn" id="5_lcyxt"]
+[ext_resource type="PackedScene" uid="uid://ctev5i552vn2l" path="res://scenes/levels/jump_to_next_level_3.tscn" id="5_ketuv"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_p84ee"]
 [ext_resource type="PackedScene" uid="uid://dcf1x6pi4fehv" path="res://npc/npc2.tscn" id="9_sban5"]
 
@@ -997,7 +997,7 @@ offset_right = 8712.0
 offset_bottom = 630.0
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_ktdu4")]
-position = Vector2(-62, 291)
+position = Vector2(10092, 268)
 
 [node name="Timer1" parent="ZedCharacterBody2D/CharacterIcon" index="2"]
 visible = false
@@ -1010,22 +1010,8 @@ visible = false
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PackedVector2Array(-462, 65, -461, 925, 10349, 925, 10349, 307, 10349, 0, 10247, 0, 10247, 306, 10247, 898, -383, 899, -381, 470, -381, 65)
 
-[node name="JumpToNextLevel" parent="." instance=ExtResource("5_lcyxt")]
-position = Vector2(10191, 291)
-
-[node name="Sprite2D" parent="JumpToNextLevel" index="0"]
-scale = Vector2(1.5, 1.5)
-
-[node name="Sprite2D2" parent="JumpToNextLevel" index="1"]
-position = Vector2(22.9995, 0)
-scale = Vector2(1.5, 1.5)
-
-[node name="Sprite2D3" parent="JumpToNextLevel" index="2"]
-position = Vector2(-23, 0)
-scale = Vector2(1.5, 1.5)
-
-[node name="CollisionShape2D" parent="JumpToNextLevel" index="3"]
-position = Vector2(0, 0.5)
+[node name="JumpToNextLevel3" parent="." instance=ExtResource("5_ketuv")]
+position = Vector2(10191, 285)
 
 [node name="trash(bio)" parent="." instance=ExtResource("4_mgpvl")]
 position = Vector2(470, 299)
@@ -1186,4 +1172,4 @@ scale = Vector2(0.375, 0.375)
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]
-[editable path="JumpToNextLevel"]
+[editable path="JumpToNextLevel3"]

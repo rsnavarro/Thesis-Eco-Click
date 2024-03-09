@@ -1,22 +1,21 @@
+res://scenes/levels
+res://scenes/UI/Game Clear
+res://scenes/UI
 res://npc
 res://assets/sprites/Island-game-gui/png/frames
 res://
 res://assets/sprites/npc
 <<<<<<< Updated upstream
 =======
-res://scenes/UI
 res://assets/Fonts
 res://scenes/entities/NPCs
-res://scenes/levels
 >>>>>>> Stashed changes
 res://scenes/entities/Obstacles/Level 3
 res://scenes/entities/Obstacles/Level 2
 res://scenes/entities/Obstacles/Level 1
 res://scenes/entities/Obstacles
 <<<<<<< Updated upstream
-res://scenes/levels
 res://assets/Fonts
 =======
 >>>>>>> Stashed changes
 D:/godot/Thesis-Eco-Click
-res://assets/sprites/obstacles

@@ -1,42 +1,42 @@
 [
 		{
-			"name": "Professor Finn",
+			"name": "Professor Finn:",
 			"text": "What a convenient device you have!"
 		},
 		{
-			"name": "Zed",
+			"name": "Zed:",
 			"text": "Yes, this device can collect garbage like a magnet."
 		},
 		{
-			"name": "Professor Finn",
+			"name": "Professor Finn:",
 			"text": "Finally, someone saves the sea from the devastating effect of the garbage in the sea."
 		},
 		{
-			"name": "Zed",
+			"name": "Zed:",
 			"text": "I also think that. But sorry, we are in a little hurry as we have to find parts of the ship of my partner."
 		},
 		{
-			"name": "Deemo",
+			"name": "Deemo:",
 			"text": "Wait Zed! He might have a clue of where we might find some parts."
 		},
 		{
-			"name": "Zed",
+			"name": "Zed:",
 			"text": "Ahhhhh! You are right."
 		},
 		{
-			"name": "Deemo",
+			"name": "Deemo:",
 			"text": "Mister, did you see any object that is like part of a spaceship?"
 		},
 		{
-			"name": "Professor Finn",
+			"name": "Professor Finn:",
 			"text": "I don’t have a problem giving you information, but can you do some favor for me? Can you two collect '25' Garbage for me."
 		},
 		{
-			"name": "Zed",
+			"name": "Zed:",
 			"text": "No problem. So did you see any object that is like part of a spaceship?"
 		},
 		{
-			"name": "Professor Finn",
+			"name": "Professor Finn:",
 			"text": "Nothing in particular, but I did see a beautiful meteor shower falling in the sky."
 		},
 		{
@@ -44,19 +44,19 @@
 			"text": "Can you tell me the trajectory of the meteors?"
 		},
 		{
-			"name": "Professor Finn",
+			"name": "Professor Finn:",
 			"text": "If you keep traversing this path, you might eventually find the crash point of one meteor. But for the others, I am not sure."
 		},
 		{
-			"name": "Zed",
+			"name": "Zed:",
 			"text": "We finally have a lead."
 		},
 		{
-			"name": "Deemo",
+			"name": "Deemo:",
 			"text": "Thank you for the information."
 		},
 		{
-			"name": "Professor Finn",
+			"name": "Professor Finn:",
 			"text": "Godspeed."
 		}
 	]
