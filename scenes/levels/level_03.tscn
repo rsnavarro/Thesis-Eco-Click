@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://dp3j25pwyjvac"]
+[gd_scene load_steps=16 format=3 uid="uid://dp3j25pwyjvac"]
 
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_0sdk5"]
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_sw147"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="4_kliuu"]
 [ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level.tscn" id="5_386tq"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_cpaop"]
+[ext_resource type="PackedScene" uid="uid://s3qdkb8d58pk" path="res://npc/npc_3.tscn" id="9_myrus"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lokq3"]
 texture = ExtResource("1_sw147")
@@ -910,6 +911,10 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Trash_gui" parent="." instance=ExtResource("7_cpaop")]
+
+[node name="npc3" parent="." instance=ExtResource("9_myrus")]
+position = Vector2(777, 249)
+scale = Vector2(0.476563, 0.476563)
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]

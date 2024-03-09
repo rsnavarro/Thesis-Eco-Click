@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://b602lkp3c8w6t"]
+
+[ext_resource type="Script" path="res://npc/dialogueplayer3.gd" id="1_1xrxk"]
+[ext_resource type="Texture2D" uid="uid://bqbrgffddvex7" path="res://assets/sprites/Island-game-gui/png/frames/level select.png" id="1_gwobw"]
+
+[node name="Dialogue3" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_1xrxk")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = -253.0
+offset_top = -289.0
+offset_right = 253.0
+offset_bottom = -84.0
+texture = ExtResource("1_gwobw")
+
+[node name="Name" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 12.0
+offset_right = 226.0
+offset_bottom = 52.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "Name
+"
+
+[node name="Text" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 39.0
+offset_right = 462.0
+offset_bottom = 181.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "Chatting
+"
