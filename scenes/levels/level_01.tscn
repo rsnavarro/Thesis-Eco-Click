@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cjsr2b15elmp8"]
+[gd_scene load_steps=20 format=3 uid="uid://cjsr2b15elmp8"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_5oq2w"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_yrc35"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level.tscn" id="6_hhjwk"]
 [ext_resource type="PackedScene" uid="uid://cykdd6bancfg1" path="res://scenes/entities/Obstacles/Level 1/Dynamite.tscn" id="7_k3lft"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="8_0wcaw"]
+[ext_resource type="PackedScene" uid="uid://borcqx0f6v0qw" path="res://npc/npc1.tscn" id="13_d4ghd"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x80as"]
 texture = ExtResource("1_5oq2w")
@@ -727,7 +728,8 @@ layer_0/tile_data = PackedInt32Array(-1900558, 0, 0, -1835022, 0, 0, -1769486, 0
 polygon = PackedVector2Array(-616, -1352, -616, 248, -616, 856, 20864, 856, 20864, 64, 20864, -832, 20736, -832, 20736, 72, 20736, 792, -328, 808, -328, 248, -328, -1352)
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_b8pgw")]
-position = Vector2(20408, -72)
+position = Vector2(5320, 424)
+metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="3"]
 visible = false
@@ -927,6 +929,10 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Trash_gui" parent="." instance=ExtResource("8_0wcaw")]
+
+[node name="npc1" parent="." instance=ExtResource("13_d4ghd")]
+position = Vector2(5456, 432)
+scale = Vector2(0.0720762, 0.0698664)
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]

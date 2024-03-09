@@ -1,5 +1,4 @@
-{
-	"dialogue": [
+[
 		{
 			"name": "Sylvia Stormrider",
 			"text": "How did you two get here?"
@@ -53,4 +52,3 @@
 			"text": "No problem. You two are also helping me with this garbage problem."
 		}
 	]
-}

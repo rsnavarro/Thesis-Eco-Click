@@ -1,5 +1,4 @@
-{
-	"dialogue": [
+[
 		{
 			"name": "Zed",
 			"text": "I didn’t expect that we will discover an island far in the mainland."
@@ -21,4 +20,3 @@
 			"text": "Come, let's go to her."
 		}
 	]
-}

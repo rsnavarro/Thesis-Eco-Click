@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="5_b4x1l"]
 [ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level.tscn" id="5_lcyxt"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_p84ee"]
-[ext_resource type="PackedScene" uid="uid://borcqx0f6v0qw" path="res://npc1.tscn" id="9_rkbcl"]
+[ext_resource type="PackedScene" uid="uid://dcf1x6pi4fehv" path="res://npc/npc2.tscn" id="9_sban5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bd5jb"]
 texture = ExtResource("1_ffniy")
@@ -1180,9 +1180,9 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
-[node name="npc1" parent="." instance=ExtResource("9_rkbcl")]
-position = Vector2(2026, 368)
-scale = Vector2(0.0653236, 0.0627738)
+[node name="npc2" parent="." instance=ExtResource("9_sban5")]
+position = Vector2(100, 300)
+scale = Vector2(0.375, 0.375)
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]

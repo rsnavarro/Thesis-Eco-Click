@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://borcqx0f6v0qw"]
 
 [ext_resource type="Texture2D" uid="uid://baok68m7seml4" path="res://assets/sprites/npc/NPC 1 New.png" id="1_e1qcg"]
-[ext_resource type="Script" path="res://npc1.gd" id="2_dddk7"]
-[ext_resource type="PackedScene" uid="uid://bagobkhvrh8kh" path="res://dialogue1.tscn" id="3_rj1lq"]
+[ext_resource type="Script" path="res://npc/npc1.gd" id="2_dddk7"]
+[ext_resource type="PackedScene" uid="uid://bagobkhvrh8kh" path="res://npc/dialogue1.tscn" id="3_rj1lq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qlj2p"]
 size = Vector2(813.987, 944.49)
@@ -24,3 +24,8 @@ shape = SubResource("RectangleShape2D_qlj2p")
 autostart = true
 
 [node name="Dialogue1" parent="." instance=ExtResource("3_rj1lq")]
+
+[connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
+[connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="dialogue_finished" from="Dialogue1" to="." method="_on_dialogue_1_dialogue_finished"]

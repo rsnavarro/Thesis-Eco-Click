@@ -1,7 +1,8 @@
 [gd_scene load_steps=3 format=3 uid="uid://b3w514y6rsmb2"]
 
-[ext_resource type="Script" path="res://scenes/UI/deemo_dialogue.gd" id="1_6nj5w"]
+[ext_resource type="Script" path="res://npc/deemo_dialogue.gd" id="1_6nj5w"]
 [ext_resource type="Texture2D" uid="uid://bqbrgffddvex7" path="res://assets/sprites/Island-game-gui/png/frames/level select.png" id="1_bghph"]
+
 
 [node name="Dialogue" type="Control"]
 layout_mode = 3

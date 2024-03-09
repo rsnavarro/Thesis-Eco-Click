@@ -1,5 +1,4 @@
-{
-	"dialogue": [
+[
 		{
 			"name": "Zed",
 			"text": "We finally got 1 out 3 missing parts of the ship. Maybe we can find the 2nd one in underwater."
@@ -21,4 +20,4 @@
 			"text": "Ok let’s go!"
 		}
 	]
-}
+

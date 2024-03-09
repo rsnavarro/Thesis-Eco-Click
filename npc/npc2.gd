@@ -15,7 +15,7 @@ enum {
 
 func _process(delta):
 	if Input.is_action_just_pressed("chat"):
-		$Dialogue1.start()
+		$Dialogue2.start()
 		print("chatting with npc")
 		is_chatting = true
 
@@ -41,10 +41,10 @@ func _on_timer_timeout():
 
 
 
-func _on_dialogue_dialogue_finished():
+func _on_dialogue_2_dialogue_finished():
 	is_chatting = false
 	hide_dialogue()
 
 func hide_dialogue():
-	$Dialogue1.hide()
+	$Dialogue2.hide()
 

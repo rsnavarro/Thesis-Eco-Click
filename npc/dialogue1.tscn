@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bagobkhvrh8kh"]
 
-[ext_resource type="Script" path="res://dialogueplayer1.gd" id="1_noytu"]
+[ext_resource type="Script" path="res://npc/dialogueplayer1.gd" id="1_noytu"]
 [ext_resource type="Texture2D" uid="uid://bqbrgffddvex7" path="res://assets/sprites/Island-game-gui/png/frames/level select.png" id="2_bgssx"]
 
 [node name="Dialogue1" type="Control"]

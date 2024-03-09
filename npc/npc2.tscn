@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://dcf1x6pi4fehv"]
+
+[ext_resource type="Texture2D" uid="uid://b70bkygqgvuf0" path="res://icon.svg" id="1_6qqh3"]
+[ext_resource type="Script" path="res://npc/npc2.gd" id="2_g0vk3"]
+[ext_resource type="PackedScene" uid="uid://op35gm7js1kb" path="res://npc/dialogue2.tscn" id="3_e1yoa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lv5t0"]
+size = Vector2(272, 152)
+
+[node name="npc2" type="Sprite2D"]
+texture = ExtResource("1_6qqh3")
+script = ExtResource("2_g0vk3")
+
+[node name="chat_detection_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection_area"]
+position = Vector2(0, -4)
+shape = SubResource("RectangleShape2D_lv5t0")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Dialogue2" parent="." instance=ExtResource("3_e1yoa")]
+offset_left = 8.0
+offset_top = -8.0
+offset_right = 48.0
+offset_bottom = 32.0
+
+[connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
+[connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="dialogue_finished" from="Dialogue2" to="." method="_on_dialogue_2_dialogue_finished"]
