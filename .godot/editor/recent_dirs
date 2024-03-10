@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 res://scenes/UI/SceneTransitions
+=======
+res://scenes/entities/Obstacles/Level 1
+>>>>>>> Stashed changes
 res://scenes/levels
 res://scenes/UI/Game Clear
 res://scenes/UI
@@ -13,7 +17,6 @@ res://scenes/entities/NPCs
 >>>>>>> Stashed changes
 res://scenes/entities/Obstacles/Level 3
 res://scenes/entities/Obstacles/Level 2
-res://scenes/entities/Obstacles/Level 1
 res://scenes/entities/Obstacles
 <<<<<<< Updated upstream
 res://assets/Fonts

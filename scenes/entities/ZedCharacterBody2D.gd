@@ -13,12 +13,13 @@ var can_double_jump : bool = false
 var double_jump_timer : float = 0.0
 var num_jumps : int = 0
 var can_control : bool = true
+var invincibility_time = 1.0
 
 @onready var sprite_2d = $Sprite2D
 @onready var animation_player = $AnimationPlayer
 
 func _ready():
-	pass
+	add_to_group("Player")
 
 func _physics_process(delta):
 	if not can_control: return
@@ -75,7 +76,7 @@ func handle_danger() -> void:
 	
 	await get_tree().create_timer(1).timeout
 	reset_player()
-	
+
 func reset_player() -> void:
 	print(LevelManager.loaded_level)
 	global_position = LevelManager.loaded_level.level_start_pos.global_position
@@ -83,3 +84,24 @@ func reset_player() -> void:
 	visible = true
 	can_control = true
 
+func turn_visible():
+	visible = true
+	can_control = true
+
+func on_death1():
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.spawnpoint_1.global_position
+	turn_visible()
+
+func on_death2():
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.spawnpoint_2.global_position
+	turn_visible()
+
+func _on_body_hitbox_body_entered(body):
+	if body.is_in_group("Crab"):
+		on_death2()

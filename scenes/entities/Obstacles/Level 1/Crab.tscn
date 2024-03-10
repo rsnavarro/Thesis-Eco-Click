@@ -1,0 +1,74 @@
+[gd_scene load_steps=9 format=3 uid="uid://d0hn11vng80u7"]
+
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 1/Crab.gd" id="1_3sw2j"]
+[ext_resource type="Texture2D" uid="uid://d3omgxchsw1io" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Hermit 1.png" id="1_8idcq"]
+[ext_resource type="Texture2D" uid="uid://dmkkyg5b4ct8k" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Hermit 2.png" id="2_mc0u0"]
+[ext_resource type="Texture2D" uid="uid://df2da8b1cearc" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Hermit 3.png" id="3_bthfl"]
+[ext_resource type="Texture2D" uid="uid://dvf70q3e5pyob" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Hermit 4.png" id="4_ayc4j"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_agltc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8idcq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_mc0u0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_bthfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ayc4j")
+}],
+"loop": true,
+"name": &"Crab",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_elpuy"]
+size = Vector2(37, 26)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t2fxn"]
+size = Vector2(29, 3)
+
+[node name="Crab" type="CharacterBody2D" groups=["Crab"]]
+position = Vector2(0, -14)
+script = ExtResource("1_3sw2j")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(4.76837e-07, -4.76837e-07)
+scale = Vector2(0.139167, 0.139167)
+sprite_frames = SubResource("SpriteFrames_agltc")
+animation = &"Crab"
+autoplay = "Crab"
+frame_progress = 0.544022
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 3)
+shape = SubResource("RectangleShape2D_elpuy")
+
+[node name="Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+position = Vector2(-1.5, -11)
+shape = SubResource("RectangleShape2D_t2fxn")
+
+[node name="Wall_Checks" type="Node2D" parent="."]
+
+[node name="RayCast2D_Left" type="RayCast2D" parent="Wall_Checks"]
+target_position = Vector2(-28, 0)
+
+[node name="RayCast2D_Right" type="RayCast2D" parent="Wall_Checks"]
+target_position = Vector2(36, 0)
+
+[node name="Floor_Checks" type="Node2D" parent="."]
+
+[node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(-19, 0)
+
+[node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(18, 0)
+target_position = Vector2(0, 23)
+
+[connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]

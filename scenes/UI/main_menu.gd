@@ -8,7 +8,7 @@ const Lvl_01 = "res://scenes/levels/level_01.tscn"
 
 
 func _on_play_button_pressed():
-	PlayMain.change_scene_to_file(Lvl_01)
+	LevelManager.load_level(1)
 	deactivate()
 
 func _on_settings_button_pressed():

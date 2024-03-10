@@ -1,15 +1,10 @@
-res://scenes/UI/SceneTransitions/lvl_2_to_3.tscn
-res://scenes/levels/Timer1.gd
 res://scenes/main.tscn
+res://scenes/levels/Timer1.gd
 res://scenes/levels/level_01.tscn
 res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
-res://scenes/UI/SceneTransitions/lvl_1_to_2.tscn
-res://scenes/UI/Game Clear/game_clear_1.gd
-res://scenes/levels/jump_to_next_level_3.gd
-res://scenes/UI/SceneTransitions/PlayMain.gd
-res://scenes/UI/SceneTransitions/PlayMain.tscn
+res://scenes/entities/Obstacles/Level 1/Hermit.tscn
+res://scenes/entities/Obstacles/Level 1/Crab.tscn
 res://scenes/UI/main_menu.tscn
-res://scenes/UI/main_menu.gd
-res://scenes/UI/SceneTransitions/lvl_2_to_3.gd
+res://scenes/entities/ZedCharacterBody2D.gd

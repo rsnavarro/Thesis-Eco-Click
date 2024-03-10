@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cjsr2b15elmp8"]
+[gd_scene load_steps=22 format=3 uid="uid://cjsr2b15elmp8"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_5oq2w"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_yrc35"]
@@ -11,7 +11,10 @@
 [ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level_2.tscn" id="6_hhjwk"]
 [ext_resource type="PackedScene" uid="uid://cykdd6bancfg1" path="res://scenes/entities/Obstacles/Level 1/Dynamite.tscn" id="7_k3lft"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="8_0wcaw"]
+[ext_resource type="PackedScene" uid="uid://cxiqqwogebkcn" path="res://scenes/entities/Obstacles/Level 1/Seagull.tscn" id="10_gt3rk"]
+[ext_resource type="PackedScene" uid="uid://b1nukrwl4tuwy" path="res://scenes/entities/Obstacles/Level 1/Snake.tscn" id="11_r7hms"]
 [ext_resource type="PackedScene" uid="uid://borcqx0f6v0qw" path="res://npc/npc1.tscn" id="13_d4ghd"]
+[ext_resource type="PackedScene" uid="uid://d0hn11vng80u7" path="res://scenes/entities/Obstacles/Level 1/Crab.tscn" id="16_y78kw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x80as"]
 texture = ExtResource("1_5oq2w")
@@ -687,10 +690,12 @@ corner_radius_top_right = 1
 corner_radius_bottom_right = 1
 corner_radius_bottom_left = 1
 
-[node name="Level" type="Node2D" node_paths=PackedStringArray("level_start_pos")]
+[node name="Level" type="Node2D" node_paths=PackedStringArray("level_start_pos", "spawnpoint_1", "spawnpoint_2")]
 script = ExtResource("1_yrc35")
 level_id = 1
 level_start_pos = NodePath("PlayerStart")
+spawnpoint_1 = NodePath("Spawnpoints/Spawnpoint1")
+spawnpoint_2 = NodePath("Spawnpoints/Spawnpoint2")
 
 [node name="MainTileMap" type="TileMap" parent="."]
 position = Vector2(74, 27)
@@ -727,7 +732,7 @@ layer_0/tile_data = PackedInt32Array(-1900558, 0, 0, -1835022, 0, 0, -1769486, 0
 polygon = PackedVector2Array(-616, -1352, -616, 248, -616, 856, 20864, 856, 20864, 64, 20864, -832, 20736, -832, 20736, 72, 20736, 792, -328, 808, -328, 248, -328, -1352)
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_b8pgw")]
-position = Vector2(20440, 32)
+position = Vector2(72, 40)
 metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="3"]
@@ -745,8 +750,40 @@ position = Vector2(20600, 40)
 position = Vector2(984, 356)
 scale = Vector2(0.0366633, 0.0366633)
 
-[node name="Dynamite" parent="." instance=ExtResource("7_k3lft")]
+[node name="Obstacles_Enemies" type="Node" parent="."]
+
+[node name="Dynamite" parent="Obstacles_Enemies" instance=ExtResource("7_k3lft")]
 position = Vector2(1216, 523)
+
+[node name="Seagull" parent="Obstacles_Enemies" instance=ExtResource("10_gt3rk")]
+position = Vector2(7264, 168)
+
+[node name="Snake" parent="Obstacles_Enemies" instance=ExtResource("11_r7hms")]
+position = Vector2(9368, 371)
+
+[node name="Crab" parent="Obstacles_Enemies" instance=ExtResource("16_y78kw")]
+position = Vector2(2829, 446)
+
+[node name="Crab2" parent="Obstacles_Enemies" instance=ExtResource("16_y78kw")]
+position = Vector2(11787, 374)
+
+[node name="Snake2" parent="Obstacles_Enemies" instance=ExtResource("11_r7hms")]
+position = Vector2(20290, 192)
+
+[node name="AnimatedSprite2D" parent="Obstacles_Enemies/Snake2" index="0"]
+flip_h = true
+
+[node name="Seagull2" parent="Obstacles_Enemies" instance=ExtResource("10_gt3rk")]
+position = Vector2(14906, 180)
+
+[node name="Spawnpoints" type="Node2D" parent="."]
+
+[node name="Spawnpoint1" type="Node2D" parent="Spawnpoints"]
+position = Vector2(1176, 520)
+
+[node name="Spawnpoint2" type="Node2D" parent="Spawnpoints"]
+position = Vector2(2472, 448)
+rotation = -1.57079
 
 [node name="trash" type="Node" parent="."]
 
@@ -926,3 +963,4 @@ scale = Vector2(0.0720762, 0.0698664)
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]
+[editable path="Obstacles_Enemies/Snake2"]
