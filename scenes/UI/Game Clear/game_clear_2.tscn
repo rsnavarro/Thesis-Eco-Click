@@ -36,11 +36,11 @@ offset_bottom = 360.0
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 72.0
+offset_left = 32.0
 offset_top = 64.0
-offset_right = 571.0
+offset_right = 615.0
 offset_bottom = 134.0
-text = "Stage Clear"
+text = "Stage Clear 2"
 label_settings = SubResource("LabelSettings_ih2pt")
 
 [node name="Proceed" type="Button" parent="."]

@@ -1,3 +1,6 @@
+AnimationPlayer
+ColorRect
+CanvasLayer
 RichTextLabel
 NinePatchRect
 Control
@@ -9,6 +12,4 @@ Label
 AnimatedSprite2D
 Button
 Popup
-Panel
-AnimationPlayer
 Panel
