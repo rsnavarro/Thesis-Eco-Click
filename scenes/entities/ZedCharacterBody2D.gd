@@ -17,6 +17,8 @@ var invincibility_time = 1.0
 
 @onready var sprite_2d = $Sprite2D
 @onready var animation_player = $AnimationPlayer
+@onready var pause_menu = $Camera2D/PauseMenu
+
 
 func _ready():
 	add_to_group("Player")
@@ -61,13 +63,26 @@ func handle_animations(direction : float) -> void:
 		animation_player.play("Jumping")
 	else:
 		animation_player.play("Idle")
- 
+
+
+var paused = false
 func _process(delta):
+	if Input.is_action_just_pressed("pause"):
+		PauseMenu()
 	if not is_on_floor():
 		double_jump_timer += delta
 		if double_jump_timer > coyote_time:
 			can_double_jump = true
-	
+
+func PauseMenu():
+	if paused:
+		pause_menu.hide()
+		Engine.time_scale = 1
+	else:
+		pause_menu.show()
+		Engine.time_scale = 0
+	paused = !paused
+
 
 func handle_danger() -> void:
 	print("Player Died!")
@@ -126,3 +141,9 @@ func on_death4(): #Snake
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level.spawnpoint_4.global_position
 	turn_visible()
+
+var master_bus = AudioServer.get_bus_index("Master")
+
+
+func _on_texture_button_pressed():
+	AudioServer.set_bus_mute(master_bus, not AudioServer.is_bus_mute(master_bus))

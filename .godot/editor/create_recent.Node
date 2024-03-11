@@ -1,7 +1,8 @@
+ColorRect
+TextureButton
 CharacterBody2D
 Node2D
 AnimationPlayer
-ColorRect
 CanvasLayer
 RayCast2D
 Node
@@ -11,4 +12,3 @@ StaticBody2D
 RichTextLabel
 NinePatchRect
 Control
-Timer
