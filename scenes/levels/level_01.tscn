@@ -11,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://d0q0t12ul7c4m" path="res://scenes/levels/jump_to_next_level_2.tscn" id="6_hhjwk"]
 [ext_resource type="PackedScene" uid="uid://cykdd6bancfg1" path="res://scenes/entities/Obstacles/Level 1/Dynamite.tscn" id="7_k3lft"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="8_0wcaw"]
-[ext_resource type="PackedScene" uid="uid://cxiqqwogebkcn" path="res://scenes/entities/Obstacles/Level 1/Seagull.tscn" id="10_gt3rk"]
+[ext_resource type="PackedScene" uid="uid://bob1s6my4b7wy" path="res://scenes/entities/Obstacles/Level 1/Seagull.tscn" id="10_gt3rk"]
 [ext_resource type="PackedScene" uid="uid://b1nukrwl4tuwy" path="res://scenes/entities/Obstacles/Level 1/Snake.tscn" id="11_r7hms"]
 [ext_resource type="PackedScene" uid="uid://borcqx0f6v0qw" path="res://npc/npc1.tscn" id="13_d4ghd"]
 [ext_resource type="PackedScene" uid="uid://d0hn11vng80u7" path="res://scenes/entities/Obstacles/Level 1/Crab.tscn" id="16_y78kw"]
@@ -690,12 +690,14 @@ corner_radius_top_right = 1
 corner_radius_bottom_right = 1
 corner_radius_bottom_left = 1
 
-[node name="Level" type="Node2D" node_paths=PackedStringArray("level_start_pos", "spawnpoint_1", "spawnpoint_2")]
+[node name="Level" type="Node2D" node_paths=PackedStringArray("level_start_pos", "spawnpoint_1", "spawnpoint_2", "spawnpoint_3", "spawnpoint_4")]
 script = ExtResource("1_yrc35")
 level_id = 1
 level_start_pos = NodePath("PlayerStart")
 spawnpoint_1 = NodePath("Spawnpoints/Spawnpoint1")
 spawnpoint_2 = NodePath("Spawnpoints/Spawnpoint2")
+spawnpoint_3 = NodePath("Spawnpoints/Spawnpoint3")
+spawnpoint_4 = NodePath("Spawnpoints/Spawnpoint4")
 
 [node name="MainTileMap" type="TileMap" parent="."]
 position = Vector2(74, 27)
@@ -732,7 +734,7 @@ layer_0/tile_data = PackedInt32Array(-1900558, 0, 0, -1835022, 0, 0, -1769486, 0
 polygon = PackedVector2Array(-616, -1352, -616, 248, -616, 856, 20864, 856, 20864, 64, 20864, -832, 20736, -832, 20736, 72, 20736, 792, -328, 808, -328, 248, -328, -1352)
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_b8pgw")]
-position = Vector2(72, 40)
+position = Vector2(1129, 504)
 metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="3"]
@@ -743,38 +745,39 @@ visible = false
 
 [node name="PlayerStart" type="Node2D" parent="."]
 
-[node name="JumpToNextLevel2" parent="." instance=ExtResource("6_hhjwk")]
-position = Vector2(20600, 40)
+[node name="NPCs" type="Node2D" parent="."]
 
-[node name="Deemo" parent="." instance=ExtResource("6_8mmph")]
+[node name="Deemo" parent="NPCs" instance=ExtResource("6_8mmph")]
 position = Vector2(984, 356)
 scale = Vector2(0.0366633, 0.0366633)
+
+[node name="npc1" parent="NPCs" instance=ExtResource("13_d4ghd")]
+position = Vector2(5466, 432)
+scale = Vector2(0.0720762, 0.0698664)
+
+[node name="JumpToNextLevel2" parent="." instance=ExtResource("6_hhjwk")]
+position = Vector2(20600, 40)
 
 [node name="Obstacles_Enemies" type="Node" parent="."]
 
 [node name="Dynamite" parent="Obstacles_Enemies" instance=ExtResource("7_k3lft")]
-position = Vector2(1216, 523)
+position = Vector2(1211, 518)
+
+[node name="Crab" parent="Obstacles_Enemies" instance=ExtResource("16_y78kw")]
+position = Vector2(2832, 448)
+
+[node name="AnimatedSprite2D" parent="Obstacles_Enemies/Crab" index="0"]
+position = Vector2(2.57492e-05, 4.76837e-06)
+scale = Vector2(0.119896, 0.119896)
+
+[node name="CollisionShape2D" parent="Obstacles_Enemies/Crab" index="1"]
+position = Vector2(-0.5, 1)
 
 [node name="Seagull" parent="Obstacles_Enemies" instance=ExtResource("10_gt3rk")]
-position = Vector2(7264, 168)
+position = Vector2(16378, 181)
 
 [node name="Snake" parent="Obstacles_Enemies" instance=ExtResource("11_r7hms")]
 position = Vector2(9368, 371)
-
-[node name="Crab" parent="Obstacles_Enemies" instance=ExtResource("16_y78kw")]
-position = Vector2(2829, 446)
-
-[node name="Crab2" parent="Obstacles_Enemies" instance=ExtResource("16_y78kw")]
-position = Vector2(11787, 374)
-
-[node name="Snake2" parent="Obstacles_Enemies" instance=ExtResource("11_r7hms")]
-position = Vector2(20290, 192)
-
-[node name="AnimatedSprite2D" parent="Obstacles_Enemies/Snake2" index="0"]
-flip_h = true
-
-[node name="Seagull2" parent="Obstacles_Enemies" instance=ExtResource("10_gt3rk")]
-position = Vector2(14906, 180)
 
 [node name="Spawnpoints" type="Node2D" parent="."]
 
@@ -783,6 +786,14 @@ position = Vector2(1176, 520)
 
 [node name="Spawnpoint2" type="Node2D" parent="Spawnpoints"]
 position = Vector2(2472, 448)
+rotation = -1.57079
+
+[node name="Spawnpoint3" type="Node2D" parent="Spawnpoints"]
+position = Vector2(12892, 371)
+rotation = -1.57079
+
+[node name="Spawnpoint4" type="Node2D" parent="Spawnpoints"]
+position = Vector2(9132, 372)
 rotation = -1.57079
 
 [node name="trash" type="Node" parent="."]
@@ -957,10 +968,6 @@ vertical_alignment = 1
 
 [node name="Trash_gui" parent="." instance=ExtResource("8_0wcaw")]
 
-[node name="npc1" parent="." instance=ExtResource("13_d4ghd")]
-position = Vector2(5456, 432)
-scale = Vector2(0.0720762, 0.0698664)
-
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]
-[editable path="Obstacles_Enemies/Snake2"]
+[editable path="Obstacles_Enemies/Crab"]

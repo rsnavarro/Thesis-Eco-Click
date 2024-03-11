@@ -88,20 +88,41 @@ func turn_visible():
 	visible = true
 	can_control = true
 
-func on_death1():
+func _on_body_hitbox_body_entered(body):
+	if body.is_in_group("Dynamite"):
+		on_death1()
+	elif body.is_in_group("Crab"):
+		on_death2()
+	elif body.is_in_group("Seagull"):
+		on_death3()
+	elif body.is_in_group("Snake"):
+		on_death4()
+
+#Spawn points of Obstacles
+func on_death1(): #Dynamite
 	animation_player.play("Dead")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level.spawnpoint_1.global_position
 	turn_visible()
 
-func on_death2():
+func on_death2(): #Crab
 	animation_player.play("Dead")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level.spawnpoint_2.global_position
 	turn_visible()
 
-func _on_body_hitbox_body_entered(body):
-	if body.is_in_group("Crab"):
-		on_death2()
+func on_death3(): #Seagull
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.spawnpoint_3.global_position
+	turn_visible()
+
+func on_death4(): #Snake
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.spawnpoint_4.global_position
+	turn_visible()

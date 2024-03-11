@@ -27,48 +27,49 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_elpuy"]
-size = Vector2(37, 26)
+size = Vector2(36.5, 25)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t2fxn"]
-size = Vector2(29, 3)
+size = Vector2(19, 3)
 
 [node name="Crab" type="CharacterBody2D" groups=["Crab"]]
-position = Vector2(0, -14)
+position = Vector2(0, -11)
 script = ExtResource("1_3sw2j")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(4.76837e-07, -4.76837e-07)
-scale = Vector2(0.139167, 0.139167)
+position = Vector2(0.515637, -0.515637)
+scale = Vector2(0.143229, 0.143229)
 sprite_frames = SubResource("SpriteFrames_agltc")
 animation = &"Crab"
 autoplay = "Crab"
 frame_progress = 0.544022
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.5, 3)
+position = Vector2(-0.25, 1.5)
 shape = SubResource("RectangleShape2D_elpuy")
 
-[node name="Hitbox" type="Area2D" parent="."]
+[node name="Crab_Hitbox" type="Area2D" parent="."]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
-position = Vector2(-1.5, -11)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Crab_Hitbox"]
+position = Vector2(4.5, -12)
 shape = SubResource("RectangleShape2D_t2fxn")
 
 [node name="Wall_Checks" type="Node2D" parent="."]
 
 [node name="RayCast2D_Left" type="RayCast2D" parent="Wall_Checks"]
-target_position = Vector2(-28, 0)
+target_position = Vector2(-27, 0)
 
 [node name="RayCast2D_Right" type="RayCast2D" parent="Wall_Checks"]
-target_position = Vector2(36, 0)
+target_position = Vector2(26, 0)
 
 [node name="Floor_Checks" type="Node2D" parent="."]
 
 [node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
-position = Vector2(-19, 0)
+position = Vector2(-16, 0)
+target_position = Vector2(0, 38)
 
 [node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
-position = Vector2(18, 0)
-target_position = Vector2(0, 23)
+position = Vector2(15, 0)
+target_position = Vector2(0, 38)
 
-[connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]
+[connection signal="body_entered" from="Crab_Hitbox" to="." method="_on_crab_hitbox_body_entered"]

@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://b1nukrwl4tuwy"]
+[gd_scene load_steps=12 format=3 uid="uid://b1nukrwl4tuwy"]
 
 [ext_resource type="Texture2D" uid="uid://v5xli01ssptj" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 1.png" id="1_d08d8"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 1/Snake.gd" id="1_gf36s"]
 [ext_resource type="Texture2D" uid="uid://datlqyesknhnl" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 2.png" id="2_y01hc"]
 [ext_resource type="Texture2D" uid="uid://binhy4kqf4c6w" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 3.png" id="3_w0x8n"]
 [ext_resource type="Texture2D" uid="uid://dvgrikwsdw15e" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 4.png" id="4_p4qv8"]
@@ -8,7 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://ca4fgrnfiftrl" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 6.png" id="6_u65cg"]
 [ext_resource type="Texture2D" uid="uid://bjk3oair1i8ib" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 7.png" id="7_bcnpd"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_yua38"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_0gpoh"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -37,17 +38,48 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_gkh7y"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qej2h"]
 size = Vector2(32, 32)
 
-[node name="Snake" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t2fxn"]
+size = Vector2(16, 3)
+
+[node name="Snake" type="CharacterBody2D" groups=["Snake"]]
+position = Vector2(0, -14)
+script = ExtResource("1_gf36s")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-1.90735e-06, 1.90735e-06)
 scale = Vector2(0.131667, 0.131667)
-sprite_frames = SubResource("SpriteFrames_yua38")
+sprite_frames = SubResource("SpriteFrames_0gpoh")
 animation = &"Snake"
 autoplay = "Snake"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_gkh7y")
+shape = SubResource("RectangleShape2D_qej2h")
+
+[node name="Snake_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Snake_Hitbox"]
+position = Vector2(1, -15)
+shape = SubResource("RectangleShape2D_t2fxn")
+
+[node name="Wall_Checks" type="Node2D" parent="."]
+
+[node name="RayCast2D_Left" type="RayCast2D" parent="Wall_Checks"]
+target_position = Vector2(-25, 0)
+
+[node name="RayCast2D_Right" type="RayCast2D" parent="Wall_Checks"]
+target_position = Vector2(26, 0)
+
+[node name="Floor_Checks" type="Node2D" parent="."]
+
+[node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(-15, 0)
+target_position = Vector2(0, 46)
+
+[node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(15, 0)
+target_position = Vector2(0, 46)
+
+[connection signal="body_entered" from="Snake_Hitbox" to="." method="_on_snake_hitbox_body_entered"]

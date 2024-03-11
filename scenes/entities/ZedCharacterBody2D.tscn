@@ -597,7 +597,7 @@ position = Vector2(3.5, 0)
 shape = SubResource("RectangleShape2D_jboto")
 
 [connection signal="pressed" from="Button" to="alamanac" method="_on_button_pressed"]
-[connection signal="body_entered" from="Body_Hitbox" to="." method="_on_hitbox_body_entered"]
 [connection signal="body_entered" from="Body_Hitbox" to="." method="_on_body_hitbox_body_entered"]
+[connection signal="body_entered" from="Body_Hitbox" to="." method="_on_hitbox_body_entered"]
 
 [editable path="CharacterIcon/Timer"]

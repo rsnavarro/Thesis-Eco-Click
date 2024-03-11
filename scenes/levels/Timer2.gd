@@ -18,7 +18,7 @@ func _process(delta) -> void:
 	$Seconds.text = "%02d" % seconds
 
 	if time <= 0:
-		_on_game_over()
+		_on_game_over2()
 
 func stop() -> void:
 	set_process(false)
@@ -32,5 +32,5 @@ func update_display():
 	$Minutes.text = "%2d:" % minutes
 	$Seconds.text = "%02d" % seconds
 
-func _on_game_over():
-	get_tree().change_scene_to_file("res://scenes/UI/game_over_2.tscn")
+func _on_game_over2():
+	get_tree().change_scene_to_file("res://scenes/UI/Game Over/game_over_2.tscn")

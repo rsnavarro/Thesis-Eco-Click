@@ -1,6 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://cykdd6bancfg1"]
+[gd_scene load_steps=16 format=3 uid="uid://cykdd6bancfg1"]
 
 [ext_resource type="Texture2D" uid="uid://dc00gqcfu3ia4" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Dynamite 1.png" id="1_7vrys"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 1/Dynamite.gd" id="1_a6vyg"]
 [ext_resource type="Texture2D" uid="uid://1tbmog7t1oc3" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Dynamite 2.png" id="2_pmeog"]
 [ext_resource type="Texture2D" uid="uid://cemq1vlxpyq10" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Dynamite 3.png" id="3_ixlwu"]
 [ext_resource type="Texture2D" uid="uid://6x0tiapy8y3f" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 1.png" id="4_6w03y"]
@@ -12,12 +13,17 @@
 [ext_resource type="Texture2D" uid="uid://1w81qc5rb33v" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 7.png" id="10_f00e2"]
 [ext_resource type="Texture2D" uid="uid://bwlskep0vutsx" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Explosion 8.png" id="11_a3ole"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_bw3q0"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_vqmn8"]
 animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_7vrys")
+}],
+"loop": false,
+"name": &"Dynamite",
+"speed": 5.0
 }, {
+"frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_pmeog")
 }, {
@@ -49,22 +55,33 @@ animations = [{
 "texture": ExtResource("11_a3ole")
 }],
 "loop": true,
-"name": &"Dynamite",
+"name": &"Explosion",
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_wkggs"]
-size = Vector2(24, 32)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q553b"]
+size = Vector2(13, 27)
 
-[node name="Dynamite" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_34qr6"]
+size = Vector2(13, 5)
+
+[node name="Dynamite" type="CharacterBody2D" groups=["Dynamite"]]
+script = ExtResource("1_a6vyg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(-6.6733, -6.89262)
+position = Vector2(-4.76837e-07, -9.53674e-07)
 scale = Vector2(0.115511, 0.119308)
-sprite_frames = SubResource("SpriteFrames_bw3q0")
+sprite_frames = SubResource("SpriteFrames_vqmn8")
 animation = &"Dynamite"
-autoplay = "Dynamite"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-4, -8)
-shape = SubResource("RectangleShape2D_wkggs")
+position = Vector2(0.5, 2.5)
+shape = SubResource("RectangleShape2D_q553b")
+
+[node name="Dynamite_Hitbox" type="Area2D" parent="." groups=["Dynamite"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Dynamite_Hitbox"]
+position = Vector2(0.5, -13.5)
+shape = SubResource("RectangleShape2D_34qr6")
+
+[connection signal="body_entered" from="Dynamite_Hitbox" to="." method="_on_dynamite_hitbox_body_entered"]

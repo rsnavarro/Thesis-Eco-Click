@@ -11,6 +11,7 @@ size = Vector2(813.987, 944.49)
 position = Vector2(-7, -4)
 scale = Vector2(0.452096, 0.452096)
 texture = ExtResource("1_e1qcg")
+flip_h = true
 hframes = 3
 script = ExtResource("2_dddk7")
 
@@ -24,6 +25,15 @@ shape = SubResource("RectangleShape2D_qlj2p")
 autostart = true
 
 [node name="Dialogue1" parent="." instance=ExtResource("3_rj1lq")]
+anchors_preset = -1
+anchor_left = -0.047
+anchor_top = 0.011
+anchor_right = -0.047
+anchor_bottom = 0.011
+offset_left = -504.057
+offset_top = -2160.28
+offset_right = 114.943
+offset_bottom = -1776.28
 
 [connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
 [connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]

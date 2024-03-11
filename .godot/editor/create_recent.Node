@@ -1,26 +1,14 @@
-<<<<<<< Updated upstream
+CharacterBody2D
+Node2D
 AnimationPlayer
 ColorRect
 CanvasLayer
-=======
 RayCast2D
-Node2D
 Node
 CollisionShape2D
 Area2D
-CharacterBody2D
 StaticBody2D
->>>>>>> Stashed changes
 RichTextLabel
 NinePatchRect
 Control
 Timer
-Sprite2D
-Label
-AnimatedSprite2D
-<<<<<<< Updated upstream
-Button
-Popup
-Panel
-=======
->>>>>>> Stashed changes

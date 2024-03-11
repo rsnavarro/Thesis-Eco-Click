@@ -5,6 +5,8 @@ extends Node
 @export var level_start_pos : Node2D
 @export var spawnpoint_1 : Node2D
 @export var spawnpoint_2 : Node2D
+@export var spawnpoint_3 : Node2D
+@export var spawnpoint_4 : Node2D
 
 var level_data : LevelData
 

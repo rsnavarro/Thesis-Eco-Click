@@ -1,5 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://cxiqqwogebkcn"]
+[gd_scene load_steps=11 format=3 uid="uid://bob1s6my4b7wy"]
 
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 1/Seagull.gd" id="1_6j2ip"]
 [ext_resource type="Texture2D" uid="uid://dh1iqe7e5xjfh" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 1.png" id="1_jl848"]
 [ext_resource type="Texture2D" uid="uid://ds64e1cywvgoh" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 2.png" id="2_amroj"]
 [ext_resource type="Texture2D" uid="uid://847j3vx4g0yg" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 3.png" id="3_cv314"]
@@ -7,7 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://dcou3i6r1c2v3" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 5.png" id="5_aqfbi"]
 [ext_resource type="Texture2D" uid="uid://dj7gk4t2ifiv" path="res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 6.png" id="6_j3fpc"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_iltea"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_k4k8b"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -33,19 +34,51 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_3iuly"]
-size = Vector2(286.567, 214.925)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vsjtt"]
+size = Vector2(255.224, 80.5973)
 
-[node name="Seagull" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t2fxn"]
+size = Vector2(52.5, 3)
+
+[node name="Seagull" type="CharacterBody2D" groups=["Seagull"]]
+position = Vector2(0, -11)
+platform_floor_layers = 4294967040
+script = ExtResource("1_6j2ip")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(-1.5, -1.5)
 scale = Vector2(0.223333, 0.223333)
-sprite_frames = SubResource("SpriteFrames_iltea")
+sprite_frames = SubResource("SpriteFrames_k4k8b")
 animation = &"Seagull"
 autoplay = "Seagull"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1.90735e-06, 9.53674e-07)
+position = Vector2(-2.5, 14)
 scale = Vector2(0.223333, 0.223333)
-shape = SubResource("RectangleShape2D_3iuly")
+shape = SubResource("RectangleShape2D_vsjtt")
+
+[node name="Seagull_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Seagull_Hitbox"]
+position = Vector2(-0.25, 3)
+shape = SubResource("RectangleShape2D_t2fxn")
+
+[node name="Wall_Checks" type="Node2D" parent="."]
+
+[node name="RayCast2D_Left" type="RayCast2D" parent="Wall_Checks"]
+target_position = Vector2(-44, 0)
+
+[node name="RayCast2D_Right" type="RayCast2D" parent="Wall_Checks"]
+target_position = Vector2(41, 0)
+
+[node name="Floor_Checks" type="Node2D" parent="."]
+
+[node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(-31, 0)
+target_position = Vector2(0, 52)
+
+[node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(26, 0)
+target_position = Vector2(0, 52)
+
+[connection signal="body_entered" from="Seagull_Hitbox" to="." method="_on_seagull_hitbox_body_entered"]
