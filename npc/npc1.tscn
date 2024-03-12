@@ -1,16 +1,38 @@
-[gd_scene load_steps=5 format=3 uid="uid://borcqx0f6v0qw"]
+[gd_scene load_steps=9 format=3 uid="uid://borcqx0f6v0qw"]
 
-[ext_resource type="Texture2D" uid="uid://baok68m7seml4" path="res://assets/sprites/npc/NPC 1 New.png" id="1_e1qcg"]
+[ext_resource type="Texture2D" uid="uid://dqqvlbmsjrlht" path="res://assets/sprites/npc/1(2).png" id="2_cpjda"]
 [ext_resource type="Script" path="res://npc/npc1.gd" id="2_dddk7"]
+[ext_resource type="Texture2D" uid="uid://cvexcabd1tcmb" path="res://assets/sprites/npc/2(2).png" id="3_k4ra7"]
 [ext_resource type="PackedScene" uid="uid://bagobkhvrh8kh" path="res://npc/dialogue1.tscn" id="3_rj1lq"]
+[ext_resource type="Texture2D" uid="uid://b8qcgg2w0qg0c" path="res://assets/sprites/npc/3(2).png" id="4_lytib"]
+[ext_resource type="Texture2D" uid="uid://bywx27gt20rht" path="res://assets/sprites/npc/4(2).png" id="5_huwrj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qlj2p"]
 size = Vector2(813.987, 944.49)
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_xap3q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_cpjda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k4ra7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_lytib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_huwrj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
 [node name="npc1" type="Sprite2D"]
 position = Vector2(-7, -4)
 scale = Vector2(0.452096, 0.452096)
-texture = ExtResource("1_e1qcg")
 flip_h = true
 hframes = 3
 script = ExtResource("2_dddk7")
@@ -18,8 +40,14 @@ script = ExtResource("2_dddk7")
 [node name="chat_detection_area" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection_area"]
-position = Vector2(-33.1788, -48.6623)
+position = Vector2(15.4834, 8.84768)
 shape = SubResource("RectangleShape2D_qlj2p")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="chat_detection_area"]
+position = Vector2(-2.21192, -8.84769)
+scale = Vector2(0.517304, 0.471641)
+sprite_frames = SubResource("SpriteFrames_xap3q")
+autoplay = "default"
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true

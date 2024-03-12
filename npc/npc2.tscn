@@ -1,14 +1,36 @@
-[gd_scene load_steps=5 format=3 uid="uid://dcf1x6pi4fehv"]
+[gd_scene load_steps=9 format=3 uid="uid://dcf1x6pi4fehv"]
 
-[ext_resource type="Texture2D" uid="uid://b70bkygqgvuf0" path="res://icon.svg" id="1_6qqh3"]
 [ext_resource type="Script" path="res://npc/npc2.gd" id="2_g0vk3"]
+[ext_resource type="Texture2D" uid="uid://dc57j0ewiuedm" path="res://assets/sprites/npc/1(1).png" id="2_udo5x"]
+[ext_resource type="Texture2D" uid="uid://56ev70ms2cbc" path="res://assets/sprites/npc/2(1).png" id="3_0prs7"]
 [ext_resource type="PackedScene" uid="uid://op35gm7js1kb" path="res://npc/dialogue2.tscn" id="3_e1yoa"]
+[ext_resource type="Texture2D" uid="uid://dtu4fqm1k5k15" path="res://assets/sprites/npc/3(1).png" id="4_a3w42"]
+[ext_resource type="Texture2D" uid="uid://c2spqprao6ss0" path="res://assets/sprites/npc/4(1).png" id="5_vi6gu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lv5t0"]
 size = Vector2(272, 152)
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_i203c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_udo5x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0prs7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_a3w42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_vi6gu")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
 [node name="npc2" type="Sprite2D"]
-texture = ExtResource("1_6qqh3")
 script = ExtResource("2_g0vk3")
 
 [node name="chat_detection_area" type="Area2D" parent="."]
@@ -17,14 +39,20 @@ script = ExtResource("2_g0vk3")
 position = Vector2(0, -4)
 shape = SubResource("RectangleShape2D_lv5t0")
 
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="chat_detection_area"]
+position = Vector2(0, -8)
+scale = Vector2(0.116026, 0.113288)
+sprite_frames = SubResource("SpriteFrames_i203c")
+autoplay = "default"
+
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
 [node name="Dialogue2" parent="." instance=ExtResource("3_e1yoa")]
 offset_left = 8.0
-offset_top = -8.0
+offset_top = -40.0
 offset_right = 48.0
-offset_bottom = 32.0
+offset_bottom = 0.0
 
 [connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
 [connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]

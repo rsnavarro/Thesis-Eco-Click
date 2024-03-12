@@ -1,14 +1,42 @@
-[gd_scene load_steps=4 format=3 uid="uid://s3qdkb8d58pk"]
+[gd_scene load_steps=8 format=3 uid="uid://s3qdkb8d58pk"]
 
-[ext_resource type="Texture2D" uid="uid://b70bkygqgvuf0" path="res://icon.svg" id="1_a6gdr"]
 [ext_resource type="Script" path="res://npc/npc3.gd" id="2_6l34s"]
+[ext_resource type="Texture2D" uid="uid://f6i6xe63og5k" path="res://assets/sprites/npc/1.png" id="2_8o33o"]
 [ext_resource type="PackedScene" uid="uid://b602lkp3c8w6t" path="res://npc/dialogue_3.tscn" id="3_577d3"]
+[ext_resource type="Texture2D" uid="uid://bmwfahhv4ysop" path="res://assets/sprites/npc/2.png" id="3_622mu"]
+[ext_resource type="Texture2D" uid="uid://cjy32kxvgo3fk" path="res://assets/sprites/npc/3.png" id="4_kv2f5"]
+[ext_resource type="Texture2D" uid="uid://8lruouygbum6" path="res://assets/sprites/npc/4.png" id="5_ifk62"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a4fix"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_8o33o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_622mu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_kv2f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ifk62")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
 
 [node name="npc3" type="Sprite2D"]
-texture = ExtResource("1_a6gdr")
 script = ExtResource("2_6l34s")
 
 [node name="chat_detection_area" type="Area2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="chat_detection_area"]
+position = Vector2(-5, 14)
+scale = Vector2(0.093246, 0.0824544)
+sprite_frames = SubResource("SpriteFrames_a4fix")
+autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection_area"]
 
