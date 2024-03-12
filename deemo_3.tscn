@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://dljw7okubahoy"]
+
+[ext_resource type="Texture2D" uid="uid://djlobd5sckhbs" path="res://assets/sprites/npc/Deemo 1.png" id="1_upnx2"]
+[ext_resource type="Script" path="res://Deemo3.gd" id="2_jd7rb"]
+[ext_resource type="PackedScene" uid="uid://pdl17i40dtcl" path="res://deemo_dialogue3.tscn" id="3_4o4bg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ohwbs"]
+size = Vector2(1275.22, 1853.51)
+
+[node name="Deemo3" type="Sprite2D"]
+scale = Vector2(0.0728075, 0.0739422)
+texture = ExtResource("1_upnx2")
+script = ExtResource("2_jd7rb")
+metadata/_edit_group_ = true
+
+[node name="chat_detection_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection_area"]
+position = Vector2(14.8281, 7.41411)
+scale = Vector2(0.999999, 0.999999)
+shape = SubResource("RectangleShape2D_ohwbs")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="DeemoDialogue" parent="." instance=ExtResource("3_4o4bg")]
+offset_left = -906.368
+offset_top = -808.132
+offset_right = -906.368
+offset_bottom = -808.132
+
+[connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
+[connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="dialogue_finished" from="DeemoDialogue" to="." method="_on_deemo_dialogue_dialogue_finished"]
