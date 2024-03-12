@@ -4,7 +4,7 @@ extends Control
 @onready var settings = $Settings
 @onready var video = $Video
 @onready var audio = $Audio
-const Lvl_01 = "res://scenes/levels/level_01.tscn"
+
 
 
 func _on_play_button_pressed():

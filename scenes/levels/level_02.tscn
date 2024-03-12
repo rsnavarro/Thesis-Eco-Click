@@ -1171,5 +1171,6 @@ position = Vector2(100, 300)
 scale = Vector2(0.375, 0.375)
 
 [editable path="ZedCharacterBody2D"]
+[editable path="ZedCharacterBody2D/Camera2D/PauseMenu"]
 [editable path="ZedCharacterBody2D/CharacterIcon/Timer"]
 [editable path="JumpToNextLevel3"]

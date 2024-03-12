@@ -19,9 +19,7 @@ config/icon="res://assets/sprites/icon.svg"
 
 LevelManager="*res://assets/Scripts/Managers/LevelManager.gd"
 Global="*res://global.gd"
-Lvl1To2="*res://scenes/UI/SceneTransitions/lvl_1_to_2.tscn"
-Lvl2To3="*res://scenes/UI/SceneTransitions/lvl_2_to_3.tscn"
-PlayMain="*res://scenes/UI/SceneTransitions/PlayMain.tscn"
+AudioPlayer="*res://scenes/Global/audio_player.tscn"
 
 [display]
 

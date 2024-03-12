@@ -9,6 +9,6 @@ extends Node
 @export var spawnpoint_4 : Node2D
 
 var level_data : LevelData
-
 func _ready() -> void:
+	AudioPlayer.play_music_level()
 	level_data = LevelManager.get_level_data_by_id(level_id)
