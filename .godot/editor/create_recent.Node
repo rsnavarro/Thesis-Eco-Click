@@ -1,3 +1,9 @@
+RichTextLabel
+NinePatchRect
+Timer
+CollisionShape2D
+Area2D
+Sprite2D
 AnimatedSprite2D
 AnimationPlayer
 AudioStreamPlayer
@@ -7,8 +13,3 @@ CharacterBody2D
 Node2D
 CanvasLayer
 RayCast2D
-Node
-CollisionShape2D
-Area2D
-StaticBody2D
-RichTextLabel
