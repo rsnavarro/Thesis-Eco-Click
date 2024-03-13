@@ -882,7 +882,7 @@ corner_radius_top_right = 1
 corner_radius_bottom_right = 1
 corner_radius_bottom_left = 1
 
-[node name="Level" type="Node2D"]
+[node name="Level2" type="Node2D"]
 script = ExtResource("1_tlyin")
 level_id = 2
 
@@ -999,6 +999,7 @@ offset_right = 8712.0
 offset_bottom = 630.0
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_ktdu4")]
+position = Vector2(-315, 287)
 metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="1" instance=ExtResource("5_54fek")]
@@ -1015,10 +1016,10 @@ position = Vector2(10191, 285)
 position = Vector2(470, 299)
 
 [node name="trash(bio)2" parent="." instance=ExtResource("4_mgpvl")]
-position = Vector2(1858, 458)
+position = Vector2(1752, 350)
 
 [node name="trash(bio)3" parent="." instance=ExtResource("4_mgpvl")]
-position = Vector2(3147, 428)
+position = Vector2(3111, 421)
 
 [node name="trash(bio)5" parent="." instance=ExtResource("4_mgpvl")]
 position = Vector2(3850, 248)
@@ -1053,9 +1054,6 @@ position = Vector2(7905, 456)
 [node name="trash(bio)16" parent="." instance=ExtResource("4_mgpvl")]
 position = Vector2(8785, 302)
 
-[node name="trash(bio)18" parent="." instance=ExtResource("4_mgpvl")]
-position = Vector2(9774, 322)
-
 [node name="trash(bio)19" parent="." instance=ExtResource("4_mgpvl")]
 position = Vector2(9247, 316)
 
@@ -1069,7 +1067,7 @@ position = Vector2(8563, 265)
 position = Vector2(7364, 334)
 
 [node name="trash(bio)4" parent="." instance=ExtResource("4_mgpvl")]
-position = Vector2(2540, 319)
+position = Vector2(2600, 306)
 
 [node name="trash(non-bio)" parent="." instance=ExtResource("5_b4x1l")]
 position = Vector2(789, 285)

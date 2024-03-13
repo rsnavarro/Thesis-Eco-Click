@@ -1,14 +1,14 @@
-[gd_scene load_steps=10 format=3 uid="uid://wqmdwbea20fl"]
+[gd_scene load_steps=11 format=3 uid="uid://biv313xkhmmx4"]
 
 [ext_resource type="Texture2D" uid="uid://db7gfmvi6shrp" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle1.png" id="1_2xsda"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 2/Turtle.gd" id="1_m1wv6"]
 [ext_resource type="Texture2D" uid="uid://ckmfp3bkauu1i" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle2.png" id="2_sswox"]
 [ext_resource type="Texture2D" uid="uid://lwwe6y2jnihc" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle3.png" id="3_2cmk5"]
 [ext_resource type="Texture2D" uid="uid://bk0cq5lfkxjf7" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle4.png" id="4_0cx73"]
 [ext_resource type="Texture2D" uid="uid://dofnoou7x4ehh" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle5.png" id="5_rek5f"]
 [ext_resource type="Texture2D" uid="uid://tbj8s6en08e" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle6.png" id="6_rqfk4"]
-[ext_resource type="Texture2D" uid="uid://bdp8c3e5llhxs" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle7.png" id="7_u0m0q"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_wyvhk"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_nff0x"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -28,24 +28,34 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("6_rqfk4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("7_u0m0q")
 }],
 "loop": true,
 "name": &"Turtle",
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_oi3is"]
-size = Vector2(32, 20)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6fwp6"]
+size = Vector2(30, 13)
 
-[node name="Turtle" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pv2l0"]
+size = Vector2(23, 5)
+
+[node name="Turtle" type="CharacterBody2D" groups=["Turtle"]]
+script = ExtResource("1_m1wv6")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_wyvhk")
+sprite_frames = SubResource("SpriteFrames_nff0x")
 animation = &"Turtle"
 autoplay = "Turtle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_oi3is")
+position = Vector2(0, 1.5)
+shape = SubResource("RectangleShape2D_6fwp6")
+
+[node name="Turtle_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Turtle_Hitbox"]
+position = Vector2(2.5, -3)
+shape = SubResource("RectangleShape2D_pv2l0")
+
+[connection signal="body_entered" from="Turtle_Hitbox" to="." method="_on_turtle_hitbox_body_entered"]

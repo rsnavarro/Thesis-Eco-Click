@@ -142,6 +142,13 @@ func on_death4(): #Snake
 	global_position = LevelManager.loaded_level.spawnpoint_4.global_position
 	turn_visible()
 
+func on_death5(): #Turtle
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_4.global_position
+	turn_visible()
+
 var master_bus = AudioServer.get_bus_index("Master")
 
 
