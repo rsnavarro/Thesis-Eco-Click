@@ -1,19 +1,7 @@
+res://scenes/levels/level_03.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/UI/pause_menu.gdshader
-res://scenes/levels/timer_1.tscn
-res://scenes/levels/Timer2.gd
-res://scenes/levels/timer_2.tscn
-res://scenes/levels/Timer3.gd
-res://scenes/levels/timer_3.tscn
-res://scenes/entities/ZedCharacterBody2D.tscn
-res://scenes/levels/level_01.tscn
-res://scenes/levels/level_02.tscn
-res://scenes/levels/level_03.tscn
-res://scenes/main.tscn
-res://scenes/UI/timer.tscn
-res://trash(bio).tscn
-res://assets/sprites/trash(non_bio).tscn
 res://scenes/levels/jump_to_next_level_2.gd
-res://scenes/levels/jump_to_next_level_2.tscn
-res://scenes/UI/Game Clear/game_clear_1.tscn
-res://scenes/UI/Game Clear/game_clear_2.tscn
+res://global.gd
+res://scenes/levels/level_02.tscn
+res://scenes/levels/jump_to_next_level_3.gd
