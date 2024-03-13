@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://br288p3cq3i3v"]
+
+[ext_resource type="Script" path="res://scenes/levels/Timer2.gd" id="1_677d3"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_pdx17"]
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_s1pun"]
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Timer2" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_677d3")
+
+[node name="Timer2" type="Timer" parent="."]
+
+[node name="Minutes2" type="Label" parent="."]
+offset_left = 6.0
+offset_top = 52.0
+offset_right = 46.0
+offset_bottom = 75.0
+text = "4:"
+label_settings = SubResource("LabelSettings_pdx17")
+
+[node name="Seconds2" type="Label" parent="."]
+offset_left = 4.0
+offset_top = 52.0
+offset_right = 44.0
+offset_bottom = 75.0
+text = "00"
+label_settings = SubResource("LabelSettings_s1pun")
+horizontal_alignment = 2
+
+[connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]

@@ -1,36 +1,41 @@
+class_name Timer3
 extends Control
 
-var max_time : float = 180.0
-var time : float = max_time
-var minutes : int = 0
-var seconds : int = 0
+var max_time3 : float = 180.0
+var time3 : float = max_time3
+var minutes3 : int = 0
+var seconds3 : int = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
 
 func _process(delta) -> void:
-	time -= delta
-	time = clamp(time, 0, max_time)
-	seconds = fmod(time, 60)
-	minutes = fmod(time, 3600) / 60
-	$Minutes.text = "%2d:" % minutes
-	$Seconds.text = "%02d" % seconds
+	time3 -= delta
+	time3 = clamp(time3, 0, max_time3)
+	seconds3 = fmod(time3, 60)
+	minutes3 = fmod(time3, 3600) / 60
+	$Minutes3.text = "%2d:" % minutes3
+	$Seconds3.text = "%02d" % seconds3
 
-	if time <= 0:
-		_on_game_over3()
+	if time3 <= 0:
+		_on_timer_3_timeout()
+
 
 func stop() -> void:
 	set_process(false)
 
 func get_time_formatted() -> String:
-	return "%2d:%02d" % [minutes, seconds]
+	return "%2d:%02d" % [minutes3, seconds3]
 
 func update_display():
-	seconds = fmod(time, 60)
-	minutes = fmod(time, 3600) / 60
-	$Minutes.text = "%2d:" % minutes
-	$Seconds.text = "%02d" % seconds
+	seconds3 = fmod(time3, 60)
+	minutes3 = fmod(time3, 3600) / 60
+	$Minutes3.text = "%2d:" % minutes3
+	$Seconds3.text = "%02d" % seconds3
 
-func _on_game_over3():
+func _on_timer_3_timeout():
 	get_tree().change_scene_to_file("res://scenes/UI/Game Over/game_over_3.tscn")
+
+func reset_timer():
+	time3 = max_time3

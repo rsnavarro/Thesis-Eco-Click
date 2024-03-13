@@ -5,7 +5,7 @@
 
 [sub_resource type="LabelSettings" id="LabelSettings_ih2pt"]
 font = ExtResource("1_rkqhs")
-font_size = 69
+font_size = 55
 font_color = Color(0, 0, 0, 1)
 outline_size = 15
 
@@ -36,11 +36,11 @@ offset_bottom = 360.0
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 64.0
-offset_right = 615.0
-offset_bottom = 134.0
-text = "Stage Clear 2"
+offset_left = 56.0
+offset_top = 80.0
+offset_right = 592.0
+offset_bottom = 136.0
+text = "Stage 2 Cleared"
 label_settings = SubResource("LabelSettings_ih2pt")
 
 [node name="Proceed" type="Button" parent="."]

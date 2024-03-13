@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://dt58i67lycqaf"]
+
+[ext_resource type="Script" path="res://scenes/levels/Timer1.gd" id="1_ssdmj"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_qd20k"]
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_m47qv"]
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Timer1" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ssdmj")
+
+[node name="Timer1" type="Timer" parent="."]
+
+[node name="Minutes1" type="Label" parent="."]
+offset_left = 6.0
+offset_top = 52.0
+offset_right = 46.0
+offset_bottom = 75.0
+text = "5:"
+label_settings = SubResource("LabelSettings_qd20k")
+
+[node name="Seconds1" type="Label" parent="."]
+offset_left = 4.0
+offset_top = 52.0
+offset_right = 44.0
+offset_bottom = 75.0
+text = "00"
+label_settings = SubResource("LabelSettings_m47qv")
+horizontal_alignment = 2
+
+[connection signal="timeout" from="Timer1" to="." method="_on_timer_1_timeout"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bmrpgcbjgq5b7"]
+[gd_scene load_steps=10 format=3 uid="uid://bmrpgcbjgq5b7"]
 
 [ext_resource type="Texture2D" uid="uid://dlchgtch8in2e" path="res://assets/sprites/trash/biodegradable/Apple scrap.png" id="1_cpf1c"]
 [ext_resource type="Script" path="res://trash(bio).gd" id="1_oj021"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dvg1igcbm4egf" path="res://assets/sprites/trash/biodegradable/fish bone.png" id="3_fbw7n"]
 [ext_resource type="Texture2D" uid="uid://civfsab1w8llc" path="res://assets/sprites/trash/biodegradable/food-box.png" id="4_4hyxh"]
 [ext_resource type="Texture2D" uid="uid://dm0tqd4ja8vof" path="res://assets/sprites/trash/biodegradable/paperbag.png" id="5_l5vms"]
+[ext_resource type="AudioStream" uid="uid://dddwfsgvec737" path="res://assets/sprites/sounds/Bio.wav" id="7_yd35g"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_f34do"]
 radius = 19.0263
@@ -47,5 +48,8 @@ autoplay = "default"
 frame_progress = 0.347821
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_yd35g")
+volume_db = -0.942
+pitch_scale = 1.56
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
