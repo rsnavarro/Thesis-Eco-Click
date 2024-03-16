@@ -1,3 +1,4 @@
+AudioStreamPlayer
 CharacterBody2D
 Node2D
 Control
@@ -9,6 +10,5 @@ RichTextLabel
 NinePatchRect
 AnimatedSprite2D
 AnimationPlayer
-AudioStreamPlayer
 ColorRect
 TextureButton

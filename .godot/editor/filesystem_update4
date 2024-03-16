@@ -1,16 +1,17 @@
-res://scenes/levels/jump_to_next_level_2.gd
-res://scenes/levels/jump_to_next_level_2.tscn
+res://scenes/main.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/UI/pause_menu.gdshader
 res://scenes/levels/level_01.tscn
 res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
-res://scenes/main.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
 res://trash_gui.tscn
-res://Trash_gui.gd
-res://global.gd
 res://scenes/entities/Obstacles/Level 2/Turtle.tscn
-res://scenes/entities/Obstacles/Level 1/Dynamite.tscn
-res://scenes/entities/Obstacles/Level 2/Turtle.gd
-res://scenes/entities/ZedCharacterBody2D.gd
+res://scenes/UI/main_menu.tscn
+res://scenes/UI/main_menu.gd
+res://scenes/Global/audio_player.tscn
+res://scenes/Global/audio_player.gd
+res://scenes/Global/BG_Music.tscn
+res://scenes/Global/BG_Music.gd
+res://scenes/Audio/non_bio.tscn
+res://scenes/Audio/bio.tscn

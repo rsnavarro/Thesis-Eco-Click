@@ -4,8 +4,9 @@ extends Control
 @onready var settings = $Settings
 @onready var video = $Video
 @onready var audio = $Audio
-
-
+@onready var Master_Vol = AudioServer.get_bus_index("Master")
+@onready var Music_Vol = AudioServer.get_bus_index("Music")
+@onready var SFX_Vol = AudioServer.get_bus_index("Sound FX")
 
 func _on_play_button_pressed():
 	LevelManager.load_level(1)
@@ -63,17 +64,20 @@ func _on_back_video_pressed():
 
 
 func _on_master_value_changed(value):
-	volume(0, value)
+	AudioServer.set_bus_volume_db(Master_Vol, linear_to_db(value))
+	AudioServer.set_bus_mute(Master_Vol, value < .05)
 	
 func volume(bus_index, value):
 	AudioServer.set_bus_volume_db(bus_index, value)
 
 func _on_music_value_changed(value):
-	volume(1, value)
+	AudioServer.set_bus_volume_db(Music_Vol, linear_to_db(value))
+	AudioServer.set_bus_mute(Music_Vol, value < .05)
 
 
 func _on_sound_fx_value_changed(value):
-	volume(2, value)
+	AudioServer.set_bus_volume_db(Music_Vol, linear_to_db(value))
+	AudioServer.set_bus_mute(SFX_Vol, value < .05)
 
 
 func _on_back_audio_pressed():

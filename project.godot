@@ -19,7 +19,7 @@ config/icon="res://assets/sprites/icon.svg"
 
 LevelManager="*res://assets/Scripts/Managers/LevelManager.gd"
 Global="*res://global.gd"
-AudioPlayer="*res://scenes/Global/audio_player.tscn"
+AudioPlayer="*res://scenes/Global/BG_Music.tscn"
 
 [display]
 

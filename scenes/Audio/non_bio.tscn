@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://dqv7vn850spdm"]
+
+[node name="non_bio" type="AudioStreamPlayer"]
+bus = &"Sound FX"

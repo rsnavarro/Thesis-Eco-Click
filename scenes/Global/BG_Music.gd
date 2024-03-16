@@ -1,13 +1,14 @@
 extends AudioStreamPlayer
 
-const level_music = preload("res://scenes/Audio/eco click.mp3")
+const level_music = preload("res://scenes/Audio/BG_Music.mp3")
 
-func _play_music(music: AudioStream, volume = 0.0):
+func _play_music(music: AudioStream, volume = -20):
 	if stream == music:
 		return
 	
 	stream = music
 	volume_db = volume
+	stream.loop = true
 	play()
 
 func play_music_level():
