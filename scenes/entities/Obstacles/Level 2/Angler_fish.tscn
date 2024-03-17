@@ -1,56 +1,68 @@
-[gd_scene load_steps=11 format=3 uid="uid://bitfy73pvovh4"]
+[gd_scene load_steps=12 format=3 uid="uid://bitfy73pvovh4"]
 
-[ext_resource type="Texture2D" uid="uid://diavun2t833al" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler1.png" id="1_6xriw"]
-[ext_resource type="Texture2D" uid="uid://bhy5sqpc6gflr" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler2.png" id="2_8pu5n"]
-[ext_resource type="Texture2D" uid="uid://db7breynt6jhx" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler3.png" id="3_yicm7"]
-[ext_resource type="Texture2D" uid="uid://bdrukmxy4y1ae" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler4.png" id="4_5lvat"]
-[ext_resource type="Texture2D" uid="uid://dpfnb2fu53d4h" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler5.png" id="5_2edt5"]
-[ext_resource type="Texture2D" uid="uid://13bocduq0xqw" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler6.png" id="6_704rn"]
-[ext_resource type="Texture2D" uid="uid://dh5nsucv3hbdn" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler7.png" id="7_l53uy"]
-[ext_resource type="Texture2D" uid="uid://cb270veefd67u" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler8.png" id="8_3aco0"]
+[ext_resource type="Texture2D" uid="uid://diavun2t833al" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler1.png" id="1_8moth"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 2/Angler_Fish.gd" id="1_ag70l"]
+[ext_resource type="Texture2D" uid="uid://bhy5sqpc6gflr" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler2.png" id="2_2b405"]
+[ext_resource type="Texture2D" uid="uid://db7breynt6jhx" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler3.png" id="3_c808e"]
+[ext_resource type="Texture2D" uid="uid://bdrukmxy4y1ae" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler4.png" id="4_1nu1y"]
+[ext_resource type="Texture2D" uid="uid://dpfnb2fu53d4h" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler5.png" id="5_pnq0m"]
+[ext_resource type="Texture2D" uid="uid://13bocduq0xqw" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler6.png" id="6_2ssou"]
+[ext_resource type="Texture2D" uid="uid://dh5nsucv3hbdn" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler7.png" id="7_midd8"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_ygidp"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_84o0b"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_6xriw")
+"texture": ExtResource("1_8moth")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_8pu5n")
+"texture": ExtResource("2_2b405")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_yicm7")
+"texture": ExtResource("3_c808e")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_5lvat")
+"texture": ExtResource("4_1nu1y")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_2edt5")
+"texture": ExtResource("5_pnq0m")
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_704rn")
+"texture": ExtResource("6_2ssou")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_l53uy")
-}, {
-"duration": 1.0,
-"texture": ExtResource("8_3aco0")
+"texture": ExtResource("7_midd8")
 }],
 "loop": true,
 "name": &"Angler",
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_v0wd2"]
-size = Vector2(32, 18)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ekkk8"]
+size = Vector2(40, 22)
 
-[node name="Angler Fish" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ugpcj"]
+size = Vector2(24, 2.75)
+
+[node name="Angler Fish" type="CharacterBody2D" groups=["Angler Fish"]]
+script = ExtResource("1_ag70l")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_ygidp")
+position = Vector2(-9.53674e-07, 9.53674e-07)
+scale = Vector2(1.38889, 1.38889)
+sprite_frames = SubResource("SpriteFrames_84o0b")
 animation = &"Angler"
 autoplay = "Angler"
+flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 1)
-shape = SubResource("RectangleShape2D_v0wd2")
+position = Vector2(-2, 4)
+shape = SubResource("RectangleShape2D_ekkk8")
+
+[node name="Angler_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Angler_Hitbox"]
+position = Vector2(2, -9)
+shape = SubResource("RectangleShape2D_ugpcj")
+
+[connection signal="body_entered" from="Angler_Hitbox" to="." method="_on_angler_hitbox_body_entered"]

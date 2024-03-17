@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://cxbetjms8wcaf"]
+
+[ext_resource type="Texture2D" uid="uid://cyv6yapm3nc6i" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Clam1.png" id="1_plbbr"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 2/Giant_Clam.gd" id="1_ri10t"]
+[ext_resource type="Texture2D" uid="uid://cetjptuxjm7tx" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Clam2.png" id="2_p6lxr"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xi6n0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_plbbr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_p6lxr")
+}],
+"loop": true,
+"name": &"Clam",
+"speed": 0.5
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yh66s"]
+radius = 21.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r6g16"]
+size = Vector2(19, 3)
+
+[node name="Giant Clam" type="CharacterBody2D" groups=["Giant Clam"]]
+script = ExtResource("1_ri10t")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-4.76837e-07, 4.76837e-07)
+scale = Vector2(0.12, 0.12)
+sprite_frames = SubResource("SpriteFrames_xi6n0")
+animation = &"Clam"
+autoplay = "Clam"
+frame_progress = 0.239267
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_yh66s")
+
+[node name="Clam_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Clam_Hitbox"]
+position = Vector2(0, -21)
+shape = SubResource("RectangleShape2D_r6g16")
+
+[connection signal="body_entered" from="Clam_Hitbox" to="." method="_on_clam_hitbox_body_entered"]

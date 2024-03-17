@@ -1,11 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://cqpsa7rua1p0p"]
+[gd_scene load_steps=9 format=3 uid="uid://cqpsa7rua1p0p"]
 
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 3/Albatross.gd" id="1_1ymb2"]
 [ext_resource type="Texture2D" uid="uid://xdoafrvvvdw0" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Albatross1.png" id="1_sxm52"]
 [ext_resource type="Texture2D" uid="uid://bcudg3ahjmi8m" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Albatross2.png" id="2_opeev"]
 [ext_resource type="Texture2D" uid="uid://1ever8uvium" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Albatross3.png" id="3_qis0m"]
 [ext_resource type="Texture2D" uid="uid://bi3r64h07cp6y" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Albatross4.png" id="4_wwkvt"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_aay8m"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_1f63a"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -25,17 +26,29 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_x5eqr"]
-size = Vector2(64, 26)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pfqj"]
+size = Vector2(64, 22)
 
-[node name="Albatross" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_je5ia"]
+size = Vector2(47, 3)
+
+[node name="Albatross" type="CharacterBody2D" groups=["Albatross"]]
+script = ExtResource("1_1ymb2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.129, 0.129)
-sprite_frames = SubResource("SpriteFrames_aay8m")
+sprite_frames = SubResource("SpriteFrames_1f63a")
 animation = &"Albatross"
 autoplay = "Albatross"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 3)
-shape = SubResource("RectangleShape2D_x5eqr")
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_8pfqj")
+
+[node name="Albatross_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Albatross_Hitbox"]
+position = Vector2(0.5, -9)
+shape = SubResource("RectangleShape2D_je5ia")
+
+[connection signal="body_entered" from="Albatross_Hitbox" to="." method="_on_albatross_hitbox_body_entered"]

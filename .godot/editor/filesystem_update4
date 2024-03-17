@@ -1,17 +1,27 @@
-res://scenes/main.tscn
+res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/UI/pause_menu.gdshader
-res://scenes/levels/level_01.tscn
+res://scenes/entities/ZedCharacterBody2D.gd
 res://scenes/levels/level_02.tscn
-res://scenes/levels/level_03.tscn
-res://scenes/entities/ZedCharacterBody2D.tscn
-res://trash_gui.tscn
+res://assets/Scripts/classes/level.gd
 res://scenes/entities/Obstacles/Level 2/Turtle.tscn
-res://scenes/UI/main_menu.tscn
-res://scenes/UI/main_menu.gd
-res://scenes/Global/audio_player.tscn
-res://scenes/Global/audio_player.gd
-res://scenes/Global/BG_Music.tscn
-res://scenes/Global/BG_Music.gd
-res://scenes/Audio/non_bio.tscn
-res://scenes/Audio/bio.tscn
+res://scenes/entities/Obstacles/Level 2/Jellyfish.tscn
+res://scenes/entities/Obstacles/Level 2/Clam.tscn
+res://scenes/entities/Obstacles/Level 2/Giant_Clam.tscn
+res://scenes/entities/Obstacles/Level 2/Giant_Clam.gd
+res://scenes/entities/Obstacles/Level 1/Crab.tscn
+res://scenes/entities/Obstacles/Level 2/Angler_Fish.tscn
+res://scenes/entities/Obstacles/Level 2/Angler_Fish.gd
+res://scenes/main.tscn
+res://scenes/levels/level_01.tscn
+res://scenes/levels/level_03.tscn
+res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.tscn
+res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.gd
+res://scenes/entities/Obstacles/Level 3/Rapid_Plant.tscn
+res://scenes/entities/Obstacles/Level 3/Rapid_Plant.gd
+res://scenes/entities/Obstacles/Level 3/Iguana.tscn
+res://scenes/entities/Obstacles/Level 3/Iguana.gd
+res://scenes/entities/Obstacles/Level 3/Albatross.tscn
+res://scenes/entities/Obstacles/Level 3/Albatross.gd
+res://scenes/entities/Obstacles/Level 3/Monkey.tscn
+res://scenes/entities/Obstacles/Level 3/Monkey.gd

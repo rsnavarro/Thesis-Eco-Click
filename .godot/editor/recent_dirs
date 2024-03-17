@@ -1,5 +1,6 @@
-res://scenes/Audio
+res://scenes/entities/Obstacles/Level 3
 res://scenes/entities/Obstacles/Level 2
+res://scenes/Audio
 res://assets/sprites/sounds
 res://scenes/levels
 res://
@@ -18,7 +19,6 @@ res://npc
 res://assets/Fonts
 res://scenes/entities/NPCs
 >>>>>>> Stashed changes
-res://scenes/entities/Obstacles/Level 3
 res://scenes/entities/Obstacles
 <<<<<<< Updated upstream
 =======

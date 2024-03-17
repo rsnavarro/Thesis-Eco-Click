@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://g7p4bxtnysro"]
+
+[ext_resource type="Texture2D" uid="uid://csx2nrt4dgha1" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Quicksand2.png" id="1_1q8b6"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.gd" id="1_3pbb6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_i1028"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_1q8b6")
+}],
+"loop": true,
+"name": &"Quicksand Pit",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bfrmx"]
+size = Vector2(101, 20)
+
+[node name="Quicksand Pit" type="CharacterBody2D" groups=["Quicksand Pit"]]
+script = ExtResource("1_3pbb6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(3.875, 3.875)
+scale = Vector2(0.2085, 0.2085)
+sprite_frames = SubResource("SpriteFrames_i1028")
+animation = &"Quicksand Pit"
+autoplay = "Quicksand Pit"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.5, -38)
+shape = SubResource("RectangleShape2D_bfrmx")

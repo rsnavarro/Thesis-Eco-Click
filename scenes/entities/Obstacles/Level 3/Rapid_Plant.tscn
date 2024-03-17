@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://cgapsk7vvw0ie"]
+
+[ext_resource type="Texture2D" uid="uid://4v2bfqr3wur1" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/RapidPlant1.png" id="1_1a0kw"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 3/Rapid_Plant.gd" id="1_cwddt"]
+[ext_resource type="Texture2D" uid="uid://cwwwclble7v7a" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/RapidPlant2.png" id="2_pr8mk"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kowsv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_1a0kw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pr8mk")
+}],
+"loop": true,
+"name": &"Rapid Plant",
+"speed": 1.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ljnmp"]
+size = Vector2(21, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wb7dh"]
+size = Vector2(15, 3.75)
+
+[node name="Rapid Plant" type="CharacterBody2D" groups=["Rapid Plant"]]
+script = ExtResource("1_cwddt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2.38419e-07, 2.38419e-07)
+scale = Vector2(0.07625, 0.07625)
+sprite_frames = SubResource("SpriteFrames_kowsv")
+animation = &"Rapid Plant"
+autoplay = "Rapid Plant"
+frame_progress = 0.98476
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 2)
+shape = SubResource("RectangleShape2D_ljnmp")
+
+[node name="Plant_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Plant_Hitbox"]
+position = Vector2(-0.5, -16)
+shape = SubResource("RectangleShape2D_wb7dh")
+
+[connection signal="body_entered" from="Plant_Hitbox" to="." method="_on_plant_hitbox_body_entered"]

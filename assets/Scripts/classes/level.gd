@@ -7,6 +7,15 @@ extends Node
 @export var spawnpoint_2 : Node2D
 @export var spawnpoint_3 : Node2D
 @export var spawnpoint_4 : Node2D
+@export var spawnpoint_5 : Node2D
+@export var spawnpoint_6 : Node2D
+@export var spawnpoint_7 : Node2D
+@export var spawnpoint_8 : Node2D
+@export var spawnpoint_9 : Node2D
+@export var spawnpoint_10 : Node2D
+@export var spawnpoint_11 : Node2D
+@export var spawnpoint_12 : Node2D
+@export var spawnpoint_13 : Node2D
 
 var level_data : LevelData
 func _ready() -> void:

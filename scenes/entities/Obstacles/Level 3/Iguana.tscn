@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://dyb85suu02fl4"]
+[gd_scene load_steps=8 format=3 uid="uid://dyb85suu02fl4"]
 
 [ext_resource type="Texture2D" uid="uid://med2kcchndqb" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Iguana1.png" id="1_0vfj8"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 3/Iguana.gd" id="1_po8gu"]
 [ext_resource type="Texture2D" uid="uid://dqf75f6njitv4" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Iguana2.png" id="2_qtnn0"]
 [ext_resource type="Texture2D" uid="uid://djw1xotwg1jke" path="res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Iguana3.png" id="3_pieha"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_fymmw"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_ivrcs"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -18,20 +19,34 @@ animations = [{
 }],
 "loop": true,
 "name": &"Iguana",
-"speed": 5.0
+"speed": 3.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_32yx2"]
-size = Vector2(56, 18)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eo046"]
+size = Vector2(52, 10)
 
-[node name="Iguana" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xk6k8"]
+size = Vector2(23, 3)
+
+[node name="Iguana" type="CharacterBody2D" groups=["Iguana"]]
+script = ExtResource("1_po8gu")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(0.122, 0.122)
-sprite_frames = SubResource("SpriteFrames_fymmw")
+position = Vector2(0.749998, -0.749998)
+scale = Vector2(0.125, 0.125)
+sprite_frames = SubResource("SpriteFrames_ivrcs")
 animation = &"Iguana"
 autoplay = "Iguana"
+frame_progress = 0.462237
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-4, 1)
-shape = SubResource("RectangleShape2D_32yx2")
+position = Vector2(0, 3)
+shape = SubResource("RectangleShape2D_eo046")
+
+[node name="Iguana_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Iguana_Hitbox"]
+position = Vector2(-11.5, -4)
+shape = SubResource("RectangleShape2D_xk6k8")
+
+[connection signal="body_entered" from="Iguana_Hitbox" to="." method="_on_iguana_hitbox_body_entered"]

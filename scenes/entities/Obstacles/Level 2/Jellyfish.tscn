@@ -1,6 +1,7 @@
-[gd_scene load_steps=18 format=3 uid="uid://bis2l2u1lonsr"]
+[gd_scene load_steps=20 format=3 uid="uid://bis2l2u1lonsr"]
 
 [ext_resource type="Texture2D" uid="uid://c0e4ewidrx6x4" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly1.png" id="1_16uab"]
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Level 2/Jellyfish.gd" id="1_avpmm"]
 [ext_resource type="Texture2D" uid="uid://dlf2vglmlk0fe" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly2.png" id="2_sumn4"]
 [ext_resource type="Texture2D" uid="uid://csvjqtde5fl6h" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly3.png" id="3_g6dlx"]
 [ext_resource type="Texture2D" uid="uid://dukfl3750kehi" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly4.png" id="4_5g207"]
@@ -16,8 +17,34 @@
 [ext_resource type="Texture2D" uid="uid://c0tvtet54yoj6" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly14.png" id="14_v82r2"]
 [ext_resource type="Texture2D" uid="uid://cbf3xxg7g2tbe" path="res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly15.png" id="15_ti7fy"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_xg505"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_6bcdt"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_vrvdx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wknxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qei5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_oddnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nwbc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_v82r2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ti7fy")
+}],
+"loop": true,
+"name": &"Death",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_16uab")
@@ -42,43 +69,36 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": ExtResource("8_hno55")
-}, {
-"duration": 1.0,
-"texture": ExtResource("9_vrvdx")
-}, {
-"duration": 1.0,
-"texture": ExtResource("10_wknxv")
-}, {
-"duration": 1.0,
-"texture": ExtResource("11_qei5a")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_oddnh")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_nwbc6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_v82r2")
-}, {
-"duration": 1.0,
-"texture": ExtResource("15_ti7fy")
 }],
 "loop": true,
 "name": &"Jellyfish",
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_q1wif"]
-size = Vector2(16, 26)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nvg1u"]
+size = Vector2(19, 26)
 
-[node name="Jellyfish" type="Area2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_103am"]
+size = Vector2(13, 1.4375)
+
+[node name="Jellyfish" type="CharacterBody2D" groups=["Jellyfish"]]
+script = ExtResource("1_avpmm")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_xg505")
+position = Vector2(9.53674e-07, 9.53674e-07)
+scale = Vector2(1.21111, 1.21111)
+sprite_frames = SubResource("SpriteFrames_6bcdt")
 animation = &"Jellyfish"
 autoplay = "Jellyfish"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 3)
-shape = SubResource("RectangleShape2D_q1wif")
+position = Vector2(0.5, 3)
+shape = SubResource("RectangleShape2D_nvg1u")
+
+[node name="Jellyfish_Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Jellyfish_Hitbox"]
+position = Vector2(0.5, -10.7188)
+shape = SubResource("RectangleShape2D_103am")
+
+[connection signal="body_entered" from="Jellyfish_Hitbox" to="." method="_on_jellyfish_hitbox_body_entered"]

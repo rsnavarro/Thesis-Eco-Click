@@ -112,8 +112,27 @@ func _on_body_hitbox_body_entered(body):
 		on_death3()
 	elif body.is_in_group("Snake"):
 		on_death4()
+	elif body.is_in_group("Turtle"):
+		on_death5()
+	elif body.is_in_group("Jellyfish"):
+		on_death6()
+	elif body.is_in_group("Giant Clam"):
+		on_death7()
+	elif body.is_in_group("Angler Fish"):
+		on_death8()
+	elif body.is_in_group("Quicksand Pit"):
+		on_death9()
+	elif body.is_in_group("Rapid Plant"):
+		on_death10()
+	elif body.is_in_group("Iguana"):
+		on_death11()
+	elif body.is_in_group("Albatross"):
+		on_death12()
+	elif body.is_in_group("Monkey"):
+		on_death13()
 
 #Spawn points of Obstacles
+#Level 1 Obstacles
 func on_death1(): #Dynamite
 	animation_player.play("Dead")
 	can_control = false
@@ -142,11 +161,69 @@ func on_death4(): #Snake
 	global_position = LevelManager.loaded_level.spawnpoint_4.global_position
 	turn_visible()
 
+#Level 2 Obstacles
 func on_death5(): #Turtle
 	animation_player.play("Dead")
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	#global_position = LevelManager.loaded_level.spawnpoint_4.global_position
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
+	turn_visible()
+
+func on_death6(): #Jellyfish
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
+	turn_visible()
+
+func on_death7(): #Giant Clam
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
+	turn_visible()
+
+func on_death8(): #Angler Fish
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
+	turn_visible()
+
+#Level 3 Obstacles
+func on_death9(): #Quicksand Pit
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
+	turn_visible()
+
+func on_death10(): #Rapid Plant
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
+	turn_visible()
+
+func on_death11(): #Iguana
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
+	turn_visible()
+
+func on_death12(): #Albatross
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
+	turn_visible()
+
+func on_death13(): #Monkey
+	animation_player.play("Dead")
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
 	turn_visible()
 
 var master_bus = AudioServer.get_bus_index("Master")

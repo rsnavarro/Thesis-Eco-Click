@@ -1,6 +1,6 @@
-AudioStreamPlayer
 CharacterBody2D
 Node2D
+AudioStreamPlayer
 Control
 Timer
 CollisionShape2D

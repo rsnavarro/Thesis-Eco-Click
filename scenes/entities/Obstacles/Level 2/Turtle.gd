@@ -19,4 +19,4 @@ func _on_body_entered(body):
 func _on_turtle_hitbox_body_entered(body):
 	if body.is_in_group("Player"):
 		is_alive = false
-		queue_free
+		queue_free()
