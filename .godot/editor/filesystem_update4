@@ -25,3 +25,9 @@ res://scenes/entities/Obstacles/Level 3/Albatross.tscn
 res://scenes/entities/Obstacles/Level 3/Albatross.gd
 res://scenes/entities/Obstacles/Level 3/Monkey.tscn
 res://scenes/entities/Obstacles/Level 3/Monkey.gd
+res://scenes/UI/Game Clear/game_clear_1.tscn
+res://scenes/UI/Game Clear/game_clear_1.gd
+res://trash_gui.tscn
+res://scenes/UI/Game Over/game_over_1.gd
+res://scenes/UI/Game Over/game_over_2.gd
+res://scenes/UI/Game Over/game_over_3.gd

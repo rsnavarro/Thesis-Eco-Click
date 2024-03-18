@@ -18,7 +18,7 @@ config/icon="res://assets/sprites/icon.svg"
 [autoload]
 
 LevelManager="*res://assets/Scripts/Managers/LevelManager.gd"
-Global="*res://global.gd"
+Global="*res://scenes/Global/global.gd"
 AudioPlayer="*res://scenes/Global/BG_Music.tscn"
 
 [display]
