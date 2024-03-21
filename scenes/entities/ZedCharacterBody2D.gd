@@ -76,9 +76,11 @@ func _process(delta):
 
 func PauseMenu():
 	if paused:
+		AudioPlayer.play()
 		pause_menu.hide()
 		Engine.time_scale = 1
 	else:
+		AudioPlayer.stop()
 		pause_menu.show()
 		Engine.time_scale = 0
 	paused = !paused

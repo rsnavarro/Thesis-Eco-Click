@@ -4,31 +4,36 @@ const SPEED = 25.0
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var is_alive = true
 @onready var animated_sprite_2d = $AnimatedSprite2D
+@onready var floor_ray_cast_right = $Floor_Checks/Floor_RayCast_Right
+@onready var floor_ray_cast_left = $Floor_Checks/Floor_RayCast_Left
 
-#@onready var ray_cast_2d_left = $Wall_Checks/RayCast2D_Left as RayCast2D
-#@onready var ray_cast_2d_right = $Wall_Checks/RayCast2D_Right as RayCast2D
-#@onready var floor_ray_cast_left = $Floor_Checks/Floor_RayCast_Left as RayCast2D
-#@onready var floor_ray_cast_right = $Floor_Checks/Floor_RayCast_Right as RayCast2D
-
-#@export var wander_speed : float = 40.0
-#@export var chase_speed : float = 80.0
-
-#var current_speed : float = 0.0
-#var player_found : bool = false
-
-
-#enum States{
-	#Wander,
-	#Chase
-#}
-
-#var current_state = States.Wander	
 
 func _physics_process(delta):
+	#var direction_right
+	#var direction_left
+#
+	#if direction_right:
+		#velocity.y += gravity * delta
+		#velocity.x = SPEED
+		#
+	#elif direction_left:
+		#velocity.y += gravity * delta
+		#velocity.x = -SPEED
+
 	if not is_on_floor():
 		velocity.y += gravity * delta
-	else:
-		velocity.x = SPEED
+		#velocity.x = SPEED
+	elif is_on_floor():
+		#velocity.y += gravity * delta
+		#velocity.x = SPEED
+		if floor_ray_cast_right.is_colliding():
+			#floor_ray_cast_right.scale.x *= -1.0
+			animated_sprite_2d.flip_h = true
+			velocity.x = -SPEED
+		elif floor_ray_cast_left.is_colliding():
+			#floor_ray_cast_left.scale.x *= 1.0
+			animated_sprite_2d.flip_h = true
+			velocity.x = SPEED
 
 	move_and_slide()
 

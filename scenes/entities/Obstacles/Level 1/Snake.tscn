@@ -39,7 +39,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qej2h"]
-size = Vector2(32, 32)
+size = Vector2(29, 29)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t2fxn"]
 size = Vector2(16, 3)
@@ -56,6 +56,7 @@ animation = &"Snake"
 autoplay = "Snake"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 1.5)
 shape = SubResource("RectangleShape2D_qej2h")
 
 [node name="Snake_Hitbox" type="Area2D" parent="."]
@@ -64,22 +65,14 @@ shape = SubResource("RectangleShape2D_qej2h")
 position = Vector2(1, -15)
 shape = SubResource("RectangleShape2D_t2fxn")
 
-[node name="Wall_Checks" type="Node2D" parent="."]
-
-[node name="RayCast2D_Left" type="RayCast2D" parent="Wall_Checks"]
-target_position = Vector2(-25, 0)
-
-[node name="RayCast2D_Right" type="RayCast2D" parent="Wall_Checks"]
-target_position = Vector2(26, 0)
-
 [node name="Floor_Checks" type="Node2D" parent="."]
 
-[node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
-position = Vector2(-15, 0)
-target_position = Vector2(0, 46)
-
 [node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
-position = Vector2(15, 0)
-target_position = Vector2(0, 46)
+position = Vector2(13, 0)
+target_position = Vector2(0, 35)
+
+[node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(-12, 0)
+target_position = Vector2(0, 35)
 
 [connection signal="body_entered" from="Snake_Hitbox" to="." method="_on_snake_hitbox_body_entered"]

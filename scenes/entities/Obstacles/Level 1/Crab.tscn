@@ -30,7 +30,7 @@ animations = [{
 size = Vector2(36.5, 25)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_t2fxn"]
-size = Vector2(19, 3)
+size = Vector2(19, 2.5)
 
 [node name="Crab" type="CharacterBody2D" groups=["Crab"]]
 position = Vector2(0, -11)
@@ -42,7 +42,9 @@ scale = Vector2(0.143229, 0.143229)
 sprite_frames = SubResource("SpriteFrames_agltc")
 animation = &"Crab"
 autoplay = "Crab"
-frame_progress = 0.544022
+frame = 3
+frame_progress = 0.460108
+flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.25, 1.5)
@@ -51,25 +53,18 @@ shape = SubResource("RectangleShape2D_elpuy")
 [node name="Crab_Hitbox" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Crab_Hitbox"]
-position = Vector2(4.5, -12)
+position = Vector2(-6.5, -12.75)
 shape = SubResource("RectangleShape2D_t2fxn")
 
 [node name="Wall_Checks" type="Node2D" parent="."]
 
-[node name="RayCast2D_Left" type="RayCast2D" parent="Wall_Checks"]
-target_position = Vector2(-27, 0)
-
-[node name="RayCast2D_Right" type="RayCast2D" parent="Wall_Checks"]
+[node name="Wall_RayCast_Left" type="RayCast2D" parent="Wall_Checks"]
 target_position = Vector2(26, 0)
 
 [node name="Floor_Checks" type="Node2D" parent="."]
 
 [node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
-position = Vector2(-16, 0)
-target_position = Vector2(0, 38)
-
-[node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
-position = Vector2(15, 0)
-target_position = Vector2(0, 38)
+position = Vector2(17, 0)
+target_position = Vector2(0, 30)
 
 [connection signal="body_entered" from="Crab_Hitbox" to="." method="_on_crab_hitbox_body_entered"]
