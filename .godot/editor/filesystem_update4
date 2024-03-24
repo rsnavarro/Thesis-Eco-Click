@@ -1,9 +1,3 @@
-res://scenes/main.tscn
+res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/UI/pause_menu.gdshader
-res://scenes/levels/level_01.tscn
-res://scenes/levels/level_02.tscn
-res://scenes/levels/level_03.tscn
-res://scenes/entities/ZedCharacterBody2D.tscn
-res://scenes/entities/Obstacles/Level 1/Crab.tscn
-res://scenes/entities/Obstacles/Level 1/Snake.tscn
