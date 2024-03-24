@@ -1,3 +1,39 @@
 res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/UI/pause_menu.gdshader
+res://assets/Scripts/classes/level.gd
+res://scenes/levels/level_01.tscn
+res://scenes/entities/ZedCharacterBody2D.gd
+res://scenes/entities/Obstacles/danger_zone.gd
+res://scenes/main.tscn
+res://scenes/levels/level_02.tscn
+res://scenes/levels/level_03.tscn
+res://scenes/entities/Obstacles/Level 1/Crab.tscn
+res://scenes/entities/Obstacles/Level 1/Snake.tscn
+res://scenes/entities/Obstacles/danger_zone.tscn
+res://scenes/entities/Obstacles/danger_zone_1.tscn
+res://scenes/entities/Obstacles/danger_zone_2.tscn
+res://scenes/entities/Obstacles/danger_zone_2.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_3.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_3.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_2.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_4.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_4.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_5.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_5.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_6.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_6.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_7.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_7.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_8.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_8.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_9.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_9.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_10.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_10.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_11.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_11.gd
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_12.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_12.gd
+res://scenes/levels/jump_to_next_level_2.tscn
+res://scenes/levels/jump_to_next_level_2.gd

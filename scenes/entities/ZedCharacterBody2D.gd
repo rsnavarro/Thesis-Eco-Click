@@ -86,20 +86,6 @@ func PauseMenu():
 	paused = !paused
 
 
-func handle_danger() -> void:
-	print("Player Died!")
-	visible = false
-	can_control = false
-	
-	await get_tree().create_timer(1).timeout
-	reset_player()
-
-func reset_player() -> void:
-	print(LevelManager.loaded_level)
-	global_position = LevelManager.loaded_level.level_start_pos.global_position
-
-	visible = true
-	can_control = true
 
 func turn_visible():
 	visible = true
@@ -132,6 +118,35 @@ func _on_body_hitbox_body_entered(body):
 		on_death12()
 	elif body.is_in_group("Monkey"):
 		on_death13()
+
+#Danger Zones
+	elif body.is_in_group("DZ1"):
+		DZ1()
+	elif body.is_in_group("DZ2"):
+		DZ2()
+	elif body.is_in_group("DZ3"):
+		DZ3()
+	elif body.is_in_group("DZ4"):
+		DZ4()
+	elif body.is_in_group("DZ5"):
+		DZ5()
+	elif body.is_in_group("DZ6"):
+		DZ6()
+	elif body.is_in_group("DZ7"):
+		DZ7()
+	elif body.is_in_group("DZ8"):
+		DZ8()
+	elif body.is_in_group("DZ9"):
+		DZ9()
+	elif body.is_in_group("DZ10"):
+		DZ10()
+	elif body.is_in_group("DZ11"):
+		DZ11()
+	elif body.is_in_group("DZ12"):
+		DZ12()
+	elif body.is_in_group("DZ13"):
+		DZ13()
+
 
 #Spawn points of Obstacles
 #Level 1 Obstacles
@@ -228,8 +243,100 @@ func on_death13(): #Monkey
 	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
 	turn_visible()
 
-var master_bus = AudioServer.get_bus_index("Master")
+#Danger Zones
+func DZ1():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S1.global_position
+	turn_visible()
 
+func DZ2():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S2.global_position
+	turn_visible()
+
+func DZ3():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S3.global_position
+	turn_visible()
+
+func DZ4():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S4.global_position
+	turn_visible()
+
+func DZ5():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S5.global_position
+	turn_visible()
+
+func DZ6():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S6.global_position
+	turn_visible()
+
+func DZ7():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S7.global_position
+	turn_visible()
+
+func DZ8():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S8.global_position
+	turn_visible()
+
+func DZ9():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S9.global_position
+	turn_visible()
+
+func DZ10():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S10.global_position
+	turn_visible()
+
+func DZ11():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S11.global_position
+	turn_visible()
+
+func DZ12():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S12.global_position
+	turn_visible()
+
+func DZ13():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S13.global_position
+	turn_visible()
+
+
+var master_bus = AudioServer.get_bus_index("Master")
 
 func _on_texture_button_pressed():
 	AudioServer.set_bus_mute(master_bus, not AudioServer.is_bus_mute(master_bus))

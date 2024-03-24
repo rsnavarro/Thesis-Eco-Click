@@ -1,3 +1,5 @@
+res://scenes/entities/Obstacles/Danger Zones
+res://scenes/entities/Obstacles
 res://scenes/entities/Obstacles/Level 3
 res://scenes/entities/Obstacles/Level 2
 res://scenes/Audio
@@ -19,7 +21,6 @@ res://npc
 res://assets/Fonts
 res://scenes/entities/NPCs
 >>>>>>> Stashed changes
-res://scenes/entities/Obstacles
 <<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes

@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0074xokr32ij"]
+
+[ext_resource type="Script" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_7.gd" id="1_c6op0"]
+
+[node name="DangerZone7" type="Area2D"]
+collision_layer = 4
+collision_mask = 8
+monitorable = false
+script = ExtResource("1_c6op0")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

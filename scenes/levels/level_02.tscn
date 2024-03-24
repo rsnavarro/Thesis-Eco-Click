@@ -14,7 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://cxbetjms8wcaf" path="res://scenes/entities/Obstacles/Level 2/Giant_Clam.tscn" id="9_miuj0"]
 [ext_resource type="PackedScene" uid="uid://dcf1x6pi4fehv" path="res://npc/npc2.tscn" id="9_sban5"]
 [ext_resource type="PackedScene" uid="uid://cym8rvpp6od4j" path="res://deemo_2.tscn" id="10_1bsth"]
-[ext_resource type="PackedScene" uid="uid://bitfy73pvovh4" path="res://scenes/entities/Obstacles/Level 2/Angler_Fish.tscn" id="10_rn46s"]
+[ext_resource type="PackedScene" uid="uid://bitfy73pvovh4" path="res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn" id="10_rn46s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bd5jb"]
 texture = ExtResource("1_ffniy")
