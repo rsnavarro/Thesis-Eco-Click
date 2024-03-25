@@ -1,6 +1,6 @@
 CollisionShape2D
-ColorPicker
 Node2D
+ColorPicker
 Area2D
 CharacterBody2D
 AudioStreamPlayer

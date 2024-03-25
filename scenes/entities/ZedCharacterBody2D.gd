@@ -92,6 +92,7 @@ func turn_visible():
 	can_control = true
 
 func _on_body_hitbox_body_entered(body):
+#Obstacles
 	if body.is_in_group("Dynamite"):
 		on_death1()
 	elif body.is_in_group("Crab"):
@@ -119,7 +120,7 @@ func _on_body_hitbox_body_entered(body):
 	elif body.is_in_group("Monkey"):
 		on_death13()
 
-#Danger Zones
+#Danger Zones Level 1
 	elif body.is_in_group("DZ1"):
 		DZ1()
 	elif body.is_in_group("DZ2"):
@@ -144,8 +145,36 @@ func _on_body_hitbox_body_entered(body):
 		DZ11()
 	elif body.is_in_group("DZ12"):
 		DZ12()
+
+#Danger Zones Level 2
 	elif body.is_in_group("DZ13"):
 		DZ13()
+	elif body.is_in_group("DZ14"):
+		DZ14()
+	elif body.is_in_group("DZ15"):
+		DZ15()
+	elif body.is_in_group("DZ16"):
+		DZ16()
+	elif body.is_in_group("DZ17"):
+		DZ17()
+	elif body.is_in_group("DZ18"):
+		DZ18()
+	elif body.is_in_group("DZ19"):
+		DZ19()
+	elif body.is_in_group("DZ20"):
+		DZ20()
+	elif body.is_in_group("DZ21"):
+		DZ21()
+	elif body.is_in_group("DZ22"):
+		DZ22()
+	elif body.is_in_group("DZ23"):
+		DZ23()
+	elif body.is_in_group("DZ24"):
+		DZ24()
+	elif body.is_in_group("DZ25"):
+		DZ25()
+	elif body.is_in_group("DZ26"):
+		DZ26()
 
 
 #Spawn points of Obstacles
@@ -333,6 +362,97 @@ func DZ13():
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level.DZ_S13.global_position
+	turn_visible()
+
+func DZ14():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S14.global_position
+	turn_visible()
+
+func DZ15():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S15.global_position
+	turn_visible()
+
+func DZ16():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S16.global_position
+	turn_visible()
+
+func DZ17():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S17.global_position
+	turn_visible()
+
+func DZ18():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S18.global_position
+	turn_visible()
+
+func DZ19():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S19.global_position
+	turn_visible()
+
+func DZ20():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S20.global_position
+	turn_visible()
+
+func DZ21():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S21.global_position
+	turn_visible()
+
+func DZ22():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S22.global_position
+	turn_visible()
+
+func DZ23():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S23.global_position
+	turn_visible()
+
+func DZ24():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S24.global_position
+	turn_visible()
+
+func DZ25():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S25.global_position
+	turn_visible()
+
+func DZ26():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level.DZ_S26.global_position
 	turn_visible()
 
 

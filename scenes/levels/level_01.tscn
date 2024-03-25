@@ -736,7 +736,7 @@ corner_radius_top_right = 1
 corner_radius_bottom_right = 1
 corner_radius_bottom_left = 1
 
-[node name="Level1" type="Node2D" node_paths=PackedStringArray("spawnpoint_1", "spawnpoint_2", "spawnpoint_3", "spawnpoint_4", "DZ_S1", "DZ_S2", "DZ_S3", "DZ_S4", "DZ_S5", "DZ_S6", "DZ_S7", "DZ_S8", "DZ_S9", "DZ_S10", "DZ_S11", "DZ_S12", "DZ_S13")]
+[node name="Level1" type="Node2D" node_paths=PackedStringArray("spawnpoint_1", "spawnpoint_2", "spawnpoint_3", "spawnpoint_4", "DZ_S1", "DZ_S2", "DZ_S3", "DZ_S4", "DZ_S5", "DZ_S6", "DZ_S7", "DZ_S8", "DZ_S9", "DZ_S10", "DZ_S11", "DZ_S12")]
 script = ExtResource("1_yrc35")
 level_id = 1
 spawnpoint_1 = NodePath("Obstacle Spawnpoints/Spawnpoint1")
@@ -755,7 +755,6 @@ DZ_S9 = NodePath("DZ Spawnpoints/DZ9")
 DZ_S10 = NodePath("DZ Spawnpoints/DZ10")
 DZ_S11 = NodePath("DZ Spawnpoints/DZ11")
 DZ_S12 = NodePath("DZ Spawnpoints/DZ12")
-DZ_S13 = NodePath("DZ Spawnpoints/DZ13")
 
 [node name="MainTileMap" type="TileMap" parent="."]
 position = Vector2(74, 27)
@@ -785,7 +784,7 @@ layer_0/tile_data = PackedInt32Array(-1900558, 0, 0, -1835022, 0, 0, -1769486, 0
 polygon = PackedVector2Array(-616, -1352, -616, 248, -616, 856, 20864, 856, 20864, 64, 20864, -832, 20736, -832, 20736, 72, 20736, 792, -400, 808, -400, 248, -400, -1352)
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_b8pgw")]
-position = Vector2(0, 8)
+position = Vector2(20488, 32)
 metadata/_edit_group_ = true
 
 [node name="Timer1" parent="ZedCharacterBody2D/CharacterIcon" index="1" instance=ExtResource("6_vyqj0")]
@@ -923,8 +922,6 @@ position = Vector2(19176, -104)
 
 [node name="DZ12" type="Node2D" parent="DZ Spawnpoints"]
 position = Vector2(19608, 0)
-
-[node name="DZ13" type="Node2D" parent="DZ Spawnpoints"]
 
 [node name="Obstacles_Enemies" type="Node2D" parent="."]
 

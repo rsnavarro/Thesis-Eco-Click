@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://dcnxqnqsklsd4"]
+[gd_scene load_steps=51 format=3 uid="uid://dcnxqnqsklsd4"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_ffniy"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_tlyin"]
@@ -9,12 +9,26 @@
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="5_b4x1l"]
 [ext_resource type="PackedScene" uid="uid://ctev5i552vn2l" path="res://scenes/levels/jump_to_next_level_3.tscn" id="5_ketuv"]
 [ext_resource type="PackedScene" uid="uid://biv313xkhmmx4" path="res://scenes/entities/Obstacles/Level 2/Turtle.tscn" id="7_fwxci"]
+[ext_resource type="PackedScene" uid="uid://c8r6e4fodj35" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_13.tscn" id="7_hra5f"]
 [ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_p84ee"]
 [ext_resource type="PackedScene" uid="uid://bis2l2u1lonsr" path="res://scenes/entities/Obstacles/Level 2/Jellyfish.tscn" id="8_kl5k5"]
+[ext_resource type="PackedScene" uid="uid://cnx04r8q8n7c1" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_14.tscn" id="8_msvt8"]
+[ext_resource type="PackedScene" uid="uid://cge4knw736gtl" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_15.tscn" id="9_be7qj"]
 [ext_resource type="PackedScene" uid="uid://cxbetjms8wcaf" path="res://scenes/entities/Obstacles/Level 2/Giant_Clam.tscn" id="9_miuj0"]
 [ext_resource type="PackedScene" uid="uid://dcf1x6pi4fehv" path="res://npc/npc2.tscn" id="9_sban5"]
 [ext_resource type="PackedScene" uid="uid://cym8rvpp6od4j" path="res://deemo_2.tscn" id="10_1bsth"]
 [ext_resource type="PackedScene" uid="uid://bitfy73pvovh4" path="res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn" id="10_rn46s"]
+[ext_resource type="PackedScene" uid="uid://bdy7iwv6bklcp" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_16.tscn" id="10_v33sy"]
+[ext_resource type="PackedScene" uid="uid://ds5kj4b1u44mc" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_17.tscn" id="11_v2ioy"]
+[ext_resource type="PackedScene" uid="uid://c20mrgmse5ifw" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_18.tscn" id="12_3g5s2"]
+[ext_resource type="PackedScene" uid="uid://ccojy0np6mys" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_19.tscn" id="13_3e3we"]
+[ext_resource type="PackedScene" uid="uid://3yhulis5r6gj" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_20.tscn" id="14_30mg5"]
+[ext_resource type="PackedScene" uid="uid://dw4vqocmei3xx" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_21.tscn" id="15_qww2o"]
+[ext_resource type="PackedScene" uid="uid://jcsn14ar5omw" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_22.tscn" id="16_sfe78"]
+[ext_resource type="PackedScene" uid="uid://blja6863lpx7g" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_23.tscn" id="17_w54dp"]
+[ext_resource type="PackedScene" uid="uid://ci82efwjg4qgw" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_24.tscn" id="18_x13oi"]
+[ext_resource type="PackedScene" uid="uid://cbrqnni3m4d7x" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.tscn" id="19_biukp"]
+[ext_resource type="PackedScene" uid="uid://bafxsxlq1tutt" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn" id="20_2oi6u"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bd5jb"]
 texture = ExtResource("1_ffniy")
@@ -874,6 +888,48 @@ texture_region_size = Vector2i(18, 18)
 tile_size = Vector2i(18, 18)
 sources/0 = SubResource("TileSetAtlasSource_vsas1")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kd26u"]
+size = Vector2(280, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1x2ca"]
+size = Vector2(98, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_flodm"]
+size = Vector2(122, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bp1pt"]
+size = Vector2(138, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_if6im"]
+size = Vector2(162, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l320o"]
+size = Vector2(98, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xoghi"]
+size = Vector2(190, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hlnrq"]
+size = Vector2(120, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dprm7"]
+size = Vector2(136, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0pumc"]
+size = Vector2(266, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j5ju3"]
+size = Vector2(138, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i14j8"]
+size = Vector2(376, 147)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kw60i"]
+size = Vector2(464, 147)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g2cdf"]
+size = Vector2(176, 147)
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vswx4"]
 bg_color = Color(0.741176, 0.929412, 0.694118, 0.756863)
 border_width_left = 4
@@ -886,9 +942,23 @@ corner_radius_top_right = 1
 corner_radius_bottom_right = 1
 corner_radius_bottom_left = 1
 
-[node name="Level2" type="Node2D"]
+[node name="Level2" type="Node2D" node_paths=PackedStringArray("DZ_S13", "DZ_S14", "DZ_S15", "DZ_S16", "DZ_S17", "DZ_S18", "DZ_S19", "DZ_S20", "DZ_S21", "DZ_S22", "DZ_S23", "DZ_S24", "DZ_S25", "DZ_S26")]
 script = ExtResource("1_tlyin")
 level_id = 2
+DZ_S13 = NodePath("DZ Spawnpoints/DZ13")
+DZ_S14 = NodePath("DZ Spawnpoints/DZ14")
+DZ_S15 = NodePath("DZ Spawnpoints/DZ15")
+DZ_S16 = NodePath("DZ Spawnpoints/DZ16")
+DZ_S17 = NodePath("DZ Spawnpoints/DZ17")
+DZ_S18 = NodePath("DZ Spawnpoints/DZ18")
+DZ_S19 = NodePath("DZ Spawnpoints/DZ19")
+DZ_S20 = NodePath("DZ Spawnpoints/DZ20")
+DZ_S21 = NodePath("DZ Spawnpoints/DZ21")
+DZ_S22 = NodePath("DZ Spawnpoints/DZ22")
+DZ_S23 = NodePath("DZ Spawnpoints/DZ23")
+DZ_S24 = NodePath("DZ Spawnpoints/DZ24")
+DZ_S25 = NodePath("DZ Spawnpoints/DZ25")
+DZ_S26 = NodePath("DZ Spawnpoints/DZ26")
 
 [node name="MainTileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_0piv4")
@@ -1003,7 +1073,7 @@ offset_right = 8712.0
 offset_bottom = 630.0
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_ktdu4")]
-position = Vector2(10016, 272)
+position = Vector2(1584, 416)
 metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="1" instance=ExtResource("5_54fek")]
@@ -1015,6 +1085,136 @@ polygon = PackedVector2Array(-640, 0, -640, 928, 10349, 925, 10349, 307, 10349, 
 
 [node name="JumpToNextLevel3" parent="." instance=ExtResource("5_ketuv")]
 position = Vector2(10191, 285)
+
+[node name="Danger Zones" type="Node2D" parent="."]
+
+[node name="DangerZone13" parent="Danger Zones" instance=ExtResource("7_hra5f")]
+
+[node name="DZ13" type="CollisionShape2D" parent="Danger Zones/DangerZone13" groups=["DZ13"]]
+position = Vector2(1773, 530.5)
+shape = SubResource("RectangleShape2D_kd26u")
+
+[node name="DangerZone14" parent="Danger Zones" instance=ExtResource("8_msvt8")]
+
+[node name="DZ14" type="CollisionShape2D" parent="Danger Zones/DangerZone14" groups=["DZ14"]]
+position = Vector2(2241, 530.5)
+shape = SubResource("RectangleShape2D_1x2ca")
+
+[node name="DangerZone15" parent="Danger Zones" instance=ExtResource("9_be7qj")]
+
+[node name="DZ15" type="CollisionShape2D" parent="Danger Zones/DangerZone15" groups=["DZ15"]]
+position = Vector2(2790, 530.5)
+shape = SubResource("RectangleShape2D_flodm")
+
+[node name="DangerZone16" parent="Danger Zones" instance=ExtResource("10_v33sy")]
+
+[node name="DZ16" type="CollisionShape2D" parent="Danger Zones/DangerZone16" groups=["DZ16"]]
+position = Vector2(3321, 530.5)
+shape = SubResource("RectangleShape2D_bp1pt")
+
+[node name="DangerZone17" parent="Danger Zones" instance=ExtResource("11_v2ioy")]
+
+[node name="DZ17" type="CollisionShape2D" parent="Danger Zones/DangerZone17" groups=["DZ17"]]
+position = Vector2(3655, 530.5)
+shape = SubResource("RectangleShape2D_if6im")
+
+[node name="DangerZone18" parent="Danger Zones" instance=ExtResource("12_3g5s2")]
+
+[node name="DZ18" type="CollisionShape2D" parent="Danger Zones/DangerZone18" groups=["DZ18"]]
+position = Vector2(4149, 530.5)
+shape = SubResource("RectangleShape2D_l320o")
+
+[node name="DangerZone19" parent="Danger Zones" instance=ExtResource("13_3e3we")]
+
+[node name="DZ19" type="CollisionShape2D" parent="Danger Zones/DangerZone19" groups=["DZ19"]]
+position = Vector2(4464, 530.5)
+shape = SubResource("RectangleShape2D_xoghi")
+
+[node name="DangerZone20" parent="Danger Zones" instance=ExtResource("14_30mg5")]
+
+[node name="DZ20" type="CollisionShape2D" parent="Danger Zones/DangerZone20" groups=["DZ20"]]
+position = Vector2(4914, 530.5)
+shape = SubResource("RectangleShape2D_hlnrq")
+
+[node name="DangerZone21" parent="Danger Zones" instance=ExtResource("15_qww2o")]
+
+[node name="DZ21" type="CollisionShape2D" parent="Danger Zones/DangerZone21" groups=["DZ21"]]
+position = Vector2(5535, 530.5)
+shape = SubResource("RectangleShape2D_dprm7")
+
+[node name="DangerZone22" parent="Danger Zones" instance=ExtResource("16_sfe78")]
+
+[node name="DZ22" type="CollisionShape2D" parent="Danger Zones/DangerZone22" groups=["DZ22"]]
+position = Vector2(5976, 530.5)
+shape = SubResource("RectangleShape2D_0pumc")
+
+[node name="DangerZone23" parent="Danger Zones" instance=ExtResource("17_w54dp")]
+
+[node name="DZ23" type="CollisionShape2D" parent="Danger Zones/DangerZone23" groups=["DZ23"]]
+position = Vector2(6363, 530.5)
+shape = SubResource("RectangleShape2D_j5ju3")
+
+[node name="DangerZone24" parent="Danger Zones" instance=ExtResource("18_x13oi")]
+
+[node name="DZ24" type="CollisionShape2D" parent="Danger Zones/DangerZone24" groups=["DZ24"]]
+position = Vector2(7362, 558.5)
+shape = SubResource("RectangleShape2D_i14j8")
+
+[node name="DangerZone25" parent="Danger Zones" instance=ExtResource("19_biukp")]
+
+[node name="DZ25" type="CollisionShape2D" parent="Danger Zones/DangerZone25" groups=["DZ25"]]
+position = Vector2(7930, 558.5)
+shape = SubResource("RectangleShape2D_kw60i")
+
+[node name="DangerZone26" parent="Danger Zones" instance=ExtResource("20_2oi6u")]
+
+[node name="DZ26" type="CollisionShape2D" parent="Danger Zones/DangerZone26" groups=["DZ26"]]
+position = Vector2(8631, 558.5)
+shape = SubResource("RectangleShape2D_g2cdf")
+
+[node name="DZ Spawnpoints" type="Node2D" parent="."]
+
+[node name="DZ13" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(1592, 384)
+
+[node name="DZ14" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(2152, 352)
+
+[node name="DZ15" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(2696, 288)
+
+[node name="DZ16" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(3216, 400)
+
+[node name="DZ17" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(3560, 328)
+
+[node name="DZ18" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(4008, 224)
+
+[node name="DZ19" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(4288, 296)
+
+[node name="DZ20" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(4784, 280)
+
+[node name="DZ21" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(5408, 400)
+
+[node name="DZ22" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(5744, 408)
+
+[node name="DZ23" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(6152, 344)
+
+[node name="DZ24" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(7088, 200)
+
+[node name="DZ25" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(7664, 304)
+
+[node name="DZ26" type="Node2D" parent="DZ Spawnpoints"]
+position = Vector2(8504, 384)
 
 [node name="Obstacles_Enemies" type="Node2D" parent="."]
 
@@ -1030,20 +1230,20 @@ position = Vector2(6250, 375)
 [node name="Angler Fish" parent="Obstacles_Enemies" instance=ExtResource("10_rn46s")]
 position = Vector2(9625, 260)
 
-[node name="Spawnpoints" type="Node2D" parent="."]
+[node name="Obstacle Spawnpoints" type="Node2D" parent="."]
 
-[node name="Spawnpoint5" type="Node2D" parent="Spawnpoints"]
+[node name="Spawnpoint5" type="Node2D" parent="Obstacle Spawnpoints"]
 position = Vector2(1176, 520)
 
-[node name="Spawnpoint6" type="Node2D" parent="Spawnpoints"]
+[node name="Spawnpoint6" type="Node2D" parent="Obstacle Spawnpoints"]
 position = Vector2(2472, 448)
 rotation = -1.57079
 
-[node name="Spawnpoint7" type="Node2D" parent="Spawnpoints"]
+[node name="Spawnpoint7" type="Node2D" parent="Obstacle Spawnpoints"]
 position = Vector2(12892, 371)
 rotation = -1.57079
 
-[node name="Spawnpoint8" type="Node2D" parent="Spawnpoints"]
+[node name="Spawnpoint8" type="Node2D" parent="Obstacle Spawnpoints"]
 position = Vector2(9132, 372)
 rotation = -1.57079
 

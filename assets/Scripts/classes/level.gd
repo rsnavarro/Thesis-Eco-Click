@@ -23,6 +23,20 @@ extends Node
 
 #Danger Zones Level 2
 @export var DZ_S13 : Node2D
+@export var DZ_S14 : Node2D
+@export var DZ_S15 : Node2D
+@export var DZ_S16 : Node2D
+@export var DZ_S17 : Node2D
+@export var DZ_S18 : Node2D
+@export var DZ_S19 : Node2D
+@export var DZ_S20 : Node2D
+@export var DZ_S21 : Node2D
+@export var DZ_S22 : Node2D
+@export var DZ_S23 : Node2D
+@export var DZ_S24 : Node2D
+@export var DZ_S25 : Node2D
+@export var DZ_S26 : Node2D
+
 
 var level_data : LevelData
 func _ready() -> void:
