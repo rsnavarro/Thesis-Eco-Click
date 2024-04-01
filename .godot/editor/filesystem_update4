@@ -1,37 +1,26 @@
-res://scenes/levels/level_01.tscn
+res://scenes/main.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/UI/pause_menu.gdshader
-res://assets/Scripts/classes/level.gd
+res://assets/Scripts/Managers/LevelManager.gd
+res://assets/Scripts/classes/level_data.gd
+res://scenes/levels/level_01.tscn
 res://scenes/levels/level_02.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_13.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_13.gd
-res://scenes/entities/ZedCharacterBody2D.tscn
-res://scenes/entities/ZedCharacterBody2D.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_14.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_14.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_15.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_15.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_16.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_16.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_17.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_17.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_18.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_18.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_19.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_19.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_20.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_20.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_21.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_21.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_22.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_22.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_23.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_23.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_24.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_24.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.gd
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.gd
-res://scenes/main.tscn
 res://scenes/levels/level_03.tscn
+res://scenes/entities/ZedCharacterBody2D.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.tscn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn
+res://scenes/UI/main_menu.tscn
+res://scenes/UI/main_menu.gd
+res://scenes/main.gd
+res://assets/Scripts/classes/level1.gd
+res://assets/Scripts/classes/level2.gd
+res://assets/Scripts/classes/level3.gd
+res://scenes/UI/Game Clear/game_clear_1.gd
+res://scenes/entities/ZedCharacterBody2D.gd
+res://scenes/UI/Game Clear/game_clear_2.gd
+res://scenes/levels/jump_to_next_level_2.tscn
+res://scenes/levels/jump_to_next_level_2.gd
+res://scenes/levels/jump_to_next_level_3.gd
+res://scenes/levels/jump_to_next_level_3.tscn
+res://scenes/levels/Jump_To_Level_3.gd
+res://scenes/entities/Obstacles/Level 1/Crab.tscn

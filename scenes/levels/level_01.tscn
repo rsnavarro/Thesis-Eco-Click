@@ -1,7 +1,7 @@
 [gd_scene load_steps=46 format=3 uid="uid://cjsr2b15elmp8"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_5oq2w"]
-[ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_yrc35"]
+[ext_resource type="Script" path="res://assets/Scripts/classes/level1.gd" id="1_yrc35"]
 [ext_resource type="Texture2D" uid="uid://c8v43prbi86yv" path="res://assets/sprites/tilemap-backgrounds.png" id="2_78ifu"]
 [ext_resource type="PackedScene" uid="uid://bmwn7qxo82n5v" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_1.tscn" id="3_hn8v6"]
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="3_skcql"]
@@ -738,7 +738,6 @@ corner_radius_bottom_left = 1
 
 [node name="Level1" type="Node2D" node_paths=PackedStringArray("spawnpoint_1", "spawnpoint_2", "spawnpoint_3", "spawnpoint_4", "DZ_S1", "DZ_S2", "DZ_S3", "DZ_S4", "DZ_S5", "DZ_S6", "DZ_S7", "DZ_S8", "DZ_S9", "DZ_S10", "DZ_S11", "DZ_S12")]
 script = ExtResource("1_yrc35")
-level_id = 1
 spawnpoint_1 = NodePath("Obstacle Spawnpoints/Spawnpoint1")
 spawnpoint_2 = NodePath("Obstacle Spawnpoints/Spawnpoint2")
 spawnpoint_3 = NodePath("Obstacle Spawnpoints/Spawnpoint3")

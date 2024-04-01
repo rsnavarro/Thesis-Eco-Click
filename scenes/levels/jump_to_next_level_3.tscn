@@ -1,10 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://ctev5i552vn2l"]
+[gd_scene load_steps=3 format=3 uid="uid://ctev5i552vn2l"]
 
 [ext_resource type="Script" path="res://scenes/levels/jump_to_next_level_3.gd" id="1_v4s4k"]
 [ext_resource type="Texture2D" uid="uid://cnkpp1whmbh4a" path="res://assets/sprites/diamond.png" id="1_wmqh3"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_00mmm"]
-size = Vector2(62, 19)
 
 [node name="JumpToNextLevel3" type="Area2D"]
 script = ExtResource("1_v4s4k")
@@ -24,8 +21,5 @@ texture = ExtResource("1_wmqh3")
 position = Vector2(-28, 0)
 scale = Vector2(2, 2)
 texture = ExtResource("1_wmqh3")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_00mmm")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

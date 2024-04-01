@@ -1,13 +1,13 @@
+class_name GameClear2
 extends Control
 
-const next_level = "res://scenes/levels/level_03.tscn"
 
 func _ready():
 	AudioPlayer.stop()
 
 func _on_proceed_pressed():
 	AudioPlayer.play()
-	get_tree().change_scene_to_file(next_level)
+	LevelManager.load_level_(3)
 
 func _on_quit_pressed():
 	get_tree().quit()

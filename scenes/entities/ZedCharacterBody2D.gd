@@ -92,8 +92,11 @@ func turn_visible():
 	can_control = true
 
 func _on_body_hitbox_body_entered(body):
+#Jump To Level 3
+	if body.is_in_group("JumpToLevel3"):
+		JumpToLevel3()
 #Obstacles
-	if body.is_in_group("Dynamite"):
+	elif body.is_in_group("Dynamite"):
 		on_death1()
 	elif body.is_in_group("Crab"):
 		on_death2()
@@ -272,188 +275,191 @@ func on_death13(): #Monkey
 	#global_position = LevelManager.loaded_level.spawnpoint_5.global_position
 	turn_visible()
 
-#Danger Zones
+#Danger Zones Level 1
 func DZ1():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S1.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S1.global_position
 	turn_visible()
 
 func DZ2():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S2.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S2.global_position
 	turn_visible()
 
 func DZ3():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S3.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S3.global_position
 	turn_visible()
 
 func DZ4():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S4.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S4.global_position
 	turn_visible()
 
 func DZ5():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S5.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S5.global_position
 	turn_visible()
 
 func DZ6():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S6.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S6.global_position
 	turn_visible()
 
 func DZ7():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S7.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S7.global_position
 	turn_visible()
 
 func DZ8():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S8.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S8.global_position
 	turn_visible()
 
 func DZ9():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S9.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S9.global_position
 	turn_visible()
 
 func DZ10():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S10.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S10.global_position
 	turn_visible()
 
 func DZ11():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S11.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S11.global_position
 	turn_visible()
 
 func DZ12():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S12.global_position
+	global_position = LevelManager.loaded_level_1.DZ_S12.global_position
 	turn_visible()
 
+#Danger Zones Level 2
 func DZ13():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S13.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S13.global_position
 	turn_visible()
 
 func DZ14():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S14.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S14.global_position
 	turn_visible()
 
 func DZ15():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S15.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S15.global_position
 	turn_visible()
 
 func DZ16():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S16.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S16.global_position
 	turn_visible()
 
 func DZ17():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S17.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S17.global_position
 	turn_visible()
 
 func DZ18():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S18.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S18.global_position
 	turn_visible()
 
 func DZ19():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S19.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S19.global_position
 	turn_visible()
 
 func DZ20():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S20.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S20.global_position
 	turn_visible()
 
 func DZ21():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S21.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S21.global_position
 	turn_visible()
 
 func DZ22():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S22.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S22.global_position
 	turn_visible()
 
 func DZ23():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S23.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S23.global_position
 	turn_visible()
 
 func DZ24():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S24.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S24.global_position
 	turn_visible()
 
 func DZ25():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S25.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S25.global_position
 	turn_visible()
 
 func DZ26():
 	visible = false
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.DZ_S26.global_position
+	global_position = LevelManager.loaded_level_2.DZ_S26.global_position
 	turn_visible()
+
+#Danger Zones Level 3
 
 
 var master_bus = AudioServer.get_bus_index("Master")

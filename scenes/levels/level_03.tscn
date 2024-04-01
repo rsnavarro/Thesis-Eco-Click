@@ -1,6 +1,6 @@
 [gd_scene load_steps=23 format=3 uid="uid://dp3j25pwyjvac"]
 
-[ext_resource type="Script" path="res://assets/Scripts/classes/level.gd" id="1_0sdk5"]
+[ext_resource type="Script" path="res://assets/Scripts/classes/level3.gd" id="1_0jqdi"]
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_sw147"]
 [ext_resource type="Texture2D" uid="uid://c8v43prbi86yv" path="res://assets/sprites/tilemap-backgrounds.png" id="2_0kl6n"]
 [ext_resource type="PackedScene" uid="uid://iu6fb6krl31x" path="res://assets/sprites/trash(non_bio).tscn" id="3_j65xx"]
@@ -690,8 +690,7 @@ corner_radius_bottom_left = 1
 
 [node name="Level3" type="Node2D"]
 position = Vector2(15, -106)
-script = ExtResource("1_0sdk5")
-level_id = 3
+script = ExtResource("1_0jqdi")
 
 [node name="MainTileMap" type="TileMap" parent="."]
 position = Vector2(-14, 387)
