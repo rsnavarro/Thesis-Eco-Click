@@ -92,11 +92,8 @@ func turn_visible():
 	can_control = true
 
 func _on_body_hitbox_body_entered(body):
-#Jump To Level 3
-	if body.is_in_group("JumpToLevel3"):
-		JumpToLevel3()
 #Obstacles
-	elif body.is_in_group("Dynamite"):
+	if body.is_in_group("Dynamite"):
 		on_death1()
 	elif body.is_in_group("Crab"):
 		on_death2()
@@ -186,28 +183,28 @@ func on_death1(): #Dynamite
 	animation_player.play("Dead")
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.spawnpoint_1.global_position
+	global_position = LevelManager.loaded_level_1.spawnpoint_1.global_position
 	turn_visible()
 
 func on_death2(): #Crab
 	animation_player.play("Dead")
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.spawnpoint_2.global_position
+	global_position = LevelManager.loaded_level_1.spawnpoint_2.global_position
 	turn_visible()
 
 func on_death3(): #Seagull
 	animation_player.play("Dead")
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.spawnpoint_3.global_position
+	global_position = LevelManager.loaded_level_1.spawnpoint_3.global_position
 	turn_visible()
 
 func on_death4(): #Snake
 	animation_player.play("Dead")
 	can_control = false
 	await get_tree().create_timer(1).timeout
-	global_position = LevelManager.loaded_level.spawnpoint_4.global_position
+	global_position = LevelManager.loaded_level_1.spawnpoint_4.global_position
 	turn_visible()
 
 #Level 2 Obstacles

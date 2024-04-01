@@ -1,3 +1,4 @@
+class_name GameClear1
 extends Control
 
 

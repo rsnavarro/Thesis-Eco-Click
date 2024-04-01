@@ -1,4 +1,3 @@
-class_name Jump2
 extends Area2D
 
 const next_level = "res://scenes/UI/Game Clear/game_clear_2.tscn"

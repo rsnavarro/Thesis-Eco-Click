@@ -7,7 +7,6 @@ var loaded_level_2 : Level2 = null
 var loaded_level_3 : Level3 = null
 
 
-
 func unload_level() -> void:
 	if is_instance_valid(loaded_level_1):
 		loaded_level_1.queue_free()
@@ -35,7 +34,6 @@ func load_level(level_id : int) -> void:
 	var level_res_1 := load(level_path_1)
 	var level_res_2 := load(level_path_2)
 	var level_res_3 := load(level_path_3)
-
 
 	if level_res_1:
 		loaded_level_1 = level_res_1.instantiate()
