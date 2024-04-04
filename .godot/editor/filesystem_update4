@@ -8,3 +8,5 @@ res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/levels/jump_to_end_game.tscn
 res://scenes/levels/finish_line.tscn
+res://scenes/levels/jump_to_end_game.gd
+res://assets/Scripts/Managers/LevelManager.gd

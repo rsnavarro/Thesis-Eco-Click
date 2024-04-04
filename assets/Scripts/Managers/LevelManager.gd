@@ -79,11 +79,9 @@ func load_level(level_id : int) -> void:
 	elif level_res_2:
 		loaded_level_2 = level_res_2.instantiate()
 		get_tree().root.add_child(loaded_level_2, false)
-		print("Level 2 added to scene tree: ", loaded_level_2.is_inside_tree())
 	elif level_res_3:
 		loaded_level_3 = level_res_3.instantiate()
 		get_tree().root.add_child(loaded_level_3, false)
-		print("Level 3 added to scene tree: ", loaded_level_3.is_inside_tree())
 #Game Clear
 	elif clear_res_1:
 		loaded_clear_1 = clear_res_1.instantiate()
