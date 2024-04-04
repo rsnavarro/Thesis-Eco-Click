@@ -32,7 +32,7 @@ func update_display():
 
 
 func _on_timer_1_timeout():
-	get_tree().change_scene_to_file("res://scenes/UI/Game Over/game_over_1.tscn")
+	LevelManager.load_level(6)
 
 func reset_timer():
 	time1 = max_time1

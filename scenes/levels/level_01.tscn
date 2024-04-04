@@ -805,7 +805,9 @@ scale = Vector2(0.0366633, 0.0366633)
 position = Vector2(5440, 432)
 scale = Vector2(0.0720762, 0.0698664)
 
-[node name="JumpToNextLevel2" parent="." instance=ExtResource("6_hhjwk")]
+[node name="To_Next_Level" type="Node2D" parent="."]
+
+[node name="JumpToNextLevel2" parent="To_Next_Level" instance=ExtResource("6_hhjwk")]
 position = Vector2(20600, 40)
 
 [node name="Danger Zones" type="Node2D" parent="."]
@@ -990,10 +992,10 @@ position = Vector2(8891, 359)
 position = Vector2(10703, 353)
 
 [node name="trash(bio)9" parent="trash" instance=ExtResource("6_emcy0")]
-position = Vector2(13040, 272)
+position = Vector2(13032, 296)
 
 [node name="trash(bio)10" parent="trash" instance=ExtResource("6_emcy0")]
-position = Vector2(15152, 272)
+position = Vector2(15088, 304)
 
 [node name="trash(bio)11" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(19416, -184)
@@ -1026,7 +1028,7 @@ position = Vector2(14456, 248)
 position = Vector2(15616, 336)
 
 [node name="trash(non-bio)14" parent="trash" instance=ExtResource("3_skcql")]
-position = Vector2(17280, 88)
+position = Vector2(17280, 104)
 
 [node name="trash(non-bio)5" parent="trash" instance=ExtResource("3_skcql")]
 position = Vector2(3232, 144)

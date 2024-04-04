@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://csjf3fyno01ki"]
+
+[ext_resource type="Script" path="res://scenes/levels/jump_to_end_game.gd" id="1_48e8y"]
+[ext_resource type="Texture2D" uid="uid://cnkpp1whmbh4a" path="res://assets/sprites/diamond.png" id="2_wu78r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wqfjt"]
+size = Vector2(62, 19)
+
+[node name="JumpToEndGame" type="Area2D"]
+script = ExtResource("1_48e8y")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.42109e-14, 1.42109e-14)
+scale = Vector2(2.02137, 2.02137)
+texture = ExtResource("2_wu78r")
+region_rect = Rect2(128, 64, 16, 16)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(27.899, -0.0937494)
+scale = Vector2(2, 2)
+texture = ExtResource("2_wu78r")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(-28, 0)
+scale = Vector2(2, 2)
+texture = ExtResource("2_wu78r")
+
+[node name="FinishLine" type="CollisionShape2D" parent="." groups=["FinishLine"]]
+shape = SubResource("RectangleShape2D_wqfjt")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

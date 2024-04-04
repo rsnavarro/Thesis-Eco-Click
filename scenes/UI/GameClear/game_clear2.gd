@@ -1,6 +1,7 @@
 class_name GameClear2
 extends Control
 
+@export var level_id : int = 5
 
 func _ready():
 	AudioPlayer.stop()

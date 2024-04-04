@@ -176,6 +176,55 @@ func _on_body_hitbox_body_entered(body):
 	elif body.is_in_group("DZ26"):
 		DZ26()
 
+#Danger Zones Level 3
+	elif body.is_in_group("DZ27"):
+		DZ27()
+	elif body.is_in_group("DZ28"):
+		DZ28()
+	elif body.is_in_group("DZ29"):
+		DZ29()
+	elif body.is_in_group("DZ30"):
+		DZ30()
+	elif body.is_in_group("DZ31"):
+		DZ31()
+	elif body.is_in_group("DZ32"):
+		DZ32()
+	elif body.is_in_group("DZ33"):
+		DZ33()
+	elif body.is_in_group("DZ34"):
+		DZ34()
+	elif body.is_in_group("DZ35"):
+		DZ35()
+	elif body.is_in_group("DZ36"):
+		DZ36()
+	elif body.is_in_group("DZ37"):
+		DZ37()
+	elif body.is_in_group("DZ38"):
+		DZ38()
+	elif body.is_in_group("DZ39"):
+		DZ39()
+	elif body.is_in_group("DZ40"):
+		DZ40()
+	elif body.is_in_group("DZ41"):
+		DZ41()
+	elif body.is_in_group("DZ42"):
+		DZ42()
+	elif body.is_in_group("DZ43"):
+		DZ43()
+	elif body.is_in_group("DZ44"):
+		DZ44()
+	elif body.is_in_group("DZ45"):
+		DZ45()
+	elif body.is_in_group("DZ46"):
+		DZ46()
+	elif body.is_in_group("DZ47"):
+		DZ47()
+	elif body.is_in_group("DZ48"):
+		DZ48()
+	elif body.is_in_group("DZ49"):
+		DZ49()
+	elif body.is_in_group("DZ50"):
+		DZ50()
 
 #Spawn points of Obstacles
 #Level 1 Obstacles
@@ -457,7 +506,173 @@ func DZ26():
 	turn_visible()
 
 #Danger Zones Level 3
+func DZ27():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S27.global_position
+	turn_visible()
 
+func DZ28():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S28.global_position
+	turn_visible()
+
+func DZ29():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S29.global_position
+	turn_visible()
+
+func DZ30():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S30.global_position
+	turn_visible()
+
+func DZ31():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S31.global_position
+	turn_visible()
+
+func DZ32():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S32.global_position
+	turn_visible()
+
+func DZ33():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S33.global_position
+	turn_visible()
+
+func DZ34():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S34.global_position
+	turn_visible()
+
+func DZ35():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S35.global_position
+	turn_visible()
+
+func DZ36():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S36.global_position
+	turn_visible()
+
+func DZ37():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S37.global_position
+	turn_visible()
+
+func DZ38():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S38.global_position
+	turn_visible()
+
+func DZ39():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S39.global_position
+	turn_visible()
+
+func DZ40():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S40.global_position
+	turn_visible()
+
+func DZ41():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S41.global_position
+	turn_visible()
+
+func DZ42():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S42.global_position
+	turn_visible()
+
+func DZ43():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S43.global_position
+	turn_visible()
+
+func DZ44():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S44.global_position
+	turn_visible()
+
+func DZ45():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S45.global_position
+	turn_visible()
+
+func DZ46():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S46.global_position
+	turn_visible()
+
+func DZ47():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S47.global_position
+	turn_visible()
+
+func DZ48():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S48.global_position
+	turn_visible()
+
+func DZ49():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S49.global_position
+	turn_visible()
+
+func DZ50():
+	visible = false
+	can_control = false
+	await get_tree().create_timer(1).timeout
+	global_position = LevelManager.loaded_level_3.DZ_S50.global_position
+	turn_visible()
 
 var master_bus = AudioServer.get_bus_index("Master")
 

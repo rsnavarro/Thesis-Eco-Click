@@ -6,36 +6,33 @@ extends Node
 #@export var spawnpoint_2 : Node2D
 #@export var spawnpoint_3 : Node2D
 #@export var spawnpoint_4 : Node2D
-#
-##Danger Zones Level 1
-#@export var DZ_S1 : Node2D
-#@export var DZ_S2 : Node2D
-#@export var DZ_S3 : Node2D
-#@export var DZ_S4 : Node2D
-#@export var DZ_S5 : Node2D
-#@export var DZ_S6 : Node2D
-#@export var DZ_S7 : Node2D
-#@export var DZ_S8 : Node2D
-#@export var DZ_S9 : Node2D
-#@export var DZ_S10 : Node2D
-#@export var DZ_S11 : Node2D
-#@export var DZ_S12 : Node2D
-#
-##Danger Zones Level 2
-#@export var DZ_S13 : Node2D
-#@export var DZ_S14 : Node2D
-#@export var DZ_S15 : Node2D
-#@export var DZ_S16 : Node2D
-#@export var DZ_S17 : Node2D
-#@export var DZ_S18 : Node2D
-#@export var DZ_S19 : Node2D
-#@export var DZ_S20 : Node2D
-#@export var DZ_S21 : Node2D
-#@export var DZ_S22 : Node2D
-#@export var DZ_S23 : Node2D
-#@export var DZ_S24 : Node2D
-#@export var DZ_S25 : Node2D
-#@export var DZ_S26 : Node2D
+
+
+#Danger Zones Level 3
+@export var DZ_S27 : Node2D
+@export var DZ_S28 : Node2D
+@export var DZ_S29 : Node2D
+@export var DZ_S30 : Node2D
+@export var DZ_S31 : Node2D
+@export var DZ_S32 : Node2D
+@export var DZ_S33 : Node2D
+@export var DZ_S34 : Node2D
+@export var DZ_S35 : Node2D
+@export var DZ_S36 : Node2D
+@export var DZ_S37 : Node2D
+@export var DZ_S38 : Node2D
+@export var DZ_S39 : Node2D
+@export var DZ_S40 : Node2D
+@export var DZ_S41 : Node2D
+@export var DZ_S42 : Node2D
+@export var DZ_S43 : Node2D
+@export var DZ_S44 : Node2D
+@export var DZ_S45 : Node2D
+@export var DZ_S46 : Node2D
+@export var DZ_S47 : Node2D
+@export var DZ_S48 : Node2D
+@export var DZ_S49 : Node2D
+@export var DZ_S50 : Node2D
 
 
 var level_data : LevelData

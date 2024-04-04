@@ -1,7 +1,8 @@
 res://scenes
+res://assets/sprites/Game Ender
 res://scenes/levels
-res://assets/Scripts/classes
 res://scenes/entities/Obstacles/Danger Zones
+res://assets/Scripts/classes
 res://scenes/entities/Obstacles
 res://scenes/entities/Obstacles/Level 3
 res://scenes/entities/Obstacles/Level 2
@@ -15,7 +16,6 @@ res://scenes/entities/Obstacles/Level 1
 <<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
-res://scenes/UI/Game Clear
 res://scenes/UI
 res://npc
 <<<<<<< Updated upstream

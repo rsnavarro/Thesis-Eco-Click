@@ -6,20 +6,5 @@ res://scenes/levels/level_01.tscn
 res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn
-res://scenes/levels/jump_to_next_level_3.tscn
-res://scenes/levels/jump_to_next_level_2.tscn
-res://scenes/UI/GameClear/game_clear_1.tscn
-res://scenes/UI/GameClear/game_clear2.gd
-res://scenes/levels/jump_to_next_level_2.gd
-res://scenes/levels/jump_to_next_level_3.gd
-res://assets/Scripts/Managers/LevelManager.gd
-res://scenes/UI/GameClear/game_clear1.gd
-res://scenes/UI/Game Over/game_over_1.gd
-res://scenes/UI/Game Over/game_over_2.gd
-res://scenes/UI/Game Over/game_over_3.gd
-res://scenes/levels/Timer2.gd
-res://scenes/levels/Timer3.gd
-res://scenes/UI/Game Over/game_over_1.tscn
-res://scenes/UI/Game Over/game_over_2.tscn
-res://scenes/UI/Game Over/game_over_3.tscn
+res://scenes/levels/jump_to_end_game.tscn
+res://scenes/levels/finish_line.tscn

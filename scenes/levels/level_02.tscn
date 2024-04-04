@@ -1,4 +1,4 @@
-[gd_scene load_steps=52 format=3 uid="uid://dcnxqnqsklsd4"]
+[gd_scene load_steps=51 format=3 uid="uid://dcnxqnqsklsd4"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_ffniy"]
 [ext_resource type="Script" path="res://scenes/levels/level2.gd" id="1_owpb6"]
@@ -942,9 +942,6 @@ corner_radius_top_right = 1
 corner_radius_bottom_right = 1
 corner_radius_bottom_left = 1
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_q0ho1"]
-size = Vector2(80, 20)
-
 [node name="Level2" type="Node2D" node_paths=PackedStringArray("DZ_S13", "DZ_S14", "DZ_S15", "DZ_S16", "DZ_S17", "DZ_S18", "DZ_S19", "DZ_S20", "DZ_S21", "DZ_S22", "DZ_S23", "DZ_S24", "DZ_S25", "DZ_S26")]
 script = ExtResource("1_owpb6")
 DZ_S13 = NodePath("DZ Spawnpoints/DZ13")
@@ -1084,6 +1081,11 @@ metadata/_edit_group_ = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PackedVector2Array(-640, 0, -640, 928, 10349, 925, 10349, 307, 10349, 0, -512, 88, 10248, 88.0001, 10248, 896, -512, 896, -512, 88, 10248, 88)
+
+[node name="To_Next_Level" type="Node2D" parent="."]
+
+[node name="JumpToNextLevel3" parent="To_Next_Level" instance=ExtResource("5_ketuv")]
+position = Vector2(10191, 287)
 
 [node name="Danger Zones" type="Node2D" parent="."]
 
@@ -1408,15 +1410,6 @@ text = "Phytoplankton in the ocean produce more
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
-
-[node name="To_Next_Level" type="Node2D" parent="."]
-
-[node name="JumpToNextLevel3" parent="To_Next_Level" instance=ExtResource("5_ketuv")]
-position = Vector2(10191, 287)
-
-[node name="JumpToLevel3" type="CollisionShape2D" parent="To_Next_Level/JumpToNextLevel3" groups=["JumpToLevel3"]]
-position = Vector2(1, 0)
-shape = SubResource("RectangleShape2D_q0ho1")
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/Camera2D/PauseMenu"]

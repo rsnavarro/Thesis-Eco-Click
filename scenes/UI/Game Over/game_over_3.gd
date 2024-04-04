@@ -1,5 +1,7 @@
+class_name GameOver3
 extends Control
 
+@export var level_id : int = 8
 
 func _ready():
 	AudioPlayer.stop()
@@ -7,7 +9,7 @@ func _ready():
 func _on_restart_pressed():
 	AudioPlayer.play()
 	Global.reset_trash()
-	get_tree().change_scene_to_file("res://scenes/levels/level_03.tscn")
+	LevelManager.load_level(3)
 	deactivate()
 
 func _on_quit_pressed():

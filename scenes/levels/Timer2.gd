@@ -35,7 +35,7 @@ func update_display():
 	$Seconds2.text = "%02d" % seconds2
 
 func _on_timer_2_timeout():
-	get_tree().change_scene_to_file("res://scenes/UI/Game Over/game_over_2.tscn")
+		LevelManager.load_level(7)
 
 func reset_timer():
 	time2 = max_time2

@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dake80dftehig"]
+[gd_scene load_steps=13 format=3 uid="uid://dake80dftehig"]
 
 [ext_resource type="PackedScene" uid="uid://b124ey87qbsde" path="res://scenes/UI/main_menu.tscn" id="1_7au15"]
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_lba47"]
@@ -15,6 +15,10 @@ level_path_2 = ""
 level_path_3 = ""
 game_clear_path_1 = ""
 game_clear_path_2 = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_n7cxt"]
 script = ExtResource("2_1fhgy")
@@ -27,6 +31,10 @@ level_path_2 = "levels/level_02"
 level_path_3 = ""
 game_clear_path_1 = ""
 game_clear_path_2 = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_a76xj"]
 script = ExtResource("2_1fhgy")
@@ -39,6 +47,10 @@ level_path_2 = ""
 level_path_3 = "levels/level_03"
 game_clear_path_1 = ""
 game_clear_path_2 = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_oypyj"]
 script = ExtResource("2_1fhgy")
@@ -51,22 +63,94 @@ level_path_2 = ""
 level_path_3 = ""
 game_clear_path_1 = "UI/GameClear/game_clear_1"
 game_clear_path_2 = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_iyk06"]
 script = ExtResource("2_1fhgy")
 level_id = 5
 level_name = "GameClear2"
-level_completed = true
+level_completed = false
 level_unlocked = false
 level_path_1 = ""
 level_path_2 = ""
 level_path_3 = ""
 game_clear_path_1 = ""
 game_clear_path_2 = "UI/GameClear/game_clear_2"
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+finish_line_path_1 = ""
+
+[sub_resource type="Resource" id="Resource_g7w4f"]
+script = ExtResource("2_1fhgy")
+level_id = 6
+level_name = "GameOver1"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+game_clear_path_1 = ""
+game_clear_path_2 = ""
+game_over_path_1 = "UI/Game Over/game_over_1"
+game_over_path_2 = ""
+game_over_path_3 = ""
+finish_line_path_1 = ""
+
+[sub_resource type="Resource" id="Resource_s2t0j"]
+script = ExtResource("2_1fhgy")
+level_id = 7
+level_name = "GameOver2"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+game_clear_path_1 = ""
+game_clear_path_2 = ""
+game_over_path_1 = ""
+game_over_path_2 = "UI/Game Over/game_over_2"
+game_over_path_3 = ""
+finish_line_path_1 = ""
+
+[sub_resource type="Resource" id="Resource_lpljw"]
+script = ExtResource("2_1fhgy")
+level_id = 8
+level_name = "GameOver3"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+game_clear_path_1 = ""
+game_clear_path_2 = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = "UI/Game Over/game_over_3"
+finish_line_path_1 = ""
+
+[sub_resource type="Resource" id="Resource_0ykr2"]
+script = ExtResource("2_1fhgy")
+level_id = 9
+level_name = "FinishLine"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+game_clear_path_1 = ""
+game_clear_path_2 = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+finish_line_path_1 = "levels/finish_line"
 
 [node name="Main" type="Node"]
 script = ExtResource("1_lba47")
-available_levels = Array[ExtResource("2_1fhgy")]([SubResource("Resource_kswmg"), SubResource("Resource_n7cxt"), SubResource("Resource_a76xj"), SubResource("Resource_oypyj"), SubResource("Resource_iyk06")])
+available_levels = Array[ExtResource("2_1fhgy")]([SubResource("Resource_kswmg"), SubResource("Resource_n7cxt"), SubResource("Resource_a76xj"), SubResource("Resource_oypyj"), SubResource("Resource_iyk06"), SubResource("Resource_g7w4f"), SubResource("Resource_s2t0j"), SubResource("Resource_lpljw"), SubResource("Resource_0ykr2")])
 
 [node name="UIMain" type="CanvasLayer" parent="."]
 visible = false
