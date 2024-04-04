@@ -1,5 +1,6 @@
 class_name MainMenu
 extends Control
+
 @onready var menu = $Background/MarginContainer/Menu
 @onready var settings = $Settings
 @onready var video = $Video

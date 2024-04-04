@@ -8,3 +8,5 @@ extends Resource
 @export var level_path_1 : String
 @export var level_path_2 : String
 @export var level_path_3 : String
+@export var game_clear_path_1 : String
+@export var game_clear_path_2 : String

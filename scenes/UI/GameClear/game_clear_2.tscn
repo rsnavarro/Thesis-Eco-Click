@@ -1,15 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://bkwhhyj5jgxqv"]
+[gd_scene load_steps=4 format=3 uid="uid://cjjo3n8fy21ie"]
 
-[ext_resource type="Script" path="res://scenes/UI/Game Clear/game_clear_1.gd" id="1_gm0m8"]
-[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="2_shs1x"]
+[ext_resource type="Script" path="res://scenes/UI/GameClear/game_clear2.gd" id="1_kujrn"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="1_rkqhs"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ih2pt"]
-font = ExtResource("2_shs1x")
+font = ExtResource("1_rkqhs")
 font_size = 55
 font_color = Color(0, 0, 0, 1)
 outline_size = 15
 
-[node name="GameClear1" type="Control"]
+[node name="GameClear2" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -17,7 +17,7 @@ anchor_bottom = 1.0
 offset_right = 3.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_gm0m8")
+script = ExtResource("1_kujrn")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -36,11 +36,11 @@ offset_bottom = 360.0
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 48.0
+offset_left = 56.0
 offset_top = 80.0
 offset_right = 592.0
 offset_bottom = 136.0
-text = "Stage 1 Cleared"
+text = "Stage 2 Cleared"
 label_settings = SubResource("LabelSettings_ih2pt")
 
 [node name="Proceed" type="Button" parent="."]
@@ -52,7 +52,7 @@ offset_bottom = 271.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 9
-theme_override_fonts/font = ExtResource("2_shs1x")
+theme_override_fonts/font = ExtResource("1_rkqhs")
 theme_override_font_sizes/font_size = 30
 text = "Proceed"
 
@@ -65,7 +65,7 @@ offset_bottom = 271.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 9
-theme_override_fonts/font = ExtResource("2_shs1x")
+theme_override_fonts/font = ExtResource("1_rkqhs")
 theme_override_font_sizes/font_size = 30
 text = "QUIT"
 
