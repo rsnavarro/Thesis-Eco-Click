@@ -18,7 +18,7 @@ func _physics_process(delta):
 func _on_body_entered(body):
 	if body is Player:
 		print("Player collided with enemy")
-		body.call("on_death11")
+		body.call("on_death10")
 
 
 func _on_iguana_hitbox_body_entered(body):

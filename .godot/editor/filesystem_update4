@@ -6,7 +6,15 @@ res://scenes/levels/level_01.tscn
 res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
-res://scenes/levels/jump_to_end_game.tscn
 res://scenes/levels/finish_line.tscn
-res://scenes/levels/jump_to_end_game.gd
+res://scenes/levels/Beginning/intro_scene.tscn
+res://scenes/UI/main_menu.tscn
+res://scenes/levels/Beginning/intro_scene.gd
 res://assets/Scripts/Managers/LevelManager.gd
+res://scenes/entities/Obstacles/Level 3/Rapid_Plant.gd
+res://scenes/entities/ZedCharacterBody2D.gd
+res://scenes/entities/Obstacles/Level 3/Iguana.gd
+res://scenes/entities/Obstacles/Level 3/Albatross.gd
+res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.gd
+res://scenes/entities/Obstacles/Level 3/Albatross.tscn
+res://assets/Scripts/classes/level_data.gd

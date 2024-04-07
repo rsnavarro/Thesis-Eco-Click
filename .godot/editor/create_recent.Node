@@ -1,5 +1,10 @@
-TextureRect
+AnimationPlayer
+ColorRect
+Sprite2D
+CanvasLayer
 Node2D
+Label
+TextureRect
 CollisionShape2D
 Node
 Area2D
@@ -7,9 +12,3 @@ ColorPicker
 CharacterBody2D
 AudioStreamPlayer
 Control
-Timer
-Sprite2D
-RichTextLabel
-NinePatchRect
-AnimatedSprite2D
-AnimationPlayer

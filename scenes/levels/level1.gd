@@ -2,6 +2,7 @@ class_name Level1
 extends Node
 
 @export var level_id : int = 1
+#Obstacle Spawn Points
 @export var spawnpoint_1 : Node2D
 @export var spawnpoint_2 : Node2D
 @export var spawnpoint_3 : Node2D

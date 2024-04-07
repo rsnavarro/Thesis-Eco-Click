@@ -2,6 +2,11 @@ class_name Level2
 extends Node
 
 @export var level_id : int = 2
+#Obstacle Spawn Points
+@export var spawnpoint_5 : Node2D
+@export var spawnpoint_6 : Node2D
+@export var spawnpoint_7 : Node2D
+@export var spawnpoint_8 : Node2D
 
 #Danger Zones Level 2
 @export var DZ_S13 : Node2D

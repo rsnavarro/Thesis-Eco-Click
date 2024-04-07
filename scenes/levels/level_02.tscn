@@ -942,8 +942,12 @@ corner_radius_top_right = 1
 corner_radius_bottom_right = 1
 corner_radius_bottom_left = 1
 
-[node name="Level2" type="Node2D" node_paths=PackedStringArray("DZ_S13", "DZ_S14", "DZ_S15", "DZ_S16", "DZ_S17", "DZ_S18", "DZ_S19", "DZ_S20", "DZ_S21", "DZ_S22", "DZ_S23", "DZ_S24", "DZ_S25", "DZ_S26")]
+[node name="Level2" type="Node2D" node_paths=PackedStringArray("spawnpoint_5", "spawnpoint_6", "spawnpoint_7", "spawnpoint_8", "DZ_S13", "DZ_S14", "DZ_S15", "DZ_S16", "DZ_S17", "DZ_S18", "DZ_S19", "DZ_S20", "DZ_S21", "DZ_S22", "DZ_S23", "DZ_S24", "DZ_S25", "DZ_S26")]
 script = ExtResource("1_owpb6")
+spawnpoint_5 = NodePath("Obstacle Spawnpoints/Spawnpoint5")
+spawnpoint_6 = NodePath("Obstacle Spawnpoints/Spawnpoint6")
+spawnpoint_7 = NodePath("Obstacle Spawnpoints/Spawnpoint7")
+spawnpoint_8 = NodePath("Obstacle Spawnpoints/Spawnpoint8")
 DZ_S13 = NodePath("DZ Spawnpoints/DZ13")
 DZ_S14 = NodePath("DZ Spawnpoints/DZ14")
 DZ_S15 = NodePath("DZ Spawnpoints/DZ15")
@@ -1072,7 +1076,7 @@ offset_right = 8712.0
 offset_bottom = 630.0
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_ktdu4")]
-position = Vector2(10072, 264)
+position = Vector2(10024, 256)
 metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="1" instance=ExtResource("5_54fek")]
@@ -1234,18 +1238,18 @@ position = Vector2(9625, 260)
 [node name="Obstacle Spawnpoints" type="Node2D" parent="."]
 
 [node name="Spawnpoint5" type="Node2D" parent="Obstacle Spawnpoints"]
-position = Vector2(1176, 520)
+position = Vector2(1944, 352)
 
 [node name="Spawnpoint6" type="Node2D" parent="Obstacle Spawnpoints"]
-position = Vector2(2472, 448)
+position = Vector2(3952, 200)
 rotation = -1.57079
 
 [node name="Spawnpoint7" type="Node2D" parent="Obstacle Spawnpoints"]
-position = Vector2(12892, 371)
+position = Vector2(6144, 344)
 rotation = -1.57079
 
 [node name="Spawnpoint8" type="Node2D" parent="Obstacle Spawnpoints"]
-position = Vector2(9132, 372)
+position = Vector2(7096, 200)
 rotation = -1.57079
 
 [node name="Trash" type="Node2D" parent="."]

@@ -13,4 +13,5 @@ extends Resource
 @export var game_over_path_1 : String
 @export var game_over_path_2 : String
 @export var game_over_path_3 : String
+
 @export var finish_line_path_1 : String
