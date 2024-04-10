@@ -1,15 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://cjjo3n8fy21ie"]
 
 [ext_resource type="Script" path="res://scenes/UI/GameClear/game_clear2_1.gd" id="1_46coo"]
+[ext_resource type="Texture2D" uid="uid://bu63sf15xd443" path="res://assets/sprites/Scoreboards/Level 2 - 1 star.png" id="2_7rh3d"]
 [ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="2_jbfny"]
 
-[sub_resource type="LabelSettings" id="LabelSettings_ih2pt"]
-font = ExtResource("2_jbfny")
-font_size = 55
-font_color = Color(0, 0, 0, 1)
-outline_size = 15
-
-[node name="GameClear2" type="Control"]
+[node name="GameClear2_1" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -19,36 +14,18 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_46coo")
 
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_right = -3.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0, 0, 0, 1)
-
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
 offset_right = 640.0
 offset_bottom = 360.0
-
-[node name="Label" type="Label" parent="."]
-layout_mode = 0
-offset_left = 56.0
-offset_top = 80.0
-offset_right = 592.0
-offset_bottom = 136.0
-text = "Stage 2 Cleared"
-label_settings = SubResource("LabelSettings_ih2pt")
+texture = ExtResource("2_7rh3d")
 
 [node name="Proceed" type="Button" parent="."]
 layout_mode = 0
-offset_left = 137.0
-offset_top = 226.0
-offset_right = 302.0
-offset_bottom = 271.0
+offset_left = 120.0
+offset_top = 288.0
+offset_right = 285.0
+offset_bottom = 333.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 9
@@ -58,10 +35,10 @@ text = "Proceed"
 
 [node name="Quit" type="Button" parent="."]
 layout_mode = 0
-offset_left = 393.0
-offset_top = 226.0
-offset_right = 498.0
-offset_bottom = 271.0
+offset_left = 392.0
+offset_top = 288.0
+offset_right = 497.0
+offset_bottom = 333.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 9

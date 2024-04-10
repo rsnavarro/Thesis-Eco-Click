@@ -14,9 +14,15 @@ extends Resource
 @export var lvl1_3_star : String
 
 @export var lvl2_1_star : String
+@export var lvl2_2_star : String
+@export var lvl2_3_star : String
 
 @export var lvl3_1_star : String
+@export var lvl3_2_star : String
+@export var lvl3_3_star : String
 
 @export var game_over_path_1 : String
 @export var game_over_path_2 : String
 @export var game_over_path_3 : String
+
+@export var ending_1 : String

@@ -1,3 +1,5 @@
+res://scenes/levels/Ending
+res://assets/sprites/Game Ender
 res://assets/sprites/Scoreboards
 res://scenes/UI/GameClear
 res://scenes/Trash GUI
@@ -5,7 +7,6 @@ res://assets/sprites/Zed
 res://scenes/levels/Beginning
 res://assets/sprites/Game Beginner
 res://scenes
-res://assets/sprites/Game Ender
 res://scenes/levels
 res://scenes/entities/Obstacles/Danger Zones
 res://assets/Scripts/classes

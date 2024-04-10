@@ -27,7 +27,7 @@
 [ext_resource type="PackedScene" uid="uid://c2i3quwn0priv" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_10.tscn" id="19_20euj"]
 [ext_resource type="PackedScene" uid="uid://c4gq14d1mari6" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_11.tscn" id="20_h72qk"]
 [ext_resource type="PackedScene" uid="uid://bkyfr32tge3bs" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_12.tscn" id="21_e1xjg"]
-[ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://scenes/Trash GUI/trash_gui_lvl_1.tscn" id="28_2arl7"]
+[ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="28_2arl7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x80as"]
 texture = ExtResource("1_5oq2w")

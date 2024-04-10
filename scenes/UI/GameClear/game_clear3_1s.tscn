@@ -1,9 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://bipy0dsigo1jx"]
+[gd_scene load_steps=4 format=3 uid="uid://bipy0dsigo1jx"]
 
 [ext_resource type="Script" path="res://scenes/UI/GameClear/game_clear3_1.gd" id="1_2ydvg"]
-[ext_resource type="Texture2D" uid="uid://cldhgyr1hy3lx" path="res://assets/sprites/Game Ender/Ending 1.png" id="2_uneqj"]
+[ext_resource type="Texture2D" uid="uid://deel7ly62etur" path="res://assets/sprites/Scoreboards/Level 3 - 1 star.png" id="2_7fs5r"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_jbff6"]
 
-[node name="FinishLine" type="Control"]
+[node name="GameClear3_1" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -13,11 +14,37 @@ grow_vertical = 2
 script = ExtResource("1_2ydvg")
 
 [node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("2_uneqj")
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 360.0
+texture = ExtResource("2_7fs5r")
 stretch_mode = 6
+
+[node name="Proceed" type="Button" parent="."]
+layout_mode = 0
+offset_left = 120.0
+offset_top = 288.0
+offset_right = 285.0
+offset_bottom = 333.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 9
+theme_override_fonts/font = ExtResource("3_jbff6")
+theme_override_font_sizes/font_size = 30
+text = "Proceed"
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 392.0
+offset_top = 288.0
+offset_right = 497.0
+offset_bottom = 333.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 9
+theme_override_fonts/font = ExtResource("3_jbff6")
+theme_override_font_sizes/font_size = 30
+text = "QUIT"
+
+[connection signal="pressed" from="Proceed" to="." method="_on_proceed_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

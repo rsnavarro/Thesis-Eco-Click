@@ -11,8 +11,12 @@ var loaded_clear_1_2 : Lvl1Star2 = null
 var loaded_clear_1_3 : Lvl1Star3 = null
 
 var loaded_clear_2_1 : Lvl2Star1 = null
+var loaded_clear_2_2 : Lvl2Star1 = null
+var loaded_clear_2_3 : Lvl2Star1 = null
 
 var loaded_clear_3_1 : Lvl3Star1 = null
+var loaded_clear_3_2 : Lvl3Star1 = null
+var loaded_clear_3_3 : Lvl3Star1 = null
 
 var loaded_over_1 : GameOver1 = null
 var loaded_over_2 : GameOver2 = null
@@ -36,8 +40,17 @@ func unload_level() -> void:
 		
 	elif is_instance_valid(loaded_clear_2_1):
 		loaded_clear_2_1.queue_free()
+	elif is_instance_valid(loaded_clear_2_2):
+		loaded_clear_2_2.queue_free()
+	elif is_instance_valid(loaded_clear_2_3):
+		loaded_clear_2_3.queue_free()
+
 	elif is_instance_valid(loaded_clear_3_1):
 		loaded_clear_3_1.queue_free()
+	elif is_instance_valid(loaded_clear_3_2):
+		loaded_clear_3_2.queue_free()
+	elif is_instance_valid(loaded_clear_3_3):
+		loaded_clear_3_3.queue_free()
 
 	elif is_instance_valid(loaded_over_1):
 		loaded_over_1.queue_free()
@@ -55,8 +68,12 @@ func unload_level() -> void:
 	loaded_clear_1_3 = null
 	
 	loaded_clear_2_1 = null
+	loaded_clear_2_2 = null
+	loaded_clear_2_3 = null
 	
 	loaded_clear_3_1 = null
+	loaded_clear_3_2 = null
+	loaded_clear_3_3 = null
 
 	loaded_over_1 = null
 	loaded_over_2 = null
@@ -80,7 +97,12 @@ func load_level(level_id : int) -> void:
 	var lvl1_3_star = "res://scenes/%s.tscn" % level_data.lvl1_3_star
 	
 	var lvl2_1_star = "res://scenes/%s.tscn" % level_data.lvl2_1_star
+	var lvl2_2_star = "res://scenes/%s.tscn" % level_data.lvl2_2_star
+	var lvl2_3_star = "res://scenes/%s.tscn" % level_data.lvl2_3_star
+	
 	var lvl3_1_star = "res://scenes/%s.tscn" % level_data.lvl3_1_star
+	var lvl3_2_star = "res://scenes/%s.tscn" % level_data.lvl3_2_star
+	var lvl3_3_star = "res://scenes/%s.tscn" % level_data.lvl3_3_star
 	
 	var game_over_path_1 = "res://scenes/%s.tscn" % level_data.game_over_path_1
 	var game_over_path_2 = "res://scenes/%s.tscn" % level_data.game_over_path_2
@@ -95,8 +117,12 @@ func load_level(level_id : int) -> void:
 	var clear_1_res_3 := load(lvl1_3_star)
 	
 	var clear_2_res_1 := load(lvl2_1_star)
+	var clear_2_res_2 := load(lvl2_2_star)
+	var clear_2_res_3 := load(lvl2_3_star)
 	
 	var clear_3_res_1 := load(lvl3_1_star)
+	var clear_3_res_2 := load(lvl3_2_star)
+	var clear_3_res_3 := load(lvl3_3_star)
 	
 	var over_res_1 := load(game_over_path_1)
 	var over_res_2 := load(game_over_path_2)
@@ -128,13 +154,23 @@ func load_level(level_id : int) -> void:
 	elif clear_2_res_1:
 		loaded_clear_2_1 = clear_2_res_1.instantiate()
 		get_tree().root.add_child(loaded_clear_2_1, false)
-
+	elif clear_2_res_2:
+		loaded_clear_2_2 = clear_2_res_2.instantiate()
+		get_tree().root.add_child(loaded_clear_2_2, false)
+	elif clear_2_res_3:
+		loaded_clear_2_3 = clear_2_res_3.instantiate()
+		get_tree().root.add_child(loaded_clear_2_3, false)
 
 #Game Clear Level 3
 	elif clear_3_res_1:
 		loaded_clear_3_1 = clear_3_res_1.instantiate()
 		get_tree().root.add_child(loaded_clear_3_1, false)
-
+	elif clear_3_res_2:
+		loaded_clear_3_2 = clear_3_res_2.instantiate()
+		get_tree().root.add_child(loaded_clear_3_2, false)
+	elif clear_3_res_3:
+		loaded_clear_3_3 = clear_3_res_3.instantiate()
+		get_tree().root.add_child(loaded_clear_3_3, false)
 
 #Game Over
 	elif over_res_1:
@@ -158,16 +194,16 @@ func get_level_data_by_id(id : int) -> LevelData:
 		if lvl.level_id == id:
 			print("\nFound Level Data:")
 			print(" Level ID:", lvl.level_id)
-			if lvl.level_id == 1:
-				print(" Level Path:", lvl.level_path_1)
-			elif lvl.level_id == 2:
-				print(" Level Path:", lvl.level_path_2)
-			elif lvl.level_id == 3:
-				print(" Level Path:", lvl.level_path_3)
-			elif lvl.level_id == 4:
-				print(" Level Path:", lvl.lvl1_1_star)
-			else:
-				print(" Level Path:", lvl.lvl2_1_star)
+			#if lvl.level_id == 1:
+				#print(" Level Path:", lvl.level_path_1)
+			#elif lvl.level_id == 2:
+				#print(" Level Path:", lvl.level_path_2)
+			#elif lvl.level_id == 3:
+				#print(" Level Path:", lvl.level_path_3)
+			#elif lvl.level_id == 4:
+				#print(" Level Path:", lvl.lvl1_1_star)
+			#else:
+				#print(" Level Path:", lvl.lvl2_1_star)
 			level_to_return = lvl
 			break
 	return level_to_return
