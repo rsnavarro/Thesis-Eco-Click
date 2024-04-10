@@ -1,3 +1,7 @@
+res://assets/sprites/Scoreboards
+res://scenes/UI/GameClear
+res://scenes/Trash GUI
+res://assets/sprites/Zed
 res://scenes/levels/Beginning
 res://assets/sprites/Game Beginner
 res://scenes
@@ -18,8 +22,6 @@ res://scenes/entities/Obstacles/Level 1
 <<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
-res://scenes/UI
-res://npc
 <<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes

@@ -1,7 +1,6 @@
 extends Node
 
 @export var available_levels : Array[LevelData]
-@onready var intro_scene_container = $IntroSceneContainer
 @onready var game_scene_container = $GameSceneContainer
 var main_menu_scene = preload("res://scenes/UI/main_menu.tscn")
 @onready var color_rect = $ColorRect

@@ -229,28 +229,28 @@ func _on_body_hitbox_body_entered(body):
 #Spawn points of Obstacles
 #Level 1 Obstacles
 func on_death1(): #Dynamite
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_1.spawnpoint_1.global_position
 	turn_visible()
 
 func on_death2(): #Crab
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_1.spawnpoint_2.global_position
 	turn_visible()
 
 func on_death3(): #Seagull
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_1.spawnpoint_3.global_position
 	turn_visible()
 
 func on_death4(): #Snake
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_1.spawnpoint_4.global_position
@@ -258,28 +258,28 @@ func on_death4(): #Snake
 
 #Level 2 Obstacles
 func on_death5(): #Turtle
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_2.spawnpoint_5.global_position
 	turn_visible()
 
 func on_death6(): #Jellyfish
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_2.spawnpoint_6.global_position
 	turn_visible()
 
 func on_death7(): #Giant Clam
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_2.spawnpoint_7.global_position
 	turn_visible()
 
 func on_death8(): #Angler Fish
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_2.spawnpoint_8.global_position
@@ -287,35 +287,35 @@ func on_death8(): #Angler Fish
 
 #Level 3 Obstacles
 func on_death9(): #Rapid Plant
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_3.spawnpoint_9.global_position
 	turn_visible()
 
 func on_death10(): #Iguana
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_3.spawnpoint_10.global_position
 	turn_visible()
 
 func on_death11(): #Albatross
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_3.spawnpoint_11.global_position
 	turn_visible()
 
 func on_death12(): ##Quicksand Pit
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_3.spawnpoint_12.global_position
 	turn_visible()
 
 func on_death13(): #Monkey
-	animation_player.play("Dead")
+	animation_player.play("Hurt")
 	can_control = false
 	await get_tree().create_timer(1).timeout
 	global_position = LevelManager.loaded_level_3.spawnpoint_13.global_position

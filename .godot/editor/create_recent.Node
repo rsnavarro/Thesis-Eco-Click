@@ -1,10 +1,10 @@
+TextureRect
 AnimationPlayer
 ColorRect
 Sprite2D
 CanvasLayer
 Node2D
 Label
-TextureRect
 CollisionShape2D
 Node
 Area2D

@@ -8,7 +8,6 @@
 [ext_resource type="PackedScene" uid="uid://bmrpgcbjgq5b7" path="res://trash(bio).tscn" id="4_kliuu"]
 [ext_resource type="PackedScene" uid="uid://oqalu7d3of4r" path="res://scenes/levels/timer_3.tscn" id="5_g5kx8"]
 [ext_resource type="PackedScene" uid="uid://csjf3fyno01ki" path="res://scenes/levels/jump_to_end_game.tscn" id="6_t5jjh"]
-[ext_resource type="PackedScene" uid="uid://c5m73lpr8if0c" path="res://trash_gui.tscn" id="7_cpaop"]
 [ext_resource type="PackedScene" uid="uid://g7p4bxtnysro" path="res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.tscn" id="7_ejmko"]
 [ext_resource type="PackedScene" uid="uid://cx3p2f37f1pvs" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_27.tscn" id="7_tjycc"]
 [ext_resource type="PackedScene" uid="uid://ckqo138ofqh82" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_28.tscn" id="8_buwpk"]
@@ -40,6 +39,7 @@
 [ext_resource type="PackedScene" uid="uid://ch7stsf4b1kda" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_48.tscn" id="28_4dwwh"]
 [ext_resource type="PackedScene" uid="uid://u6vq7vjg3ej1" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_49.tscn" id="29_dgm8y"]
 [ext_resource type="PackedScene" uid="uid://dgfet5oxcoyy5" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_50.tscn" id="30_fbnfr"]
+[ext_resource type="PackedScene" uid="uid://befwdc2xc7mvd" path="res://scenes/Trash GUI/trash_gui_lvl_3.tscn" id="40_a5ib0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lokq3"]
 texture = ExtResource("1_sw147")
@@ -1283,7 +1283,7 @@ position = Vector2(15929, 162)
 [node name="trash(non-bio)5" parent="Trash" instance=ExtResource("3_j65xx")]
 position = Vector2(1266, 254)
 
-[node name="Trash_gui" parent="Trash" instance=ExtResource("7_cpaop")]
+[node name="Trash_gui_lvl_3" parent="Trash" instance=ExtResource("40_a5ib0")]
 
 [node name="Trivia" type="Label" parent="."]
 show_behind_parent = true

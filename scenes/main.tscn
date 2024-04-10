@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://dake80dftehig"]
+[gd_scene load_steps=20 format=3 uid="uid://dake80dftehig"]
 
 [ext_resource type="PackedScene" uid="uid://b124ey87qbsde" path="res://scenes/UI/main_menu.tscn" id="1_7au15"]
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_lba47"]
@@ -14,12 +14,14 @@ level_unlocked = false
 level_path_1 = "levels/level_01"
 level_path_2 = ""
 level_path_3 = ""
-game_clear_path_1 = ""
-game_clear_path_2 = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
-finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_n7cxt"]
 script = ExtResource("2_1fhgy")
@@ -30,12 +32,14 @@ level_unlocked = false
 level_path_1 = ""
 level_path_2 = "levels/level_02"
 level_path_3 = ""
-game_clear_path_1 = ""
-game_clear_path_2 = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
-finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_a76xj"]
 script = ExtResource("2_1fhgy")
@@ -46,44 +50,50 @@ level_unlocked = false
 level_path_1 = ""
 level_path_2 = ""
 level_path_3 = "levels/level_03"
-game_clear_path_1 = ""
-game_clear_path_2 = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
-finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_oypyj"]
 script = ExtResource("2_1fhgy")
 level_id = 4
-level_name = "GameClear1"
+level_name = "Lvl1Star1"
 level_completed = false
 level_unlocked = false
 level_path_1 = ""
 level_path_2 = ""
 level_path_3 = ""
-game_clear_path_1 = "UI/GameClear/game_clear_1"
-game_clear_path_2 = ""
+lvl1_1_star = "UI/GameClear/game_clear1_1s"
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
-finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_iyk06"]
 script = ExtResource("2_1fhgy")
 level_id = 5
-level_name = "GameClear2"
+level_name = "Lvl2Star1"
 level_completed = false
 level_unlocked = false
 level_path_1 = ""
 level_path_2 = ""
 level_path_3 = ""
-game_clear_path_1 = ""
-game_clear_path_2 = "UI/GameClear/game_clear_2"
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = "UI/GameClear/game_clear2_1s"
+lvl3_1_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
-finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_g7w4f"]
 script = ExtResource("2_1fhgy")
@@ -94,12 +104,14 @@ level_unlocked = false
 level_path_1 = ""
 level_path_2 = ""
 level_path_3 = ""
-game_clear_path_1 = ""
-game_clear_path_2 = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = ""
 game_over_path_1 = "UI/Game Over/game_over_1"
 game_over_path_2 = ""
 game_over_path_3 = ""
-finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_s2t0j"]
 script = ExtResource("2_1fhgy")
@@ -110,12 +122,14 @@ level_unlocked = false
 level_path_1 = ""
 level_path_2 = ""
 level_path_3 = ""
-game_clear_path_1 = ""
-game_clear_path_2 = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = ""
 game_over_path_1 = ""
 game_over_path_2 = "UI/Game Over/game_over_2"
 game_over_path_3 = ""
-finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_lpljw"]
 script = ExtResource("2_1fhgy")
@@ -126,28 +140,68 @@ level_unlocked = false
 level_path_1 = ""
 level_path_2 = ""
 level_path_3 = ""
-game_clear_path_1 = ""
-game_clear_path_2 = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = "UI/Game Over/game_over_3"
-finish_line_path_1 = ""
 
 [sub_resource type="Resource" id="Resource_p0j8c"]
 script = ExtResource("2_1fhgy")
 level_id = 10
-level_name = "FinishLine"
+level_name = "Lvl3Star1"
 level_completed = false
 level_unlocked = false
 level_path_1 = ""
 level_path_2 = ""
 level_path_3 = ""
-game_clear_path_1 = ""
-game_clear_path_2 = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = "UI/GameClear/game_clear3_1s"
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
-finish_line_path_1 = "levels/finish_line"
+
+[sub_resource type="Resource" id="Resource_0t4mt"]
+script = ExtResource("2_1fhgy")
+level_id = 11
+level_name = "Lvl1Star2"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+lvl1_1_star = ""
+lvl1_2_star = "UI/GameClear/game_clear_1_2s"
+lvl1_3_star = ""
+lvl2_1_star = ""
+lvl3_1_star = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+
+[sub_resource type="Resource" id="Resource_o0e0o"]
+script = ExtResource("2_1fhgy")
+level_id = 12
+level_name = "Lvl1Star3"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = "UI/GameClear/game_clear_1_3s"
+lvl2_1_star = ""
+lvl3_1_star = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
 
 [sub_resource type="Animation" id="Animation_cxh1c"]
 resource_name = "Fade in"
@@ -205,7 +259,7 @@ _data = {
 
 [node name="Main" type="Node"]
 script = ExtResource("1_lba47")
-available_levels = Array[ExtResource("2_1fhgy")]([SubResource("Resource_kswmg"), SubResource("Resource_n7cxt"), SubResource("Resource_a76xj"), SubResource("Resource_oypyj"), SubResource("Resource_iyk06"), SubResource("Resource_g7w4f"), SubResource("Resource_s2t0j"), SubResource("Resource_lpljw"), SubResource("Resource_p0j8c")])
+available_levels = Array[ExtResource("2_1fhgy")]([SubResource("Resource_kswmg"), SubResource("Resource_n7cxt"), SubResource("Resource_a76xj"), SubResource("Resource_oypyj"), SubResource("Resource_iyk06"), SubResource("Resource_g7w4f"), SubResource("Resource_s2t0j"), SubResource("Resource_lpljw"), SubResource("Resource_p0j8c"), SubResource("Resource_0t4mt"), SubResource("Resource_o0e0o")])
 
 [node name="UIMain" type="CanvasLayer" parent="."]
 visible = false
