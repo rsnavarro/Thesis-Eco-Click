@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://b7df6p8n3vobm"]
+
+[ext_resource type="Script" path="res://dialogue2_2.gd" id="1_d78uk"]
+[ext_resource type="Texture2D" uid="uid://bqbrgffddvex7" path="res://assets/sprites/Island-game-gui/png/frames/level select.png" id="1_ern55"]
+
+[node name="Dialogue2_2" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -559.0
+offset_top = -2133.0
+offset_right = 81.0001
+offset_bottom = -1773.0
+scale = Vector2(20, 20)
+mouse_filter = 2
+script = ExtResource("1_d78uk")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 25.0
+offset_right = 181.0
+offset_bottom = 133.0
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_ern55")
+patch_margin_left = 3
+patch_margin_top = 3
+patch_margin_right = 3
+patch_margin_bottom = 3
+
+[node name="Name" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 166.0
+offset_bottom = 30.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "Name:"
+
+[node name="Text" type="RichTextLabel" parent="NinePatchRect"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 27.0
+offset_right = 272.0
+offset_bottom = 149.0
+scale = Vector2(0.6, 0.6)
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+text = "Chatting..."

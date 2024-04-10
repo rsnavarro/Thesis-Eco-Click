@@ -1,0 +1,62 @@
+[gd_scene load_steps=9 format=3 uid="uid://cc0cafsitkt00"]
+
+[ext_resource type="Texture2D" uid="uid://dc57j0ewiuedm" path="res://assets/sprites/npc/1(1).png" id="1_8yp7x"]
+[ext_resource type="Script" path="res://npc2.1.gd" id="1_lccfr"]
+[ext_resource type="Texture2D" uid="uid://56ev70ms2cbc" path="res://assets/sprites/npc/2(1).png" id="2_bwb7a"]
+[ext_resource type="Texture2D" uid="uid://dtu4fqm1k5k15" path="res://assets/sprites/npc/3(1).png" id="3_5e3df"]
+[ext_resource type="Texture2D" uid="uid://c2spqprao6ss0" path="res://assets/sprites/npc/4(1).png" id="4_qfoql"]
+[ext_resource type="PackedScene" uid="uid://b7df6p8n3vobm" path="res://dialogue2_2.tscn" id="6_g1qxl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xtrrt"]
+size = Vector2(414, 225)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hf47a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8yp7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_bwb7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5e3df")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qfoql")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[node name="npc2_1" type="Sprite2D"]
+position = Vector2(132, -1022)
+script = ExtResource("1_lccfr")
+
+[node name="chat_detection_area" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="chat_detection_area"]
+position = Vector2(-278, 987.5)
+shape = SubResource("RectangleShape2D_xtrrt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="chat_detection_area"]
+position = Vector2(-132, 1022)
+scale = Vector2(0.0526379, 0.0526379)
+sprite_frames = SubResource("SpriteFrames_hf47a")
+autoplay = "default"
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Dialogue2_2" parent="." instance=ExtResource("6_g1qxl")]
+offset_left = -219.0
+offset_top = 831.0
+offset_right = -134.0
+offset_bottom = 912.0
+scale = Vector2(2, 2)
+
+[connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
+[connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="dialogue_finished" from="Dialogue2_2" to="." method="_on_dialogue_2_2_dialogue_finished"]

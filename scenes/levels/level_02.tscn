@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=3 uid="uid://dcnxqnqsklsd4"]
+[gd_scene load_steps=52 format=3 uid="uid://dcnxqnqsklsd4"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_ffniy"]
 [ext_resource type="Script" path="res://scenes/levels/level2.gd" id="1_owpb6"]
@@ -29,6 +29,7 @@
 [ext_resource type="PackedScene" uid="uid://cbrqnni3m4d7x" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.tscn" id="19_biukp"]
 [ext_resource type="PackedScene" uid="uid://bafxsxlq1tutt" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn" id="20_2oi6u"]
 [ext_resource type="PackedScene" uid="uid://blg0ksqe8irby" path="res://scenes/Trash GUI/trash_gui_lvl_2.tscn" id="27_ln6cr"]
+[ext_resource type="PackedScene" uid="uid://b5re4pcmhaxm6" path="res://npc1.1.tscn" id="30_1hdsw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bd5jb"]
 texture = ExtResource("1_ffniy")
@@ -1076,7 +1077,7 @@ offset_right = 8712.0
 offset_bottom = 630.0
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_ktdu4")]
-position = Vector2(10024, 256)
+position = Vector2(4632, 288)
 metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="1" instance=ExtResource("5_54fek")]
@@ -1414,6 +1415,9 @@ text = "Phytoplankton in the ocean produce more
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
+
+[node name="npc1_1" parent="." instance=ExtResource("30_1hdsw")]
+position = Vector2(4760, 312)
 
 [editable path="ZedCharacterBody2D"]
 [editable path="ZedCharacterBody2D/Camera2D/PauseMenu"]
