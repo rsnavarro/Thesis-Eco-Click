@@ -1,9 +1,10 @@
 res://assets/sprites/Scoreboards
+res://assets/Fonts
+res://assets/sprites/Game Ender
 res://scenes/UI/GameClear/Trash Collected
 res://scenes/UI/GameClear
 res://
 res://scenes/levels/Ending
-res://assets/sprites/Game Ender
 res://scenes/Trash GUI
 res://assets/sprites/Zed
 res://assets/sprites/Game Beginner
@@ -19,7 +20,6 @@ res://assets/sprites/sounds
 res://assets/sprites/npc
 res://assets/sprites/Island-game-gui/png/frames
 res://scenes/Global
-res://scenes/entities/Obstacles/Level 1
 <<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes

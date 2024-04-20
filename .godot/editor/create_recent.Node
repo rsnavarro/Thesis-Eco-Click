@@ -1,4 +1,6 @@
 Label
+Sprite2D
+ColorRect
 CanvasLayer
 RichTextLabel
 NinePatchRect
@@ -6,9 +8,7 @@ Timer
 AnimatedSprite2D
 CollisionShape2D
 Area2D
-Sprite2D
 TextureRect
 AnimationPlayer
-ColorRect
 Node2D
 Node

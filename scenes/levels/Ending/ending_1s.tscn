@@ -13,6 +13,7 @@ grow_vertical = 2
 script = ExtResource("1_6bdwa")
 
 [node name="TextureRect" type="TextureRect" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -21,3 +22,16 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_vqlnh")
 stretch_mode = 6
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(320, 178)
+scale = Vector2(1.11111, 1.12346)
+texture = ExtResource("2_vqlnh")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -47.0
+offset_top = -39.0
+offset_right = 699.0
+offset_bottom = 405.0
+color = Color(0, 0, 0, 1)

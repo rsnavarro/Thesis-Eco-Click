@@ -70,9 +70,11 @@ shape = SubResource("RectangleShape2D_t2fxn")
 [node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
 position = Vector2(13, 0)
 target_position = Vector2(0, 35)
+collide_with_areas = true
 
 [node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
 position = Vector2(-12, 0)
 target_position = Vector2(0, 35)
+collide_with_areas = true
 
 [connection signal="body_entered" from="Snake_Hitbox" to="." method="_on_snake_hitbox_body_entered"]

@@ -1,9 +1,10 @@
-[gd_scene load_steps=28 format=3 uid="uid://dake80dftehig"]
+[gd_scene load_steps=29 format=3 uid="uid://dake80dftehig"]
 
 [ext_resource type="PackedScene" uid="uid://b124ey87qbsde" path="res://scenes/UI/main_menu.tscn" id="1_7au15"]
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_lba47"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level_data.gd" id="2_1fhgy"]
 [ext_resource type="Texture2D" uid="uid://bghqkfaq1xnqc" path="res://assets/sprites/Game Beginner/Opening Scene.png" id="3_yiwh7"]
+[ext_resource type="Texture2D" uid="uid://utdrkys4770t" path="res://assets/sprites/Game Beginner/Part 1.png" id="5_mcx5u"]
 
 [sub_resource type="Resource" id="Resource_kswmg"]
 script = ExtResource("2_1fhgy")
@@ -562,8 +563,6 @@ visible = false
 
 [node name="MainMenu" parent="UIMain" instance=ExtResource("1_7au15")]
 
-[node name="IntroSceneContainer" type="Node2D" parent="."]
-
 [node name="GameSceneContainer" type="Node2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -572,11 +571,18 @@ scale = Vector2(0.468641, 0.46875)
 texture = ExtResource("3_yiwh7")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+visible = false
 offset_left = -91.0
 offset_top = -83.0
 offset_right = 728.0
 offset_bottom = 428.0
 color = Color(0, 0, 0, 1)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(320, 180)
+scale = Vector2(0.514883, 0.5)
+texture = ExtResource("5_mcx5u")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

@@ -1,8 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://bci3713vrv40q"]
+[gd_scene load_steps=5 format=3 uid="uid://bci3713vrv40q"]
 
 [ext_resource type="Script" path="res://scenes/UI/GameClear/game_clear_3_3.gd" id="1_px2xr"]
-[ext_resource type="Texture2D" uid="uid://y3w50noy0q40" path="res://assets/sprites/Scoreboards/Level 3 - 3 stars.png" id="2_intou"]
+[ext_resource type="Texture2D" uid="uid://1kf4gkmb1r2r" path="res://assets/sprites/Scoreboards/3 stars.png" id="2_l3mkf"]
 [ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_sot6w"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_61571"]
+font = ExtResource("3_sot6w")
+font_size = 40
+font_color = Color(0, 0.807843, 1, 1)
+outline_size = 15
+outline_color = Color(0, 0.411765, 0.6, 1)
 
 [node name="GameClear3_3" type="Control"]
 layout_mode = 3
@@ -17,8 +24,16 @@ script = ExtResource("1_px2xr")
 layout_mode = 0
 offset_right = 640.0
 offset_bottom = 360.0
-texture = ExtResource("2_intou")
+texture = ExtResource("2_l3mkf")
 stretch_mode = 6
+
+[node name="Label" type="Label" parent="."]
+offset_left = 104.0
+offset_top = 31.0
+offset_right = 536.0
+offset_bottom = 82.0
+text = "Level 3 complete"
+label_settings = SubResource("LabelSettings_61571")
 
 [node name="Proceed" type="Button" parent="."]
 layout_mode = 0
@@ -26,8 +41,8 @@ offset_left = 120.0
 offset_top = 288.0
 offset_right = 285.0
 offset_bottom = 333.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0, 0.807843, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0.411765, 0.6, 1)
 theme_override_constants/outline_size = 9
 theme_override_fonts/font = ExtResource("3_sot6w")
 theme_override_font_sizes/font_size = 30
@@ -39,8 +54,8 @@ offset_left = 392.0
 offset_top = 288.0
 offset_right = 497.0
 offset_bottom = 333.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0, 0.807843, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0.411765, 0.6, 1)
 theme_override_constants/outline_size = 9
 theme_override_fonts/font = ExtResource("3_sot6w")
 theme_override_font_sizes/font_size = 30
