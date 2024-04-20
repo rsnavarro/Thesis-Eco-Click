@@ -9,14 +9,17 @@ extends Resource
 @export var level_path_2 : String
 @export var level_path_3 : String
 
+@export var lvl1_0_star : String
 @export var lvl1_1_star : String
 @export var lvl1_2_star : String
 @export var lvl1_3_star : String
 
+@export var lvl2_0_star : String
 @export var lvl2_1_star : String
 @export var lvl2_2_star : String
 @export var lvl2_3_star : String
 
+@export var lvl3_0_star : String
 @export var lvl3_1_star : String
 @export var lvl3_2_star : String
 @export var lvl3_3_star : String

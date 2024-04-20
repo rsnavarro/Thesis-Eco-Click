@@ -1,14 +1,14 @@
-class_name Lvl1Star1
+class_name Lvl2Star0
 extends Control
 
-@export var level_id : int = 4
+@export var level_id : int = 8
 
 func _ready():
 	AudioPlayer.stop()
 
 func _on_proceed_pressed():
 	AudioPlayer.play()
-	LevelManager.load_level(2)
+	LevelManager.load_level(3)
 	deactivate()
 
 func _on_quit_pressed():

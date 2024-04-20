@@ -1,7 +1,7 @@
 class_name Lvl2Star3
 extends Control
 
-@export var level_id : int = 14
+@export var level_id : int = 11
 
 func _ready():
 	AudioPlayer.stop()

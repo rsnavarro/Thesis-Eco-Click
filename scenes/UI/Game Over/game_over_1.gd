@@ -1,7 +1,7 @@
 class_name GameOver1
 extends Control
 
-@export var level_id : int = 6
+@export var level_id : int = 16
 
 func _ready():
 	AudioPlayer.stop()

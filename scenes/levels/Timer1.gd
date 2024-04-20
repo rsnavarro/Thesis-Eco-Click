@@ -32,7 +32,7 @@ func update_display():
 
 
 func _on_timer_1_timeout():
-	LevelManager.load_level(6)
+	LevelManager.load_level(16)
 
 func reset_timer():
 	time1 = max_time1

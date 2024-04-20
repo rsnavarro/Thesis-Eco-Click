@@ -1,10 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bkwhhyj5jgxqv"]
+[gd_scene load_steps=3 format=3 uid="uid://b4rbfoew561of"]
 
-[ext_resource type="Script" path="res://scenes/UI/GameClear/game_clear1_1.gd" id="1_ymnsk"]
-[ext_resource type="Texture2D" uid="uid://ckbosmpcrlb58" path="res://assets/sprites/Scoreboards/Level 1 - 1 star.png" id="2_kl4d6"]
-[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_1p8yx"]
+[ext_resource type="Script" path="res://scenes/UI/GameClear/game_clear_2_0.gd" id="1_cl3yk"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_wy77v"]
 
-[node name="GameClear1_1" type="Control"]
+[node name="GameClear2_0" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,14 +11,12 @@ anchor_bottom = 1.0
 offset_right = 3.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_ymnsk")
+script = ExtResource("1_cl3yk")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
 offset_right = 640.0
 offset_bottom = 360.0
-texture = ExtResource("2_kl4d6")
-stretch_mode = 6
 
 [node name="Proceed" type="Button" parent="."]
 layout_mode = 0
@@ -30,7 +27,7 @@ offset_bottom = 333.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 9
-theme_override_fonts/font = ExtResource("3_1p8yx")
+theme_override_fonts/font = ExtResource("3_wy77v")
 theme_override_font_sizes/font_size = 30
 text = "Proceed"
 
@@ -43,7 +40,7 @@ offset_bottom = 333.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
 theme_override_constants/outline_size = 9
-theme_override_fonts/font = ExtResource("3_1p8yx")
+theme_override_fonts/font = ExtResource("3_wy77v")
 theme_override_font_sizes/font_size = 30
 text = "QUIT"
 

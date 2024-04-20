@@ -35,7 +35,7 @@ func update_display():
 	$Seconds2.text = "%02d" % seconds2
 
 func _on_timer_2_timeout():
-		LevelManager.load_level(7)
+		LevelManager.load_level(17)
 
 func reset_timer():
 	time2 = max_time2

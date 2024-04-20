@@ -25,7 +25,7 @@ position = Vector2(-28, 0)
 scale = Vector2(2, 2)
 texture = ExtResource("2_wu78r")
 
-[node name="FinishLine" type="CollisionShape2D" parent="." groups=["FinishLine"]]
+[node name="FinishLine" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_wqfjt")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

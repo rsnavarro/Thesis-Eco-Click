@@ -1,8 +1,9 @@
+res://assets/sprites/Scoreboards
+res://scenes/UI/GameClear/Trash Collected
+res://scenes/UI/GameClear
 res://
 res://scenes/levels/Ending
 res://assets/sprites/Game Ender
-res://assets/sprites/Scoreboards
-res://scenes/UI/GameClear
 res://scenes/Trash GUI
 res://assets/sprites/Zed
 res://assets/sprites/Game Beginner

@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://b7df6p8n3vobm" path="res://dialogue2_2.tscn" id="6_g1qxl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xtrrt"]
-size = Vector2(414, 225)
+size = Vector2(174, 225)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_hf47a"]
 animations = [{

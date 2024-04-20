@@ -1,17 +1,15 @@
-res://scenes/entities/ZedCharacterBody2D.tscn
+res://scenes/UI/GameClear/game_clear_1_0s.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/main.gd
 res://scenes/UI/pause_menu.gdshader
-res://dialogue2_2.tscn
-res://npc2.1.tscn
-res://dialogue1_1.tscn
-res://scenes/levels/level_02.tscn
+res://scenes/UI/GameClear/game_clear_2_0s.tscn
+res://scenes/UI/GameClear/game_clear_3_0s.tscn
 res://scenes/main.tscn
+res://assets/Scripts/Managers/LevelManager.gd
 res://scenes/levels/level_01.tscn
+res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
-res://npc1.1.tscn
-res://npc1.2.tscn
-res://npc1.2.gd
-res://dialogue1_2.tscn
-res://dialogue1_2.gd
-res://assets/jsonfile/dialogue2.2.json
+res://scenes/entities/ZedCharacterBody2D.tscn
+res://scenes/Trash GUI/trash_gui_lvl_1.tscn
+res://scenes/Trash GUI/trash_gui_lvl_2.tscn
+res://scenes/Trash GUI/trash_gui_lvl_3.tscn
