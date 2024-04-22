@@ -15,7 +15,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bfrmx"]
-size = Vector2(101, 20)
+size = Vector2(101, 22)
 
 [node name="Quicksand Pit" type="CharacterBody2D" groups=["Quicksand Pit"]]
 script = ExtResource("1_3pbb6")
@@ -28,5 +28,5 @@ animation = &"Quicksand Pit"
 autoplay = "Quicksand Pit"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(3.5, -38)
+position = Vector2(3.5, -39)
 shape = SubResource("RectangleShape2D_bfrmx")

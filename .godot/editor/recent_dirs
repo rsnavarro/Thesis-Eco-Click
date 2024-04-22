@@ -1,13 +1,12 @@
+res://scenes/Trash GUI
+res://assets/Fonts
 res://scenes/levels/Ending
 res://assets/sprites/Game Ender
 res://assets/sprites/Game Beginner
 res://scenes/UI/Opening Scenes
 res://assets/sprites/Scoreboards
-res://assets/Fonts
-res://scenes/UI/GameClear/Trash Collected
 res://scenes/UI/GameClear
 res://
-res://scenes/Trash GUI
 res://assets/sprites/Zed
 res://scenes
 res://scenes/levels

@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://dag8bq1g73s56"]
+
+[ext_resource type="Script" path="res://scenes/Trash GUI/total_trash_3.gd" id="1_srv6s"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ynsts"]
+font_size = 20
+font_color = Color(0, 0, 0, 1)
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[node name="TotalTrash3" type="CanvasLayer"]
+offset = Vector2(100, 100)
+transform = Transform2D(1, 0, 0, 1, 100, 100)
+script = ExtResource("1_srv6s")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 263.0
+offset_top = 113.0
+offset_right = 303.0
+offset_bottom = 141.0
+label_settings = SubResource("LabelSettings_ynsts")

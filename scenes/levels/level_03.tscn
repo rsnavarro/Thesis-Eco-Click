@@ -1094,7 +1094,7 @@ position = Vector2(20209, 338)
 position = Vector2(2969, 300)
 
 [node name="Iguana" parent="Obstacles_Enemies" instance=ExtResource("9_0805g")]
-position = Vector2(7239, 200)
+position = Vector2(9067, 380)
 
 [node name="Albatross" parent="Obstacles_Enemies" instance=ExtResource("10_ugonp")]
 position = Vector2(10817, 258)

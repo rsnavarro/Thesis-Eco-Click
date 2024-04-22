@@ -4,7 +4,7 @@ extends Area2D
 
 func _on_body_entered(body):
 	if body.is_in_group("Player"):
-		if Global.total_trash >= 20: #100%
+		if Global.total_trash >= 17: #100%
 			Global.reset_trash()
 			LevelManager.load_level(7) # 3 Star
 		elif Global.total_trash <= 16 && Global.total_trash >= 15: #75% - 80%

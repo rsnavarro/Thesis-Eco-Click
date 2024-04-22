@@ -1,14 +1,14 @@
+Label
+CanvasLayer
 RayCast2D
 Node2D
 CanvasGroup
 AnimationPlayer
-Label
 TextureRect
 AnimationTree
 RichTextLabel
 Sprite2D
 ColorRect
-CanvasLayer
 NinePatchRect
 Timer
 AnimatedSprite2D

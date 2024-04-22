@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://bci3713vrv40q"]
+[gd_scene load_steps=6 format=3 uid="uid://bci3713vrv40q"]
 
 [ext_resource type="Script" path="res://scenes/UI/GameClear/game_clear_3_3.gd" id="1_px2xr"]
 [ext_resource type="Texture2D" uid="uid://1kf4gkmb1r2r" path="res://assets/sprites/Scoreboards/3 stars.png" id="2_l3mkf"]
 [ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_sot6w"]
+[ext_resource type="PackedScene" uid="uid://dag8bq1g73s56" path="res://scenes/Trash GUI/total_trash_3.tscn" id="4_p6n35"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_61571"]
 font = ExtResource("3_sot6w")
@@ -21,13 +22,17 @@ grow_vertical = 2
 script = ExtResource("1_px2xr")
 
 [node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 0
-offset_right = 640.0
-offset_bottom = 360.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("2_l3mkf")
 stretch_mode = 6
 
 [node name="Label" type="Label" parent="."]
+layout_mode = 0
 offset_left = 104.0
 offset_top = 31.0
 offset_right = 536.0
@@ -60,6 +65,8 @@ theme_override_constants/outline_size = 9
 theme_override_fonts/font = ExtResource("3_sot6w")
 theme_override_font_sizes/font_size = 30
 text = "QUIT"
+
+[node name="TotalTrash3" parent="." instance=ExtResource("4_p6n35")]
 
 [connection signal="pressed" from="Proceed" to="." method="_on_proceed_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
