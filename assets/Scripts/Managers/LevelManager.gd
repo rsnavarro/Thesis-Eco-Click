@@ -2,6 +2,7 @@ extends Node
 
 var levels : Array[LevelData]
 var main_scene : Node = null
+var opening_scene_1 : Node = null
 var loaded_level_1 : Level1 = null
 var loaded_level_2 : Level2 = null
 var loaded_level_3 : Level3 = null
@@ -25,7 +26,11 @@ var loaded_over_1 : GameOver1 = null
 var loaded_over_2 : GameOver2 = null
 var loaded_over_3 : GameOver3 = null
 
+var loaded_opening_1 : Opening1 = null
+
 var loaded_ending_1 : Ending1 = null
+var loaded_ending_2 : Ending2 = null
+var loaded_ending_3 : Ending3 = null
 
 
 func unload_level() -> void:
@@ -70,8 +75,15 @@ func unload_level() -> void:
 	elif is_instance_valid(loaded_over_3):
 		loaded_over_3.queue_free()
 
+	elif is_instance_valid(loaded_opening_1):
+		loaded_opening_1.queue_free()
+
 	elif is_instance_valid(loaded_ending_1):
 		loaded_ending_1.queue_free()
+	elif is_instance_valid(loaded_ending_2):
+		loaded_ending_2.queue_free()
+	elif is_instance_valid(loaded_ending_3):
+		loaded_ending_3.queue_free()
 
 	loaded_level_1 = null
 	loaded_level_2 = null
@@ -96,7 +108,11 @@ func unload_level() -> void:
 	loaded_over_2 = null
 	loaded_over_3 = null
 
+	loaded_opening_1 = null
+
 	loaded_ending_1 = null
+	loaded_ending_2 = null
+	loaded_ending_3 = null
 
 func load_level(level_id : int) -> void:
 	print("\nLoading Level: %s" % level_id)
@@ -130,7 +146,11 @@ func load_level(level_id : int) -> void:
 	var game_over_path_2 = "res://scenes/%s.tscn" % level_data.game_over_path_2
 	var game_over_path_3 = "res://scenes/%s.tscn" % level_data.game_over_path_3
 
+	var opening_1 = "res://scenes/%s.tscn" % level_data.opening_1
+
 	var ending_1 = "res://scenes/%s.tscn" % level_data.ending_1
+	var ending_2 = "res://scenes/%s.tscn" % level_data.ending_2
+	var ending_3 = "res://scenes/%s.tscn" % level_data.ending_3
 
 	var level_res_1 := load(level_path_1)
 	var level_res_2 := load(level_path_2)
@@ -155,7 +175,11 @@ func load_level(level_id : int) -> void:
 	var over_res_2 := load(game_over_path_2)
 	var over_res_3 := load(game_over_path_3)
 
+	var opening_res_1 := load(opening_1)
+
 	var ending_res_1 := load(ending_1)
+	var ending_res_2 := load(ending_2)
+	var ending_res_3 := load(ending_3)
 
 #Levels
 	if level_res_1:
@@ -221,9 +245,21 @@ func load_level(level_id : int) -> void:
 		loaded_over_3 = over_res_3.instantiate()
 		get_tree().root.add_child(loaded_over_3, false)
 
+#Opening
+	elif opening_res_1:
+		loaded_opening_1 = opening_res_1.instantiate()
+		get_tree().root.add_child(loaded_opening_1, false)
+
+#Ending
 	elif ending_res_1:
 		loaded_ending_1 = ending_res_1.instantiate()
 		get_tree().root.add_child(loaded_ending_1, false)
+	elif ending_res_2:
+		loaded_ending_2 = ending_res_2.instantiate()
+		get_tree().root.add_child(loaded_ending_2, false)
+	elif ending_res_3:
+		loaded_ending_3 = ending_res_3.instantiate()
+		get_tree().root.add_child(loaded_ending_3, false)
 
 	else:
 		print("Level does not exist")
@@ -236,16 +272,6 @@ func get_level_data_by_id(id : int) -> LevelData:
 		if lvl.level_id == id:
 			print("\nFound Level Data:")
 			print(" Level ID:", lvl.level_id)
-			#if lvl.level_id == 1:
-				#print(" Level Path:", lvl.level_path_1)
-			#elif lvl.level_id == 2:
-				#print(" Level Path:", lvl.level_path_2)
-			#elif lvl.level_id == 3:
-				#print(" Level Path:", lvl.level_path_3)
-			#elif lvl.level_id == 4:
-				#print(" Level Path:", lvl.lvl1_1_star)
-			#else:
-				#print(" Level Path:", lvl.lvl2_1_star)
 			level_to_return = lvl
 			break
 	return level_to_return

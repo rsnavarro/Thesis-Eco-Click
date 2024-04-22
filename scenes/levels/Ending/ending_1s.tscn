@@ -1,7 +1,215 @@
-[gd_scene load_steps=3 format=3 uid="uid://v28rr2i7isj7"]
+[gd_scene load_steps=12 format=3 uid="uid://v28rr2i7isj7"]
 
 [ext_resource type="Script" path="res://scenes/levels/Ending/ending_1.gd" id="1_6bdwa"]
 [ext_resource type="Texture2D" uid="uid://cldhgyr1hy3lx" path="res://assets/sprites/Game Ender/Ending 1.png" id="2_vqlnh"]
+[ext_resource type="Texture2D" uid="uid://de2lovv7ck531" path="res://assets/sprites/Game Ender/Ending 2.png" id="3_84fmd"]
+[ext_resource type="Texture2D" uid="uid://b8eavyt80xrr3" path="res://assets/sprites/Game Ender/Ending 3.png" id="4_52ah4"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_hk8mc"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_mao2i"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_5g2hq"]
+
+[sub_resource type="Animation" id="Animation_rdixr"]
+resource_name = "Ending_1 fade in"
+length = 36.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("1/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3, 9, 12, 15, 21, 24, 27, 33, 36),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 1), Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 1), Color(0, 0, 0, 0), Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("1/TextureRect:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(6),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [ExtResource("2_vqlnh")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("1/Label:text")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(6),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": ["Zed, proud of their impact on the marine world, felt sorrow as his extraterrestrial friend prepared to leave."]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("2/TextureRect2:texture")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(18),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [ExtResource("3_84fmd")]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("2/Label2:text")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(18),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": ["They stood by the now thriving sea, once chaotic, now teeming with life. As the spacecraft ascended into the night sky, Zed watched until it was a distant speck."]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("3/TextureRect3:texture")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(30),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [ExtResource("4_52ah4")]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("3/Label3:text")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(30),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": ["The community remained dedicated to marine conservation, but Zed felt emptiness without Deemo. The universe had other plans, leaving an indelible void in Zed's heart."]
+}
+
+[sub_resource type="Animation" id="Animation_p2boc"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("1/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("1/TextureRect:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_vqlnh")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("1/Label:text")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["Zed, proud of their impact on the marine world, felt sorrow as his extraterrestrial friend prepared to leave."]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("2/TextureRect2:texture")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_84fmd")]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("2/Label2:text")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["They stood by the now thriving sea, once chaotic, now teeming with life. As the spacecraft ascended into the night sky, Zed watched until it was a distant speck."]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("3/TextureRect3:texture")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("4_52ah4")]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("3/Label3:text")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["The community remained dedicated to marine conservation, but Zed felt emptiness without Deemo. The universe had other plans, leaving an indelible void in Zed's heart."]
+}
+
+[sub_resource type="Animation" id="Animation_mmd6c"]
+resource_name = "Ending_1 fade out"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("1/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jb2cm"]
+_data = {
+"Ending_1 fade in": SubResource("Animation_rdixr"),
+"Ending_1 fade out": SubResource("Animation_mmd6c"),
+"RESET": SubResource("Animation_p2boc")
+}
 
 [node name="Ending_1" type="Control"]
 layout_mode = 3
@@ -12,26 +220,101 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_6bdwa")
 
-[node name="TextureRect" type="TextureRect" parent="."]
-visible = false
-layout_mode = 1
+[node name="1" type="CanvasGroup" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="1"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = 640.0
+offset_bottom = 360.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_vqlnh")
 stretch_mode = 6
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(320, 178)
-scale = Vector2(1.11111, 1.12346)
-texture = ExtResource("2_vqlnh")
+[node name="Label" type="Label" parent="1"]
+offset_left = 91.0
+offset_top = 286.0
+offset_right = 547.0
+offset_bottom = 335.0
+text = "Zed, proud of their impact on the marine world, felt sorrow as his extraterrestrial friend prepared to leave."
+label_settings = SubResource("LabelSettings_hk8mc")
+horizontal_alignment = 3
+autowrap_mode = 3
+visible_characters_behavior = 3
+text_direction = 1
 
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 0
+[node name="ColorRect" type="ColorRect" parent="1"]
 offset_left = -47.0
 offset_top = -39.0
 offset_right = 699.0
 offset_bottom = 405.0
 color = Color(0, 0, 0, 1)
+
+[node name="2" type="CanvasGroup" parent="."]
+
+[node name="TextureRect2" type="TextureRect" parent="2"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 640.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_84fmd")
+stretch_mode = 6
+
+[node name="Label2" type="Label" parent="2"]
+offset_left = 91.0
+offset_top = 261.0
+offset_right = 547.0
+offset_bottom = 336.0
+text = "They stood by the now thriving sea, once chaotic, now teeming with life. As the spacecraft ascended into the night sky, Zed watched until it was a distant speck."
+label_settings = SubResource("LabelSettings_mao2i")
+horizontal_alignment = 3
+autowrap_mode = 3
+visible_characters_behavior = 3
+text_direction = 1
+
+[node name="ColorRect2" type="ColorRect" parent="2"]
+offset_left = -47.0
+offset_top = -39.0
+offset_right = 699.0
+offset_bottom = 405.0
+color = Color(0, 0, 0, 1)
+
+[node name="3" type="CanvasGroup" parent="."]
+
+[node name="TextureRect3" type="TextureRect" parent="3"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 640.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_52ah4")
+stretch_mode = 6
+
+[node name="Label3" type="Label" parent="3"]
+offset_left = 60.0
+offset_top = 268.0
+offset_right = 580.0
+offset_bottom = 343.0
+text = "The community remained dedicated to marine conservation, but Zed felt emptiness without Deemo. The universe had other plans, leaving an indelible void in Zed's heart."
+label_settings = SubResource("LabelSettings_5g2hq")
+horizontal_alignment = 3
+autowrap_mode = 3
+
+[node name="ColorRect3" type="ColorRect" parent="3"]
+offset_left = -47.0
+offset_top = -39.0
+offset_right = 699.0
+offset_bottom = 405.0
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_jb2cm")
+}

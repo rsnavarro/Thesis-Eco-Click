@@ -1,0 +1,104 @@
+[gd_scene load_steps=8 format=3 uid="uid://81thlrjlyc67"]
+
+[ext_resource type="Script" path="res://scenes/levels/Ending/ending_2.gd" id="1_davuf"]
+[ext_resource type="Texture2D" uid="uid://de2lovv7ck531" path="res://assets/sprites/Game Ender/Ending 2.png" id="2_mpigv"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_hk8mc"]
+font_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Animation" id="Animation_30xnd"]
+resource_name = "Ending_2 fade in"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect2:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_gfy32"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect2:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_51h06"]
+resource_name = "Ending_2 fade out"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect2:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_88joh"]
+_data = {
+"Ending_2 fade in": SubResource("Animation_30xnd"),
+"Ending_2 fade out": SubResource("Animation_51h06"),
+"RESET": SubResource("Animation_gfy32")
+}
+
+[node name="Ending_2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_davuf")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_mpigv")
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 91.0
+offset_top = 261.0
+offset_right = 547.0
+offset_bottom = 336.0
+text = "They stood by the now thriving sea, once chaotic, now teeming with life. As the spacecraft ascended into the night sky, Zed watched until it was a distant speck."
+label_settings = SubResource("LabelSettings_hk8mc")
+horizontal_alignment = 3
+autowrap_mode = 3
+visible_characters_behavior = 3
+text_direction = 1
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -47.0
+offset_top = -39.0
+offset_right = 699.0
+offset_bottom = 405.0
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_88joh")
+}

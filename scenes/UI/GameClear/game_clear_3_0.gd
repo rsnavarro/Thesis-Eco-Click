@@ -8,7 +8,7 @@ func _ready():
 
 func _on_proceed_pressed():
 	AudioPlayer.play()
-	LevelManager.load_level(19)
+	LevelManager.load_level(22)
 	deactivate()
 
 func _on_quit_pressed():

@@ -1,10 +1,9 @@
-[gd_scene load_steps=29 format=3 uid="uid://dake80dftehig"]
+[gd_scene load_steps=33 format=3 uid="uid://dake80dftehig"]
 
 [ext_resource type="PackedScene" uid="uid://b124ey87qbsde" path="res://scenes/UI/main_menu.tscn" id="1_7au15"]
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_lba47"]
 [ext_resource type="Script" path="res://assets/Scripts/classes/level_data.gd" id="2_1fhgy"]
 [ext_resource type="Texture2D" uid="uid://bghqkfaq1xnqc" path="res://assets/sprites/Game Beginner/Opening Scene.png" id="3_yiwh7"]
-[ext_resource type="Texture2D" uid="uid://utdrkys4770t" path="res://assets/sprites/Game Beginner/Part 1.png" id="5_mcx5u"]
 
 [sub_resource type="Resource" id="Resource_kswmg"]
 script = ExtResource("2_1fhgy")
@@ -30,7 +29,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_n7cxt"]
 script = ExtResource("2_1fhgy")
@@ -56,7 +60,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_a76xj"]
 script = ExtResource("2_1fhgy")
@@ -82,7 +91,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_oypyj"]
 script = ExtResource("2_1fhgy")
@@ -108,7 +122,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_iyk06"]
 script = ExtResource("2_1fhgy")
@@ -134,7 +153,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_g7w4f"]
 script = ExtResource("2_1fhgy")
@@ -160,7 +184,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_s2t0j"]
 script = ExtResource("2_1fhgy")
@@ -186,7 +215,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_lpljw"]
 script = ExtResource("2_1fhgy")
@@ -212,7 +246,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = "UI/Game Over/game_over_3"
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_p0j8c"]
 script = ExtResource("2_1fhgy")
@@ -238,7 +277,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_0t4mt"]
 script = ExtResource("2_1fhgy")
@@ -264,7 +308,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_o0e0o"]
 script = ExtResource("2_1fhgy")
@@ -290,7 +339,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_p00k8"]
 script = ExtResource("2_1fhgy")
@@ -316,7 +370,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_ntrw8"]
 script = ExtResource("2_1fhgy")
@@ -342,7 +401,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_ueqri"]
 script = ExtResource("2_1fhgy")
@@ -368,7 +432,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_5cnhy"]
 script = ExtResource("2_1fhgy")
@@ -394,7 +463,12 @@ lvl3_3_star = "UI/GameClear/game_clear_3_3s"
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_l05ub"]
 script = ExtResource("2_1fhgy")
@@ -420,7 +494,12 @@ lvl3_3_star = ""
 game_over_path_1 = "UI/Game Over/game_over_1"
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_2m8ua"]
 script = ExtResource("2_1fhgy")
@@ -446,7 +525,12 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = "UI/Game Over/game_over_2"
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_i46sd"]
 script = ExtResource("2_1fhgy")
@@ -472,11 +556,109 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = "UI/Game Over/game_over_3"
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = ""
+ending_2 = ""
+ending_3 = ""
 
 [sub_resource type="Resource" id="Resource_b02jg"]
 script = ExtResource("2_1fhgy")
 level_id = 19
+level_name = "Opening1"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+lvl1_0_star = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_0_star = ""
+lvl2_1_star = ""
+lvl2_2_star = ""
+lvl2_3_star = ""
+lvl3_0_star = ""
+lvl3_1_star = ""
+lvl3_2_star = ""
+lvl3_3_star = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+opening_1 = "UI/Opening Scenes/opening_1s"
+opening_2 = ""
+opening_3 = ""
+ending_1 = ""
+ending_2 = ""
+ending_3 = ""
+
+[sub_resource type="Resource" id="Resource_he3kf"]
+script = ExtResource("2_1fhgy")
+level_id = 20
+level_name = "Opening2"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+lvl1_0_star = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_0_star = ""
+lvl2_1_star = ""
+lvl2_2_star = ""
+lvl2_3_star = ""
+lvl3_0_star = ""
+lvl3_1_star = ""
+lvl3_2_star = ""
+lvl3_3_star = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
+ending_1 = ""
+ending_2 = ""
+ending_3 = ""
+
+[sub_resource type="Resource" id="Resource_d14e2"]
+script = ExtResource("2_1fhgy")
+level_id = 21
+level_name = "Opening3"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+lvl1_0_star = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_0_star = ""
+lvl2_1_star = ""
+lvl2_2_star = ""
+lvl2_3_star = ""
+lvl3_0_star = ""
+lvl3_1_star = ""
+lvl3_2_star = ""
+lvl3_3_star = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
+ending_1 = ""
+ending_2 = ""
+ending_3 = ""
+
+[sub_resource type="Resource" id="Resource_hd86j"]
+script = ExtResource("2_1fhgy")
+level_id = 22
 level_name = "Ending1"
 level_completed = false
 level_unlocked = false
@@ -498,9 +680,76 @@ lvl3_3_star = ""
 game_over_path_1 = ""
 game_over_path_2 = ""
 game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
 ending_1 = "levels/Ending/ending_1s"
+ending_2 = ""
+ending_3 = ""
 
-[sub_resource type="Animation" id="Animation_cxh1c"]
+[sub_resource type="Resource" id="Resource_8ws3b"]
+script = ExtResource("2_1fhgy")
+level_id = 23
+level_name = "Ending2"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+lvl1_0_star = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_0_star = ""
+lvl2_1_star = ""
+lvl2_2_star = ""
+lvl2_3_star = ""
+lvl3_0_star = ""
+lvl3_1_star = ""
+lvl3_2_star = ""
+lvl3_3_star = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
+ending_1 = ""
+ending_2 = "levels/Ending/ending_2s"
+ending_3 = ""
+
+[sub_resource type="Resource" id="Resource_fywe4"]
+script = ExtResource("2_1fhgy")
+level_id = 24
+level_name = "Ending3"
+level_completed = false
+level_unlocked = false
+level_path_1 = ""
+level_path_2 = ""
+level_path_3 = ""
+lvl1_0_star = ""
+lvl1_1_star = ""
+lvl1_2_star = ""
+lvl1_3_star = ""
+lvl2_0_star = ""
+lvl2_1_star = ""
+lvl2_2_star = ""
+lvl2_3_star = ""
+lvl3_0_star = ""
+lvl3_1_star = ""
+lvl3_2_star = ""
+lvl3_3_star = ""
+game_over_path_1 = ""
+game_over_path_2 = ""
+game_over_path_3 = ""
+opening_1 = ""
+opening_2 = ""
+opening_3 = ""
+ending_1 = ""
+ending_2 = ""
+ending_3 = "levels/Ending/ending_3s"
+
+[sub_resource type="Animation" id="Animation_k1o1y"]
 resource_name = "Fade in"
 length = 3.0
 tracks/0/type = "value"
@@ -510,13 +759,13 @@ tracks/0/path = NodePath("ColorRect:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(1, 3),
+"times": PackedFloat32Array(0, 3),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
 }
 
-[sub_resource type="Animation" id="Animation_e70x6"]
+[sub_resource type="Animation" id="Animation_cajyw"]
 resource_name = "Fade out"
 length = 3.0
 tracks/0/type = "value"
@@ -526,13 +775,13 @@ tracks/0/path = NodePath("ColorRect:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 2),
+"times": PackedFloat32Array(0, 3),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
 }
 
-[sub_resource type="Animation" id="Animation_mig8n"]
+[sub_resource type="Animation" id="Animation_xhlfy"]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -547,16 +796,16 @@ tracks/0/keys = {
 "values": [Color(0, 0, 0, 1)]
 }
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_ctcc4"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7pudy"]
 _data = {
-"Fade in": SubResource("Animation_cxh1c"),
-"Fade out": SubResource("Animation_e70x6"),
-"RESET": SubResource("Animation_mig8n")
+"Fade in": SubResource("Animation_k1o1y"),
+"Fade out": SubResource("Animation_cajyw"),
+"RESET": SubResource("Animation_xhlfy")
 }
 
 [node name="Main" type="Node"]
 script = ExtResource("1_lba47")
-available_levels = Array[ExtResource("2_1fhgy")]([SubResource("Resource_kswmg"), SubResource("Resource_n7cxt"), SubResource("Resource_a76xj"), SubResource("Resource_oypyj"), SubResource("Resource_iyk06"), SubResource("Resource_g7w4f"), SubResource("Resource_s2t0j"), SubResource("Resource_lpljw"), SubResource("Resource_p0j8c"), SubResource("Resource_0t4mt"), SubResource("Resource_o0e0o"), SubResource("Resource_p00k8"), SubResource("Resource_ntrw8"), SubResource("Resource_ueqri"), SubResource("Resource_5cnhy"), SubResource("Resource_l05ub"), SubResource("Resource_2m8ua"), SubResource("Resource_i46sd"), SubResource("Resource_b02jg")])
+available_levels = Array[ExtResource("2_1fhgy")]([SubResource("Resource_kswmg"), SubResource("Resource_n7cxt"), SubResource("Resource_a76xj"), SubResource("Resource_oypyj"), SubResource("Resource_iyk06"), SubResource("Resource_g7w4f"), SubResource("Resource_s2t0j"), SubResource("Resource_lpljw"), SubResource("Resource_p0j8c"), SubResource("Resource_0t4mt"), SubResource("Resource_o0e0o"), SubResource("Resource_p00k8"), SubResource("Resource_ntrw8"), SubResource("Resource_ueqri"), SubResource("Resource_5cnhy"), SubResource("Resource_l05ub"), SubResource("Resource_2m8ua"), SubResource("Resource_i46sd"), SubResource("Resource_b02jg"), SubResource("Resource_he3kf"), SubResource("Resource_d14e2"), SubResource("Resource_hd86j"), SubResource("Resource_8ws3b"), SubResource("Resource_fywe4")])
 
 [node name="UIMain" type="CanvasLayer" parent="."]
 visible = false
@@ -565,28 +814,25 @@ visible = false
 
 [node name="GameSceneContainer" type="Node2D" parent="."]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Open1SceneContainer" type="Node2D" parent="."]
+
+[node name="Opening Scene" type="CanvasGroup" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Opening Scene"]
 position = Vector2(319.918, 180)
 scale = Vector2(0.468641, 0.46875)
 texture = ExtResource("3_yiwh7")
 
-[node name="ColorRect" type="ColorRect" parent="."]
-visible = false
+[node name="ColorRect" type="ColorRect" parent="Opening Scene"]
 offset_left = -91.0
 offset_top = -83.0
 offset_right = 728.0
 offset_bottom = 428.0
 color = Color(0, 0, 0, 1)
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(320, 180)
-scale = Vector2(0.514883, 0.5)
-texture = ExtResource("5_mcx5u")
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Opening Scene"]
 libraries = {
-"": SubResource("AnimationLibrary_ctcc4")
+"": SubResource("AnimationLibrary_7pudy")
 }
 
 [editable path="UIMain/MainMenu"]

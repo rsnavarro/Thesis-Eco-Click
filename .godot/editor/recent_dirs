@@ -1,13 +1,14 @@
+res://scenes/levels/Ending
+res://assets/sprites/Game Ender
+res://assets/sprites/Game Beginner
+res://scenes/UI/Opening Scenes
 res://assets/sprites/Scoreboards
 res://assets/Fonts
-res://assets/sprites/Game Ender
 res://scenes/UI/GameClear/Trash Collected
 res://scenes/UI/GameClear
 res://
-res://scenes/levels/Ending
 res://scenes/Trash GUI
 res://assets/sprites/Zed
-res://assets/sprites/Game Beginner
 res://scenes
 res://scenes/levels
 res://scenes/entities/Obstacles/Danger Zones
@@ -19,7 +20,6 @@ res://scenes/Audio
 res://assets/sprites/sounds
 res://assets/sprites/npc
 res://assets/sprites/Island-game-gui/png/frames
-res://scenes/Global
 <<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes

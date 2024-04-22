@@ -1,0 +1,102 @@
+[gd_scene load_steps=8 format=3 uid="uid://bg80hglemdjjl"]
+
+[ext_resource type="Script" path="res://scenes/levels/Ending/ending_3.gd" id="1_a0si2"]
+[ext_resource type="Texture2D" uid="uid://b8eavyt80xrr3" path="res://assets/sprites/Game Ender/Ending 3.png" id="2_1ruen"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_v773v"]
+
+[sub_resource type="Animation" id="Animation_xft7i"]
+resource_name = "Ending_3 fade in"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect3:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_7jm6p"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect3:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_8nsx7"]
+resource_name = "Ending_3 fade out"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect3:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2wint"]
+_data = {
+"Ending_3 fade in": SubResource("Animation_xft7i"),
+"Ending_3 fade out": SubResource("Animation_8nsx7"),
+"RESET": SubResource("Animation_7jm6p")
+}
+
+[node name="Ending_3" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_a0si2")
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_1ruen")
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 268.0
+offset_right = 580.0
+offset_bottom = 343.0
+text = "The community remained dedicated to marine conservation, but Zed felt emptiness without Deemo. The universe had other plans, leaving an indelible void in Zed's heart."
+label_settings = SubResource("LabelSettings_v773v")
+horizontal_alignment = 3
+autowrap_mode = 3
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -47.0
+offset_top = -39.0
+offset_right = 699.0
+offset_bottom = 405.0
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_2wint")
+}

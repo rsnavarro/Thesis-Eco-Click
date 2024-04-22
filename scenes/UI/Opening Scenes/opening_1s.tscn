@@ -1,0 +1,104 @@
+[gd_scene load_steps=8 format=3 uid="uid://b4fvylr7e2501"]
+
+[ext_resource type="Script" path="res://scenes/UI/Opening Scenes/opening_1.gd" id="1_1dukm"]
+[ext_resource type="Texture2D" uid="uid://utdrkys4770t" path="res://assets/sprites/Game Beginner/Part 1.png" id="2_e2jqe"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_f34l7"]
+
+[sub_resource type="Animation" id="Animation_wbjxv"]
+resource_name = "Fade in"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_fms1x"]
+resource_name = "Fade out"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_qsed4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n4w6t"]
+_data = {
+"Fade in": SubResource("Animation_wbjxv"),
+"Fade out": SubResource("Animation_fms1x"),
+"RESET": SubResource("Animation_qsed4")
+}
+
+[node name="Opening_1" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1dukm")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_e2jqe")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 99.0
+offset_right = 548.0
+offset_bottom = 226.0
+text = "A deafening roar shattered the night's silence. A mysterious and massive object plummeted from the sky, exploding in a blinding flash of light. The force of the impact left a crater where trees once stood, sending a tremor that rattled houses in the nearby residential area."
+label_settings = SubResource("LabelSettings_f34l7")
+horizontal_alignment = 3
+autowrap_mode = 3
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = -91.0
+offset_top = -83.0
+offset_right = 728.0
+offset_bottom = 428.0
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_n4w6t")
+}

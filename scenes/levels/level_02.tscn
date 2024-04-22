@@ -1228,7 +1228,7 @@ position = Vector2(8504, 384)
 position = Vector2(3164, 311)
 
 [node name="Jellyfish" parent="Obstacles_Enemies" instance=ExtResource("8_kl5k5")]
-position = Vector2(4396, 469)
+position = Vector2(4464, 360)
 
 [node name="Giant Clam" parent="Obstacles_Enemies" instance=ExtResource("9_miuj0")]
 position = Vector2(6250, 375)

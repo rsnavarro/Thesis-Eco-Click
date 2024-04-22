@@ -35,7 +35,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Angler",
-"speed": 5.0
+"speed": 3.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ekkk8"]
@@ -53,6 +53,7 @@ scale = Vector2(1.38889, 1.38889)
 sprite_frames = SubResource("SpriteFrames_84o0b")
 animation = &"Angler"
 autoplay = "Angler"
+frame_progress = 0.849995
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
