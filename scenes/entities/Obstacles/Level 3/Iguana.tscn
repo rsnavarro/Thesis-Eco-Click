@@ -49,4 +49,14 @@ shape = SubResource("RectangleShape2D_eo046")
 position = Vector2(-11.5, -4)
 shape = SubResource("RectangleShape2D_xk6k8")
 
+[node name="Floor_Checks" type="Node2D" parent="."]
+
+[node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(-24, 0)
+target_position = Vector2(0, 26)
+
+[node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(24, 0)
+target_position = Vector2(0, 25)
+
 [connection signal="body_entered" from="Iguana_Hitbox" to="." method="_on_iguana_hitbox_body_entered"]

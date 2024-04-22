@@ -1,23 +1,8 @@
-res://scenes/levels/Ending/ending_1s.tscn
+res://scenes/entities/Obstacles/Level 3/Monkey.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/main.gd
 res://scenes/UI/pause_menu.gdshader
-res://scenes/main.tscn
-res://scenes/levels/Ending/ending_1.gd
-res://scenes/levels/level_01.tscn
-res://scenes/levels/level_02.tscn
-res://scenes/levels/level_03.tscn
-res://scenes/entities/ZedCharacterBody2D.tscn
+res://scenes/entities/Obstacles/Level 3/Iguana.gd
+res://scenes/entities/Obstacles/Level 3/Monkey.gd
+res://scenes/entities/Obstacles/Level 1/Snake.gd
 res://scenes/entities/Obstacles/Level 1/Snake.tscn
-res://scenes/UI/Opening Scenes/opening_1s.tscn
-res://scenes/UI/main_menu.tscn
-res://scenes/UI/GameClear/game_clear_3_0.gd
-res://scenes/UI/GameClear/game_clear_3_1.gd
-res://scenes/UI/GameClear/game_clear_3_2.gd
-res://scenes/UI/GameClear/game_clear_3_3.gd
-res://scenes/levels/Ending/ending_2s.tscn
-res://scenes/levels/Ending/ending_2.gd
-res://assets/Scripts/classes/level_data.gd
-res://assets/Scripts/Managers/LevelManager.gd
-res://scenes/levels/Ending/ending_3s.tscn
-res://scenes/levels/Ending/ending_3.gd

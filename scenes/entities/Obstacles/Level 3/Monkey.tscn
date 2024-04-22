@@ -51,4 +51,14 @@ shape = SubResource("CapsuleShape2D_yybb7")
 position = Vector2(-4.5, -14)
 shape = SubResource("RectangleShape2D_gxllb")
 
+[node name="Floor_Checks" type="Node2D" parent="."]
+
+[node name="Floor_RayCast_Left" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(-16, 13)
+target_position = Vector2(0, 30)
+
+[node name="Floor_RayCast_Right" type="RayCast2D" parent="Floor_Checks"]
+position = Vector2(16, 13)
+target_position = Vector2(0, 30)
+
 [connection signal="body_entered" from="Monkey_Hitbox" to="." method="_on_monkey_hitbox_body_entered"]

@@ -1,38 +1,32 @@
 extends CharacterBody2D
 
-const SPEED = 25.0
+const SPEED = 50.0
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var is_alive = true
+var direction_right = true
 @onready var animated_sprite_2d = $AnimatedSprite2D
 @onready var floor_ray_cast_right = $Floor_Checks/Floor_RayCast_Right
 @onready var floor_ray_cast_left = $Floor_Checks/Floor_RayCast_Left
 
+
 func _physics_process(delta):
-	#var direction_right
-	#var direction_left
-#
-	#if direction_right:
-		#velocity.y += gravity * delta
-		#velocity.x = SPEED
-		#
-	#elif direction_left:
-		#velocity.y += gravity * delta
-		#velocity.x = -SPEED
-
-	if not is_on_floor():
-		velocity.y += gravity * delta
-	elif is_on_floor():
-		velocity.y += gravity * delta
-		velocity.x = SPEED
-		if not floor_ray_cast_right.is_colliding():
-			floor_ray_cast_right.scale.x *= -1.0
-			animated_sprite_2d.flip_h = true
-			velocity.x = -SPEED
-		elif not floor_ray_cast_left.is_colliding():
-			floor_ray_cast_left.scale.x *= 1.0
-			animated_sprite_2d.flip_h = true
+	if is_on_floor():
+		if direction_right:
 			velocity.x = SPEED
+			animated_sprite_2d.flip_h = false
+		else:
+			velocity.x = -SPEED
+			animated_sprite_2d.flip_h = true
+	else:
+		velocity.x = 0
 
+	velocity.y += gravity * delta
+
+	if is_on_floor():
+		if direction_right and not floor_ray_cast_right.is_colliding():
+			direction_right = false
+		elif not direction_right and not floor_ray_cast_left.is_colliding():
+			direction_right = true
 
 	move_and_slide()
 
