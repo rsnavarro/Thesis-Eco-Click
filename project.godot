@@ -20,6 +20,7 @@ config/icon="res://assets/sprites/icon.svg"
 LevelManager="*res://assets/Scripts/Managers/LevelManager.gd"
 Global="*res://scenes/Global/global.gd"
 AudioPlayer="*res://scenes/Global/BG_Music.tscn"
+TransitionScreen="*res://transition_screen.tscn"
 
 [display]
 
