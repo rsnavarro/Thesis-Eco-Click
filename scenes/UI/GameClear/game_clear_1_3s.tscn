@@ -69,5 +69,11 @@ text = "QUIT"
 
 [node name="TotalTrash1" parent="." instance=ExtResource("4_41frp")]
 
+[node name="Label" parent="TotalTrash1" index="0"]
+offset_left = 249.0
+offset_right = 308.0
+
 [connection signal="pressed" from="Proceed" to="." method="_on_proceed_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+
+[editable path="TotalTrash1"]

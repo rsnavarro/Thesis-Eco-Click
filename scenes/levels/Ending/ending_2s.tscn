@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://81thlrjlyc67"]
+[gd_scene load_steps=9 format=3 uid="uid://81thlrjlyc67"]
 
 [ext_resource type="Script" path="res://scenes/levels/Ending/ending_2.gd" id="1_davuf"]
 [ext_resource type="Texture2D" uid="uid://de2lovv7ck531" path="res://assets/sprites/Game Ender/Ending 2.png" id="2_mpigv"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_b4ydh"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_hk8mc"]
 font_color = Color(0, 0, 0, 1)
@@ -22,6 +23,22 @@ tracks/0/keys = {
 "values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
 }
 
+[sub_resource type="Animation" id="Animation_51h06"]
+resource_name = "Ending_2 fade out"
+length = 6.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect2:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
 [sub_resource type="Animation" id="Animation_gfy32"]
 length = 0.001
 tracks/0/type = "value"
@@ -35,22 +52,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 0,
 "values": [Color(0, 0, 0, 1)]
-}
-
-[sub_resource type="Animation" id="Animation_51h06"]
-resource_name = "Ending_2 fade out"
-length = 3.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("ColorRect2:color")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 3),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_88joh"]
@@ -79,6 +80,7 @@ grow_vertical = 2
 texture = ExtResource("2_mpigv")
 
 [node name="Label2" type="Label" parent="."]
+layout_mode = 0
 offset_left = 91.0
 offset_top = 261.0
 offset_right = 547.0
@@ -102,3 +104,18 @@ color = Color(0, 0, 0, 1)
 libraries = {
 "": SubResource("AnimationLibrary_88joh")
 }
+
+[node name="Continue" type="Button" parent="."]
+offset_left = 16.0
+offset_top = 335.0
+offset_right = 624.0
+offset_bottom = 362.0
+theme_override_colors/font_color = Color(0, 0.807843, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0.411765, 0.6, 1)
+theme_override_constants/outline_size = 9
+theme_override_fonts/font = ExtResource("3_b4ydh")
+theme_override_font_sizes/font_size = 15
+text = "Click here to continue"
+flat = true
+
+[connection signal="pressed" from="Continue" to="." method="_on_continue_pressed"]

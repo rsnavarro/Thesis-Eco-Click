@@ -24,6 +24,10 @@ script = ExtResource("1_gsfi5")
 
 [node name="TotalTrash1" parent="." instance=ExtResource("4_mbid1")]
 
+[node name="Label" parent="TotalTrash1" index="0"]
+offset_left = 247.0
+offset_right = 309.0
+
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
@@ -71,3 +75,5 @@ text = "QUIT"
 
 [connection signal="pressed" from="Proceed" to="." method="_on_proceed_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+
+[editable path="TotalTrash1"]
