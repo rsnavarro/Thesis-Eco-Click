@@ -1402,16 +1402,33 @@ vertical_alignment = 1
 
 [node name="turtles2" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 1038.0
-offset_top = 247.0
-offset_right = 1346.0
-offset_bottom = 312.0
+offset_left = 1040.0
+offset_top = 200.0
+offset_right = 1348.0
+offset_bottom = 265.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
 text = "Phytoplankton in the ocean produce more
  than half of the world's oxygen through
  photosynthesis, making them vital for life on Earth."
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Trivia3" type="Label" parent="."]
+show_behind_parent = true
+offset_left = 8184.0
+offset_top = 176.0
+offset_right = 8539.0
+offset_bottom = 261.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
+text = "A Treasure Trove of Biodiversity: 
+Marine ecosystems are teeming with a variety of creatures, 
+many of which are yet to be discovered. Protecting 
+these species ensures a healthy and balanced environment."
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true

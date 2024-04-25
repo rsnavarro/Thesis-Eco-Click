@@ -1292,6 +1292,51 @@ protect marine life, and ensure Earth's overall health."
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Trivia2" type="Label" parent="."]
+show_behind_parent = true
+offset_left = 19861.0
+offset_top = 234.0
+offset_right = 20106.0
+offset_bottom = 299.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
+text = "Be part of the solution, not the pollution."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Trivia3" type="Label" parent="."]
+show_behind_parent = true
+offset_left = 15049.0
+offset_top = 146.0
+offset_right = 15265.0
+offset_bottom = 231.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
+text = "Make Smart Choices: 
+Be mindful of your personal impact. 
+Avoid using single-use plastics and 
+choose eco-friendly alternatives."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Trivia4" type="Label" parent="."]
+show_behind_parent = true
+offset_left = 7633.0
+offset_top = 154.0
+offset_right = 7920.0
+offset_bottom = 239.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
+text = "Reduce, Reuse, Recycle: 
+Minimize waste generation and recycle properly 
+to prevent plastic and other pollutants 
+from reaching the ocean."
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="npc2_1" parent="." instance=ExtResource("41_5k3kr")]
 position = Vector2(6646, -840)
 

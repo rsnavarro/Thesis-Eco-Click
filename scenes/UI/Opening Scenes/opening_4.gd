@@ -9,8 +9,6 @@ var main_menu_scene = preload("res://scenes/UI/main_menu.tscn")
 
 func _ready() -> void:
 	$AnimationPlayer.play("Opening_4 fade in")
-	await get_tree().create_timer(1).timeout
-	$AnimationPlayer.play("Opening_4 fade out")
 	await get_tree().create_timer(6).timeout
 	color_rect_5.queue_free()
 	LevelManager.main_scene = game_scene_container

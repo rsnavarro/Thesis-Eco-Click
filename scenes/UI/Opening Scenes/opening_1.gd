@@ -6,7 +6,7 @@ extends Control
 
 func _ready():
 	$AnimationPlayer.play("Opening_1 fade in")
-	await get_tree().create_timer(3).timeout
+	await get_tree().create_timer(6).timeout
 	color_rect.queue_free()
 
 func _on_continue_pressed():
