@@ -40,8 +40,8 @@ position = Vector2(0, -10)
 shape = SubResource("RectangleShape2D_h5fhs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="chat_detection_area"]
-position = Vector2(4.76837e-07, 2.86926)
-scale = Vector2(0.0352805, 0.0371327)
+position = Vector2(0, -1)
+scale = Vector2(0.0382048, 0.0402105)
 sprite_frames = SubResource("SpriteFrames_a1xp4")
 autoplay = "default"
 

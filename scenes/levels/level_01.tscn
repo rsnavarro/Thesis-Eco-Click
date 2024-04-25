@@ -783,7 +783,7 @@ layer_0/tile_data = PackedInt32Array(-1900558, 0, 0, -1835022, 0, 0, -1769486, 0
 polygon = PackedVector2Array(-616, -1352, -616, 248, -616, 856, 20864, 856, 20864, 64, 20864, -832, 20736, -832, 20736, 72, 20736, 792, -400, 808, -400, 248, -400, -1352)
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_b8pgw")]
-position = Vector2(20408, 24)
+position = Vector2(-8, 128)
 metadata/_edit_group_ = true
 
 [node name="Timer1" parent="ZedCharacterBody2D/CharacterIcon" index="1" instance=ExtResource("6_vyqj0")]

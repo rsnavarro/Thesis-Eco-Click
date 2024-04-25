@@ -86,6 +86,7 @@ texture = ExtResource("2_vqlnh")
 stretch_mode = 6
 
 [node name="Label" type="Label" parent="."]
+layout_mode = 0
 offset_left = 91.0
 offset_top = 286.0
 offset_right = 547.0
@@ -98,6 +99,7 @@ visible_characters_behavior = 3
 text_direction = 1
 
 [node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
 offset_left = -47.0
 offset_top = -39.0
 offset_right = 699.0
@@ -105,6 +107,7 @@ offset_bottom = 405.0
 color = Color(0, 0, 0, 1)
 
 [node name="Continue" type="Button" parent="."]
+layout_mode = 0
 offset_left = 16.0
 offset_top = 335.0
 offset_right = 624.0
