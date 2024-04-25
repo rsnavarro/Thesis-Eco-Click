@@ -1,0 +1,128 @@
+[gd_scene load_steps=8 format=3 uid="uid://357gvh71nkd5"]
+
+[ext_resource type="Script" path="res://scenes/UI/Opening Scenes/opening_4.gd" id="1_qvknw"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="2_nufcl"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_f34l7"]
+font_size = 14
+
+[sub_resource type="Animation" id="Animation_1hfjg"]
+resource_name = "Opening_4 fade in"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect4:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_v52cx"]
+resource_name = "Opening_4 fade out"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect4:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_mrks3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect4:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ry6t1"]
+_data = {
+"Opening_4 fade in": SubResource("Animation_1hfjg"),
+"Opening_4 fade out": SubResource("Animation_v52cx"),
+"RESET": SubResource("Animation_mrks3")
+}
+
+[node name="Opening_4" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qvknw")
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 64.0
+offset_right = 560.0
+offset_bottom = 288.0
+
+[node name="Label4" type="Label" parent="."]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 63.0
+offset_right = 560.0
+offset_bottom = 294.0
+text = "The alien spaceship lay in ruins, incapable of flight until repaired. Some of its essential components had tumbled into the sea, preventing Deemo from returning home. Moreover, the spaceship required a unique fuel source: plastic, conveniently abundant but environmentally hazardous. Together, Zed and Deemo embarked on a joint mission to restore the damaged sea, combating threats such as pollution, overfishing, fish bombing, and habitat destruction. They recognized the critical importance of restoring the habitats of sea animals, like coral reefs and mangroves, which had suffered due to human activities."
+label_settings = SubResource("LabelSettings_f34l7")
+horizontal_alignment = 3
+autowrap_mode = 3
+visible_characters_behavior = 3
+text_direction = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_ry6t1")
+}
+
+[node name="Continue" type="Button" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 333.0
+offset_right = 624.0
+offset_bottom = 360.0
+theme_override_colors/font_color = Color(0, 0.807843, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0.411765, 0.6, 1)
+theme_override_constants/outline_size = 9
+theme_override_fonts/font = ExtResource("2_nufcl")
+theme_override_font_sizes/font_size = 15
+text = "Click here to continue"
+flat = true
+
+[node name="ColorRect5" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -91.0
+offset_top = -83.0
+offset_right = 728.0
+offset_bottom = 428.0
+color = Color(0, 0, 0, 1)
+
+[connection signal="pressed" from="Continue" to="." method="_on_continue_pressed"]

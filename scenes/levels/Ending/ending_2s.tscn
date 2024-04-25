@@ -5,7 +5,6 @@
 [ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_b4ydh"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_hk8mc"]
-font_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Animation" id="Animation_30xnd"]
 resource_name = "Ending_2 fade in"
@@ -79,26 +78,25 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_mpigv")
 
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 88.0
+offset_top = 251.0
+offset_right = 552.0
+offset_bottom = 323.0
+
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
 offset_left = 91.0
-offset_top = 261.0
+offset_top = 248.0
 offset_right = 547.0
-offset_bottom = 336.0
+offset_bottom = 323.0
 text = "They stood by the now thriving sea, once chaotic, now teeming with life. As the spacecraft ascended into the night sky, Zed watched until it was a distant speck."
 label_settings = SubResource("LabelSettings_hk8mc")
 horizontal_alignment = 3
 autowrap_mode = 3
 visible_characters_behavior = 3
 text_direction = 1
-
-[node name="ColorRect2" type="ColorRect" parent="."]
-layout_mode = 0
-offset_left = -47.0
-offset_top = -39.0
-offset_right = 699.0
-offset_bottom = 405.0
-color = Color(0, 0, 0, 1)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -118,5 +116,13 @@ theme_override_fonts/font = ExtResource("3_b4ydh")
 theme_override_font_sizes/font_size = 15
 text = "Click here to continue"
 flat = true
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -47.0
+offset_top = -39.0
+offset_right = 699.0
+offset_bottom = 405.0
+color = Color(0, 0, 0, 1)
 
 [connection signal="pressed" from="Continue" to="." method="_on_continue_pressed"]

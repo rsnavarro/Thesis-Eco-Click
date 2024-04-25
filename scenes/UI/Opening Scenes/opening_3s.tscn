@@ -1,0 +1,113 @@
+[gd_scene load_steps=8 format=3 uid="uid://c4qib11287agb"]
+
+[ext_resource type="Script" path="res://scenes/UI/Opening Scenes/opening_3.gd" id="1_i6ebb"]
+[ext_resource type="Texture2D" uid="uid://camx2mu7ifw6f" path="res://assets/sprites/Game Beginner/Part 3.png" id="2_ic6w3"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_0gty1"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_f34l7"]
+font_size = 14
+
+[sub_resource type="Animation" id="Animation_y5tii"]
+resource_name = "Opening_3 fade in"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect3:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_i3xl3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect3:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3ukfd"]
+_data = {
+"Opening_3 fade in": SubResource("Animation_y5tii"),
+"RESET": SubResource("Animation_i3xl3")
+}
+
+[node name="Opening_3" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i6ebb")
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ic6w3")
+expand_mode = 1
+
+[node name="Panel3" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 176.0
+offset_right = 600.0
+offset_bottom = 312.0
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 177.0
+offset_right = 600.0
+offset_bottom = 312.0
+text = "As the enigmatic craft gradually opened, a strange and alien being emerged. Deemo, an extraterrestrial traveler, had unintentionally plummeted to Earth while journeying back to his distant planet. Initially bewildered by their unexpected encounter, Zed and Deemo soon formed a friendship. Zed learned of Deemo's predicament, trapped on Earth, and vowed to assist him in return for aid in safeguarding the imperiled seas."
+label_settings = SubResource("LabelSettings_f34l7")
+horizontal_alignment = 3
+autowrap_mode = 3
+visible_characters_behavior = 3
+text_direction = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3ukfd")
+}
+
+[node name="Continue" type="Button" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 333.0
+offset_right = 624.0
+offset_bottom = 360.0
+theme_override_colors/font_color = Color(0, 0.807843, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0.411765, 0.6, 1)
+theme_override_constants/outline_size = 9
+theme_override_fonts/font = ExtResource("3_0gty1")
+theme_override_font_sizes/font_size = 15
+text = "Click here to continue"
+flat = true
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -91.0
+offset_top = -83.0
+offset_right = 728.0
+offset_bottom = 428.0
+color = Color(0, 0, 0, 1)
+
+[connection signal="pressed" from="Continue" to="." method="_on_continue_pressed"]

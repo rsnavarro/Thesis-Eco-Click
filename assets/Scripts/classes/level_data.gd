@@ -31,6 +31,7 @@ extends Resource
 @export var opening_1 : String
 @export var opening_2 : String
 @export var opening_3 : String
+@export var opening_4 : String
 
 @export var ending_1 : String
 @export var ending_2 : String

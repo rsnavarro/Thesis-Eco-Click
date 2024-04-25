@@ -1,4 +1,4 @@
-[gd_scene load_steps=73 format=3 uid="uid://dp3j25pwyjvac"]
+[gd_scene load_steps=71 format=3 uid="uid://dp3j25pwyjvac"]
 
 [ext_resource type="Texture2D" uid="uid://cl7mk8xpj0c6u" path="res://assets/sprites/tilemap.png" id="1_sw147"]
 [ext_resource type="Script" path="res://scenes/levels/level3.gd" id="1_y6yto"]
@@ -20,7 +20,6 @@
 [ext_resource type="PackedScene" uid="uid://cqpsa7rua1p0p" path="res://scenes/entities/Obstacles/Level 3/Albatross.tscn" id="10_ugonp"]
 [ext_resource type="PackedScene" uid="uid://nm2i6no1v43k" path="res://scenes/entities/Obstacles/Level 3/Monkey.tscn" id="11_1hlsl"]
 [ext_resource type="PackedScene" uid="uid://b2dduw4opgq4k" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_31.tscn" id="11_q5wat"]
-[ext_resource type="PackedScene" uid="uid://84xw8spkud36" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_32.tscn" id="12_fx13a"]
 [ext_resource type="PackedScene" uid="uid://f5s3ryeygysw" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_33.tscn" id="13_psux3"]
 [ext_resource type="PackedScene" uid="uid://cx21em2rvq686" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_34.tscn" id="14_xcll8"]
 [ext_resource type="PackedScene" uid="uid://5o7s3ophw12i" path="res://scenes/entities/Obstacles/Danger Zones/danger_zone_35.tscn" id="15_04y4d"]
@@ -717,9 +716,6 @@ size = Vector2(766, 20)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4gycb"]
 size = Vector2(660, 20)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_3gb86"]
-size = Vector2(40, 6)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eyino"]
 size = Vector2(40, 9)
 
@@ -899,12 +895,6 @@ shape = SubResource("RectangleShape2D_hhwme")
 [node name="DZ31" type="CollisionShape2D" parent="Danger Zones/DangerZone31" groups=["DZ31"]]
 position = Vector2(5567, 432)
 shape = SubResource("RectangleShape2D_4gycb")
-
-[node name="DangerZone32" parent="Danger Zones" instance=ExtResource("12_fx13a")]
-
-[node name="DZ32" type="CollisionShape2D" parent="Danger Zones/DangerZone32" groups=["DZ32"]]
-position = Vector2(6520, 210)
-shape = SubResource("RectangleShape2D_3gb86")
 
 [node name="DangerZone33" parent="Danger Zones" instance=ExtResource("13_psux3")]
 

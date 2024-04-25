@@ -1,18 +1,18 @@
-[gd_scene load_steps=9 format=3 uid="uid://b4fvylr7e2501"]
+[gd_scene load_steps=8 format=3 uid="uid://3rb8q50skoo7"]
 
-[ext_resource type="Script" path="res://scenes/UI/Opening Scenes/opening_1.gd" id="1_1dukm"]
-[ext_resource type="Texture2D" uid="uid://utdrkys4770t" path="res://assets/sprites/Game Beginner/Part 1.png" id="2_e2jqe"]
-[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_5hrad"]
+[ext_resource type="Script" path="res://scenes/UI/Opening Scenes/opening_2.gd" id="1_2fgoq"]
+[ext_resource type="Texture2D" uid="uid://ckjd2u7wiposl" path="res://assets/sprites/Game Beginner/Part 2.png" id="1_3ldts"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="2_k3u1w"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_f34l7"]
 
-[sub_resource type="Animation" id="Animation_wbjxv"]
-resource_name = "Fade in"
+[sub_resource type="Animation" id="Animation_nssb4"]
+resource_name = "Opening_2 fade in"
 length = 3.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("ColorRect:color")
+tracks/0/path = NodePath("ColorRect2:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -22,28 +22,12 @@ tracks/0/keys = {
 "values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
 }
 
-[sub_resource type="Animation" id="Animation_fms1x"]
-resource_name = "Fade out"
-length = 3.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("ColorRect:color")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 3),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
-}
-
 [sub_resource type="Animation" id="Animation_qsed4"]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("ColorRect:color")
+tracks/0/path = NodePath("ColorRect2:color")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -55,44 +39,43 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_n4w6t"]
 _data = {
-"Fade in": SubResource("Animation_wbjxv"),
-"Fade out": SubResource("Animation_fms1x"),
+"Opening_2 fade in": SubResource("Animation_nssb4"),
 "RESET": SubResource("Animation_qsed4")
 }
 
-[node name="Opening_1" type="Control"]
+[node name="Opening_2" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_1dukm")
+script = ExtResource("1_2fgoq")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect2" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_e2jqe")
+texture = ExtResource("1_3ldts")
 expand_mode = 1
 
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 0
-offset_left = 88.0
-offset_top = 104.0
-offset_right = 552.0
-offset_bottom = 224.0
+offset_left = 64.0
+offset_top = 112.0
+offset_right = 576.0
+offset_bottom = 264.0
 
-[node name="Label" type="Label" parent="."]
+[node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 92.0
-offset_top = 100.0
-offset_right = 548.0
-offset_bottom = 227.0
-text = "A deafening roar shattered the night's silence. A mysterious and massive object plummeted from the sky, exploding in a blinding flash of light. The force of the impact left a crater where trees once stood, sending a tremor that rattled houses in the nearby residential area."
+offset_left = 64.0
+offset_top = 112.0
+offset_right = 576.0
+offset_bottom = 265.0
+text = "Heart pounding, Zed, a teenager who lived near the forest, threw off his blanket at the deafening crash. As the last echoes subsided, curiosity bit him. Ignoring the tremor that rattled his windows, he grabbed a flashlight and bolted for the woods, determined to unravel the source of the unearthly light and thunderous impact."
 label_settings = SubResource("LabelSettings_f34l7")
 horizontal_alignment = 3
 autowrap_mode = 3
@@ -111,12 +94,12 @@ offset_bottom = 360.0
 theme_override_colors/font_color = Color(0, 0.807843, 1, 1)
 theme_override_colors/font_outline_color = Color(0, 0.411765, 0.6, 1)
 theme_override_constants/outline_size = 9
-theme_override_fonts/font = ExtResource("3_5hrad")
+theme_override_fonts/font = ExtResource("2_k3u1w")
 theme_override_font_sizes/font_size = 15
 text = "Click here to continue"
 flat = true
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect2" type="ColorRect" parent="."]
 layout_mode = 0
 offset_left = -91.0
 offset_top = -83.0

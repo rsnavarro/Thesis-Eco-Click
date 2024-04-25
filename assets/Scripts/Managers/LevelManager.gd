@@ -27,6 +27,9 @@ var loaded_over_2 : GameOver2 = null
 var loaded_over_3 : GameOver3 = null
 
 var loaded_opening_1 : Opening1 = null
+var loaded_opening_2 : Opening2 = null
+var loaded_opening_3 : Opening3 = null
+var loaded_opening_4 : Opening4 = null
 
 var loaded_ending_1 : Ending1 = null
 var loaded_ending_2 : Ending2 = null
@@ -77,6 +80,12 @@ func unload_level() -> void:
 
 	elif is_instance_valid(loaded_opening_1):
 		loaded_opening_1.queue_free()
+	elif is_instance_valid(loaded_opening_2):
+		loaded_opening_2.queue_free()
+	elif is_instance_valid(loaded_opening_3):
+		loaded_opening_3.queue_free()
+	elif is_instance_valid(loaded_opening_4):
+		loaded_opening_4.queue_free()
 
 	elif is_instance_valid(loaded_ending_1):
 		loaded_ending_1.queue_free()
@@ -109,6 +118,9 @@ func unload_level() -> void:
 	loaded_over_3 = null
 
 	loaded_opening_1 = null
+	loaded_opening_2 = null
+	loaded_opening_3 = null
+	loaded_opening_4 = null
 
 	loaded_ending_1 = null
 	loaded_ending_2 = null
@@ -147,6 +159,9 @@ func load_level(level_id : int) -> void:
 	var game_over_path_3 = "res://scenes/%s.tscn" % level_data.game_over_path_3
 
 	var opening_1 = "res://scenes/%s.tscn" % level_data.opening_1
+	var opening_2 = "res://scenes/%s.tscn" % level_data.opening_2
+	var opening_3 = "res://scenes/%s.tscn" % level_data.opening_3
+	var opening_4 = "res://scenes/%s.tscn" % level_data.opening_4
 
 	var ending_1 = "res://scenes/%s.tscn" % level_data.ending_1
 	var ending_2 = "res://scenes/%s.tscn" % level_data.ending_2
@@ -176,6 +191,9 @@ func load_level(level_id : int) -> void:
 	var over_res_3 := load(game_over_path_3)
 
 	var opening_res_1 := load(opening_1)
+	var opening_res_2 := load(opening_2)
+	var opening_res_3 := load(opening_3)
+	var opening_res_4 := load(opening_4)
 
 	var ending_res_1 := load(ending_1)
 	var ending_res_2 := load(ending_2)
@@ -249,6 +267,15 @@ func load_level(level_id : int) -> void:
 	elif opening_res_1:
 		loaded_opening_1 = opening_res_1.instantiate()
 		get_tree().root.add_child(loaded_opening_1, false)
+	elif opening_res_2:
+		loaded_opening_2 = opening_res_2.instantiate()
+		get_tree().root.add_child(loaded_opening_2, false)
+	elif opening_res_3:
+		loaded_opening_3 = opening_res_3.instantiate()
+		get_tree().root.add_child(loaded_opening_3, false)
+	elif opening_res_4:
+		loaded_opening_4 = opening_res_4.instantiate()
+		get_tree().root.add_child(loaded_opening_4, false)
 
 #Ending
 	elif ending_res_1:

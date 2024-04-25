@@ -77,16 +77,28 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_1ruen")
 
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 260.0
+offset_right = 584.0
+offset_bottom = 332.0
+
 [node name="Label3" type="Label" parent="."]
 layout_mode = 0
 offset_left = 60.0
-offset_top = 268.0
+offset_top = 256.0
 offset_right = 580.0
-offset_bottom = 343.0
+offset_bottom = 331.0
 text = "The community remained dedicated to marine conservation, but Zed felt emptiness without Deemo. The universe had other plans, leaving an indelible void in Zed's heart."
 label_settings = SubResource("LabelSettings_v773v")
 horizontal_alignment = 3
 autowrap_mode = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_2wint")
+}
 
 [node name="ColorRect3" type="ColorRect" parent="."]
 layout_mode = 0
@@ -95,8 +107,3 @@ offset_top = -39.0
 offset_right = 699.0
 offset_bottom = 405.0
 color = Color(0, 0, 0, 1)
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_2wint")
-}

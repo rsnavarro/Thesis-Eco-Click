@@ -59,7 +59,7 @@ _data = {
 }
 
 [sub_resource type="LabelSettings" id="LabelSettings_hk8mc"]
-font_color = Color(0, 0, 0, 1)
+font_color = Color(0.980392, 0.980392, 0.980392, 1)
 
 [node name="Ending_1" type="Control"]
 layout_mode = 3
@@ -85,26 +85,25 @@ grow_vertical = 2
 texture = ExtResource("2_vqlnh")
 stretch_mode = 6
 
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 88.0
+offset_top = 274.0
+offset_right = 552.0
+offset_bottom = 322.0
+
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
 offset_left = 91.0
-offset_top = 286.0
+offset_top = 272.0
 offset_right = 547.0
-offset_bottom = 335.0
+offset_bottom = 321.0
 text = "Zed, proud of their impact on the marine world, felt sorrow as his extraterrestrial friend prepared to leave."
 label_settings = SubResource("LabelSettings_hk8mc")
 horizontal_alignment = 3
 autowrap_mode = 3
 visible_characters_behavior = 3
 text_direction = 1
-
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 0
-offset_left = -47.0
-offset_top = -39.0
-offset_right = 699.0
-offset_bottom = 405.0
-color = Color(0, 0, 0, 1)
 
 [node name="Continue" type="Button" parent="."]
 layout_mode = 0
@@ -119,5 +118,13 @@ theme_override_fonts/font = ExtResource("3_qge37")
 theme_override_font_sizes/font_size = 15
 text = "Click here to continue"
 flat = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -47.0
+offset_top = -39.0
+offset_right = 699.0
+offset_bottom = 405.0
+color = Color(0, 0, 0, 1)
 
 [connection signal="pressed" from="Continue" to="." method="_on_proceed_pressed"]

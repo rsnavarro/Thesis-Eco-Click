@@ -1,9 +1,10 @@
+Panel
+AnimationPlayer
+ColorRect
 RayCast2D
 Node2D
 TextureRect
 AnimatedSprite2D
-AnimationPlayer
-ColorRect
 CanvasLayer
 Label
 CanvasGroup
@@ -11,4 +12,3 @@ AnimationTree
 RichTextLabel
 Sprite2D
 NinePatchRect
-Timer
