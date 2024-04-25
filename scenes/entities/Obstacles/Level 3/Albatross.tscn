@@ -51,4 +51,12 @@ shape = SubResource("RectangleShape2D_8pfqj")
 position = Vector2(0.5, -9)
 shape = SubResource("RectangleShape2D_je5ia")
 
+[node name="Wall_Checks" type="Node2D" parent="."]
+
+[node name="Wall_RayCast_Left" type="RayCast2D" parent="Wall_Checks"]
+target_position = Vector2(-50, 0)
+
+[node name="Wall_RayCast_Right" type="RayCast2D" parent="Wall_Checks"]
+target_position = Vector2(50, 0)
+
 [connection signal="body_entered" from="Albatross_Hitbox" to="." method="_on_albatross_hitbox_body_entered"]

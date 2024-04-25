@@ -66,4 +66,14 @@ shape = SubResource("RectangleShape2D_ekkk8")
 position = Vector2(2, -9)
 shape = SubResource("RectangleShape2D_ugpcj")
 
+[node name="Wall_checks" type="Node2D" parent="."]
+
+[node name="Wall_RayCast_Left" type="RayCast2D" parent="Wall_checks"]
+position = Vector2(0, 16)
+target_position = Vector2(-24, 0)
+
+[node name="Wall_RayCast_Right" type="RayCast2D" parent="Wall_checks"]
+position = Vector2(0, 16)
+target_position = Vector2(24, 0)
+
 [connection signal="body_entered" from="Angler_Hitbox" to="." method="_on_angler_hitbox_body_entered"]

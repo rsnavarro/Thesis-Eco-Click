@@ -1,11 +1,11 @@
+RayCast2D
+Node2D
 TextureRect
 AnimatedSprite2D
 AnimationPlayer
 ColorRect
 CanvasLayer
 Label
-RayCast2D
-Node2D
 CanvasGroup
 AnimationTree
 RichTextLabel
