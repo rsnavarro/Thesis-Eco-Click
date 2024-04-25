@@ -1,14 +1,6 @@
-res://scenes/main.tscn
+res://scenes/levels/level_01.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/main.gd
 res://scenes/UI/pause_menu.gdshader
-res://scenes/levels/level_01.tscn
-res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
-res://scenes/entities/ZedCharacterBody2D.tscn
-res://npc1.2.tscn
-res://scenes/entities/Obstacles/Level 1/Crab.tscn
-res://scenes/entities/Obstacles/Level 1/Snake.tscn
-res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn
-res://scenes/entities/Obstacles/Level 3/Albatross.tscn
-res://scenes/entities/Obstacles/Level 2/Angler_Fish.gd
+res://scenes/levels/level_02.tscn

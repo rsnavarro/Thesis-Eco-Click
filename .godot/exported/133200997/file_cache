@@ -65,30 +65,30 @@ res://scenes/entities/Obstacles/Danger Zones/danger_zone_47.tscn::24de3079dbd19c
 res://scenes/entities/Obstacles/Danger Zones/danger_zone_48.tscn::64eab43b969923e9b10acf621e1306b1::1714035887::res://.godot/exported/133200997/export-3c0ca65b6752cdc788cda6296409eb32-danger_zone_48.scn
 res://scenes/entities/Obstacles/Danger Zones/danger_zone_49.tscn::bc3e1676b21571afa87fbc28c867d11e::1714035887::res://.godot/exported/133200997/export-bd2282313a6abc81b223611da79bdce6-danger_zone_49.scn
 res://scenes/entities/Obstacles/Danger Zones/danger_zone_50.tscn::8d79c946019e13596026913160c5c196::1714035887::res://.godot/exported/133200997/export-79ce53f9511bc25f65b7744066c4b5fa-danger_zone_50.scn
-res://scenes/entities/Obstacles/Level 1/Crab.tscn::a96f1658abc4dc6cb86de24b00c5b81d::1714035887::res://.godot/exported/133200997/export-58b3762cad2ca78fc122463c5e866cb3-Crab.scn
+res://scenes/entities/Obstacles/Level 1/Crab.tscn::4061399a957c492752a5101001c766bf::1714043997::res://.godot/exported/133200997/export-58b3762cad2ca78fc122463c5e866cb3-Crab.scn
 res://scenes/entities/Obstacles/Level 1/Dynamite.tscn::23d76a13033c45e278c76547dc6040d5::1714035887::res://.godot/exported/133200997/export-c84ef9f4a60e768eb5a65c4cf31946fa-Dynamite.scn
-res://scenes/entities/Obstacles/Level 1/Seagull.tscn::7c63d1d2b7343714e23521994e24f95a::1714035887::res://.godot/exported/133200997/export-1fb7e85512658774653f4c35ad3b82b5-Seagull.scn
-res://scenes/entities/Obstacles/Level 1/Snake.tscn::a489633f033b5b36a4f652966c345ba3::1714035887::res://.godot/exported/133200997/export-f72956671fa7a7f1c045ab2b3eb7ac7d-Snake.scn
-res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn::0d1fe34bad5e4a55bdc855afa6111bbd::1714035887::res://.godot/exported/133200997/export-044d42c7b2c73746ba8541c239e1496c-Angler_fish.scn
+res://scenes/entities/Obstacles/Level 1/Seagull.tscn::71f09f4d660d8e19e32e0f4ca0fbe75c::1714041000::res://.godot/exported/133200997/export-1fb7e85512658774653f4c35ad3b82b5-Seagull.scn
+res://scenes/entities/Obstacles/Level 1/Snake.tscn::1fc654c1616e1256db9c03d095eb1213::1714043997::res://.godot/exported/133200997/export-f72956671fa7a7f1c045ab2b3eb7ac7d-Snake.scn
+res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn::e01ee0df3ff3057e3b6c0453e881c8db::1714044230::res://.godot/exported/133200997/export-044d42c7b2c73746ba8541c239e1496c-Angler_fish.scn
 res://scenes/entities/Obstacles/Level 2/Giant_Clam.tscn::755ffef7dc1e8f5493541b02aae7bd52::1714035887::res://.godot/exported/133200997/export-ec26d2ecc8947ae8245731d237f8718a-Giant_Clam.scn
 res://scenes/entities/Obstacles/Level 2/Jellyfish.tscn::2dc6e219bb3da5060073fddb5a141a0d::1714035887::res://.godot/exported/133200997/export-3b55eb982402478cab83dd446d3da80f-Jellyfish.scn
 res://scenes/entities/Obstacles/Level 2/Turtle.tscn::83ec8a55b88bba7ecf27a035852ad5f5::1714035887::res://.godot/exported/133200997/export-c7cf47d1c3ee467ffdd6d567ca8757d8-Turtle.scn
-res://scenes/entities/Obstacles/Level 3/Albatross.tscn::7945b499c6ff71860da31bddf674ec3b::1714035887::res://.godot/exported/133200997/export-fc0f72327f251ab4b8a5cacee92a4bbc-Albatross.scn
+res://scenes/entities/Obstacles/Level 3/Albatross.tscn::3e1c1a5afdad0fed7a498f96b8b7775c::1714043997::res://.godot/exported/133200997/export-fc0f72327f251ab4b8a5cacee92a4bbc-Albatross.scn
 res://scenes/entities/Obstacles/Level 3/Iguana.tscn::bae3cfdb0fe6ca6a1992951eed0f3597::1714035887::res://.godot/exported/133200997/export-95687b80a122f12457ce1324e781bc22-Iguana.scn
 res://scenes/entities/Obstacles/Level 3/Monkey.tscn::9a8b1afa05d70dfd7a748220ad93d90b::1714035887::res://.godot/exported/133200997/export-8bdaa565b61f7821ee9036bda5d7d5db-Monkey.scn
 res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.tscn::529d2775f1795b95bbfa37a5d620ccfa::1714035887::res://.godot/exported/133200997/export-95d780c26c1b10286841e7d90e04dec0-Quicksand_Pit.scn
 res://scenes/entities/Obstacles/Level 3/Rapid_Plant.tscn::b122df9f312f56302b6316651d51b266::1714035887::res://.godot/exported/133200997/export-43cc6c70a6a3e68fc917c21a2ee01e64-Rapid_Plant.scn
-res://scenes/entities/ZedCharacterBody2D.tscn::d4de0f36e27a301c6d3929a64162628e::1714035887::res://.godot/exported/133200997/export-b6b3ae7012d84dd83886bb2f85756be1-ZedCharacterBody2D.scn
+res://scenes/entities/ZedCharacterBody2D.tscn::23d64133afbf05e58f7d24fb9933778c::1714043997::res://.godot/exported/133200997/export-b6b3ae7012d84dd83886bb2f85756be1-ZedCharacterBody2D.scn
 res://scenes/Global/BG_Music.tscn::5e601360b3eb37e7ddfbd4c83387fcdf::1714035886::res://.godot/exported/133200997/export-f4face7b029ecbced4e3462aec19bc45-BG_Music.scn
-res://scenes/levels/Ending/ending_1s.tscn::b8d974133939cd2fcc5f88f8473345ea::1714035887::res://.godot/exported/133200997/export-1a25061b40df42942355e097193323f1-ending_1s.scn
-res://scenes/levels/Ending/ending_2s.tscn::6c79a5a43c57b0383f255b7e0ed90b90::1714035887::res://.godot/exported/133200997/export-053d1d4294adeb0e880dd81e3b846c0a-ending_2s.scn
-res://scenes/levels/Ending/ending_3s.tscn::a4eb1b8a65221074dfe957a1f454b743::1714035887::res://.godot/exported/133200997/export-3d555b6cb5c784634c61df7573dd9585-ending_3s.scn
+res://scenes/levels/Ending/ending_1s.tscn::9a6473a6e7114af1486e4953bc65a26d::1714039972::res://.godot/exported/133200997/export-1a25061b40df42942355e097193323f1-ending_1s.scn
+res://scenes/levels/Ending/ending_2s.tscn::d96b2e6859c4ac8568f3888d0f851823::1714039972::res://.godot/exported/133200997/export-053d1d4294adeb0e880dd81e3b846c0a-ending_2s.scn
+res://scenes/levels/Ending/ending_3s.tscn::33b9877e13bf0f46ba53f1141cde69da::1714039973::res://.godot/exported/133200997/export-3d555b6cb5c784634c61df7573dd9585-ending_3s.scn
 res://scenes/levels/jump_to_end_game.tscn::d235781626ea11f40f6aa2439e582b88::1714035887::res://.godot/exported/133200997/export-3be230861d81a8bd523067a01c3de477-jump_to_end_game.scn
 res://scenes/levels/jump_to_next_level_2.tscn::9c6f95348508a0219d3aa7350e0639e3::1714035887::res://.godot/exported/133200997/export-7d5ec7cced193702ff1642b787c63c13-jump_to_next_level_2.scn
 res://scenes/levels/jump_to_next_level_3.tscn::2a178b671f4e2fbdf9bc8db24335dbf0::1714035887::res://.godot/exported/133200997/export-671a123d1586152039764f128ea597eb-jump_to_next_level_3.scn
-res://scenes/levels/level_01.tscn::c3d517c13fc0d1c9d6901b13298ce649::1714035887::res://.godot/exported/133200997/export-fceca31d6515568d74a4e74de975536e-level_01.scn
-res://scenes/levels/level_02.tscn::d14b816e92e7cb7c3dd8557af6c66e45::1714035887::res://.godot/exported/133200997/export-33b5b7bd63769efdd1b107911accaa53-level_02.scn
-res://scenes/levels/level_03.tscn::b427e02caa6f8670f04c87bd14c50fbc::1714035887::res://.godot/exported/133200997/export-ba496988f2a6e8d755f7ab5c1ce455b2-level_03.scn
+res://scenes/levels/level_01.tscn::be957185430c60725db13b0f4bdaba37::1714043996::res://.godot/exported/133200997/export-fceca31d6515568d74a4e74de975536e-level_01.scn
+res://scenes/levels/level_02.tscn::50d0a92d59125f4640345b5dbf2b38c2::1714043997::res://.godot/exported/133200997/export-33b5b7bd63769efdd1b107911accaa53-level_02.scn
+res://scenes/levels/level_03.tscn::aef3ff7b335ed0fd31e8d15b894a6d86::1714043997::res://.godot/exported/133200997/export-ba496988f2a6e8d755f7ab5c1ce455b2-level_03.scn
 res://scenes/levels/timer_1.tscn::ffbb457333e059f3d10b786d63a34e00::1714035887::res://.godot/exported/133200997/export-5dfa111eb4c86e66cd5207afee01fa87-timer_1.scn
 res://scenes/levels/timer_2.tscn::2db846a8f212a646720f4d9d92b2a918::1714035887::res://.godot/exported/133200997/export-edd662bce86c1c9e5c24651003864a56-timer_2.scn
 res://scenes/levels/timer_3.tscn::f001b3af3ab0027ed01878c01a28de1c::1714035887::res://.godot/exported/133200997/export-329124ab7ac20229ac63713f9cc5d2ac-timer_3.scn
@@ -118,7 +118,7 @@ res://scenes/UI/main_menu.tscn::0c9539ae62ad9a4e8bbcc4887fef22b7::1714035886::re
 res://scenes/UI/pause_menu.tscn::30a6db25d5947acd4752fe0897c33a6c::1714035887::res://.godot/exported/133200997/export-c0634a860d69237b75daaebb516e89e5-pause_menu.scn
 res://scenes/UI/PopupDialog.tscn::f816822ab641bcd25731582bbd29fc6a::1714035886::res://.godot/exported/133200997/export-04af1933b80a137f21433686919f2b89-PopupDialog.scn
 res://scenes/UI/timer.tscn::c72d5aa1ff8e143136e1894b73b6c691::1714035887::res://.godot/exported/133200997/export-4a497914a65063fb84677182b9e230d1-timer.scn
-res://scenes/main.tscn::6643a7984b8be4eafd736569e670f9d0::1714035887::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://scenes/main.tscn::6af6cd3caf615a99b2e0a7f98d801394::1714043996::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
 res://deemo_2.tscn::39cafdd90fea960ff8f4fec6168babce::1714035886::res://.godot/exported/133200997/export-096c581bae98bdbf3da6689f79f51221-deemo_2.scn
 res://deemo_3.tscn::deddb8d46eff96781799755a6b4c93b4::1714035886::res://.godot/exported/133200997/export-f8cfcee3df9d02eb9227761b7cddbc6e-deemo_3.scn
 res://Deemo_dialogue2.tscn::ec032e79553b6cb177fc1055a9229cff::1714035886::res://.godot/exported/133200997/export-218d6c56a03217d9ac056f1b472cda9d-Deemo_dialogue2.scn
@@ -128,7 +128,7 @@ res://dialogue1_1.tscn::fa1a9f8cce1f656b0bb553be72e51b30::1714035886::res://.god
 res://dialogue1_2.tscn::8f5787e73017ae64244628e5a4af4711::1714035886::res://.godot/exported/133200997/export-3641e47546fc6b73213861f1d4a2eb6f-dialogue1_2.scn
 res://dialogue2_2.tscn::a51f209610a0d21d0a0eafabb6a3427f::1714035886::res://.godot/exported/133200997/export-d94f09e49b530e5c2e7b650e5c8b7946-dialogue2_2.scn
 res://npc1.1.tscn::bd665160b12f745a27422feaffbcedc6::1714035886::res://.godot/exported/133200997/export-87c3794e49f211fb0abdc981fd4af191-npc1.1.scn
-res://npc1.2.tscn::f3af04135883400c8a3bc8d3ab4f1191::1714035886::res://.godot/exported/133200997/export-9583c4bee305e5c928a989970b52bd7e-npc1.2.scn
+res://npc1.2.tscn::ff89b3d7e8651f16850131b3a83f4b73::1714043997::res://.godot/exported/133200997/export-9583c4bee305e5c928a989970b52bd7e-npc1.2.scn
 res://npc2.1.tscn::aa7e8bb236230120715c2389e54fc818::1714035886::res://.godot/exported/133200997/export-800e02818049bc89335eb4f94d32c106-npc2.1.scn
 res://transition_screen.tscn::ceff595809a20add97c74bc6c6d812e6::1714035887::res://.godot/exported/133200997/export-beea27d9e74ca6926c2102caa9f33fa9-transition_screen.scn
 res://trash(bio).tscn::c4a02325e908361154095a974ab86b79::1714035887::res://.godot/exported/133200997/export-bb6907ebb7a9e2101bee53a71a9d9b49-trash(bio).scn

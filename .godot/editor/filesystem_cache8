@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714044460
+::res://::1714045085
 Deemo2.gd::GDScript::-1::1714035886::0::1::::<>Sprite2D<>::
 Deemo3.gd::GDScript::-1::1714035886::0::1::::<>Sprite2D<>::
 deemo_2.tscn::PackedScene::6484181293891304943::1714035886::0::1::::<><>::uid://djlobd5sckhbs::::res://assets/sprites/npc/Deemo 1.png<>res://Deemo2.gd<>uid://c5fmhhnk4gexg::::res://Deemo_dialogue2.tscn
@@ -16,7 +16,7 @@ dialogue1_2.tscn::PackedScene::4292359591083436144::1714035886::0::1::::<><>::re
 dialogue2_2.gd::GDScript::-1::1714035886::0::1::::<>Control<>::
 dialogue2_2.tscn::PackedScene::4639016597404918190::1714035886::0::1::::<><>::res://dialogue2_2.gd<>uid://bqbrgffddvex7::::res://assets/sprites/Island-game-gui/png/frames/level select.png
 Dialogueplayer2.gd::GDScript::-1::1714035886::0::1::::<>Control<>::
-export_presets.cfg::TextFile::-1::1714041431::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1714044886::0::1::::<><>::
 icon.svg::CompressedTexture2D::4684152969458510619::1714035886::1714035886::1::::<><>::
 Node2D.gd::GDScript::-1::1714035886::0::1::::<>MarginContainer<>::
 npc1.1.gd::GDScript::-1::1714035886::0::1::::<>Sprite2D<>::
@@ -32,10 +32,10 @@ trash(bio).tscn::PackedScene::3264702805832537338::1714035887::0::1::::<><>::uid
 trash(non-bio).gd::GDScript::-1::1714035887::0::1::::<>Area2D<>::
 Trash_gui.gd::GDScript::-1::1714035886::0::1::::<>CanvasLayer<>::
 trash_gui.tscn::PackedScene::6905272757319495064::1714035887::0::1::::<><>::res://Trash_gui.gd
-::res://assets/::1714044392
-::res://assets/Fonts/::1714044392
+::res://assets/::1714045065
+::res://assets/Fonts/::1714045065
 SuperMario256.ttf::FontFile::1862433058796546868::1714035886::1714035886::1::::<><>::
-::res://assets/jsonfile/::1714044392
+::res://assets/jsonfile/::1714045065
 dialogue1.json::JSON::-1::1714035886::0::1::::<><>::
 dialogue2.1.json::JSON::-1::1714035886::0::1::::<><>::
 dialogue2.2.json::JSON::-1::1714035886::0::1::::<><>::
@@ -45,12 +45,12 @@ dialogue4.1.json::JSON::-1::1714035886::0::1::::<><>::
 dialogue4.json::JSON::-1::1714035886::0::1::::<><>::
 dialogue5.json::JSON::-1::1714035886::0::1::::<><>::
 dialogue6.json::JSON::-1::1714035886::0::1::::<><>::
-::res://assets/Scripts/::1714044392
-::res://assets/Scripts/classes/::1714044392
+::res://assets/Scripts/::1714045065
+::res://assets/Scripts/classes/::1714045065
 level_data.gd::GDScript::-1::1714035886::0::1::::LevelData<>Resource<>::
-::res://assets/Scripts/Managers/::1714044392
+::res://assets/Scripts/Managers/::1714045065
 LevelManager.gd::GDScript::-1::1714035886::0::1::::<>Node<>::
-::res://assets/sprites/::1714044392
+::res://assets/sprites/::1714045066
 428226555_1451687205703566_8200260877154722398_n-removebg-preview.png::CompressedTexture2D::8605845669414436411::1714035886::1714035886::1::::<><>::
 diamond.png::CompressedTexture2D::5706879053948224542::1714035886::1714035886::1::::<><>::
 icon.svg::CompressedTexture2D::4684152969458510619::1714035886::1714035886::1::::<><>::
@@ -67,22 +67,22 @@ tilemap.png::CompressedTexture2D::5611726966882318386::1714035886::1714035886::1
 trash(bio).tscn::PackedScene::3264702805832537338::1714035886::0::1::::<><>::res://trash(bio).gd<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://yy2dnt1sy2iu::::res://assets/sprites/trash/biodegradable/Banana peel.png<>uid://dvg1igcbm4egf::::res://assets/sprites/trash/biodegradable/fish bone.png<>uid://civfsab1w8llc::::res://assets/sprites/trash/biodegradable/food-box.png<>uid://dm0tqd4ja8vof::::res://assets/sprites/trash/biodegradable/paperbag.png<>uid://dddwfsgvec737::::res://assets/sprites/sounds/Bio.wav
 trash(non_bio).tscn::PackedScene::604689560820564067::1714035886::0::1::::<><>::res://trash(non-bio).gd<>uid://dhe6rtpqdklwn::::res://assets/sprites/trash/non-biodegradable/Broken-mug.png<>uid://bcpsjp3ppt6xa::::res://assets/sprites/trash/non-biodegradable/Food-can.png<>uid://gljg4xf0y22x::::res://assets/sprites/trash/non-biodegradable/Paste-container.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://cv32f00vvoqn5::::res://assets/sprites/trash/non-biodegradable/soda-can.png<>uid://bb3x248jhhi1y::::res://assets/sprites/trash/non-biodegradable/Straw.png<>uid://jc0202k88vc1::::res://assets/sprites/trash/non-biodegradable/water-bottle.png<>uid://i7hoebmtjr1s::::res://assets/sprites/sounds/non bio.wav
 Unmuted.png::CompressedTexture2D::2825693580582035504::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Game Beginner/::1714044392
+::res://assets/sprites/Game Beginner/::1714045065
 Opening Scene.png::CompressedTexture2D::2822993983002407982::1714035886::1714035886::1::::<><>::
 Part 1.png::CompressedTexture2D::1443213122729160437::1714035886::1714035886::1::::<><>::
 Part 2.png::CompressedTexture2D::5493540671878416095::1714035886::1714035886::1::::<><>::
 Part 3.png::CompressedTexture2D::4799059270345117603::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Game Ender/::1714044392
+::res://assets/sprites/Game Ender/::1714045065
 Ending 1.png::CompressedTexture2D::5551548802393262253::1714035886::1714035886::1::::<><>::
 Ending 2.png::CompressedTexture2D::7496449649914427002::1714035886::1714035886::1::::<><>::
 Ending 3.png::CompressedTexture2D::4710948827881800650::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Island-game-gui/::1714044392
-::res://assets/sprites/Island-game-gui/png/::1714044392
+::res://assets/sprites/Island-game-gui/::1714045065
+::res://assets/sprites/Island-game-gui/png/::1714045065
 background1.png::CompressedTexture2D::8386647698198411103::1714035886::1714035886::1::::<><>::
 background2.png::CompressedTexture2D::1328025332051335416::1714035886::1714035886::1::::<><>::
 background3.png::CompressedTexture2D::5328593150071312326::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/buttons/::1714044392
-::res://assets/sprites/Island-game-gui/png/buttons/click/::1714044392
+::res://assets/sprites/Island-game-gui/png/buttons/::1714045065
+::res://assets/sprites/Island-game-gui/png/buttons/click/::1714045065
 accept.png::CompressedTexture2D::8084094015230698738::1714035886::1714035886::1::::<><>::
 cancel.png::CompressedTexture2D::432914769839149054::1714035886::1714035886::1::::<><>::
 download.png::CompressedTexture2D::614360393780747548::1714035886::1714035886::1::::<><>::
@@ -102,7 +102,7 @@ settings.png::CompressedTexture2D::1017561603251710807::1714035886::1714035886::
 shop.png::CompressedTexture2D::3411296706455566056::1714035886::1714035886::1::::<><>::
 small.png::CompressedTexture2D::6997004265865009735::1714035886::1714035886::1::::<><>::
 volume.png::CompressedTexture2D::3311229478213137364::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/buttons/hover/::1714044392
+::res://assets/sprites/Island-game-gui/png/buttons/hover/::1714045065
 accept.png::CompressedTexture2D::3830133014104518283::1714035886::1714035886::1::::<><>::
 cancel.png::CompressedTexture2D::749294928277120928::1714035886::1714035886::1::::<><>::
 download.png::CompressedTexture2D::2168363692374878156::1714035886::1714035886::1::::<><>::
@@ -122,7 +122,7 @@ settings.png::CompressedTexture2D::7719364655331943618::1714035886::1714035886::
 shop.png::CompressedTexture2D::2800725198898997559::1714035886::1714035886::1::::<><>::
 small.png::CompressedTexture2D::797580387730494616::1714035886::1714035886::1::::<><>::
 volume.png::CompressedTexture2D::3503987835957500624::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/buttons/lock/::1714044392
+::res://assets/sprites/Island-game-gui/png/buttons/lock/::1714045065
 accept.png::CompressedTexture2D::3516058332294480533::1714035886::1714035886::1::::<><>::
 cancel.png::CompressedTexture2D::926940212259974360::1714035886::1714035886::1::::<><>::
 download.png::CompressedTexture2D::1514902196884562324::1714035886::1714035886::1::::<><>::
@@ -143,7 +143,7 @@ settings.png::CompressedTexture2D::4436694524969295368::1714035886::1714035886::
 shop.png::CompressedTexture2D::3065177551281902811::1714035886::1714035886::1::::<><>::
 small.png::CompressedTexture2D::8945167068902408541::1714035886::1714035886::1::::<><>::
 volume.png::CompressedTexture2D::3732439674014821060::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/buttons/normal/::1714044392
+::res://assets/sprites/Island-game-gui/png/buttons/normal/::1714045065
 accept.png::CompressedTexture2D::6901897158135326826::1714035886::1714035886::1::::<><>::
 cancel.png::CompressedTexture2D::5885596165400576744::1714035886::1714035886::1::::<><>::
 download.png::CompressedTexture2D::5124868190059930847::1714035886::1714035886::1::::<><>::
@@ -163,7 +163,7 @@ settings.png::CompressedTexture2D::4237242413477624184::1714035886::1714035886::
 shop.png::CompressedTexture2D::6407145434534241761::1714035886::1714035886::1::::<><>::
 small.png::CompressedTexture2D::2855285477279178409::1714035886::1714035886::1::::<><>::
 volume.png::CompressedTexture2D::1815965778189802270::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/frames/::1714044392
+::res://assets/sprites/Island-game-gui/png/frames/::1714045065
 achievement.png::CompressedTexture2D::4184025434750992519::1714035886::1714035886::1::::<><>::
 health.png::CompressedTexture2D::5460981576774394538::1714035886::1714035886::1::::<><>::
 hi-score.png::CompressedTexture2D::2148851010572914634::1714035886::1714035886::1::::<><>::
@@ -179,7 +179,7 @@ time.png::CompressedTexture2D::3206513082977344073::1714035886::1714035886::1:::
 tools.png::CompressedTexture2D::4919657348832498039::1714035886::1714035886::1::::<><>::
 upgrades.png::CompressedTexture2D::210812585395552269::1714035886::1714035886::1::::<><>::
 warning.png::CompressedTexture2D::3973876508707645323::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/headlines/::1714044392
+::res://assets/sprites/Island-game-gui/png/headlines/::1714045065
 hi-score.png::CompressedTexture2D::3094681289600768760::1714035886::1714035886::1::::<><>::
 level complete.png::CompressedTexture2D::2191640166996173758::1714035886::1714035886::1::::<><>::
 level select.png::CompressedTexture2D::3098184008103740621::1714035886::1714035886::1::::<><>::
@@ -189,7 +189,7 @@ shop.png::CompressedTexture2D::1839850560429447704::1714035886::1714035886::1:::
 skills.png::CompressedTexture2D::3920244536567844578::1714035886::1714035886::1::::<><>::
 upgrades.png::CompressedTexture2D::4823262008181854240::1714035886::1714035886::1::::<><>::
 warning.png::CompressedTexture2D::8543329433823224739::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Island-game-gui/png/images/::1714044392
+::res://assets/sprites/Island-game-gui/png/images/::1714045066
 0 stars.png::CompressedTexture2D::341170153241815253::1714035886::1714035886::1::::<><>::
 1 stars.png::CompressedTexture2D::546008034770160450::1714035886::1714035886::1::::<><>::
 2 stars.png::CompressedTexture2D::2242721972153338088::1714035886::1714035886::1::::<><>::
@@ -224,7 +224,7 @@ star.png::CompressedTexture2D::6813610113514726741::1714035886::1714035886::1:::
 up botton map.png::CompressedTexture2D::751692755338285142::1714035886::1714035886::1::::<><>::
 up down botton map.png::CompressedTexture2D::8847826256608101127::1714035886::1714035886::1::::<><>::
 vertical skrolling map.png::CompressedTexture2D::3340604982052039852::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/npc/::1714044392
+::res://assets/sprites/npc/::1714045066
 1(1).png::CompressedTexture2D::7363531407164864226::1714035886::1714035886::1::::<><>::
 1(2).png::CompressedTexture2D::8316608365825376261::1714035886::1714035886::1::::<><>::
 1.png::CompressedTexture2D::415482239781943214::1714035886::1714035886::1::::<><>::
@@ -240,7 +240,7 @@ vertical skrolling map.png::CompressedTexture2D::3340604982052039852::1714035886
 428172642_231197520081299_4361085965134378316_n.png::CompressedTexture2D::4478690692398373549::1714035886::1714035886::1::::<><>::
 Deemo 1.png::CompressedTexture2D::7814521827543981952::1714035886::1714035886::1::::<><>::
 NPC 1 New.png::CompressedTexture2D::2415986255075021187::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/obstacles/::1714044392
+::res://assets/sprites/obstacles/::1714045066
 Albatross1.png::CompressedTexture2D::8733969810596439495::1714035886::1714035886::1::::<><>::
 angler fish.png::CompressedTexture2D::4025110237968650518::1714035886::1714035886::1::::<><>::
 clam.png::CompressedTexture2D::5730290363446166689::1714035886::1714035886::1::::<><>::
@@ -253,22 +253,22 @@ quick-sand.png::CompressedTexture2D::5848352316802281627::1714035886::1714035886
 Seagull1-.png::CompressedTexture2D::6053697951278925679::1714035886::1714035886::1::::<><>::
 sidewinder.png::CompressedTexture2D::4523359644508968449::1714035886::1714035886::1::::<><>::
 turtle.png::CompressedTexture2D::4164903697718150893::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Scoreboards/::1714044392
+::res://assets/sprites/Scoreboards/::1714045066
 0 star.png::CompressedTexture2D::1856587898944954421::1714035886::1714035886::1::::<><>::
 1 star.png::CompressedTexture2D::2226021471774275367::1714035886::1714035886::1::::<><>::
 2 stars.png::CompressedTexture2D::6927333727879492523::1714035886::1714035886::1::::<><>::
 3 stars.png::CompressedTexture2D::1845909416252262987::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/sounds/::1714044392
+::res://assets/sprites/sounds/::1714045066
 Bio.wav::AudioStreamWAV::7377367373714701256::1714035886::1714035886::1::::<><>::
 non bio.wav::AudioStreamWAV::628021069507400450::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/trash/::1714044392
-::res://assets/sprites/trash/biodegradable/::1714044392
+::res://assets/sprites/trash/::1714045066
+::res://assets/sprites/trash/biodegradable/::1714045066
 Apple scrap.png::CompressedTexture2D::7935904821714312574::1714035886::1714035886::1::::<><>::
 Banana peel.png::CompressedTexture2D::1735722742957806704::1714035886::1714035886::1::::<><>::
 fish bone.png::CompressedTexture2D::8647207280457834921::1714035886::1714035886::1::::<><>::
 food-box.png::CompressedTexture2D::5378039781336671884::1714035886::1714035886::1::::<><>::
 paperbag.png::CompressedTexture2D::8054320016931846429::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/trash/non-biodegradable/::1714044392
+::res://assets/sprites/trash/non-biodegradable/::1714045066
 Broken-mug.png::CompressedTexture2D::7660755074681013861::1714035886::1714035886::1::::<><>::
 Food-can.png::CompressedTexture2D::2558873847102138482::1714035886::1714035886::1::::<><>::
 Paste-container.png::CompressedTexture2D::444399943790396105::1714035886::1714035886::1::::<><>::
@@ -276,10 +276,10 @@ Plastic-bag.png::CompressedTexture2D::6488544142415511838::1714035886::171403588
 soda-can.png::CompressedTexture2D::6306259301359415096::1714035886::1714035886::1::::<><>::
 Straw.png::CompressedTexture2D::2515858386288126388::1714035886::1714035886::1::::<><>::
 water-bottle.png::CompressedTexture2D::637395844798252362::1714035886::1714035886::1::::<><>::
-::res://assets/sprites/Zed/::1714044392
+::res://assets/sprites/Zed/::1714045066
 Zed Sprite Sheet.png::CompressedTexture2D::8074233154975673610::1714035886::1714035886::1::::<><>::
 Zed.png::CompressedTexture2D::7647525410984058414::1714035886::1714035886::1::::<><>::
-::res://npc/::1714044392
+::res://npc/::1714045066
 Deemo.gd::GDScript::-1::1714035886::0::1::::<>Sprite2D<>::
 Deemo.tscn::PackedScene::2922236055205021087::1714035886::0::1::::<><>::uid://djlobd5sckhbs::::res://assets/sprites/npc/Deemo 1.png<>res://npc/Deemo.gd<>uid://y1wpo5qxjdna::::res://npc/dialogue.tscn
 deemo_dialogue.gd::GDScript::-1::1714035886::0::1::::<>Control<>::
@@ -297,23 +297,23 @@ npc2.gd::GDScript::-1::1714035886::0::1::::<>Sprite2D<>::
 npc2.tscn::PackedScene::7311582993995766731::1714035886::0::1::::<><>::res://npc/npc2.gd<>uid://dc57j0ewiuedm::::res://assets/sprites/npc/1(1).png<>uid://56ev70ms2cbc::::res://assets/sprites/npc/2(1).png<>uid://op35gm7js1kb::::res://npc/dialogue2.tscn<>uid://dtu4fqm1k5k15::::res://assets/sprites/npc/3(1).png<>uid://c2spqprao6ss0::::res://assets/sprites/npc/4(1).png
 npc3.gd::GDScript::-1::1714035886::0::1::::<>Sprite2D<>::
 npc_3.tscn::PackedScene::1322179120147136396::1714035886::0::1::::<><>::res://npc/npc3.gd<>uid://f6i6xe63og5k::::res://assets/sprites/npc/1.png<>uid://b602lkp3c8w6t::::res://npc/dialogue_3.tscn<>uid://bmwfahhv4ysop::::res://assets/sprites/npc/2.png<>uid://cjy32kxvgo3fk::::res://assets/sprites/npc/3.png<>uid://8lruouygbum6::::res://assets/sprites/npc/4.png
-::res://scenes/::1714044392
-main.gd::GDScript::-1::1714043574::0::1::::<>Node<>::
+::res://scenes/::1714045067
+main.gd::GDScript::-1::1714045006::0::1::::<>Node<>::
 main.tscn::PackedScene::7180208945760728290::1714043996::0::1::::<><>::uid://b124ey87qbsde::::res://scenes/UI/main_menu.tscn<>res://scenes/main.gd<>res://assets/Scripts/classes/level_data.gd<>uid://bghqkfaq1xnqc::::res://assets/sprites/Game Beginner/Opening Scene.png
-::res://scenes/Audio/::1714044392
+::res://scenes/Audio/::1714045066
 BG_Music.mp3::AudioStreamMP3::6775488648144979451::1714035886::1714035886::1::::<><>::
 bio.tscn::PackedScene::3009199850645825519::1714035886::0::1::::<><>::
 non_bio.tscn::PackedScene::8327616662742899918::1714035886::0::1::::<><>::
-::res://scenes/entities/::1714044392
+::res://scenes/entities/::1714045066
 almanac.gd::GDScript::-1::1714035887::0::1::::<>Panel<>::
 CharacterIcon.gd::GDScript::-1::1714035887::0::1::::<>Panel<>::
 ZedCharacterBody2D.gd::GDScript::-1::1714035887::0::1::::Player<>CharacterBody2D<>::
 ZedCharacterBody2D.tscn::PackedScene::3176405888732081454::1714043997::0::1::::<><>::res://scenes/entities/ZedCharacterBody2D.gd<>uid://dnbho8dtlxjvu::::res://assets/sprites/Zed/Zed Sprite Sheet.png<>uid://dg7rvj5hs6jxe::::res://assets/sprites/Zed/Zed.png<>res://scenes/entities/almanac.gd<>uid://dkejudnn5tpu7::::res://scenes/UI/pause_menu.tscn<>uid://dlchgtch8in2e::::res://assets/sprites/trash/biodegradable/Apple scrap.png<>uid://cypdmynfw1p7s::::res://assets/sprites/trash/non-biodegradable/Plastic-bag.png<>uid://dwo2ha8m3jocd::::res://assets/sprites/obstacles/Albatross1.png<>uid://bxl18ibmn4mwc::::res://assets/sprites/obstacles/angler fish.png<>uid://cnv2bsd3dtv7f::::res://assets/sprites/obstacles/clam.png<>uid://800lu3w47fw4::::res://assets/sprites/obstacles/Dynamite.png<>uid://blq3bmb8t50m0::::res://assets/sprites/obstacles/hermit.png<>uid://dv7ba57rsmfw4::::res://assets/sprites/obstacles/iguana.png<>uid://rof027lyo383::::res://assets/sprites/obstacles/jelly fish.png<>uid://berp6yx1ygwaf::::res://assets/sprites/obstacles/monke.png<>uid://cpk8rjqnwgbsd::::res://assets/sprites/obstacles/quick-sand.png<>uid://b5pfcp1rssw38::::res://assets/sprites/obstacles/sidewinder.png<>uid://b0lrmc3xwboor::::res://assets/sprites/obstacles/turtle.png<>uid://bgi104ccij3yi::::res://assets/sprites/Unmuted.png<>uid://t2maprh7xuy2::::res://assets/sprites/Muted.png
-::res://scenes/entities/NPCs/::1714044392
+::res://scenes/entities/NPCs/::1714045066
 Deemo.gd::GDScript::-1::1714035887::0::1::::<>Sprite2D<>::
 Deemo.tscn::PackedScene::4361190766906605481::1714035887::0::1::::<><>::uid://djlobd5sckhbs::::res://assets/sprites/npc/Deemo 1.png<>res://scenes/entities/NPCs/Deemo.gd<>uid://b3w514y6rsmb2::::res://npc/deemo_dialogue.tscn<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
-::res://scenes/entities/Obstacles/::1714044392
-::res://scenes/entities/Obstacles/Danger Zones/::1714044392
+::res://scenes/entities/Obstacles/::1714045066
+::res://scenes/entities/Obstacles/Danger Zones/::1714045066
 danger_zone_1.gd::GDScript::-1::1714035887::0::1::::<>Area2D<>::
 danger_zone_1.tscn::PackedScene::3274950460835101613::1714035887::0::1::::<><>::res://scenes/entities/Obstacles/Danger Zones/danger_zone_1.gd
 danger_zone_2.gd::GDScript::-1::1714035887::0::1::::<>Area2D<>::
@@ -414,7 +414,7 @@ danger_zone_49.gd::GDScript::-1::1714035887::0::1::::<>Area2D<>::
 danger_zone_49.tscn::PackedScene::1469077926293214460::1714035887::0::1::::<><>::res://scenes/entities/Obstacles/Danger Zones/danger_zone_49.gd
 danger_zone_50.gd::GDScript::-1::1714035887::0::1::::<>Area2D<>::
 danger_zone_50.tscn::PackedScene::7590995398109087646::1714035887::0::1::::<><>::res://scenes/entities/Obstacles/Danger Zones/danger_zone_50.gd
-::res://scenes/entities/Obstacles/Level 1/::1714044392
+::res://scenes/entities/Obstacles/Level 1/::1714045066
 Crab.gd::GDScript::-1::1714039853::0::1::::<>CharacterBody2D<>::
 Crab.tscn::PackedScene::8929270936504024180::1714043997::0::1::::<><>::res://scenes/entities/Obstacles/Level 1/Crab.gd<>uid://d3omgxchsw1io::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Hermit 1.png<>uid://dmkkyg5b4ct8k::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Hermit 2.png<>uid://df2da8b1cearc::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Hermit 3.png<>uid://dvf70q3e5pyob::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Hermit 4.png
 Dynamite.gd::GDScript::-1::1714035887::0::1::::<>CharacterBody2D<>::
@@ -423,7 +423,7 @@ Seagull.gd::GDScript::-1::1714040017::0::1::::<>CharacterBody2D<>::
 Seagull.tscn::PackedScene::3372741306372618844::1714041000::0::1::::<><>::res://scenes/entities/Obstacles/Level 1/Seagull.gd<>uid://dh1iqe7e5xjfh::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 1.png<>uid://ds64e1cywvgoh::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 2.png<>uid://847j3vx4g0yg::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 3.png<>uid://dj25pal0fgly4::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 4.png<>uid://dcou3i6r1c2v3::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 5.png<>uid://dj7gk4t2ifiv::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Seagull 6.png
 Snake.gd::GDScript::-1::1714035887::0::1::::<>CharacterBody2D<>::
 Snake.tscn::PackedScene::4239400654301062044::1714043997::0::1::::<><>::uid://v5xli01ssptj::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 1.png<>res://scenes/entities/Obstacles/Level 1/Snake.gd<>uid://datlqyesknhnl::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 2.png<>uid://binhy4kqf4c6w::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 3.png<>uid://dvgrikwsdw15e::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 4.png<>uid://duiodb01t6emy::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 5.png<>uid://ca4fgrnfiftrl::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 6.png<>uid://bjk3oair1i8ib::::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/Snake 7.png
-::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/::1714044392
+::res://scenes/entities/Obstacles/Level 1/Obstacle Sprites/::1714045066
 Dynamite 1.png::CompressedTexture2D::7352778665507678077::1714035887::1714035887::1::::<><>::
 Dynamite 2.png::CompressedTexture2D::1864216004511693592::1714035887::1714035887::1::::<><>::
 Dynamite 3.png::CompressedTexture2D::5079388298562063773::1714035887::1714035887::1::::<><>::
@@ -454,7 +454,7 @@ Snake 5.png::CompressedTexture2D::8580409433504269672::1714035887::1714035887::1
 Snake 6.png::CompressedTexture2D::4833023535198694049::1714035887::1714035887::1::::<><>::
 Snake 7.png::CompressedTexture2D::3040489144054054933::1714035887::1714035887::1::::<><>::
 Stage 1 Obstacles.png::CompressedTexture2D::9105297360248555536::1714035887::1714035887::1::::<><>::
-::res://scenes/entities/Obstacles/Level 2/::1714044392
+::res://scenes/entities/Obstacles/Level 2/::1714045066
 Angler_Fish.gd::GDScript::-1::1714044029::0::1::::<>CharacterBody2D<>::
 Angler_fish.tscn::PackedScene::2987502778853943167::1714044230::0::1::::<><>::uid://diavun2t833al::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler1.png<>res://scenes/entities/Obstacles/Level 2/Angler_Fish.gd<>uid://bhy5sqpc6gflr::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler2.png<>uid://db7breynt6jhx::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler3.png<>uid://bdrukmxy4y1ae::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler4.png<>uid://dpfnb2fu53d4h::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler5.png<>uid://13bocduq0xqw::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler6.png<>uid://dh5nsucv3hbdn::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Angler7.png
 Giant_Clam.gd::GDScript::-1::1714035887::0::1::::<>CharacterBody2D<>::
@@ -463,7 +463,7 @@ Jellyfish.gd::GDScript::-1::1714035887::0::1::::<>CharacterBody2D<>::
 Jellyfish.tscn::PackedScene::2986750685131213321::1714035887::0::1::::<><>::uid://c0e4ewidrx6x4::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly1.png<>res://scenes/entities/Obstacles/Level 2/Jellyfish.gd<>uid://dlf2vglmlk0fe::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly2.png<>uid://csvjqtde5fl6h::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly3.png<>uid://dukfl3750kehi::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly4.png<>uid://b0evqyhtthrp3::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly5.png<>uid://cquij7ksmdgg5::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly6.png<>uid://cca6x6bxpdw6v::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly7.png<>uid://chtl0yw4ovq7y::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly8.png<>uid://buvkessnestit::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly9.png<>uid://h3gih8un645p::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly10.png<>uid://datp81x0ts0tm::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly11.png<>uid://qlh2t7adj7ly::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly12.png<>uid://6qxhyucfhik8::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly13.png<>uid://c0tvtet54yoj6::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly14.png<>uid://cbf3xxg7g2tbe::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Jelly15.png
 Turtle.gd::GDScript::-1::1714035887::0::1::::<>CharacterBody2D<>::
 Turtle.tscn::PackedScene::2993031378720104235::1714035887::0::1::::<><>::uid://db7gfmvi6shrp::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle1.png<>res://scenes/entities/Obstacles/Level 2/Turtle.gd<>uid://ckmfp3bkauu1i::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle2.png<>uid://lwwe6y2jnihc::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle3.png<>uid://bk0cq5lfkxjf7::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle4.png<>uid://dofnoou7x4ehh::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle5.png<>uid://tbj8s6en08e::::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/Turtle6.png
-::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/::1714044392
+::res://scenes/entities/Obstacles/Level 2/Obstacle Sprites/::1714045066
 Angler1.png::CompressedTexture2D::7722084298331532043::1714035887::1714035887::1::::<><>::
 Angler2.png::CompressedTexture2D::2929142173008252219::1714035887::1714035887::1::::<><>::
 Angler3.png::CompressedTexture2D::7295602306122384625::1714035887::1714035887::1::::<><>::
@@ -497,7 +497,7 @@ Turtle4.png::CompressedTexture2D::3140070163547738534::1714035887::1714035887::1
 Turtle5.png::CompressedTexture2D::8153042840511492317::1714035887::1714035887::1::::<><>::
 Turtle6.png::CompressedTexture2D::39301728956464978::1714035887::1714035887::1::::<><>::
 Turtle7.png::CompressedTexture2D::2629961591478423300::1714035887::1714035887::1::::<><>::
-::res://scenes/entities/Obstacles/Level 3/::1714044392
+::res://scenes/entities/Obstacles/Level 3/::1714045066
 Albatross.gd::GDScript::-1::1714041050::0::1::::<>CharacterBody2D<>::
 Albatross.tscn::PackedScene::5927923145694041517::1714043997::0::1::::<><>::res://scenes/entities/Obstacles/Level 3/Albatross.gd<>uid://xdoafrvvvdw0::::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Albatross1.png<>uid://bcudg3ahjmi8m::::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Albatross2.png<>uid://1ever8uvium::::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Albatross3.png<>uid://bi3r64h07cp6y::::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Albatross4.png
 Iguana.gd::GDScript::-1::1714035887::0::1::::<>CharacterBody2D<>::
@@ -508,7 +508,7 @@ Quicksand_Pit.gd::GDScript::-1::1714035887::0::1::::<>CharacterBody2D<>::
 Quicksand_Pit.tscn::PackedScene::488155781808307912::1714035887::0::1::::<><>::uid://csx2nrt4dgha1::::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/Quicksand2.png<>res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.gd
 Rapid_Plant.gd::GDScript::-1::1714035887::0::1::::<>CharacterBody2D<>::
 Rapid_Plant.tscn::PackedScene::5194917904046525080::1714035887::0::1::::<><>::uid://4v2bfqr3wur1::::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/RapidPlant1.png<>res://scenes/entities/Obstacles/Level 3/Rapid_Plant.gd<>uid://cwwwclble7v7a::::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/RapidPlant2.png
-::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/::1714044392
+::res://scenes/entities/Obstacles/Level 3/Obstacle Sprites/::1714045066
 Albatross1.png::CompressedTexture2D::1621386864697117033::1714035887::1714035887::1::::<><>::
 Albatross2.png::CompressedTexture2D::2568280262776451166::1714035887::1714035887::1::::<><>::
 Albatross3.png::CompressedTexture2D::53954429130629532::1714035887::1714035887::1::::<><>::
@@ -525,11 +525,11 @@ Quicksand2.png::CompressedTexture2D::6085384738909734646::1714035887::1714035887
 RapidPlant1.png::CompressedTexture2D::2080469831081123260::1714035887::1714035887::1::::<><>::
 RapidPlant2.png::CompressedTexture2D::6363752163248975732::1714035887::1714035887::1::::<><>::
 Stage 3 Obstacles.png::CompressedTexture2D::5062921230842373180::1714035887::1714035887::1::::<><>::
-::res://scenes/Global/::1714044392
+::res://scenes/Global/::1714045066
 BG_Music.gd::GDScript::-1::1714035886::0::1::::<>AudioStreamPlayer<>::
 BG_Music.tscn::PackedScene::1745443806685693867::1714035886::0::1::::<><>::res://scenes/Global/BG_Music.gd
 global.gd::GDScript::-1::1714035886::0::1::::<>Node<>::
-::res://scenes/levels/::1714044392
+::res://scenes/levels/::1714045067
 jump_to_end_game.gd::GDScript::-1::1714035887::0::1::::EndGame<>Area2D<>::
 jump_to_end_game.tscn::PackedScene::6055173840152931340::1714035887::0::1::::<><>::res://scenes/levels/jump_to_end_game.gd<>uid://cnkpp1whmbh4a::::res://assets/sprites/diamond.png
 jump_to_next_level_2.gd::GDScript::-1::1714035887::0::1::::ToLevel2<>Area2D<>::
@@ -539,23 +539,23 @@ jump_to_next_level_3.tscn::PackedScene::6116016006121217901::1714035887::0::1:::
 level1.gd::GDScript::-1::1714035887::0::1::::Level1<>Node<>::
 level2.gd::GDScript::-1::1714035887::0::1::::Level2<>Node<>::
 level3.gd::GDScript::-1::1714035887::0::1::::Level3<>Node<>::
-level_01.tscn::PackedScene::5442780259071151399::1714043996::0::1::::<><>::res://scenes/levels/level1.gd<>uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bmwn7qxo82n5v::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_1.tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://b3euf7aqy7dev::::res://scenes/entities/NPCs/Deemo.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://d0q0t12ul7c4m::::res://scenes/levels/jump_to_next_level_2.tscn<>uid://dt58i67lycqaf::::res://scenes/levels/timer_1.tscn<>uid://cykdd6bancfg1::::res://scenes/entities/Obstacles/Level 1/Dynamite.tscn<>uid://bob1s6my4b7wy::::res://scenes/entities/Obstacles/Level 1/Seagull.tscn<>uid://cy30pmow5sgq5::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_2.tscn<>uid://b1nukrwl4tuwy::::res://scenes/entities/Obstacles/Level 1/Snake.tscn<>uid://bjy1syfs08v48::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_3.tscn<>uid://bvq8p0jhpoyty::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_4.tscn<>uid://borcqx0f6v0qw::::res://npc/npc1.tscn<>uid://d3vb4drscv76g::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_5.tscn<>uid://lxg24w0ba3ls::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_6.tscn<>uid://b0074xokr32ij::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_7.tscn<>uid://dkejudnn5tpu7::::res://scenes/UI/pause_menu.tscn<>uid://d0hn11vng80u7::::res://scenes/entities/Obstacles/Level 1/Crab.tscn<>uid://pccu1unbvfgh::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_8.tscn<>uid://qqykennjrbqy::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_9.tscn<>uid://c2i3quwn0priv::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_10.tscn<>uid://c4gq14d1mari6::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_11.tscn<>uid://bkyfr32tge3bs::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_12.tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
-level_02.tscn::PackedScene::7327902421046328835::1714043997::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://scenes/levels/level2.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://br288p3cq3i3v::::res://scenes/levels/timer_2.tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://ctev5i552vn2l::::res://scenes/levels/jump_to_next_level_3.tscn<>uid://biv313xkhmmx4::::res://scenes/entities/Obstacles/Level 2/Turtle.tscn<>uid://c8r6e4fodj35::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_13.tscn<>uid://bis2l2u1lonsr::::res://scenes/entities/Obstacles/Level 2/Jellyfish.tscn<>uid://cnx04r8q8n7c1::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_14.tscn<>uid://cge4knw736gtl::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_15.tscn<>uid://cxbetjms8wcaf::::res://scenes/entities/Obstacles/Level 2/Giant_Clam.tscn<>uid://dcf1x6pi4fehv::::res://npc/npc2.tscn<>uid://cym8rvpp6od4j::::res://deemo_2.tscn<>uid://bitfy73pvovh4::::res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn<>uid://bdy7iwv6bklcp::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_16.tscn<>uid://ds5kj4b1u44mc::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_17.tscn<>uid://c20mrgmse5ifw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_18.tscn<>uid://ccojy0np6mys::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_19.tscn<>uid://3yhulis5r6gj::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_20.tscn<>uid://dw4vqocmei3xx::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_21.tscn<>uid://jcsn14ar5omw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_22.tscn<>uid://blja6863lpx7g::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_23.tscn<>uid://ci82efwjg4qgw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_24.tscn<>uid://cbrqnni3m4d7x::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.tscn<>uid://bafxsxlq1tutt::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn<>uid://blg0ksqe8irby::::res://scenes/Trash GUI/trash_gui_lvl_2.tscn<>uid://b5re4pcmhaxm6::::res://npc1.1.tscn
-level_03.tscn::PackedScene::8270493552038392990::1714043997::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://scenes/levels/level3.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://oqalu7d3of4r::::res://scenes/levels/timer_3.tscn<>uid://csjf3fyno01ki::::res://scenes/levels/jump_to_end_game.tscn<>uid://g7p4bxtnysro::::res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.tscn<>uid://cx3p2f37f1pvs::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_27.tscn<>uid://ckqo138ofqh82::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_28.tscn<>uid://cgapsk7vvw0ie::::res://scenes/entities/Obstacles/Level 3/Rapid_Plant.tscn<>uid://bsdck3c3j8nsu::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_29.tscn<>uid://dyb85suu02fl4::::res://scenes/entities/Obstacles/Level 3/Iguana.tscn<>uid://s3qdkb8d58pk::::res://npc/npc_3.tscn<>uid://bjemml2fl57p4::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_30.tscn<>uid://dljw7okubahoy::::res://deemo_3.tscn<>uid://cqpsa7rua1p0p::::res://scenes/entities/Obstacles/Level 3/Albatross.tscn<>uid://nm2i6no1v43k::::res://scenes/entities/Obstacles/Level 3/Monkey.tscn<>uid://b2dduw4opgq4k::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_31.tscn<>uid://84xw8spkud36::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_32.tscn<>uid://f5s3ryeygysw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_33.tscn<>uid://cx21em2rvq686::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_34.tscn<>uid://5o7s3ophw12i::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_35.tscn<>uid://y6gwagnrncyj::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_36.tscn<>uid://bq4uyjrioe5uo::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_37.tscn<>uid://deg3f4obvu2pw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_38.tscn<>uid://esnuc60bd75t::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_39.tscn<>uid://es6bv7xp3bqp::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_40.tscn<>uid://cxy6obp7xcavu::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_41.tscn<>uid://bugpqh7fbrsma::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_42.tscn<>uid://bwrvc0tr5pn0w::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_43.tscn<>uid://48qgl0vo00xv::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_44.tscn<>uid://daa4lwo3ntjwk::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_45.tscn<>uid://drrg516p1npn::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_46.tscn<>uid://by7c8umkr5lg4::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_47.tscn<>uid://ch7stsf4b1kda::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_48.tscn<>uid://u6vq7vjg3ej1::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_49.tscn<>uid://dgfet5oxcoyy5::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_50.tscn<>uid://befwdc2xc7mvd::::res://scenes/Trash GUI/trash_gui_lvl_3.tscn<>uid://cc0cafsitkt00::::res://npc2.1.tscn<>uid://do66tlv5h42um::::res://npc1.2.tscn
-Timer1.gd::GDScript::-1::1714043574::0::1::::Timer1<>Control<>::
+level_01.tscn::PackedScene::5442780259071151399::1714045006::0::1::::<><>::res://scenes/levels/level1.gd<>uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bmwn7qxo82n5v::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_1.tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://b3euf7aqy7dev::::res://scenes/entities/NPCs/Deemo.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://d0q0t12ul7c4m::::res://scenes/levels/jump_to_next_level_2.tscn<>uid://dt58i67lycqaf::::res://scenes/levels/timer_1.tscn<>uid://cykdd6bancfg1::::res://scenes/entities/Obstacles/Level 1/Dynamite.tscn<>uid://bob1s6my4b7wy::::res://scenes/entities/Obstacles/Level 1/Seagull.tscn<>uid://cy30pmow5sgq5::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_2.tscn<>uid://b1nukrwl4tuwy::::res://scenes/entities/Obstacles/Level 1/Snake.tscn<>uid://bjy1syfs08v48::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_3.tscn<>uid://bvq8p0jhpoyty::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_4.tscn<>uid://borcqx0f6v0qw::::res://npc/npc1.tscn<>uid://d3vb4drscv76g::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_5.tscn<>uid://lxg24w0ba3ls::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_6.tscn<>uid://b0074xokr32ij::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_7.tscn<>uid://dkejudnn5tpu7::::res://scenes/UI/pause_menu.tscn<>uid://d0hn11vng80u7::::res://scenes/entities/Obstacles/Level 1/Crab.tscn<>uid://pccu1unbvfgh::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_8.tscn<>uid://qqykennjrbqy::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_9.tscn<>uid://c2i3quwn0priv::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_10.tscn<>uid://c4gq14d1mari6::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_11.tscn<>uid://bkyfr32tge3bs::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_12.tscn<>uid://c5m73lpr8if0c::::res://trash_gui.tscn
+level_02.tscn::PackedScene::7327902421046328835::1714045031::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://scenes/levels/level2.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://br288p3cq3i3v::::res://scenes/levels/timer_2.tscn<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://ctev5i552vn2l::::res://scenes/levels/jump_to_next_level_3.tscn<>uid://biv313xkhmmx4::::res://scenes/entities/Obstacles/Level 2/Turtle.tscn<>uid://c8r6e4fodj35::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_13.tscn<>uid://bis2l2u1lonsr::::res://scenes/entities/Obstacles/Level 2/Jellyfish.tscn<>uid://cnx04r8q8n7c1::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_14.tscn<>uid://cge4knw736gtl::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_15.tscn<>uid://cxbetjms8wcaf::::res://scenes/entities/Obstacles/Level 2/Giant_Clam.tscn<>uid://dcf1x6pi4fehv::::res://npc/npc2.tscn<>uid://cym8rvpp6od4j::::res://deemo_2.tscn<>uid://bitfy73pvovh4::::res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn<>uid://bdy7iwv6bklcp::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_16.tscn<>uid://ds5kj4b1u44mc::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_17.tscn<>uid://c20mrgmse5ifw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_18.tscn<>uid://ccojy0np6mys::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_19.tscn<>uid://3yhulis5r6gj::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_20.tscn<>uid://dw4vqocmei3xx::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_21.tscn<>uid://jcsn14ar5omw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_22.tscn<>uid://blja6863lpx7g::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_23.tscn<>uid://ci82efwjg4qgw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_24.tscn<>uid://cbrqnni3m4d7x::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.tscn<>uid://bafxsxlq1tutt::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn<>uid://blg0ksqe8irby::::res://scenes/Trash GUI/trash_gui_lvl_2.tscn<>uid://b5re4pcmhaxm6::::res://npc1.1.tscn
+level_03.tscn::PackedScene::8270493552038392990::1714045030::0::1::::<><>::uid://cl7mk8xpj0c6u::::res://assets/sprites/tilemap.png<>res://scenes/levels/level3.gd<>uid://c8v43prbi86yv::::res://assets/sprites/tilemap-backgrounds.png<>uid://iu6fb6krl31x::::res://assets/sprites/trash(non_bio).tscn<>uid://bliw68xqge4du::::res://scenes/entities/ZedCharacterBody2D.tscn<>uid://bmrpgcbjgq5b7::::res://trash(bio).tscn<>uid://oqalu7d3of4r::::res://scenes/levels/timer_3.tscn<>uid://csjf3fyno01ki::::res://scenes/levels/jump_to_end_game.tscn<>uid://g7p4bxtnysro::::res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.tscn<>uid://cx3p2f37f1pvs::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_27.tscn<>uid://ckqo138ofqh82::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_28.tscn<>uid://cgapsk7vvw0ie::::res://scenes/entities/Obstacles/Level 3/Rapid_Plant.tscn<>uid://bsdck3c3j8nsu::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_29.tscn<>uid://dyb85suu02fl4::::res://scenes/entities/Obstacles/Level 3/Iguana.tscn<>uid://s3qdkb8d58pk::::res://npc/npc_3.tscn<>uid://bjemml2fl57p4::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_30.tscn<>uid://dljw7okubahoy::::res://deemo_3.tscn<>uid://cqpsa7rua1p0p::::res://scenes/entities/Obstacles/Level 3/Albatross.tscn<>uid://nm2i6no1v43k::::res://scenes/entities/Obstacles/Level 3/Monkey.tscn<>uid://b2dduw4opgq4k::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_31.tscn<>uid://84xw8spkud36::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_32.tscn<>uid://f5s3ryeygysw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_33.tscn<>uid://cx21em2rvq686::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_34.tscn<>uid://5o7s3ophw12i::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_35.tscn<>uid://y6gwagnrncyj::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_36.tscn<>uid://bq4uyjrioe5uo::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_37.tscn<>uid://deg3f4obvu2pw::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_38.tscn<>uid://esnuc60bd75t::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_39.tscn<>uid://es6bv7xp3bqp::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_40.tscn<>uid://cxy6obp7xcavu::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_41.tscn<>uid://bugpqh7fbrsma::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_42.tscn<>uid://bwrvc0tr5pn0w::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_43.tscn<>uid://48qgl0vo00xv::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_44.tscn<>uid://daa4lwo3ntjwk::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_45.tscn<>uid://drrg516p1npn::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_46.tscn<>uid://by7c8umkr5lg4::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_47.tscn<>uid://ch7stsf4b1kda::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_48.tscn<>uid://u6vq7vjg3ej1::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_49.tscn<>uid://dgfet5oxcoyy5::::res://scenes/entities/Obstacles/Danger Zones/danger_zone_50.tscn<>uid://befwdc2xc7mvd::::res://scenes/Trash GUI/trash_gui_lvl_3.tscn<>uid://cc0cafsitkt00::::res://npc2.1.tscn<>uid://do66tlv5h42um::::res://npc1.2.tscn
+Timer1.gd::GDScript::-1::1714045006::0::1::::Timer1<>Control<>::
 Timer2.gd::GDScript::-1::1714035887::0::1::::Timer2<>Control<>::
 Timer3.gd::GDScript::-1::1714035887::0::1::::Timer3<>Control<>::
 timer_1.tscn::PackedScene::8556801038125798837::1714035887::0::1::::<><>::res://scenes/levels/Timer1.gd
 timer_2.tscn::PackedScene::3637432648077559181::1714035887::0::1::::<><>::res://scenes/levels/Timer2.gd
 timer_3.tscn::PackedScene::1015694598805388559::1714035887::0::1::::<><>::res://scenes/levels/Timer3.gd
-::res://scenes/levels/Ending/::1714044392
+::res://scenes/levels/Ending/::1714045067
 ending_1.gd::GDScript::-1::1714035887::0::1::::Ending1<>Control<>::
 ending_1s.tscn::PackedScene::1531738870029223962::1714039972::0::1::::<><>::res://scenes/levels/Ending/ending_1.gd<>uid://cldhgyr1hy3lx::::res://assets/sprites/Game Ender/Ending 1.png<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
 ending_2.gd::GDScript::-1::1714035887::0::1::::Ending2<>Control<>::
 ending_2s.tscn::PackedScene::2371072389523611798::1714039972::0::1::::<><>::res://scenes/levels/Ending/ending_2.gd<>uid://de2lovv7ck531::::res://assets/sprites/Game Ender/Ending 2.png<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
 ending_3.gd::GDScript::-1::1714035887::0::1::::Ending3<>Control<>::
 ending_3s.tscn::PackedScene::2877208969112619641::1714039973::0::1::::<><>::res://scenes/levels/Ending/ending_3.gd<>uid://b8eavyt80xrr3::::res://assets/sprites/Game Ender/Ending 3.png
-::res://scenes/Trash GUI/::1714044392
+::res://scenes/Trash GUI/::1714045067
 total_trash_1.gd::GDScript::-1::1714035886::0::1::::<>CanvasLayer<>::
 total_trash_1.tscn::PackedScene::8702328553012798869::1714035886::0::1::::<><>::res://scenes/Trash GUI/total_trash_1.gd
 total_trash_2.gd::GDScript::-1::1714035886::0::1::::<>CanvasLayer<>::
@@ -568,24 +568,24 @@ trash_gui_lvl_2.gd::GDScript::-1::1714035886::0::1::::TrashGuiLvl2<>CanvasLayer<
 trash_gui_lvl_2.tscn::PackedScene::3172420983357374670::1714035886::0::1::::<><>::res://scenes/Trash GUI/trash_gui_lvl_2.gd
 trash_gui_lvl_3.gd::GDScript::-1::1714035886::0::1::::TrashGuiLvl3<>CanvasLayer<>::
 trash_gui_lvl_3.tscn::PackedScene::2678839226043485629::1714035886::0::1::::<><>::res://scenes/Trash GUI/trash_gui_lvl_3.gd
-::res://scenes/UI/::1714044393
+::res://scenes/UI/::1714045067
 MainMenuBackground.png::CompressedTexture2D::6504987096805597692::1714035886::1714035886::1::::<><>::
 main_menu.gd::GDScript::-1::1714035886::0::1::::MainMenu<>Control<>::
 main_menu.tscn::PackedScene::4268838066621728378::1714035886::0::1::::<><>::res://scenes/UI/main_menu.gd<>uid://cyxcgmjsjy2q7::::res://scenes/UI/MainMenuBackground.png<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
 pause_menu.gd::GDScript::-1::1714035887::0::1::::<>Control<>::
-pause_menu.gdshader::Shader::-1::1714044237::0::1::::<><>::
+pause_menu.gdshader::Shader::-1::1714045034::0::1::::<><>::
 pause_menu.tscn::PackedScene::7869990345572885468::1714035887::0::1::::<><>::res://scenes/UI/pause_menu.gd<>res://scenes/UI/pause_menu.gdshader
 PopupDialog.tscn::PackedScene::5740455459173345300::1714035886::0::1::::<><>::uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
 Timer.gd::GDScript::-1::1714035886::0::1::::<>Control<>::
 timer.tscn::PackedScene::6580023497987114368::1714035887::0::1::::<><>::res://scenes/UI/Timer.gd
-::res://scenes/UI/Game Over/::1714044393
+::res://scenes/UI/Game Over/::1714045067
 game_over_1.gd::GDScript::-1::1714035886::0::1::::GameOver1<>Control<>::
 game_over_1.tscn::PackedScene::342555642995497797::1714035886::0::1::::<><>::res://scenes/UI/Game Over/game_over_1.gd<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
 game_over_2.gd::GDScript::-1::1714035886::0::1::::GameOver2<>Control<>::
 game_over_2.tscn::PackedScene::5996128043752563883::1714035886::0::1::::<><>::res://scenes/UI/Game Over/game_over_2.gd<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
 game_over_3.gd::GDScript::-1::1714035886::0::1::::GameOver3<>Control<>::
 game_over_3.tscn::PackedScene::5336976263082576220::1714035886::0::1::::<><>::res://scenes/UI/Game Over/game_over_3.gd<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf
-::res://scenes/UI/GameClear/::1714044393
+::res://scenes/UI/GameClear/::1714045067
 game_clear_1_0.gd::GDScript::-1::1714035886::0::1::::Lvl1Star0<>Control<>::
 game_clear_1_0s.tscn::PackedScene::5297293697965046875::1714035886::0::1::::<><>::res://scenes/UI/GameClear/game_clear_1_0.gd<>uid://1ply4sx60io8::::res://assets/sprites/Scoreboards/0 star.png<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf<>uid://dv8qcykd0ppsn::::res://scenes/Trash GUI/total_trash_1.tscn
 game_clear_1_1.gd::GDScript::-1::1714035886::0::1::::Lvl1Star1<>Control<>::
@@ -610,6 +610,6 @@ game_clear_3_2.gd::GDScript::-1::1714035886::0::1::::Lvl3Star2<>Control<>::
 game_clear_3_2s.tscn::PackedScene::7566182927935721830::1714035886::0::1::::<><>::res://scenes/UI/GameClear/game_clear_3_2.gd<>uid://c5xwf6ux0e4t8::::res://assets/sprites/Scoreboards/2 stars.png<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf<>uid://dag8bq1g73s56::::res://scenes/Trash GUI/total_trash_3.tscn
 game_clear_3_3.gd::GDScript::-1::1714035886::0::1::::Lvl3Star3<>Control<>::
 game_clear_3_3s.tscn::PackedScene::2545072024043410478::1714035886::0::1::::<><>::res://scenes/UI/GameClear/game_clear_3_3.gd<>uid://1kf4gkmb1r2r::::res://assets/sprites/Scoreboards/3 stars.png<>uid://1sgaaoxeknei::::res://assets/Fonts/SuperMario256.ttf<>uid://dag8bq1g73s56::::res://scenes/Trash GUI/total_trash_3.tscn
-::res://scenes/UI/Opening Scenes/::1714044393
+::res://scenes/UI/Opening Scenes/::1714045067
 opening_1.gd::GDScript::-1::1714035886::0::1::::Opening1<>Control<>::
 opening_1s.tscn::PackedScene::4433537559347054652::1714035886::0::1::::<><>::res://scenes/UI/Opening Scenes/opening_1.gd<>uid://utdrkys4770t::::res://assets/sprites/Game Beginner/Part 1.png
