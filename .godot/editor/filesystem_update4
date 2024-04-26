@@ -1,28 +1,9 @@
-res://scenes/UI/Opening Scenes/opening_2s.tscn
+res://scenes/main.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/main.gd
 res://scenes/UI/pause_menu.gdshader
-res://scenes/levels/level_02.tscn
-res://scenes/UI/Opening Scenes/opening_3s.tscn
-res://scenes/main.tscn
 res://scenes/levels/level_01.tscn
+res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
-res://scenes/UI/Opening Scenes/opening_1s.tscn
-res://scenes/UI/main_menu.gd
-res://scenes/UI/main_menu.tscn
-res://scenes/UI/Opening Scenes/opening_1.gd
-res://scenes/UI/Opening Scenes/opening_2.gd
-res://scenes/UI/Opening Scenes/opening_3.gd
-res://scenes/UI/Opening Scenes/opening_4s.tscn
-res://scenes/UI/Opening Scenes/opening_4.gd
-res://assets/Scripts/classes/level_data.gd
-res://assets/Scripts/Managers/LevelManager.gd
-res://scenes/entities/Obstacles/Level 1/Crab.tscn
-res://scenes/entities/Obstacles/Level 1/Crab.gd
-res://scenes/entities/Obstacles/Level 1/Snake.gd
-res://scenes/entities/Obstacles/Level 1/Snake.tscn
-res://scenes/levels/Ending/ending_1s.tscn
-res://scenes/levels/Ending/ending_2s.tscn
-res://scenes/levels/Ending/ending_3s.tscn
 res://scenes/Trash GUI/trash_gui_lvl_1.tscn
