@@ -7,3 +7,4 @@ res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
 res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/Trash GUI/trash_gui_lvl_1.tscn
+res://assets/jsonfile/dialogue1.json
