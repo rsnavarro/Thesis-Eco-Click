@@ -1125,14 +1125,8 @@ flip_h = true
 
 [node name="Trash" type="Node2D" parent="."]
 
-[node name="trash(non-bio)" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(600, 325)
-
 [node name="trash(bio)" parent="Trash" instance=ExtResource("4_kliuu")]
 position = Vector2(889, 178)
-
-[node name="trash(bio)2" parent="Trash" instance=ExtResource("4_kliuu")]
-position = Vector2(1497, 90)
 
 [node name="trash(bio)3" parent="Trash" instance=ExtResource("4_kliuu")]
 position = Vector2(1633, 146)
@@ -1159,19 +1153,13 @@ position = Vector2(14289, 162)
 position = Vector2(15001, 328)
 
 [node name="trash(bio)25" parent="Trash" instance=ExtResource("4_kliuu")]
-position = Vector2(18433, 266)
+position = Vector2(18001, 274)
 
 [node name="trash(bio)24" parent="Trash" instance=ExtResource("4_kliuu")]
-position = Vector2(17609, 290)
+position = Vector2(15849, 162)
 
 [node name="trash(bio)27" parent="Trash" instance=ExtResource("4_kliuu")]
-position = Vector2(18137, 330)
-
-[node name="trash(bio)7" parent="Trash" instance=ExtResource("4_kliuu")]
-position = Vector2(2289, 58)
-
-[node name="trash(bio)8" parent="Trash" instance=ExtResource("4_kliuu")]
-position = Vector2(2537, 242)
+position = Vector2(17593, 274)
 
 [node name="trash(bio)9" parent="Trash" instance=ExtResource("4_kliuu")]
 position = Vector2(2857, 242)
@@ -1204,22 +1192,13 @@ position = Vector2(6001, 114)
 position = Vector2(7833, 306)
 
 [node name="trash(bio)19" parent="Trash" instance=ExtResource("4_kliuu")]
-position = Vector2(8401, 322)
-
-[node name="trash(bio)20" parent="Trash" instance=ExtResource("4_kliuu")]
-position = Vector2(8873, 314)
-
-[node name="trash(non-bio)2" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(1065, 253)
+position = Vector2(8393, 290)
 
 [node name="trash(non-bio)3" parent="Trash" instance=ExtResource("3_j65xx")]
 position = Vector2(1809, 42)
 
 [node name="trash(non-bio)6" parent="Trash" instance=ExtResource("3_j65xx")]
 position = Vector2(2449, 90)
-
-[node name="trash(non-bio)7" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(2705, 138)
 
 [node name="trash(non-bio)8" parent="Trash" instance=ExtResource("3_j65xx")]
 position = Vector2(11705, 274)
@@ -1245,35 +1224,26 @@ position = Vector2(7033, 114)
 [node name="trash(non-bio)15" parent="Trash" instance=ExtResource("3_j65xx")]
 position = Vector2(7545, 154)
 
-[node name="trash(non-bio)16" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(8113, 322)
-
 [node name="trash(non-bio)4" parent="Trash" instance=ExtResource("3_j65xx")]
 position = Vector2(12033, 210)
-
-[node name="trash(non-bio)17" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(13777, 322)
 
 [node name="trash(non-bio)18" parent="Trash" instance=ExtResource("3_j65xx")]
 position = Vector2(14569, 202)
 
 [node name="trash(non-bio)19" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(17449, 298)
+position = Vector2(15545, 170)
 
 [node name="trash(non-bio)21" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(19121, 306)
+position = Vector2(19625, 290)
 
 [node name="trash(non-bio)22" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(17993, 266)
+position = Vector2(17153, 282)
 
 [node name="trash(non-bio)23" parent="Trash" instance=ExtResource("3_j65xx")]
 position = Vector2(18801, 274)
 
 [node name="trash(non-bio)20" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(17857, 330)
-
-[node name="trash(non-bio)5" parent="Trash" instance=ExtResource("3_j65xx")]
-position = Vector2(1266, 254)
+position = Vector2(16633, 202)
 
 [node name="Trash_gui_lvl_3" parent="Trash" instance=ExtResource("40_a5ib0")]
 

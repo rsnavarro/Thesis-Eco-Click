@@ -965,19 +965,13 @@ rotation = -1.57079
 [node name="trash" type="Node2D" parent="."]
 
 [node name="trash(non-bio)" parent="trash" instance=ExtResource("3_skcql")]
-position = Vector2(1448, 360)
+position = Vector2(1448, 362)
 
 [node name="trash(bio)" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(1120, 432)
 
 [node name="trash(bio)2" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(4864, 376)
-
-[node name="trash(bio)3" parent="trash" instance=ExtResource("6_emcy0")]
-position = Vector2(7168, 192)
-
-[node name="trash(bio)4" parent="trash" instance=ExtResource("6_emcy0")]
-position = Vector2(4344, 240)
 
 [node name="trash(bio)5" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(5968, 264)
@@ -994,14 +988,8 @@ position = Vector2(10703, 353)
 [node name="trash(bio)9" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(13032, 296)
 
-[node name="trash(bio)10" parent="trash" instance=ExtResource("6_emcy0")]
-position = Vector2(15088, 304)
-
 [node name="trash(bio)11" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(19416, -184)
-
-[node name="trash(non-bio)2" parent="trash" instance=ExtResource("3_skcql")]
-position = Vector2(808, 312)
 
 [node name="trash(non-bio)3" parent="trash" instance=ExtResource("3_skcql")]
 position = Vector2(3024, 232)
@@ -1025,16 +1013,13 @@ position = Vector2(13640, 160)
 position = Vector2(14456, 248)
 
 [node name="trash(non-bio)13" parent="trash" instance=ExtResource("3_skcql")]
-position = Vector2(15616, 336)
+position = Vector2(16360, 408)
 
 [node name="trash(non-bio)14" parent="trash" instance=ExtResource("3_skcql")]
 position = Vector2(17280, 104)
 
 [node name="trash(non-bio)5" parent="trash" instance=ExtResource("3_skcql")]
 position = Vector2(3232, 144)
-
-[node name="trash(non-bio)6" parent="trash" instance=ExtResource("3_skcql")]
-position = Vector2(2104, 208)
 
 [node name="trash(non-bio)7" parent="trash" instance=ExtResource("3_skcql")]
 position = Vector2(2376, 328)
