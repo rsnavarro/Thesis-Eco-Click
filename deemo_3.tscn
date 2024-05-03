@@ -1,15 +1,23 @@
-[gd_scene load_steps=5 format=3 uid="uid://dljw7okubahoy"]
+[gd_scene load_steps=7 format=3 uid="uid://dljw7okubahoy"]
 
 [ext_resource type="Texture2D" uid="uid://djlobd5sckhbs" path="res://assets/sprites/npc/Deemo 1.png" id="1_upnx2"]
 [ext_resource type="Script" path="res://Deemo3.gd" id="2_jd7rb"]
 [ext_resource type="PackedScene" uid="uid://pdl17i40dtcl" path="res://deemo_dialogue3.tscn" id="3_4o4bg"]
+[ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="4_58n6d"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ohwbs"]
 size = Vector2(1275.22, 1853.51)
 
+[sub_resource type="LabelSettings" id="LabelSettings_xh2h5"]
+font = ExtResource("4_58n6d")
+font_size = 280
+font_color = Color(0, 0, 0, 1)
+outline_size = 45
+
 [node name="Deemo3" type="Sprite2D"]
 scale = Vector2(0.0728075, 0.0739422)
 texture = ExtResource("1_upnx2")
+flip_h = true
 script = ExtResource("2_jd7rb")
 metadata/_edit_group_ = true
 
@@ -28,6 +36,14 @@ offset_left = -906.368
 offset_top = -808.132
 offset_right = -906.368
 offset_bottom = -808.132
+
+[node name="Label" type="Label" parent="."]
+offset_left = -592.593
+offset_top = -1162.96
+offset_right = 643.407
+offset_bottom = -882.962
+text = "Press E"
+label_settings = SubResource("LabelSettings_xh2h5")
 
 [connection signal="body_entered" from="chat_detection_area" to="." method="_on_chat_detection_area_body_entered"]
 [connection signal="body_exited" from="chat_detection_area" to="." method="_on_chat_detection_area_body_exited"]

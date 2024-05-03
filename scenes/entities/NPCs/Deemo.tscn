@@ -5,7 +5,6 @@
 [ext_resource type="PackedScene" uid="uid://b3w514y6rsmb2" path="res://npc/deemo_dialogue.tscn" id="3_87cqn"]
 [ext_resource type="FontFile" uid="uid://1sgaaoxeknei" path="res://assets/Fonts/SuperMario256.ttf" id="3_b11jj"]
 
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_80frx"]
 size = Vector2(2370.37, 1777.78)
 

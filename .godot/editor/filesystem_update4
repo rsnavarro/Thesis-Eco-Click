@@ -1,13 +1,13 @@
-res://scenes/main.tscn
+res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/levels/Timer1.gd
 res://scenes/main.gd
 res://scenes/UI/pause_menu.gdshader
 res://scenes/levels/level_01.tscn
+res://scenes/main.tscn
 res://scenes/levels/level_02.tscn
 res://scenes/levels/level_03.tscn
-res://scenes/entities/ZedCharacterBody2D.tscn
 res://scenes/Trash GUI/trash_gui_lvl_1.tscn
 res://scenes/UI/main_menu.tscn
-res://scenes/levels/jump_to_next_level_2.gd
-res://scenes/levels/jump_to_next_level_3.gd
-res://scenes/levels/jump_to_end_game.gd
+res://deemo_2.tscn
+res://deemo_3.tscn
+res://scenes/entities/NPCs/Deemo.tscn

@@ -1121,7 +1121,6 @@ scale = Vector2(0.476563, 0.476563)
 [node name="Deemo3" parent="NPCs" instance=ExtResource("10_aepnw")]
 position = Vector2(768, 250)
 scale = Vector2(0.0353216, 0.0342751)
-flip_h = true
 
 [node name="Trash" type="Node2D" parent="."]
 
@@ -1265,9 +1264,9 @@ vertical_alignment = 1
 [node name="Trivia2" type="Label" parent="."]
 show_behind_parent = true
 offset_left = 19861.0
-offset_top = 234.0
+offset_top = 247.0
 offset_right = 20106.0
-offset_bottom = 299.0
+offset_bottom = 312.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
@@ -1278,9 +1277,9 @@ vertical_alignment = 1
 [node name="Trivia3" type="Label" parent="."]
 show_behind_parent = true
 offset_left = 15049.0
-offset_top = 146.0
+offset_top = 170.0
 offset_right = 15265.0
-offset_bottom = 231.0
+offset_bottom = 255.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
@@ -1293,10 +1292,10 @@ vertical_alignment = 1
 
 [node name="Trivia4" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 7633.0
-offset_top = 154.0
-offset_right = 7920.0
-offset_bottom = 239.0
+offset_left = 7641.0
+offset_top = 194.0
+offset_right = 7928.0
+offset_bottom = 279.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")

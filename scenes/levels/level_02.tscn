@@ -1077,7 +1077,7 @@ offset_right = 8712.0
 offset_bottom = 630.0
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_ktdu4")]
-position = Vector2(-88, 288)
+position = Vector2(-88, 291)
 metadata/_edit_group_ = true
 
 [node name="Timer2" parent="ZedCharacterBody2D/CharacterIcon" index="1" instance=ExtResource("5_54fek")]
@@ -1262,7 +1262,7 @@ position = Vector2(432, 246)
 position = Vector2(1752, 352)
 
 [node name="trash(bio)5" parent="Trash" instance=ExtResource("4_mgpvl")]
-position = Vector2(3846, 211)
+position = Vector2(3656, 248)
 
 [node name="trash(bio)6" parent="Trash" instance=ExtResource("4_mgpvl")]
 position = Vector2(4509, 281)
@@ -1356,14 +1356,13 @@ scale = Vector2(0.375, 0.375)
 [node name="Deemo2" parent="NPCs" instance=ExtResource("10_1bsth")]
 position = Vector2(112, 296)
 scale = Vector2(0.0334173, 0.0342075)
-flip_h = true
 
 [node name="turtles" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 3729.0
-offset_top = 122.0
-offset_right = 4102.0
-offset_bottom = 187.0
+offset_left = 3728.0
+offset_top = 151.0
+offset_right = 4101.0
+offset_bottom = 216.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
@@ -1375,10 +1374,10 @@ vertical_alignment = 1
 
 [node name="turtles2" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 1040.0
-offset_top = 200.0
-offset_right = 1348.0
-offset_bottom = 265.0
+offset_left = 1096.0
+offset_top = 247.0
+offset_right = 1404.0
+offset_bottom = 312.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
@@ -1392,9 +1391,9 @@ metadata/_edit_use_anchors_ = true
 [node name="Trivia3" type="Label" parent="."]
 show_behind_parent = true
 offset_left = 8184.0
-offset_top = 176.0
+offset_top = 240.0
 offset_right = 8539.0
-offset_bottom = 261.0
+offset_bottom = 325.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")

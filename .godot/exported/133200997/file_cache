@@ -1,138 +1,138 @@
-res://assets/sprites/info_board.tscn::12a127c0b242a04b32a63e057be7d7d6::1714148520::res://.godot/exported/133200997/export-475cfc7ee41bd79c2c3601802ae477f7-info_board.scn
-res://assets/sprites/textbox.tscn::74e1cb7fafb5372f0147e9707379984d::1714148520::res://.godot/exported/133200997/export-1cdb4337a0bc0c8fed3ee8cff1f3b450-textbox.scn
-res://assets/sprites/text_box.tscn::756c56dc5964bdbc8ba2fa89b9335512::1714148520::res://.godot/exported/133200997/export-662854bd345896975bda10a87ea832e3-text_box.scn
-res://assets/sprites/trash(bio).tscn::1055f4529017da263ba7cba9fd515378::1714148520::res://.godot/exported/133200997/export-9f84a969c86a1e413fb6b261f74c7ba6-trash(bio).scn
-res://assets/sprites/trash(non_bio).tscn::986b7430dc31bc057182b79cad0fd9fc::1714148520::res://.godot/exported/133200997/export-9fcb70bcbeaeb83e0bc272751dafeaba-trash(non_bio).scn
-res://npc/Deemo.tscn::ead882dad6f62290e93ede5af7c15cb5::1714148520::res://.godot/exported/133200997/export-383390268e2d358243d7ba63e634dd51-Deemo.scn
-res://npc/deemo_dialogue.tscn::ab4ed83fd49b4796496ff31b4e884476::1714148520::res://.godot/exported/133200997/export-55c4dce89f4a3c839ca5ad9065be5ca6-deemo_dialogue.scn
-res://npc/dialogue1.tscn::667f66d94f1a484d1b4a63bb3a484fe1::1714148520::res://.godot/exported/133200997/export-75b5795e4f7d042be14f4d56fb26956c-dialogue1.scn
-res://npc/dialogue2.tscn::f113c0554ccad4d722279f8c26a8cacc::1714148520::res://.godot/exported/133200997/export-f87b0198f45a19a2550124090c507476-dialogue2.scn
-res://npc/dialogue.tscn::38e6bf3566d2e3220374b0e64c64f376::1714148520::res://.godot/exported/133200997/export-4f920bc0640a12e15e3e2e3c34ba9a76-dialogue.scn
-res://npc/dialogue_3.tscn::9e4bf757afa72bfd0bf2a3dcc19866d7::1714148520::res://.godot/exported/133200997/export-56ccba0cb7925a41179b7595bd813c88-dialogue_3.scn
-res://npc/npc1.tscn::5f4fbec7a0080ebca923b5585ce34caa::1714148520::res://.godot/exported/133200997/export-b9a9b8835c7079ba9a774b6d098827ec-npc1.scn
-res://npc/npc2.tscn::8043608975130f83c1647a2f423aac0f::1714148520::res://.godot/exported/133200997/export-93e4e5039d045567db10a5bf12768029-npc2.scn
-res://npc/npc_3.tscn::81e67ff6318c02d3a18deb343b9c194b::1714148520::res://.godot/exported/133200997/export-609722f9c1dc10ae1864c1e817bd6c4b-npc_3.scn
-res://scenes/Audio/bio.tscn::45f4dec522fa76819be98702ba8b8a39::1714148520::res://.godot/exported/133200997/export-0fb0b02b3841a63c23f7a9d2bda40b3a-bio.scn
-res://scenes/Audio/non_bio.tscn::978ebf122eb44934d76f26da22e8db8b::1714148520::res://.godot/exported/133200997/export-392d1abe2c9541adb6703b3805aaedc0-non_bio.scn
-res://scenes/entities/NPCs/Deemo.tscn::6bbca52cc852a0d2e92358d4e5bda69f::1714148521::res://.godot/exported/133200997/export-78ac83fd1a41a9dc8cee0315b37289ea-Deemo.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_1.tscn::3bce240fcd2f37b5e4814383b735e3df::1714148521::res://.godot/exported/133200997/export-bf511919ab76d37d94a95a253e347eb2-danger_zone_1.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_2.tscn::69ad8a829fa8e3503398eaa5008d4f07::1714148521::res://.godot/exported/133200997/export-dc50dc289ddf069368db0bdf3b6d9648-danger_zone_2.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_3.tscn::69cd2b801e4c42e22fe9a70759013f13::1714148521::res://.godot/exported/133200997/export-c2bf496a252dfabb1b65f947580f72b7-danger_zone_3.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_4.tscn::e858b39ef8a9aab8e91e7cf22367f4b9::1714148521::res://.godot/exported/133200997/export-a63c6b0a6bba98c5dbfbf42f881172b8-danger_zone_4.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_5.tscn::15f44d6968ac263488ea65b321e05284::1714148521::res://.godot/exported/133200997/export-8571041e685267f16b8234b9eaea5b0b-danger_zone_5.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_6.tscn::eefa6f7fd5bec969ca1582b4973560d5::1714148521::res://.godot/exported/133200997/export-b8efe9b30fd9907dfc4f49f3a3a40a07-danger_zone_6.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_7.tscn::0e81935d5a7a016ac4486ce25b366755::1714148521::res://.godot/exported/133200997/export-bfb10249edc21a8a81b0bf3eeb3d4a7d-danger_zone_7.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_8.tscn::18ffe2de9422739a261f71b2f1e5c437::1714148521::res://.godot/exported/133200997/export-9522a8ed453162cf87d4c4749752e53c-danger_zone_8.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_9.tscn::6bff399a81d86d6014ec3b13e93bf442::1714148521::res://.godot/exported/133200997/export-7b66d5c038a36797fe8c644a0b6a81ba-danger_zone_9.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_10.tscn::15ce0d10ac8a98edec7d2e29fe47f6cf::1714148521::res://.godot/exported/133200997/export-1a352cfbaa4ca344f71d0b87dd5bd1b2-danger_zone_10.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_11.tscn::afde1851cb0d443a83dae98b3da3443c::1714148521::res://.godot/exported/133200997/export-c0bbc926c4ff726f806956248e5a4275-danger_zone_11.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_12.tscn::7470fa8795836e7499c84530d23d23d1::1714148521::res://.godot/exported/133200997/export-db485468777e6a21211ef7c0234b44a7-danger_zone_12.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_13.tscn::5bfe5c20cc94f1046174aa1dc1ea2f57::1714148521::res://.godot/exported/133200997/export-4a2c4b9f3b023a1903cdacc078ae7934-danger_zone_13.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_14.tscn::bead079d29c3fd7a89b782360f95fff7::1714148521::res://.godot/exported/133200997/export-cbe26309e8b0f8c8bdb0636b2b8453a3-danger_zone_14.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_15.tscn::e3b27bf6072388c45b52942396c76ed0::1714148521::res://.godot/exported/133200997/export-b6042eea54876cfbc586133b025f53ca-danger_zone_15.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_16.tscn::56e8822d4df2a8f635067d78a55e2408::1714148521::res://.godot/exported/133200997/export-82cde8f82a79ac6833106bde97b76d30-danger_zone_16.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_17.tscn::f538cad46c6839905b9049aad213b912::1714148521::res://.godot/exported/133200997/export-e56982f8a203f60bb2be6255c37eabe8-danger_zone_17.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_18.tscn::889ec02c8f0dd1b848702e8b50004fdc::1714148521::res://.godot/exported/133200997/export-4b9934786ab75eeeba3278700904ddb8-danger_zone_18.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_19.tscn::1015e68b648467f4866d03136ed8f9e4::1714148521::res://.godot/exported/133200997/export-61680e6dcfea8a7138270ca3df7fa83f-danger_zone_19.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_20.tscn::8ecb3c10a2f04c529a5981e1c8d809d0::1714148521::res://.godot/exported/133200997/export-a2340cbafe8da852e2ca5362beaa2ffd-danger_zone_20.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_21.tscn::0820f95657d6e7339e21896414c300e5::1714148521::res://.godot/exported/133200997/export-e6e334a16f3d65014445dbd11f2a51c5-danger_zone_21.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_22.tscn::45af2b1a03d6f00efb57477d1301885d::1714148521::res://.godot/exported/133200997/export-b670485b1b4d04416d5186c2057787a2-danger_zone_22.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_23.tscn::149e5f6e87d5f74d72abf8e8e0cf4b9d::1714148521::res://.godot/exported/133200997/export-6f7d82c1b3db9e95fe9e330b00fbfaa9-danger_zone_23.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_24.tscn::0f4c7547f45cce5e8b8f3a9d1c0ac3ab::1714148521::res://.godot/exported/133200997/export-505a0890e67e9b76383445effaeb0f8c-danger_zone_24.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.tscn::a2f53140a0ee334db1d8a8553e432d76::1714148521::res://.godot/exported/133200997/export-8f3bdb4528c9b92d3fbd950beee88c9c-danger_zone_25.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn::7cdf7db72fcac611241216ad082affb3::1714148521::res://.godot/exported/133200997/export-3ff2440de752845966c5a52467a58011-danger_zone_26.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_27.tscn::1a5cad91a586d09d8ad3f3e016ac46b1::1714148521::res://.godot/exported/133200997/export-063b5261f7a381a8a4b7e0a525fe4b37-danger_zone_27.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_28.tscn::572e70b8d1be5e74aa3fbb24979f3b22::1714148521::res://.godot/exported/133200997/export-c6bcba619a840b56fffc225840bf2b81-danger_zone_28.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_29.tscn::793cb6a0fac10cff24e5b31cd0ea8d27::1714148521::res://.godot/exported/133200997/export-870e8f95bfd53507ce2f96aa734bd849-danger_zone_29.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_30.tscn::0fdb3c66a73ec7b5e3b4a52da2bcb840::1714148521::res://.godot/exported/133200997/export-9f0e2d60181e73425b033410593f645e-danger_zone_30.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_31.tscn::77facce4d8fb67d819776b5904c58cdd::1714148521::res://.godot/exported/133200997/export-90bef7fb2a41da9a338ffafff6fa589d-danger_zone_31.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_32.tscn::9b70a5cb54deec92e4b9e4a5b15582ad::1714148521::res://.godot/exported/133200997/export-a4730e552339edc7c8c5b5d7df199bcb-danger_zone_32.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_33.tscn::2125583db21eca39d9bbdc707bacb39f::1714148521::res://.godot/exported/133200997/export-5653aab33808155300993ecec064ad4b-danger_zone_33.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_34.tscn::0dab9c10be9b662b3ebb76f71516ca2b::1714148521::res://.godot/exported/133200997/export-2bb52ea07f1063248b25ccdc197e61cf-danger_zone_34.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_35.tscn::203b4ba2301d5e76c0365e51fa16775a::1714148521::res://.godot/exported/133200997/export-80cbcc9db066bf4815fa3166d27f7eb5-danger_zone_35.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_36.tscn::e32e670e2dbe00ef67ec2d81ec86c6e6::1714148521::res://.godot/exported/133200997/export-2cdd9b35c48fb8defce88a4ed57d6b49-danger_zone_36.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_37.tscn::2679cd0d94f62c1f5ef6e71321b3c1d5::1714148521::res://.godot/exported/133200997/export-9c3fe0840958f8f7392f42a8ac5c6b60-danger_zone_37.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_38.tscn::bf8f8a7672b9dc1b33285b77deb44d3c::1714148521::res://.godot/exported/133200997/export-1e299d3b38c69c10e839831e5fb8854f-danger_zone_38.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_39.tscn::c968a017d8f64142cda029952ee9c3a2::1714148521::res://.godot/exported/133200997/export-e58f116e6870211df92ed61df45e9be9-danger_zone_39.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_40.tscn::4d13693b4d9fb2895c58c11ee3fd47c4::1714148521::res://.godot/exported/133200997/export-62a50c24f248b6d38c5a13aececb2bb0-danger_zone_40.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_41.tscn::02df01ab6186bb82ceae8911d0ec6576::1714148521::res://.godot/exported/133200997/export-6a0e0c805b93925ae45e42e44e8bb411-danger_zone_41.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_42.tscn::d863d7379f6d34d784b4de234dcaa110::1714148521::res://.godot/exported/133200997/export-41a0b3284a3169fbd06177df9a8efa97-danger_zone_42.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_43.tscn::a32a9c51e829a33f47c3c678d931714e::1714148521::res://.godot/exported/133200997/export-4b51978c20cb28efd4cf2710be72e4ce-danger_zone_43.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_44.tscn::1e980ed28d416b11a8e48ec72639e747::1714148521::res://.godot/exported/133200997/export-fd313209f7c78c7785e39b6e717eebcf-danger_zone_44.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_45.tscn::b2a7f1aa2ae369dd4264e0792b778595::1714148521::res://.godot/exported/133200997/export-abaaffba60289a4972a15c9e283a724d-danger_zone_45.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_46.tscn::48abc9e291b0004f502e55e04c37f3cf::1714148521::res://.godot/exported/133200997/export-f0b8d7816f4dffca132eba9f93276626-danger_zone_46.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_47.tscn::24de3079dbd19cc3a5f17ccc2d6426c4::1714148521::res://.godot/exported/133200997/export-1718c6c34386e30989da38727a3c1b87-danger_zone_47.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_48.tscn::64eab43b969923e9b10acf621e1306b1::1714148521::res://.godot/exported/133200997/export-3c0ca65b6752cdc788cda6296409eb32-danger_zone_48.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_49.tscn::bc3e1676b21571afa87fbc28c867d11e::1714148521::res://.godot/exported/133200997/export-bd2282313a6abc81b223611da79bdce6-danger_zone_49.scn
-res://scenes/entities/Obstacles/Danger Zones/danger_zone_50.tscn::8d79c946019e13596026913160c5c196::1714148521::res://.godot/exported/133200997/export-79ce53f9511bc25f65b7744066c4b5fa-danger_zone_50.scn
-res://scenes/entities/Obstacles/Level 1/Crab.tscn::a2c10a534f410e5c5d61571d49aa68fc::1714148521::res://.godot/exported/133200997/export-58b3762cad2ca78fc122463c5e866cb3-Crab.scn
-res://scenes/entities/Obstacles/Level 1/Dynamite.tscn::23d76a13033c45e278c76547dc6040d5::1714148521::res://.godot/exported/133200997/export-c84ef9f4a60e768eb5a65c4cf31946fa-Dynamite.scn
-res://scenes/entities/Obstacles/Level 1/Seagull.tscn::7c63d1d2b7343714e23521994e24f95a::1714148521::res://.godot/exported/133200997/export-1fb7e85512658774653f4c35ad3b82b5-Seagull.scn
-res://scenes/entities/Obstacles/Level 1/Snake.tscn::a489633f033b5b36a4f652966c345ba3::1714148521::res://.godot/exported/133200997/export-f72956671fa7a7f1c045ab2b3eb7ac7d-Snake.scn
-res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn::ab9dcc75391a7e626243da6f9ccce441::1714148521::res://.godot/exported/133200997/export-044d42c7b2c73746ba8541c239e1496c-Angler_fish.scn
-res://scenes/entities/Obstacles/Level 2/Giant_Clam.tscn::755ffef7dc1e8f5493541b02aae7bd52::1714148521::res://.godot/exported/133200997/export-ec26d2ecc8947ae8245731d237f8718a-Giant_Clam.scn
-res://scenes/entities/Obstacles/Level 2/Jellyfish.tscn::2dc6e219bb3da5060073fddb5a141a0d::1714148521::res://.godot/exported/133200997/export-3b55eb982402478cab83dd446d3da80f-Jellyfish.scn
-res://scenes/entities/Obstacles/Level 2/Turtle.tscn::83ec8a55b88bba7ecf27a035852ad5f5::1714148521::res://.godot/exported/133200997/export-c7cf47d1c3ee467ffdd6d567ca8757d8-Turtle.scn
-res://scenes/entities/Obstacles/Level 3/Albatross.tscn::30445a6aa7e12bb824f4a82d543d4bd7::1714148521::res://.godot/exported/133200997/export-fc0f72327f251ab4b8a5cacee92a4bbc-Albatross.scn
-res://scenes/entities/Obstacles/Level 3/Iguana.tscn::bae3cfdb0fe6ca6a1992951eed0f3597::1714148521::res://.godot/exported/133200997/export-95687b80a122f12457ce1324e781bc22-Iguana.scn
-res://scenes/entities/Obstacles/Level 3/Monkey.tscn::9a8b1afa05d70dfd7a748220ad93d90b::1714148521::res://.godot/exported/133200997/export-8bdaa565b61f7821ee9036bda5d7d5db-Monkey.scn
-res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.tscn::529d2775f1795b95bbfa37a5d620ccfa::1714148521::res://.godot/exported/133200997/export-95d780c26c1b10286841e7d90e04dec0-Quicksand_Pit.scn
-res://scenes/entities/Obstacles/Level 3/Rapid_Plant.tscn::b122df9f312f56302b6316651d51b266::1714148521::res://.godot/exported/133200997/export-43cc6c70a6a3e68fc917c21a2ee01e64-Rapid_Plant.scn
-res://scenes/entities/ZedCharacterBody2D.tscn::23d64133afbf05e58f7d24fb9933778c::1714149987::res://.godot/exported/133200997/export-b6b3ae7012d84dd83886bb2f85756be1-ZedCharacterBody2D.scn
-res://scenes/Global/BG_Music.tscn::5e601360b3eb37e7ddfbd4c83387fcdf::1714148520::res://.godot/exported/133200997/export-f4face7b029ecbced4e3462aec19bc45-BG_Music.scn
-res://scenes/levels/Ending/ending_1s.tscn::7ba996f948710049e737ea1c5be29bca::1714148521::res://.godot/exported/133200997/export-1a25061b40df42942355e097193323f1-ending_1s.scn
-res://scenes/levels/Ending/ending_2s.tscn::565420762bc5f2ed10b618832addc1fc::1714148521::res://.godot/exported/133200997/export-053d1d4294adeb0e880dd81e3b846c0a-ending_2s.scn
-res://scenes/levels/Ending/ending_3s.tscn::1e71a8e370a344c4f986ce5600cb8088::1714148521::res://.godot/exported/133200997/export-3d555b6cb5c784634c61df7573dd9585-ending_3s.scn
-res://scenes/levels/jump_to_end_game.tscn::d235781626ea11f40f6aa2439e582b88::1714148521::res://.godot/exported/133200997/export-3be230861d81a8bd523067a01c3de477-jump_to_end_game.scn
-res://scenes/levels/jump_to_next_level_2.tscn::9c6f95348508a0219d3aa7350e0639e3::1714148521::res://.godot/exported/133200997/export-7d5ec7cced193702ff1642b787c63c13-jump_to_next_level_2.scn
-res://scenes/levels/jump_to_next_level_3.tscn::2a178b671f4e2fbdf9bc8db24335dbf0::1714148521::res://.godot/exported/133200997/export-671a123d1586152039764f128ea597eb-jump_to_next_level_3.scn
-res://scenes/levels/level_01.tscn::d4ca1eb2a8575d32f9ef5d0833e67d0e::1714149987::res://.godot/exported/133200997/export-fceca31d6515568d74a4e74de975536e-level_01.scn
-res://scenes/levels/level_02.tscn::904ec1c8c7de7717147a0dc6a3fcf2d2::1714149987::res://.godot/exported/133200997/export-33b5b7bd63769efdd1b107911accaa53-level_02.scn
-res://scenes/levels/level_03.tscn::92088fd2b1a1ecf058436e653b9c6d1b::1714149987::res://.godot/exported/133200997/export-ba496988f2a6e8d755f7ab5c1ce455b2-level_03.scn
-res://scenes/levels/timer_1.tscn::ffbb457333e059f3d10b786d63a34e00::1714148521::res://.godot/exported/133200997/export-5dfa111eb4c86e66cd5207afee01fa87-timer_1.scn
-res://scenes/levels/timer_2.tscn::2db846a8f212a646720f4d9d92b2a918::1714148521::res://.godot/exported/133200997/export-edd662bce86c1c9e5c24651003864a56-timer_2.scn
-res://scenes/levels/timer_3.tscn::f001b3af3ab0027ed01878c01a28de1c::1714148521::res://.godot/exported/133200997/export-329124ab7ac20229ac63713f9cc5d2ac-timer_3.scn
-res://scenes/Trash GUI/total_trash_1.tscn::34cb6e0e0b43383d38de39a19dccf463::1714148520::res://.godot/exported/133200997/export-9d028430f6bc2b9906ef54898dc84fbd-total_trash_1.scn
-res://scenes/Trash GUI/total_trash_2.tscn::17557c374c1de3683b210d0d580aa66a::1714148520::res://.godot/exported/133200997/export-276dd07b2320123dc23db566be279106-total_trash_2.scn
-res://scenes/Trash GUI/total_trash_3.tscn::2b215db3e819b090b482f9f8d9550ef4::1714148520::res://.godot/exported/133200997/export-cbeeeee40e4d0a562552563c9ce36623-total_trash_3.scn
-res://scenes/Trash GUI/trash_gui_lvl_1.tscn::5c79e09bbf2eca739487de5eb884aacb::1714149988::res://.godot/exported/133200997/export-59f0853fde89709cc121225b073913b6-trash_gui_lvl_1.scn
-res://scenes/Trash GUI/trash_gui_lvl_2.tscn::05d5908761907ad19dc900411a4a41b0::1714148520::res://.godot/exported/133200997/export-9a7bb97861dc37cf10d70163ebe984ac-trash_gui_lvl_2.scn
-res://scenes/Trash GUI/trash_gui_lvl_3.tscn::bfa549e1df520ecc213d816b87332e92::1714148520::res://.godot/exported/133200997/export-333b057184b87577463886e138631432-trash_gui_lvl_3.scn
-res://scenes/UI/Game Over/game_over_1.tscn::e0de81c868d3862a95470d85b024081d::1714148520::res://.godot/exported/133200997/export-e34dad38ec9ce322779a80bb33a1d05a-game_over_1.scn
-res://scenes/UI/Game Over/game_over_2.tscn::ab4e66794d06209d4a83be05b594c378::1714148520::res://.godot/exported/133200997/export-5b5608d26cb46e348ce4d19d5ec388ad-game_over_2.scn
-res://scenes/UI/Game Over/game_over_3.tscn::e1f9299a88baa42569fe21c9082d7d0e::1714148520::res://.godot/exported/133200997/export-81488cc13576fb29d1096fba1be63ca3-game_over_3.scn
-res://scenes/UI/GameClear/game_clear_1_0s.tscn::965f01356ea92dae621114ff98092b61::1714148520::res://.godot/exported/133200997/export-b18ed99f427bc8525b266ec572c06f1e-game_clear_1_0s.scn
-res://scenes/UI/GameClear/game_clear_1_1s.tscn::140291f711c8f30454af84f9cdb367ed::1714148520::res://.godot/exported/133200997/export-5e2919478b7f3edbf877386025e489a2-game_clear_1_1s.scn
-res://scenes/UI/GameClear/game_clear_1_2s.tscn::65c217de0c153e88407408b62c6bf28a::1714148520::res://.godot/exported/133200997/export-3e05c680331e14d4e65f002cb10d9b6f-game_clear_1_2s.scn
-res://scenes/UI/GameClear/game_clear_1_3s.tscn::3e24755889cdf2b987686f01b71604df::1714148520::res://.godot/exported/133200997/export-bbedb0facfedb03bc17b2f652e7b253a-game_clear_1_3s.scn
-res://scenes/UI/GameClear/game_clear_2_0s.tscn::f07a1c1ff659c582aff3620a8171e191::1714148520::res://.godot/exported/133200997/export-dac5d1b61a0adb868df54c5338ab011f-game_clear_2_0s.scn
-res://scenes/UI/GameClear/game_clear_2_1s.tscn::a422c28ad8461e7029ffda5ac49ffabc::1714148520::res://.godot/exported/133200997/export-247d90a047d0366d8520a53e6f2150a6-game_clear_2_1s.scn
-res://scenes/UI/GameClear/game_clear_2_2s.tscn::563e4c78d014f9b0cba5c158d72f5779::1714148520::res://.godot/exported/133200997/export-4e6bb64a1e268ff7a750cf9be4e69d73-game_clear_2_2s.scn
-res://scenes/UI/GameClear/game_clear_2_3s.tscn::ef27e4018ed2db051f347a798ea76cc0::1714148520::res://.godot/exported/133200997/export-f89ef83c0f7090cdae2a1350e935c8bf-game_clear_2_3s.scn
-res://scenes/UI/GameClear/game_clear_3_0s.tscn::2d030e904094a011f8115b0e151744bc::1714148520::res://.godot/exported/133200997/export-3aea7a5b6df6068ee5049d9d8a83b688-game_clear_3_0s.scn
-res://scenes/UI/GameClear/game_clear_3_1s.tscn::a0f2771ab739f298e1635884ad636c60::1714148520::res://.godot/exported/133200997/export-8d92abdae542520ec00e245977befa38-game_clear_3_1s.scn
-res://scenes/UI/GameClear/game_clear_3_2s.tscn::9f56e1b8fda78c017a5a83cfe3bfd553::1714148520::res://.godot/exported/133200997/export-5f01fe6ee1219716f2de971b2e1f61de-game_clear_3_2s.scn
-res://scenes/UI/GameClear/game_clear_3_3s.tscn::cf2a23cf0d86817acd90eb39711a7b25::1714148520::res://.godot/exported/133200997/export-f20228b6efb3fc9d6c032227f4f34f03-game_clear_3_3s.scn
-res://scenes/UI/Opening Scenes/opening_1s.tscn::abb83b04b27ef57e6cbb9f35f0aac509::1714148520::res://.godot/exported/133200997/export-f76d95326dbe1aabc8185b5a4a7f18b9-opening_1s.scn
-res://scenes/UI/main_menu.tscn::0c9539ae62ad9a4e8bbcc4887fef22b7::1714148520::res://.godot/exported/133200997/export-0d81a41f2d9092422dafb2d1dd9121a9-main_menu.scn
-res://scenes/UI/pause_menu.tscn::30a6db25d5947acd4752fe0897c33a6c::1714148521::res://.godot/exported/133200997/export-c0634a860d69237b75daaebb516e89e5-pause_menu.scn
-res://scenes/UI/PopupDialog.tscn::f816822ab641bcd25731582bbd29fc6a::1714148520::res://.godot/exported/133200997/export-04af1933b80a137f21433686919f2b89-PopupDialog.scn
-res://scenes/UI/timer.tscn::c72d5aa1ff8e143136e1894b73b6c691::1714148521::res://.godot/exported/133200997/export-4a497914a65063fb84677182b9e230d1-timer.scn
-res://scenes/main.tscn::293e19d457966b59718d5cdac60104ea::1714149986::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
-res://deemo_2.tscn::39cafdd90fea960ff8f4fec6168babce::1714148520::res://.godot/exported/133200997/export-096c581bae98bdbf3da6689f79f51221-deemo_2.scn
-res://deemo_3.tscn::deddb8d46eff96781799755a6b4c93b4::1714148520::res://.godot/exported/133200997/export-f8cfcee3df9d02eb9227761b7cddbc6e-deemo_3.scn
-res://Deemo_dialogue2.tscn::ec032e79553b6cb177fc1055a9229cff::1714148520::res://.godot/exported/133200997/export-218d6c56a03217d9ac056f1b472cda9d-Deemo_dialogue2.scn
-res://deemo_dialogue3.tscn::4bd7c1722c05bfeb464e12e00c36e9d1::1714148520::res://.godot/exported/133200997/export-1714fbbb340f0e4446d0211ea05a655d-deemo_dialogue3.scn
-res://default_bus_layout.tres::ff4c226bf9ac7f1e366b8bfadd33839e::1714148520::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
-res://dialogue1_1.tscn::fa1a9f8cce1f656b0bb553be72e51b30::1714148520::res://.godot/exported/133200997/export-090925fe32227505f90ca8d1951e2dd5-dialogue1_1.scn
-res://dialogue1_2.tscn::8f5787e73017ae64244628e5a4af4711::1714148520::res://.godot/exported/133200997/export-3641e47546fc6b73213861f1d4a2eb6f-dialogue1_2.scn
-res://dialogue2_2.tscn::a51f209610a0d21d0a0eafabb6a3427f::1714148520::res://.godot/exported/133200997/export-d94f09e49b530e5c2e7b650e5c8b7946-dialogue2_2.scn
-res://npc1.1.tscn::bd665160b12f745a27422feaffbcedc6::1714148520::res://.godot/exported/133200997/export-87c3794e49f211fb0abdc981fd4af191-npc1.1.scn
-res://npc1.2.tscn::f3af04135883400c8a3bc8d3ab4f1191::1714148520::res://.godot/exported/133200997/export-9583c4bee305e5c928a989970b52bd7e-npc1.2.scn
-res://npc2.1.tscn::aa7e8bb236230120715c2389e54fc818::1714148520::res://.godot/exported/133200997/export-800e02818049bc89335eb4f94d32c106-npc2.1.scn
-res://transition_screen.tscn::ceff595809a20add97c74bc6c6d812e6::1714148521::res://.godot/exported/133200997/export-beea27d9e74ca6926c2102caa9f33fa9-transition_screen.scn
-res://trash(bio).tscn::c4a02325e908361154095a974ab86b79::1714148521::res://.godot/exported/133200997/export-bb6907ebb7a9e2101bee53a71a9d9b49-trash(bio).scn
-res://trash_gui.tscn::8c943c62d84ec96d8fd4857da9a727e9::1714148521::res://.godot/exported/133200997/export-e89c6d297731c7319a8d122aced235d3-trash_gui.scn
-res://scenes/UI/Opening Scenes/opening_2s.tscn::f1a57f0ca0427484a5e02a3eed30b303::1714148520::res://.godot/exported/133200997/export-f06292e505a82c692137b14fe71977e3-opening_2s.scn
-res://scenes/UI/Opening Scenes/opening_3s.tscn::f706f5e233ec292c31fb0059697312cd::1714148520::res://.godot/exported/133200997/export-979f40966b0c9164c5ea9a508e0c54dd-opening_3s.scn
-res://scenes/UI/Opening Scenes/opening_4s.tscn::0c3ff0759b92ae3dea210e06ebec3c7f::1714148520::res://.godot/exported/133200997/export-6c8359eb50d1a427eb0476740fc44885-opening_4s.scn
+res://assets/sprites/info_board.tscn::12a127c0b242a04b32a63e057be7d7d6::1714720396::res://.godot/exported/133200997/export-475cfc7ee41bd79c2c3601802ae477f7-info_board.scn
+res://assets/sprites/textbox.tscn::74e1cb7fafb5372f0147e9707379984d::1714720396::res://.godot/exported/133200997/export-1cdb4337a0bc0c8fed3ee8cff1f3b450-textbox.scn
+res://assets/sprites/text_box.tscn::756c56dc5964bdbc8ba2fa89b9335512::1714720396::res://.godot/exported/133200997/export-662854bd345896975bda10a87ea832e3-text_box.scn
+res://assets/sprites/trash(bio).tscn::1055f4529017da263ba7cba9fd515378::1714720396::res://.godot/exported/133200997/export-9f84a969c86a1e413fb6b261f74c7ba6-trash(bio).scn
+res://assets/sprites/trash(non_bio).tscn::986b7430dc31bc057182b79cad0fd9fc::1714720396::res://.godot/exported/133200997/export-9fcb70bcbeaeb83e0bc272751dafeaba-trash(non_bio).scn
+res://npc/Deemo.tscn::ead882dad6f62290e93ede5af7c15cb5::1714720396::res://.godot/exported/133200997/export-383390268e2d358243d7ba63e634dd51-Deemo.scn
+res://npc/deemo_dialogue.tscn::ab4ed83fd49b4796496ff31b4e884476::1714720396::res://.godot/exported/133200997/export-55c4dce89f4a3c839ca5ad9065be5ca6-deemo_dialogue.scn
+res://npc/dialogue1.tscn::667f66d94f1a484d1b4a63bb3a484fe1::1714720396::res://.godot/exported/133200997/export-75b5795e4f7d042be14f4d56fb26956c-dialogue1.scn
+res://npc/dialogue2.tscn::f113c0554ccad4d722279f8c26a8cacc::1714720396::res://.godot/exported/133200997/export-f87b0198f45a19a2550124090c507476-dialogue2.scn
+res://npc/dialogue.tscn::38e6bf3566d2e3220374b0e64c64f376::1714720396::res://.godot/exported/133200997/export-4f920bc0640a12e15e3e2e3c34ba9a76-dialogue.scn
+res://npc/dialogue_3.tscn::9e4bf757afa72bfd0bf2a3dcc19866d7::1714720396::res://.godot/exported/133200997/export-56ccba0cb7925a41179b7595bd813c88-dialogue_3.scn
+res://npc/npc1.tscn::5f4fbec7a0080ebca923b5585ce34caa::1714720396::res://.godot/exported/133200997/export-b9a9b8835c7079ba9a774b6d098827ec-npc1.scn
+res://npc/npc2.tscn::8043608975130f83c1647a2f423aac0f::1714720396::res://.godot/exported/133200997/export-93e4e5039d045567db10a5bf12768029-npc2.scn
+res://npc/npc_3.tscn::81e67ff6318c02d3a18deb343b9c194b::1714720396::res://.godot/exported/133200997/export-609722f9c1dc10ae1864c1e817bd6c4b-npc_3.scn
+res://scenes/Audio/bio.tscn::45f4dec522fa76819be98702ba8b8a39::1714720397::res://.godot/exported/133200997/export-0fb0b02b3841a63c23f7a9d2bda40b3a-bio.scn
+res://scenes/Audio/non_bio.tscn::978ebf122eb44934d76f26da22e8db8b::1714720397::res://.godot/exported/133200997/export-392d1abe2c9541adb6703b3805aaedc0-non_bio.scn
+res://scenes/entities/NPCs/Deemo.tscn::586544f768d05b5b1860fc3eacc2ea6d::1714724590::res://.godot/exported/133200997/export-78ac83fd1a41a9dc8cee0315b37289ea-Deemo.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_1.tscn::3bce240fcd2f37b5e4814383b735e3df::1714720398::res://.godot/exported/133200997/export-bf511919ab76d37d94a95a253e347eb2-danger_zone_1.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_2.tscn::69ad8a829fa8e3503398eaa5008d4f07::1714720398::res://.godot/exported/133200997/export-dc50dc289ddf069368db0bdf3b6d9648-danger_zone_2.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_3.tscn::69cd2b801e4c42e22fe9a70759013f13::1714720398::res://.godot/exported/133200997/export-c2bf496a252dfabb1b65f947580f72b7-danger_zone_3.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_4.tscn::e858b39ef8a9aab8e91e7cf22367f4b9::1714720398::res://.godot/exported/133200997/export-a63c6b0a6bba98c5dbfbf42f881172b8-danger_zone_4.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_5.tscn::15f44d6968ac263488ea65b321e05284::1714720398::res://.godot/exported/133200997/export-8571041e685267f16b8234b9eaea5b0b-danger_zone_5.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_6.tscn::eefa6f7fd5bec969ca1582b4973560d5::1714720398::res://.godot/exported/133200997/export-b8efe9b30fd9907dfc4f49f3a3a40a07-danger_zone_6.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_7.tscn::0e81935d5a7a016ac4486ce25b366755::1714720398::res://.godot/exported/133200997/export-bfb10249edc21a8a81b0bf3eeb3d4a7d-danger_zone_7.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_8.tscn::18ffe2de9422739a261f71b2f1e5c437::1714720398::res://.godot/exported/133200997/export-9522a8ed453162cf87d4c4749752e53c-danger_zone_8.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_9.tscn::6bff399a81d86d6014ec3b13e93bf442::1714720398::res://.godot/exported/133200997/export-7b66d5c038a36797fe8c644a0b6a81ba-danger_zone_9.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_10.tscn::15ce0d10ac8a98edec7d2e29fe47f6cf::1714720398::res://.godot/exported/133200997/export-1a352cfbaa4ca344f71d0b87dd5bd1b2-danger_zone_10.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_11.tscn::afde1851cb0d443a83dae98b3da3443c::1714720398::res://.godot/exported/133200997/export-c0bbc926c4ff726f806956248e5a4275-danger_zone_11.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_12.tscn::7470fa8795836e7499c84530d23d23d1::1714720398::res://.godot/exported/133200997/export-db485468777e6a21211ef7c0234b44a7-danger_zone_12.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_13.tscn::5bfe5c20cc94f1046174aa1dc1ea2f57::1714720398::res://.godot/exported/133200997/export-4a2c4b9f3b023a1903cdacc078ae7934-danger_zone_13.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_14.tscn::bead079d29c3fd7a89b782360f95fff7::1714720398::res://.godot/exported/133200997/export-cbe26309e8b0f8c8bdb0636b2b8453a3-danger_zone_14.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_15.tscn::e3b27bf6072388c45b52942396c76ed0::1714720398::res://.godot/exported/133200997/export-b6042eea54876cfbc586133b025f53ca-danger_zone_15.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_16.tscn::56e8822d4df2a8f635067d78a55e2408::1714720398::res://.godot/exported/133200997/export-82cde8f82a79ac6833106bde97b76d30-danger_zone_16.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_17.tscn::f538cad46c6839905b9049aad213b912::1714720398::res://.godot/exported/133200997/export-e56982f8a203f60bb2be6255c37eabe8-danger_zone_17.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_18.tscn::889ec02c8f0dd1b848702e8b50004fdc::1714720398::res://.godot/exported/133200997/export-4b9934786ab75eeeba3278700904ddb8-danger_zone_18.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_19.tscn::1015e68b648467f4866d03136ed8f9e4::1714720398::res://.godot/exported/133200997/export-61680e6dcfea8a7138270ca3df7fa83f-danger_zone_19.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_20.tscn::8ecb3c10a2f04c529a5981e1c8d809d0::1714720398::res://.godot/exported/133200997/export-a2340cbafe8da852e2ca5362beaa2ffd-danger_zone_20.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_21.tscn::0820f95657d6e7339e21896414c300e5::1714720398::res://.godot/exported/133200997/export-e6e334a16f3d65014445dbd11f2a51c5-danger_zone_21.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_22.tscn::45af2b1a03d6f00efb57477d1301885d::1714720398::res://.godot/exported/133200997/export-b670485b1b4d04416d5186c2057787a2-danger_zone_22.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_23.tscn::149e5f6e87d5f74d72abf8e8e0cf4b9d::1714720398::res://.godot/exported/133200997/export-6f7d82c1b3db9e95fe9e330b00fbfaa9-danger_zone_23.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_24.tscn::0f4c7547f45cce5e8b8f3a9d1c0ac3ab::1714720398::res://.godot/exported/133200997/export-505a0890e67e9b76383445effaeb0f8c-danger_zone_24.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_25.tscn::a2f53140a0ee334db1d8a8553e432d76::1714720398::res://.godot/exported/133200997/export-8f3bdb4528c9b92d3fbd950beee88c9c-danger_zone_25.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_26.tscn::7cdf7db72fcac611241216ad082affb3::1714720398::res://.godot/exported/133200997/export-3ff2440de752845966c5a52467a58011-danger_zone_26.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_27.tscn::1a5cad91a586d09d8ad3f3e016ac46b1::1714720398::res://.godot/exported/133200997/export-063b5261f7a381a8a4b7e0a525fe4b37-danger_zone_27.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_28.tscn::572e70b8d1be5e74aa3fbb24979f3b22::1714720398::res://.godot/exported/133200997/export-c6bcba619a840b56fffc225840bf2b81-danger_zone_28.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_29.tscn::793cb6a0fac10cff24e5b31cd0ea8d27::1714720398::res://.godot/exported/133200997/export-870e8f95bfd53507ce2f96aa734bd849-danger_zone_29.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_30.tscn::0fdb3c66a73ec7b5e3b4a52da2bcb840::1714720398::res://.godot/exported/133200997/export-9f0e2d60181e73425b033410593f645e-danger_zone_30.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_31.tscn::77facce4d8fb67d819776b5904c58cdd::1714720398::res://.godot/exported/133200997/export-90bef7fb2a41da9a338ffafff6fa589d-danger_zone_31.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_32.tscn::9b70a5cb54deec92e4b9e4a5b15582ad::1714720398::res://.godot/exported/133200997/export-a4730e552339edc7c8c5b5d7df199bcb-danger_zone_32.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_33.tscn::2125583db21eca39d9bbdc707bacb39f::1714720398::res://.godot/exported/133200997/export-5653aab33808155300993ecec064ad4b-danger_zone_33.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_34.tscn::0dab9c10be9b662b3ebb76f71516ca2b::1714720398::res://.godot/exported/133200997/export-2bb52ea07f1063248b25ccdc197e61cf-danger_zone_34.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_35.tscn::203b4ba2301d5e76c0365e51fa16775a::1714720398::res://.godot/exported/133200997/export-80cbcc9db066bf4815fa3166d27f7eb5-danger_zone_35.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_36.tscn::e32e670e2dbe00ef67ec2d81ec86c6e6::1714720398::res://.godot/exported/133200997/export-2cdd9b35c48fb8defce88a4ed57d6b49-danger_zone_36.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_37.tscn::2679cd0d94f62c1f5ef6e71321b3c1d5::1714720398::res://.godot/exported/133200997/export-9c3fe0840958f8f7392f42a8ac5c6b60-danger_zone_37.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_38.tscn::bf8f8a7672b9dc1b33285b77deb44d3c::1714720398::res://.godot/exported/133200997/export-1e299d3b38c69c10e839831e5fb8854f-danger_zone_38.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_39.tscn::c968a017d8f64142cda029952ee9c3a2::1714720398::res://.godot/exported/133200997/export-e58f116e6870211df92ed61df45e9be9-danger_zone_39.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_40.tscn::4d13693b4d9fb2895c58c11ee3fd47c4::1714720398::res://.godot/exported/133200997/export-62a50c24f248b6d38c5a13aececb2bb0-danger_zone_40.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_41.tscn::02df01ab6186bb82ceae8911d0ec6576::1714720398::res://.godot/exported/133200997/export-6a0e0c805b93925ae45e42e44e8bb411-danger_zone_41.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_42.tscn::d863d7379f6d34d784b4de234dcaa110::1714720398::res://.godot/exported/133200997/export-41a0b3284a3169fbd06177df9a8efa97-danger_zone_42.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_43.tscn::a32a9c51e829a33f47c3c678d931714e::1714720398::res://.godot/exported/133200997/export-4b51978c20cb28efd4cf2710be72e4ce-danger_zone_43.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_44.tscn::1e980ed28d416b11a8e48ec72639e747::1714720398::res://.godot/exported/133200997/export-fd313209f7c78c7785e39b6e717eebcf-danger_zone_44.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_45.tscn::b2a7f1aa2ae369dd4264e0792b778595::1714720398::res://.godot/exported/133200997/export-abaaffba60289a4972a15c9e283a724d-danger_zone_45.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_46.tscn::48abc9e291b0004f502e55e04c37f3cf::1714720398::res://.godot/exported/133200997/export-f0b8d7816f4dffca132eba9f93276626-danger_zone_46.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_47.tscn::24de3079dbd19cc3a5f17ccc2d6426c4::1714720398::res://.godot/exported/133200997/export-1718c6c34386e30989da38727a3c1b87-danger_zone_47.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_48.tscn::64eab43b969923e9b10acf621e1306b1::1714720398::res://.godot/exported/133200997/export-3c0ca65b6752cdc788cda6296409eb32-danger_zone_48.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_49.tscn::bc3e1676b21571afa87fbc28c867d11e::1714720398::res://.godot/exported/133200997/export-bd2282313a6abc81b223611da79bdce6-danger_zone_49.scn
+res://scenes/entities/Obstacles/Danger Zones/danger_zone_50.tscn::8d79c946019e13596026913160c5c196::1714720398::res://.godot/exported/133200997/export-79ce53f9511bc25f65b7744066c4b5fa-danger_zone_50.scn
+res://scenes/entities/Obstacles/Level 1/Crab.tscn::a2c10a534f410e5c5d61571d49aa68fc::1714720398::res://.godot/exported/133200997/export-58b3762cad2ca78fc122463c5e866cb3-Crab.scn
+res://scenes/entities/Obstacles/Level 1/Dynamite.tscn::23d76a13033c45e278c76547dc6040d5::1714720398::res://.godot/exported/133200997/export-c84ef9f4a60e768eb5a65c4cf31946fa-Dynamite.scn
+res://scenes/entities/Obstacles/Level 1/Seagull.tscn::7c63d1d2b7343714e23521994e24f95a::1714720398::res://.godot/exported/133200997/export-1fb7e85512658774653f4c35ad3b82b5-Seagull.scn
+res://scenes/entities/Obstacles/Level 1/Snake.tscn::a489633f033b5b36a4f652966c345ba3::1714720398::res://.godot/exported/133200997/export-f72956671fa7a7f1c045ab2b3eb7ac7d-Snake.scn
+res://scenes/entities/Obstacles/Level 2/Angler_fish.tscn::ab9dcc75391a7e626243da6f9ccce441::1714720398::res://.godot/exported/133200997/export-044d42c7b2c73746ba8541c239e1496c-Angler_fish.scn
+res://scenes/entities/Obstacles/Level 2/Giant_Clam.tscn::755ffef7dc1e8f5493541b02aae7bd52::1714720398::res://.godot/exported/133200997/export-ec26d2ecc8947ae8245731d237f8718a-Giant_Clam.scn
+res://scenes/entities/Obstacles/Level 2/Jellyfish.tscn::2dc6e219bb3da5060073fddb5a141a0d::1714720398::res://.godot/exported/133200997/export-3b55eb982402478cab83dd446d3da80f-Jellyfish.scn
+res://scenes/entities/Obstacles/Level 2/Turtle.tscn::83ec8a55b88bba7ecf27a035852ad5f5::1714720398::res://.godot/exported/133200997/export-c7cf47d1c3ee467ffdd6d567ca8757d8-Turtle.scn
+res://scenes/entities/Obstacles/Level 3/Albatross.tscn::30445a6aa7e12bb824f4a82d543d4bd7::1714720398::res://.godot/exported/133200997/export-fc0f72327f251ab4b8a5cacee92a4bbc-Albatross.scn
+res://scenes/entities/Obstacles/Level 3/Iguana.tscn::bae3cfdb0fe6ca6a1992951eed0f3597::1714720398::res://.godot/exported/133200997/export-95687b80a122f12457ce1324e781bc22-Iguana.scn
+res://scenes/entities/Obstacles/Level 3/Monkey.tscn::9a8b1afa05d70dfd7a748220ad93d90b::1714720398::res://.godot/exported/133200997/export-8bdaa565b61f7821ee9036bda5d7d5db-Monkey.scn
+res://scenes/entities/Obstacles/Level 3/Quicksand_Pit.tscn::529d2775f1795b95bbfa37a5d620ccfa::1714720398::res://.godot/exported/133200997/export-95d780c26c1b10286841e7d90e04dec0-Quicksand_Pit.scn
+res://scenes/entities/Obstacles/Level 3/Rapid_Plant.tscn::b122df9f312f56302b6316651d51b266::1714720398::res://.godot/exported/133200997/export-43cc6c70a6a3e68fc917c21a2ee01e64-Rapid_Plant.scn
+res://scenes/entities/ZedCharacterBody2D.tscn::23d64133afbf05e58f7d24fb9933778c::1714724676::res://.godot/exported/133200997/export-b6b3ae7012d84dd83886bb2f85756be1-ZedCharacterBody2D.scn
+res://scenes/Global/BG_Music.tscn::5e601360b3eb37e7ddfbd4c83387fcdf::1714720397::res://.godot/exported/133200997/export-f4face7b029ecbced4e3462aec19bc45-BG_Music.scn
+res://scenes/levels/Ending/ending_1s.tscn::7ba996f948710049e737ea1c5be29bca::1714720399::res://.godot/exported/133200997/export-1a25061b40df42942355e097193323f1-ending_1s.scn
+res://scenes/levels/Ending/ending_2s.tscn::565420762bc5f2ed10b618832addc1fc::1714720399::res://.godot/exported/133200997/export-053d1d4294adeb0e880dd81e3b846c0a-ending_2s.scn
+res://scenes/levels/Ending/ending_3s.tscn::1e71a8e370a344c4f986ce5600cb8088::1714720399::res://.godot/exported/133200997/export-3d555b6cb5c784634c61df7573dd9585-ending_3s.scn
+res://scenes/levels/jump_to_end_game.tscn::d235781626ea11f40f6aa2439e582b88::1714720399::res://.godot/exported/133200997/export-3be230861d81a8bd523067a01c3de477-jump_to_end_game.scn
+res://scenes/levels/jump_to_next_level_2.tscn::9c6f95348508a0219d3aa7350e0639e3::1714720399::res://.godot/exported/133200997/export-7d5ec7cced193702ff1642b787c63c13-jump_to_next_level_2.scn
+res://scenes/levels/jump_to_next_level_3.tscn::2a178b671f4e2fbdf9bc8db24335dbf0::1714720399::res://.godot/exported/133200997/export-671a123d1586152039764f128ea597eb-jump_to_next_level_3.scn
+res://scenes/levels/level_01.tscn::75a2dfa087d7da0969a2728f50ff8e81::1714724825::res://.godot/exported/133200997/export-fceca31d6515568d74a4e74de975536e-level_01.scn
+res://scenes/levels/level_02.tscn::8edd0ede21f00ab2f72f08b5a604c10e::1714724676::res://.godot/exported/133200997/export-33b5b7bd63769efdd1b107911accaa53-level_02.scn
+res://scenes/levels/level_03.tscn::4e606898e9a5cb0d9692bfc853ec2116::1714724676::res://.godot/exported/133200997/export-ba496988f2a6e8d755f7ab5c1ce455b2-level_03.scn
+res://scenes/levels/timer_1.tscn::ffbb457333e059f3d10b786d63a34e00::1714720399::res://.godot/exported/133200997/export-5dfa111eb4c86e66cd5207afee01fa87-timer_1.scn
+res://scenes/levels/timer_2.tscn::2db846a8f212a646720f4d9d92b2a918::1714720399::res://.godot/exported/133200997/export-edd662bce86c1c9e5c24651003864a56-timer_2.scn
+res://scenes/levels/timer_3.tscn::f001b3af3ab0027ed01878c01a28de1c::1714720399::res://.godot/exported/133200997/export-329124ab7ac20229ac63713f9cc5d2ac-timer_3.scn
+res://scenes/Trash GUI/total_trash_1.tscn::34cb6e0e0b43383d38de39a19dccf463::1714720397::res://.godot/exported/133200997/export-9d028430f6bc2b9906ef54898dc84fbd-total_trash_1.scn
+res://scenes/Trash GUI/total_trash_2.tscn::17557c374c1de3683b210d0d580aa66a::1714720397::res://.godot/exported/133200997/export-276dd07b2320123dc23db566be279106-total_trash_2.scn
+res://scenes/Trash GUI/total_trash_3.tscn::2b215db3e819b090b482f9f8d9550ef4::1714720397::res://.godot/exported/133200997/export-cbeeeee40e4d0a562552563c9ce36623-total_trash_3.scn
+res://scenes/Trash GUI/trash_gui_lvl_1.tscn::5c79e09bbf2eca739487de5eb884aacb::1714724589::res://.godot/exported/133200997/export-59f0853fde89709cc121225b073913b6-trash_gui_lvl_1.scn
+res://scenes/Trash GUI/trash_gui_lvl_2.tscn::05d5908761907ad19dc900411a4a41b0::1714720397::res://.godot/exported/133200997/export-9a7bb97861dc37cf10d70163ebe984ac-trash_gui_lvl_2.scn
+res://scenes/Trash GUI/trash_gui_lvl_3.tscn::bfa549e1df520ecc213d816b87332e92::1714720397::res://.godot/exported/133200997/export-333b057184b87577463886e138631432-trash_gui_lvl_3.scn
+res://scenes/UI/Game Over/game_over_1.tscn::e0de81c868d3862a95470d85b024081d::1714720397::res://.godot/exported/133200997/export-e34dad38ec9ce322779a80bb33a1d05a-game_over_1.scn
+res://scenes/UI/Game Over/game_over_2.tscn::ab4e66794d06209d4a83be05b594c378::1714720397::res://.godot/exported/133200997/export-5b5608d26cb46e348ce4d19d5ec388ad-game_over_2.scn
+res://scenes/UI/Game Over/game_over_3.tscn::e1f9299a88baa42569fe21c9082d7d0e::1714720397::res://.godot/exported/133200997/export-81488cc13576fb29d1096fba1be63ca3-game_over_3.scn
+res://scenes/UI/GameClear/game_clear_1_0s.tscn::965f01356ea92dae621114ff98092b61::1714720397::res://.godot/exported/133200997/export-b18ed99f427bc8525b266ec572c06f1e-game_clear_1_0s.scn
+res://scenes/UI/GameClear/game_clear_1_1s.tscn::140291f711c8f30454af84f9cdb367ed::1714720397::res://.godot/exported/133200997/export-5e2919478b7f3edbf877386025e489a2-game_clear_1_1s.scn
+res://scenes/UI/GameClear/game_clear_1_2s.tscn::65c217de0c153e88407408b62c6bf28a::1714720397::res://.godot/exported/133200997/export-3e05c680331e14d4e65f002cb10d9b6f-game_clear_1_2s.scn
+res://scenes/UI/GameClear/game_clear_1_3s.tscn::3e24755889cdf2b987686f01b71604df::1714720397::res://.godot/exported/133200997/export-bbedb0facfedb03bc17b2f652e7b253a-game_clear_1_3s.scn
+res://scenes/UI/GameClear/game_clear_2_0s.tscn::f07a1c1ff659c582aff3620a8171e191::1714720397::res://.godot/exported/133200997/export-dac5d1b61a0adb868df54c5338ab011f-game_clear_2_0s.scn
+res://scenes/UI/GameClear/game_clear_2_1s.tscn::a422c28ad8461e7029ffda5ac49ffabc::1714720397::res://.godot/exported/133200997/export-247d90a047d0366d8520a53e6f2150a6-game_clear_2_1s.scn
+res://scenes/UI/GameClear/game_clear_2_2s.tscn::563e4c78d014f9b0cba5c158d72f5779::1714720397::res://.godot/exported/133200997/export-4e6bb64a1e268ff7a750cf9be4e69d73-game_clear_2_2s.scn
+res://scenes/UI/GameClear/game_clear_2_3s.tscn::ef27e4018ed2db051f347a798ea76cc0::1714720397::res://.godot/exported/133200997/export-f89ef83c0f7090cdae2a1350e935c8bf-game_clear_2_3s.scn
+res://scenes/UI/GameClear/game_clear_3_0s.tscn::2d030e904094a011f8115b0e151744bc::1714720397::res://.godot/exported/133200997/export-3aea7a5b6df6068ee5049d9d8a83b688-game_clear_3_0s.scn
+res://scenes/UI/GameClear/game_clear_3_1s.tscn::a0f2771ab739f298e1635884ad636c60::1714720397::res://.godot/exported/133200997/export-8d92abdae542520ec00e245977befa38-game_clear_3_1s.scn
+res://scenes/UI/GameClear/game_clear_3_2s.tscn::9f56e1b8fda78c017a5a83cfe3bfd553::1714720397::res://.godot/exported/133200997/export-5f01fe6ee1219716f2de971b2e1f61de-game_clear_3_2s.scn
+res://scenes/UI/GameClear/game_clear_3_3s.tscn::cf2a23cf0d86817acd90eb39711a7b25::1714720397::res://.godot/exported/133200997/export-f20228b6efb3fc9d6c032227f4f34f03-game_clear_3_3s.scn
+res://scenes/UI/Opening Scenes/opening_1s.tscn::abb83b04b27ef57e6cbb9f35f0aac509::1714720397::res://.godot/exported/133200997/export-f76d95326dbe1aabc8185b5a4a7f18b9-opening_1s.scn
+res://scenes/UI/main_menu.tscn::a10d8b7386c5c050143dea61c0ac3a58::1714724589::res://.godot/exported/133200997/export-0d81a41f2d9092422dafb2d1dd9121a9-main_menu.scn
+res://scenes/UI/pause_menu.tscn::30a6db25d5947acd4752fe0897c33a6c::1714720398::res://.godot/exported/133200997/export-c0634a860d69237b75daaebb516e89e5-pause_menu.scn
+res://scenes/UI/PopupDialog.tscn::f816822ab641bcd25731582bbd29fc6a::1714720397::res://.godot/exported/133200997/export-04af1933b80a137f21433686919f2b89-PopupDialog.scn
+res://scenes/UI/timer.tscn::c72d5aa1ff8e143136e1894b73b6c691::1714720398::res://.godot/exported/133200997/export-4a497914a65063fb84677182b9e230d1-timer.scn
+res://scenes/main.tscn::293e19d457966b59718d5cdac60104ea::1714724675::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://deemo_2.tscn::6d0bc5f40c0faa487b4114dfa93138c4::1714723920::res://.godot/exported/133200997/export-096c581bae98bdbf3da6689f79f51221-deemo_2.scn
+res://deemo_3.tscn::0e159c826dae36b4ad93167d3536f493::1714723964::res://.godot/exported/133200997/export-f8cfcee3df9d02eb9227761b7cddbc6e-deemo_3.scn
+res://Deemo_dialogue2.tscn::ec032e79553b6cb177fc1055a9229cff::1714720395::res://.godot/exported/133200997/export-218d6c56a03217d9ac056f1b472cda9d-Deemo_dialogue2.scn
+res://deemo_dialogue3.tscn::4bd7c1722c05bfeb464e12e00c36e9d1::1714720396::res://.godot/exported/133200997/export-1714fbbb340f0e4446d0211ea05a655d-deemo_dialogue3.scn
+res://default_bus_layout.tres::ff4c226bf9ac7f1e366b8bfadd33839e::1714720396::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+res://dialogue1_1.tscn::fa1a9f8cce1f656b0bb553be72e51b30::1714720396::res://.godot/exported/133200997/export-090925fe32227505f90ca8d1951e2dd5-dialogue1_1.scn
+res://dialogue1_2.tscn::8f5787e73017ae64244628e5a4af4711::1714720396::res://.godot/exported/133200997/export-3641e47546fc6b73213861f1d4a2eb6f-dialogue1_2.scn
+res://dialogue2_2.tscn::a51f209610a0d21d0a0eafabb6a3427f::1714720396::res://.godot/exported/133200997/export-d94f09e49b530e5c2e7b650e5c8b7946-dialogue2_2.scn
+res://npc1.1.tscn::bd665160b12f745a27422feaffbcedc6::1714720396::res://.godot/exported/133200997/export-87c3794e49f211fb0abdc981fd4af191-npc1.1.scn
+res://npc1.2.tscn::f3af04135883400c8a3bc8d3ab4f1191::1714720396::res://.godot/exported/133200997/export-9583c4bee305e5c928a989970b52bd7e-npc1.2.scn
+res://npc2.1.tscn::aa7e8bb236230120715c2389e54fc818::1714720396::res://.godot/exported/133200997/export-800e02818049bc89335eb4f94d32c106-npc2.1.scn
+res://transition_screen.tscn::ceff595809a20add97c74bc6c6d812e6::1714720399::res://.godot/exported/133200997/export-beea27d9e74ca6926c2102caa9f33fa9-transition_screen.scn
+res://trash(bio).tscn::c4a02325e908361154095a974ab86b79::1714720399::res://.godot/exported/133200997/export-bb6907ebb7a9e2101bee53a71a9d9b49-trash(bio).scn
+res://trash_gui.tscn::8c943c62d84ec96d8fd4857da9a727e9::1714720399::res://.godot/exported/133200997/export-e89c6d297731c7319a8d122aced235d3-trash_gui.scn
+res://scenes/UI/Opening Scenes/opening_2s.tscn::f1a57f0ca0427484a5e02a3eed30b303::1714720397::res://.godot/exported/133200997/export-f06292e505a82c692137b14fe71977e3-opening_2s.scn
+res://scenes/UI/Opening Scenes/opening_3s.tscn::f706f5e233ec292c31fb0059697312cd::1714720397::res://.godot/exported/133200997/export-979f40966b0c9164c5ea9a508e0c54dd-opening_3s.scn
+res://scenes/UI/Opening Scenes/opening_4s.tscn::0c3ff0759b92ae3dea210e06ebec3c7f::1714720397::res://.godot/exported/133200997/export-6c8359eb50d1a427eb0476740fc44885-opening_4s.scn

@@ -783,7 +783,7 @@ layer_0/tile_data = PackedInt32Array(-1900558, 0, 0, -1835022, 0, 0, -1769486, 0
 polygon = PackedVector2Array(-616, -1352, -616, 248, -616, 856, 20864, 856, 20864, 64, 20864, -832, 20736, -832, 20736, 72, 20736, 792, -400, 808, -400, 248, -400, -1352)
 
 [node name="ZedCharacterBody2D" parent="." instance=ExtResource("4_b8pgw")]
-position = Vector2(40, 208)
+position = Vector2(0, 211)
 metadata/_edit_group_ = true
 
 [node name="Timer1" parent="ZedCharacterBody2D/CharacterIcon" index="1" instance=ExtResource("6_vyqj0")]
@@ -974,7 +974,7 @@ position = Vector2(1120, 432)
 position = Vector2(4864, 376)
 
 [node name="trash(bio)5" parent="trash" instance=ExtResource("6_emcy0")]
-position = Vector2(5968, 264)
+position = Vector2(6464, 224)
 
 [node name="trash(bio)6" parent="trash" instance=ExtResource("6_emcy0")]
 position = Vector2(7440, 272)
@@ -1028,10 +1028,10 @@ position = Vector2(2376, 328)
 
 [node name="Welcome" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 156.0
-offset_top = 90.0
-offset_right = 389.0
-offset_bottom = 152.0
+offset_left = -272.0
+offset_top = 56.0
+offset_right = -39.0
+offset_bottom = 118.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
@@ -1041,23 +1041,24 @@ vertical_alignment = 1
 
 [node name="Movements" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 1536.0
-offset_top = 224.0
-offset_right = 1704.0
-offset_bottom = 312.0
+offset_left = 128.0
+offset_top = 72.0
+offset_right = 387.0
+offset_bottom = 181.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
-text = "W - to Jump
-A - To go left
-D - to go Right"
+text = "Control Keys:
+W / Arrow key UP - to Jump
+A / Arrow Key LEFT- to go left
+D / Arrow ket RIGHT - to go Right"
 horizontal_alignment = 1
 
 [node name="notice1" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 2427.0
-offset_top = 336.0
-offset_right = 2655.0
-offset_bottom = 420.0
+offset_left = 1792.0
+offset_top = 168.0
+offset_right = 2020.0
+offset_bottom = 252.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
 text = "Beware of the obstacles!!"
@@ -1066,10 +1067,10 @@ vertical_alignment = 1
 
 [node name="notice2" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 3438.0
-offset_top = 24.0
-offset_right = 3732.0
-offset_bottom = 119.0
+offset_left = 3440.0
+offset_top = 48.0
+offset_right = 3734.0
+offset_bottom = 143.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
 text = "Check some of the trivias ahead
@@ -1079,10 +1080,10 @@ vertical_alignment = 1
 
 [node name="info1" type="Label" parent="."]
 show_behind_parent = true
-offset_left = 4622.0
-offset_top = 78.0
-offset_right = 5181.0
-offset_bottom = 213.0
+offset_left = 5688.0
+offset_top = 152.0
+offset_right = 6247.0
+offset_bottom = 287.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_vswx4")
 text = "Human activities such as overfishing, pollution, and habitat destruction
